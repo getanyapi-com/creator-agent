@@ -121,6 +121,21 @@ describe("the contact gate (round 4, A2)", () => {
       expect(scanForContacts(JSON.stringify(toDisplay(out)))).toEqual([]);
     },
   );
+
+  it.each(["Instagram ambercreates", "Portfolio: amberstudio . com", "Call 202–555–0187", "Business: a m b e r @ e x a m p l e . c o m"])(
+    "keeps %j out of a close creator's caption and tile, beside a bio with an email, even when the scan finds nothing",
+    async (form) => {
+      const api = fakeAnyApi({
+        "tiktok.search_keyword": () => ({ videos: [searchRow("721", "amber", 340, `pottery mugs ${form}`)] }),
+        "tiktok.profile": (body) => ({ handle: body.handle, followers: 812, bio: BIO }),
+      });
+      const close = toolCall("f", "finish", { answer: "None fits.", creators: [], close: [{ handle: "amber", proof_video_id: "721" }] });
+      const model = new ScriptedModel([() => [search], () => [inspect], () => [close]], 0.0002, verifierSaying("supported"));
+      const display = toDisplay(await runAgent("Find pottery creators under 500 followers", { kind: "free" }, services(api.make, model)));
+      expect(display.close?.map((c) => [c.handle, c.hasPublicEmail, c.missed])).toEqual([["amber", true, "812 followers, asked for at most 500 followers"]]);
+      expect(scanForContacts(JSON.stringify(display))).toEqual([]);
+    },
+  );
 });
 
 describe("step wording", () => {
