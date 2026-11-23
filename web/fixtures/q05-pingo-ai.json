@@ -1,0 +1,2114 @@
+{
+  "source": "2026-11-21T19-09-34-390Z-agent-free/q05-pingo-ai.r1.json",
+  "askedAt": "2026-11-21T19:20:15.062Z",
+  "display": {
+    "question": "Who is making videos about Pingo AI, the language app? I want creators like them for my Spanish-learning app.",
+    "answer": [
+      {
+        "text": "A clear cluster of creators is making videos about Pingo AI, the language-learning app, and many of them are exactly the profile you want for a Spanish-learning app: they build their whole TikTok identity around being humbled, sass-roasted, or \"emotionally damaged\" by the Pingo AI tutor, filming their practice sessions and the AI's funny corrections.",
+        "label": "fact"
+      }
+    ],
+    "criteriaLine": "Assumed, not asked (a creator who misses these stays, marked): proof video posted in the last 30 days.",
+    "excluded": {
+      "count": 0,
+      "byCheck": []
+    },
+    "creators": [
+      {
+        "handle": "britttttspanishlearning",
+        "profileUrl": "https://www.tiktok.com/@britttttspanishlearning",
+        "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-useast8-avt-0068-tx2/4f8f797caaf2172806078c827f6a3c6d~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=10300e52&x-expires=1795460400&x-signature=dT6HsdpyMPJqAodOxY%2FxKFQDbKo%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+        "followers": 200916,
+        "usualViews": 663207,
+        "postsSampled": 10,
+        "bestRecentViews": 5452224,
+        "proofVsUsualRatio": 17.1,
+        "postsPerWeek": 2.7,
+        "paidLabelShare": 0,
+        "hasPublicEmail": false,
+        "proofVideo": {
+          "id": "7702272490298461470",
+          "url": "https://www.tiktok.com/@britttttspanishlearning/video/7702272490298461470",
+          "creator": "britttttspanishlearning",
+          "views": 11368376,
+          "likes": 1903044,
+          "postedUtc": 1793325069,
+          "daysAgo": 22,
+          "region": "US",
+          "paidLabel": false,
+          "caption": "Coffeecito isn’t a real word apparently #spanishtiktok #learnspanish #howdoyousay #usepingo #pingoai",
+          "note": [],
+          "imageUrl": "https://p16-common-sign.tiktokcdn.com/tos-useast8-p-0068-tx2/ogHR2WFGUMrfjLR4eAe7AqBsB83v2LQQH8A0eS~tplv-tiktokx-cropcenter:500:800.jpeg?biz_tag=musically_video.video_cover&dr=14577&idc=my&ps=13740610&refresh_token=dd4d4697&shcp=9b759fb9&shp=c1333099&t=4d5b0474&x-expires=1795309200&x-signature=OglavUqRU2jAQlt5QM2jQ%2BSfUhA%3D"
+        },
+        "criteria": [
+          {
+            "text": "Makes videos about Pingo AI language app",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@britttttspanishlearning/video/7702272490298461470",
+              "excerpt": "Coffeecito isn’t a real word apparently #spanishtiktok #learnspanish #howdoyousay #usepingo #pingoai #spanishtiktok #lea..."
+            }
+          },
+          {
+            "text": "Creates Spanish-learning content",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@britttttspanishlearning/video/7702272490298461470",
+              "excerpt": "Coffeecito isn’t a real word apparently #spanishtiktok #learnspanish #howdoyousay #usepingo #pingoai #spanishtiktok #lea..."
+            }
+          },
+          {
+            "text": "Brand identity centered on Pingo AI",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "creator",
+              "url": "https://www.tiktok.com/@britttttspanishlearning",
+              "excerpt": null
+            }
+          },
+          {
+            "text": "proof video posted in the last 30 days",
+            "state": "supported",
+            "source": "check",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@britttttspanishlearning/video/7702272490298461470",
+              "excerpt": null
+            }
+          }
+        ]
+      },
+      {
+        "handle": "studywith.olgi",
+        "profileUrl": "https://www.tiktok.com/@studywith.olgi",
+        "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-maliva-avt-0068/f83bac1ece76a485c2d19bea827f9446~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=4f36633f&x-expires=1795460400&x-signature=n1srXL2oDzNCw01pQ%2FLbWuLaAYs%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+        "followers": 67475,
+        "usualViews": 10797,
+        "postsSampled": 10,
+        "bestRecentViews": 74039,
+        "proofVsUsualRatio": 66.4,
+        "postsPerWeek": 7,
+        "paidLabelShare": 0,
+        "hasPublicEmail": true,
+        "proofVideo": {
+          "id": "7705076391036865814",
+          "url": "https://www.tiktok.com/@studywith.olgi/video/7705076391036865814",
+          "creator": "studywith.olgi",
+          "views": 716864,
+          "likes": 20663,
+          "postedUtc": 1793977904,
+          "daysAgo": 15,
+          "region": "ES",
+          "paidLabel": false,
+          "caption": "Pingo again not understand what I am saying🤪 #pingoai #learnspanish #spanish #aitutor #miami",
+          "note": [],
+          "imageUrl": "https://p16-common-sign.tiktokcdn.com/tos-no1a-p-0037-no/oo2IVfL2cQG19AGAuM6AeMI2VbgHjfwLIjG93D~tplv-tiktokx-cropcenter:500:800.jpeg?biz_tag=musically_video.video_cover&dr=14577&idc=my2&ps=13740610&refresh_token=473c313c&shcp=9b759fb9&shp=c1333099&t=4d5b0474&x-expires=1795309200&x-signature=rvKXLwbfZ6CznIXD3OijO3OIgZQ%3D"
+        },
+        "criteria": [
+          {
+            "text": "Makes videos about Pingo AI language app",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@studywith.olgi/video/7705076391036865814",
+              "excerpt": "Pingo again not understand what I am saying🤪 #pingoai #learnspanish #spanish #aitutor #miami #pingoai #learnspanish #spa..."
+            }
+          },
+          {
+            "text": "Creates Spanish-learning content",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@studywith.olgi/video/7705076391036865814",
+              "excerpt": "Pingo again not understand what I am saying🤪 #pingoai #learnspanish #spanish #aitutor #miami #pingoai #learnspanish #spa..."
+            }
+          },
+          {
+            "text": "Brand identity centered on Pingo AI",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "creator",
+              "url": "https://www.tiktok.com/@studywith.olgi",
+              "excerpt": null
+            }
+          },
+          {
+            "text": "proof video posted in the last 30 days",
+            "state": "supported",
+            "source": "check",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@studywith.olgi/video/7705076391036865814",
+              "excerpt": null
+            }
+          }
+        ]
+      },
+      {
+        "handle": "dayspanish",
+        "profileUrl": "https://www.tiktok.com/@dayspanish",
+        "avatarUrl": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/db01f873f90337abe9f92d828b435629~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=f7ed5ee2&x-expires=1795460400&x-signature=7CRIHeV0jigkUzUetyRsnn77eEg%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+        "followers": 63790,
+        "usualViews": 11571,
+        "postsSampled": 10,
+        "bestRecentViews": 339219,
+        "proofVsUsualRatio": 10,
+        "postsPerWeek": 4.8,
+        "paidLabelShare": 0,
+        "hasPublicEmail": false,
+        "proofVideo": {
+          "id": "7708531530544516360",
+          "url": "https://www.tiktok.com/@dayspanish/video/7708531530544516360",
+          "creator": "dayspanish",
+          "views": 116186,
+          "likes": 4280,
+          "postedUtc": 1794782382,
+          "daysAgo": 5,
+          "region": "BR",
+          "paidLabel": false,
+          "caption": "practicing Spanish with pingo ai #AngryParent #pingoai #spanish #LanguageLearning",
+          "note": [],
+          "imageUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o0f6SVnyEsyjAFxD5A4EAADNWrAeEBDwIIKfjJ~tplv-tiktokx-cropcenter:500:800.jpeg?biz_tag=musically_video.video_cover&dr=14577&idc=my&ps=13740610&refresh_token=f2663b9e&shcp=9b759fb9&shp=c1333099&t=4d5b0474&x-expires=1795309200&x-signature=XccMlp%2FbpMljEqp4%2BLoEYHuZQOM%3D"
+        },
+        "criteria": [
+          {
+            "text": "Makes videos about Pingo AI language app",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@dayspanish/video/7708531530544516360",
+              "excerpt": "practicing Spanish with pingo ai #AngryParent #pingoai #spanish #LanguageLearning #AngryParent #pingoai #spanish #Langua..."
+            }
+          },
+          {
+            "text": "Creates Spanish-learning content",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@dayspanish/video/7708531530544516360",
+              "excerpt": "practicing Spanish with pingo ai #AngryParent #pingoai #spanish #LanguageLearning #AngryParent #pingoai #spanish #Langua..."
+            }
+          },
+          {
+            "text": "Brand identity centered on Pingo AI",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "creator",
+              "url": "https://www.tiktok.com/@dayspanish",
+              "excerpt": null
+            }
+          },
+          {
+            "text": "proof video posted in the last 30 days",
+            "state": "supported",
+            "source": "check",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@dayspanish/video/7708531530544516360",
+              "excerpt": null
+            }
+          }
+        ]
+      },
+      {
+        "handle": "maksim_habla",
+        "profileUrl": "https://www.tiktok.com/@maksim_habla",
+        "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/68bdc6bfb95e0e3fbc1fe6cce841fd65~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=40f7c5a5&x-expires=1795460400&x-signature=U4njd9FQ9YKK68o0xX6GLAtN5Lg%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+        "followers": 23874,
+        "usualViews": 10508,
+        "postsSampled": 10,
+        "bestRecentViews": 68042,
+        "proofVsUsualRatio": 3.1,
+        "postsPerWeek": 5.7,
+        "paidLabelShare": 0,
+        "hasPublicEmail": false,
+        "proofVideo": {
+          "id": "7707859465516764434",
+          "url": "https://www.tiktok.com/@maksim_habla/video/7707859465516764434",
+          "creator": "maksim_habla",
+          "views": 32799,
+          "likes": 1340,
+          "postedUtc": 1794625892,
+          "daysAgo": 7,
+          "region": "BR",
+          "paidLabel": false,
+          "caption": "Learning Spanish with Pingo AI 😅 #pingoai #LanguageLearning #AngryParent #learnspanish #spanish",
+          "note": [],
+          "imageUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o0WEB9wUcIAeFAMiHq0i3fAF7gi4MCBDqEjRAi~tplv-tiktokx-cropcenter:500:800.jpeg?biz_tag=musically_video.video_cover&dr=14577&idc=my2&ps=13740610&refresh_token=04aa67dc&shcp=9b759fb9&shp=c1333099&t=4d5b0474&x-expires=1795309200&x-signature=rzNh%2B9hbblDpXo%2F6BZqkuinRlbc%3D"
+        },
+        "criteria": [
+          {
+            "text": "Makes videos about Pingo AI language app",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@maksim_habla/video/7707859465516764434",
+              "excerpt": "Learning Spanish with Pingo AI 😅 #pingoai #LanguageLearning #AngryParent #learnspanish #spanish #pingoai #LanguageLearni..."
+            }
+          },
+          {
+            "text": "Creates Spanish-learning content",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@maksim_habla/video/7707859465516764434",
+              "excerpt": "Learning Spanish with Pingo AI 😅 #pingoai #LanguageLearning #AngryParent #learnspanish #spanish #pingoai #LanguageLearni..."
+            }
+          },
+          {
+            "text": "Brand identity centered on Pingo AI",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "creator",
+              "url": "https://www.tiktok.com/@maksim_habla",
+              "excerpt": null
+            }
+          },
+          {
+            "text": "proof video posted in the last 30 days",
+            "state": "supported",
+            "source": "check",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@maksim_habla/video/7707859465516764434",
+              "excerpt": null
+            }
+          }
+        ]
+      },
+      {
+        "handle": "spanish.bynayy",
+        "profileUrl": "https://www.tiktok.com/@spanish.bynayy",
+        "avatarUrl": "https://p16-common-sign.tiktokcdn-us.com/tos-useast8-avt-0068-tx2/27d6125ef696e0593f248cb24ca5eda6~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=9cd0b94f&x-expires=1795460400&x-signature=3WCf%2BCexwIUzVPC8lDwoM3B098k%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+        "followers": 25158,
+        "usualViews": 45149,
+        "postsSampled": 10,
+        "bestRecentViews": 382055,
+        "proofVsUsualRatio": 8.5,
+        "postsPerWeek": 5.2,
+        "paidLabelShare": 0,
+        "hasPublicEmail": false,
+        "proofVideo": {
+          "id": "7699624855901179167",
+          "url": "https://www.tiktok.com/@spanish.bynayy/video/7699624855901179167",
+          "creator": "spanish.bynayy",
+          "views": 382055,
+          "likes": 40213,
+          "postedUtc": 1792708623,
+          "daysAgo": 29,
+          "region": "US",
+          "paidLabel": false,
+          "caption": "Sorryiento was frowned upon by pingo ai #howdoyousay #usepingo #pingoai",
+          "note": [],
+          "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast8-p-0068-tx2/ooBE0fo1PAeRDp6QDqlEADBVIE2FI1duqq5J0O~tplv-tiktokx-cropcenter:300:400.jpeg?dr=10399&refresh_token=e91fc977&x-expires=1795374000&x-signature=%2FUOozhJ1c9grGgGgPB8NYLgbKA4%3D&t=4d5b0474&ps=13740610&shp=d05b14bd&shcp=34ff8df6&idc=useast2b&s=PUBLISH"
+        },
+        "criteria": [
+          {
+            "text": "Makes videos about Pingo AI language app",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@spanish.bynayy/video/7699624855901179167",
+              "excerpt": "Sorryiento was frowned upon by pingo ai #howdoyousay #usepingo #pingoai #howdoyousay #usepingo #pingoai"
+            }
+          },
+          {
+            "text": "Creates Spanish-learning content",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@spanish.bynayy/video/7699624855901179167",
+              "excerpt": "Sorryiento was frowned upon by pingo ai #howdoyousay #usepingo #pingoai #howdoyousay #usepingo #pingoai"
+            }
+          },
+          {
+            "text": "Brand identity centered on Pingo AI",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "creator",
+              "url": "https://www.tiktok.com/@spanish.bynayy",
+              "excerpt": null
+            }
+          },
+          {
+            "text": "proof video posted in the last 30 days",
+            "state": "supported",
+            "source": "check",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@spanish.bynayy/video/7699624855901179167",
+              "excerpt": null
+            }
+          }
+        ]
+      },
+      {
+        "handle": "tooned.ai",
+        "profileUrl": "https://www.tiktok.com/@tooned.ai",
+        "avatarUrl": "https://p16-common-sign.tiktokcdn-us.com/tos-useast5-avt-0068-tx/bee3266db24a7a16e7ae33033026c29c~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=7bf989c6&x-expires=1795460400&x-signature=N5C6wlfDWD7CYSgZhxse7JhVsmI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+        "followers": 242041,
+        "usualViews": 27743,
+        "postsSampled": 10,
+        "bestRecentViews": 995677,
+        "proofVsUsualRatio": 23.9,
+        "postsPerWeek": 2,
+        "paidLabelShare": 0,
+        "hasPublicEmail": false,
+        "proofVideo": {
+          "id": "7704057778461003038",
+          "url": "https://www.tiktok.com/@tooned.ai/video/7704057778461003038",
+          "creator": "tooned.ai",
+          "views": 661701,
+          "likes": 45589,
+          "postedUtc": 1793740749,
+          "daysAgo": 17,
+          "region": "US",
+          "paidLabel": false,
+          "caption": "Why is Spanish so fn hard? 🥺 #LearnSpanish #LanguageLearning2026 #CreativeFlex #Pingoai",
+          "note": [],
+          "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast8-p-0068-tx2/oEEAqVtI2EJArAjH8fIADFEIfTDDn1AvnfUL8q~tplv-tiktokx-cropcenter:300:400.jpeg?dr=10399&refresh_token=5c215cd7&x-expires=1795374000&x-signature=vRskFItgCtWTY95zvRE6AmJYch0%3D&t=4d5b0474&ps=13740610&shp=d05b14bd&shcp=34ff8df6&idc=useast2b&s=PUBLISH"
+        },
+        "criteria": [
+          {
+            "text": "Makes videos about Pingo AI language app",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@tooned.ai/video/7704057778461003038",
+              "excerpt": "Why is Spanish so fn hard? 🥺 #LearnSpanish #LanguageLearning2026 #CreativeFlex #Pingoai #LearnSpanish #LanguageLearning2..."
+            }
+          },
+          {
+            "text": "Creates Spanish-learning content",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@tooned.ai/video/7704057778461003038",
+              "excerpt": "Why is Spanish so fn hard? 🥺 #LearnSpanish #LanguageLearning2026 #CreativeFlex #Pingoai #LearnSpanish #LanguageLearning2..."
+            }
+          },
+          {
+            "text": "Brand identity centered on Pingo AI",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "creator",
+              "url": "https://www.tiktok.com/@tooned.ai",
+              "excerpt": null
+            }
+          },
+          {
+            "text": "proof video posted in the last 30 days",
+            "state": "supported",
+            "source": "check",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@tooned.ai/video/7704057778461003038",
+              "excerpt": null
+            }
+          }
+        ]
+      },
+      {
+        "handle": "its.all.random12",
+        "profileUrl": "https://www.tiktok.com/@its.all.random12",
+        "avatarUrl": "https://p16-common-sign.tiktokcdn-us.com/tos-useast5-avt-0068-tx/7df616272cd888d3c96da9e6a36d85b7~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=5c55ee67&x-expires=1795460400&x-signature=jXLVq%2Bz3n9PVcfFVwBLy6EtLcJw%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+        "followers": 149348,
+        "usualViews": 32267,
+        "postsSampled": 10,
+        "bestRecentViews": 91002,
+        "proofVsUsualRatio": 0.9,
+        "postsPerWeek": 2.5,
+        "paidLabelShare": 0,
+        "hasPublicEmail": false,
+        "proofVideo": {
+          "id": "7709247849610923294",
+          "url": "https://www.tiktok.com/@its.all.random12/video/7709247849610923294",
+          "creator": "its.all.random12",
+          "views": 30601,
+          "likes": 1916,
+          "postedUtc": 1794949156,
+          "daysAgo": 3,
+          "region": "US",
+          "paidLabel": false,
+          "caption": "What does Pingo mean by that?😭 #learnspanish #languagelearning2026 #creativeflex #pingoai",
+          "note": [],
+          "imageUrl": "https://p19-common-sign.tiktokcdn-eu.com/tos-useast8-p-0068-tx2/o0w61iZIiIjIAofLL8fegSmAjc8cVBqDIDHCCB~tplv-tiktokx-cropcenter:300:400.jpeg?dr=10399&refresh_token=4fc0c22a&x-expires=1795374000&x-signature=geLSnbVgbjbbv8LmbCHqtuwys9w%3D&t=4d5b0474&ps=13740610&shp=d05b14bd&shcp=34ff8df6&idc=useast2b&s=PUBLISH"
+        },
+        "criteria": [
+          {
+            "text": "Makes videos about Pingo AI language app",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@its.all.random12/video/7709247849610923294",
+              "excerpt": "What does Pingo mean by that?😭 #learnspanish #languagelearning2026 #creativeflex #pingoai #learnspanish #languagelearnin..."
+            }
+          },
+          {
+            "text": "Creates Spanish-learning content",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@its.all.random12/video/7709247849610923294",
+              "excerpt": "What does Pingo mean by that?😭 #learnspanish #languagelearning2026 #creativeflex #pingoai #learnspanish #languagelearnin..."
+            }
+          },
+          {
+            "text": "Brand identity centered on Pingo AI",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "creator",
+              "url": "https://www.tiktok.com/@its.all.random12",
+              "excerpt": null
+            }
+          },
+          {
+            "text": "proof video posted in the last 30 days",
+            "state": "supported",
+            "source": "check",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@its.all.random12/video/7709247849610923294",
+              "excerpt": null
+            }
+          }
+        ]
+      },
+      {
+        "handle": "camilopolyglot",
+        "profileUrl": "https://www.tiktok.com/@camilopolyglot",
+        "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-maliva-avt-0068/229085a637101dd692e56218470dee59~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=47fcdfd4&x-expires=1795460400&x-signature=J9xR3v%2Foaep3Jgd6AmnU46zrvuw%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+        "followers": 28527,
+        "usualViews": 17925,
+        "postsSampled": 10,
+        "bestRecentViews": 709227,
+        "proofVsUsualRatio": 0.7,
+        "postsPerWeek": 7.1,
+        "paidLabelShare": 0,
+        "hasPublicEmail": false,
+        "proofVideo": {
+          "id": "7710652660596133142",
+          "url": "https://www.tiktok.com/@camilopolyglot/video/7710652660596133142",
+          "creator": "camilopolyglot",
+          "views": 11883,
+          "likes": 788,
+          "postedUtc": 1795276227,
+          "daysAgo": 0,
+          "region": "ES",
+          "paidLabel": false,
+          "caption": "Pingo AI best app to learn Spanish!!! #omarcourtz #bellaquita #citizenshiptest",
+          "note": [],
+          "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oscCCfNB5waIB7wIClziANAyvCgiIY091y7cFE~tplv-tiktokx-cropcenter:300:400.jpeg?dr=10399&refresh_token=8d496cd6&x-expires=1795374000&x-signature=gLbbTevAatWIFvAf0kYcGw0yXYs%3D&t=4d5b0474&ps=13740610&shp=d05b14bd&shcp=34ff8df6&idc=useast2b&s=PUBLISH"
+        },
+        "criteria": [
+          {
+            "text": "Makes videos about Pingo AI language app",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@camilopolyglot/video/7710652660596133142",
+              "excerpt": "Pingo AI best app to learn Spanish!!! #omarcourtz #bellaquita #citizenshiptest #omarcourtz #bellaquita #citizenshiptest"
+            }
+          },
+          {
+            "text": "Creates Spanish-learning content",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@camilopolyglot/video/7710652660596133142",
+              "excerpt": "Pingo AI best app to learn Spanish!!! #omarcourtz #bellaquita #citizenshiptest #omarcourtz #bellaquita #citizenshiptest"
+            }
+          },
+          {
+            "text": "Brand identity centered on Pingo AI",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "creator",
+              "url": "https://www.tiktok.com/@camilopolyglot",
+              "excerpt": null
+            }
+          },
+          {
+            "text": "proof video posted in the last 30 days",
+            "state": "supported",
+            "source": "check",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@camilopolyglot/video/7710652660596133142",
+              "excerpt": null
+            }
+          }
+        ]
+      },
+      {
+        "handle": "nayyfrench",
+        "profileUrl": "https://www.tiktok.com/@nayyfrench",
+        "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-useast5-avt-0068-tx/e3aa5a81008f6c6e419764fdcb1822a5~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=e2424a39&x-expires=1795460400&x-signature=9uaaODo7PHKgTGJyOjSmQPR4V2c%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+        "followers": 9737,
+        "usualViews": 74772,
+        "postsSampled": 10,
+        "bestRecentViews": 1553129,
+        "proofVsUsualRatio": 5,
+        "postsPerWeek": 5.2,
+        "paidLabelShare": 0,
+        "hasPublicEmail": false,
+        "proofVideo": {
+          "id": "7701467948254383373",
+          "url": "https://www.tiktok.com/@nayyfrench/video/7701467948254383373",
+          "creator": "nayyfrench",
+          "views": 376635,
+          "likes": 42269,
+          "postedUtc": 1793137771,
+          "daysAgo": 24,
+          "region": "US",
+          "paidLabel": false,
+          "caption": "Todayd’hui won’t fly with Pingo ai 😭 #howdoyousay #usepingo #pingoai",
+          "note": [],
+          "imageUrl": "https://p16-common-sign.tiktokcdn.com/tos-useast5-p-0068-tx/oEIecFQAkBALKIjHf6jNJwe9xQGvHC3QbOGVhh~tplv-tiktokx-cropcenter:500:800.jpeg?biz_tag=musically_video.video_cover&dr=14577&idc=my2&ps=13740610&refresh_token=4a3bae8f&shcp=9b759fb9&shp=c1333099&t=4d5b0474&x-expires=1795309200&x-signature=CQinmgCkwt5XQHsyWqqMEkK%2BFag%3D"
+        },
+        "criteria": [
+          {
+            "text": "Makes videos about Pingo AI language app",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@nayyfrench/video/7701467948254383373",
+              "excerpt": "Todayd’hui won’t fly with Pingo ai 😭 #howdoyousay #usepingo #pingoai #howdoyousay #usepingo #pingoai"
+            }
+          },
+          {
+            "text": "Creates language-learning content on Pingo AI",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "creator",
+              "url": "https://www.tiktok.com/@nayyfrench",
+              "excerpt": null
+            }
+          },
+          {
+            "text": "proof video posted in the last 30 days",
+            "state": "supported",
+            "source": "check",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@nayyfrench/video/7701467948254383373",
+              "excerpt": null
+            }
+          }
+        ]
+      },
+      {
+        "handle": "howtosaynihao",
+        "profileUrl": "https://www.tiktok.com/@howtosaynihao",
+        "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/2203f5c04c48d3baef84c5bfdde7e16c~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=2d7f6587&x-expires=1795460400&x-signature=SahJZEclNmt4FqXa2fR3lO01%2FTA%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+        "followers": 37888,
+        "usualViews": 42595,
+        "postsSampled": 10,
+        "bestRecentViews": 380798,
+        "proofVsUsualRatio": 11.8,
+        "postsPerWeek": 6.3,
+        "paidLabelShare": 0,
+        "hasPublicEmail": false,
+        "proofVideo": {
+          "id": "7702891012670196998",
+          "url": "https://www.tiktok.com/@howtosaynihao/video/7702891012670196998",
+          "creator": "howtosaynihao",
+          "views": 503507,
+          "likes": 117929,
+          "postedUtc": 1793469078,
+          "daysAgo": 21,
+          "region": "TW",
+          "paidLabel": false,
+          "caption": "when is this gonna stop 🫩🥀 #pingoai #learnchinese #LanguageLearning #中文 #chinese",
+          "note": [],
+          "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/oAfVSEcWVvD0IAZMC0XQAUMNIzAje6YQQm8eoF~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=05d81edf&x-expires=1795374000&x-signature=dwraw%2FLET9w%2FJggWKJLoe%2FlihUY%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover"
+        },
+        "criteria": [
+          {
+            "text": "Makes videos about Pingo AI language app",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@howtosaynihao/video/7702891012670196998",
+              "excerpt": "when is this gonna stop 🫩🥀 #pingoai #learnchinese #LanguageLearning #中文 #chinese #pingoai #learnchinese #LanguageLearnin..."
+            }
+          },
+          {
+            "text": "Creates language-learning content on Pingo AI",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "creator",
+              "url": "https://www.tiktok.com/@howtosaynihao",
+              "excerpt": null
+            }
+          },
+          {
+            "text": "proof video posted in the last 30 days",
+            "state": "supported",
+            "source": "check",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@howtosaynihao/video/7702891012670196998",
+              "excerpt": null
+            }
+          }
+        ]
+      },
+      {
+        "handle": "irene.learns.english",
+        "profileUrl": "https://www.tiktok.com/@irene.learns.english",
+        "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-useast2a-avt-0068-euttp/7293a08b3cc9d23bca9b5dda594da237~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=f8aad2a2&x-expires=1795460400&x-signature=dOykA29JKNHmU94%2BVfDUE8qrXIY%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+        "followers": 30898,
+        "usualViews": 16179,
+        "postsSampled": 10,
+        "bestRecentViews": 178930,
+        "proofVsUsualRatio": 11.1,
+        "postsPerWeek": 4.5,
+        "paidLabelShare": 0,
+        "hasPublicEmail": true,
+        "proofVideo": {
+          "id": "7707319883897261344",
+          "url": "https://www.tiktok.com/@irene.learns.english/video/7707319883897261344",
+          "creator": "irene.learns.english",
+          "views": 178930,
+          "likes": 3601,
+          "postedUtc": 1794500253,
+          "daysAgo": 9,
+          "region": null,
+          "paidLabel": false,
+          "caption": "WHAT NOW 😫 #pingoai #english #englishlearning #crashout #languageapp",
+          "note": [],
+          "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/oM8mxcZSB5yiaiqEXN0AazEU1ITB2K7gvOApP~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=811ef77c&x-expires=1795374000&x-signature=vLcWn%2BWRQd63myh%2FhJmR%2BC6gf7I%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover&item=7707319883897261344"
+        },
+        "criteria": [
+          {
+            "text": "Makes videos about Pingo AI language app",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@irene.learns.english/video/7707319883897261344",
+              "excerpt": "WHAT NOW 😫 #pingoai #english #englishlearning #crashout #languageapp #pingoai #english #englishlearning #crashout #langu..."
+            }
+          },
+          {
+            "text": "Creates language-learning content on Pingo AI",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "creator",
+              "url": "https://www.tiktok.com/@irene.learns.english",
+              "excerpt": null
+            }
+          },
+          {
+            "text": "proof video posted in the last 30 days",
+            "state": "supported",
+            "source": "check",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@irene.learns.english/video/7707319883897261344",
+              "excerpt": null
+            }
+          }
+        ]
+      },
+      {
+        "handle": "jayjap10",
+        "profileUrl": "https://www.tiktok.com/@jayjap10",
+        "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-useast5-avt-0068-tx/f56b2a6a93e4737fad0178edfa213f09~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=4907b9bc&x-expires=1795460400&x-signature=AMuUqJgWxr7Bnv33IwwL6LHWqSM%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+        "followers": 3376,
+        "usualViews": 49041,
+        "postsSampled": 10,
+        "bestRecentViews": 370104,
+        "proofVsUsualRatio": 7.5,
+        "postsPerWeek": 4.2,
+        "paidLabelShare": 0,
+        "hasPublicEmail": false,
+        "proofVideo": {
+          "id": "7708387227021184270",
+          "url": "https://www.tiktok.com/@jayjap10/video/7708387227021184270",
+          "creator": "jayjap10",
+          "views": 370104,
+          "likes": 34764,
+          "postedUtc": 1794748823,
+          "daysAgo": 6,
+          "region": "JP",
+          "paidLabel": false,
+          "caption": "Brooo #fyp #pingoai #basicenglish #speakingenglish #englishlanguage",
+          "note": [],
+          "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast5-p-0068-tx/ocXMZeoV8AQ6HfVCQH22TjsCkh58QXAQIfMAQM~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=0964f0dc&x-expires=1795374000&x-signature=s%2F0ftasN3v1TMLAx56sUJxySmNI%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&sc=cover&biz_tag=tt_video&s=PUBLISH"
+        },
+        "criteria": [
+          {
+            "text": "Makes videos about Pingo AI language app",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@jayjap10/video/7708387227021184270",
+              "excerpt": "Brooo #fyp #pingoai #basicenglish #speakingenglish #englishlanguage #fyp #pingoai #basicenglish #speakingenglish #englis..."
+            }
+          },
+          {
+            "text": "Creates language-learning content on Pingo AI",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "creator",
+              "url": "https://www.tiktok.com/@jayjap10",
+              "excerpt": null
+            }
+          },
+          {
+            "text": "proof video posted in the last 30 days",
+            "state": "supported",
+            "source": "check",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@jayjap10/video/7708387227021184270",
+              "excerpt": null
+            }
+          }
+        ]
+      }
+    ],
+    "videos": [],
+    "patterns": [
+      {
+        "text": "Fake-word comedy: creators coin fake Spanish words and film Pingo AI rejecting them, driving breakout views",
+        "videoIds": [
+          "7702272490298461470",
+          "7707654972741061918",
+          "7701927014105664799",
+          "7706205447832849694"
+        ]
+      },
+      {
+        "text": "Sassy-AI skits: creators film Pingo AI mishearing or roasting them mid-practice",
+        "videoIds": [
+          "7705076391036865814",
+          "7708459557349199127",
+          "7702891012670196998",
+          "7701467948254383373"
+        ]
+      },
+      {
+        "text": "Ambassador identity: bios and captions openly carry a Pingo AI ambassador or app-mention role",
+        "videoIds": [
+          "7708531530544516360",
+          "7707859465516764434",
+          "7710652660596133142"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "kind": "best",
+        "heading": "The standout Pingo star in Spanish",
+        "reason": null,
+        "creators": [
+          {
+            "handle": "britttttspanishlearning",
+            "profileUrl": "https://www.tiktok.com/@britttttspanishlearning",
+            "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-useast8-avt-0068-tx2/4f8f797caaf2172806078c827f6a3c6d~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=10300e52&x-expires=1795460400&x-signature=dT6HsdpyMPJqAodOxY%2FxKFQDbKo%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+            "followers": 200916,
+            "usualViews": 663207,
+            "postsSampled": 10,
+            "bestRecentViews": 5452224,
+            "proofVsUsualRatio": 17.1,
+            "postsPerWeek": 2.7,
+            "paidLabelShare": 0,
+            "hasPublicEmail": false,
+            "proofVideo": {
+              "id": "7702272490298461470",
+              "url": "https://www.tiktok.com/@britttttspanishlearning/video/7702272490298461470",
+              "creator": "britttttspanishlearning",
+              "views": 11368376,
+              "likes": 1903044,
+              "postedUtc": 1793325069,
+              "daysAgo": 22,
+              "region": "US",
+              "paidLabel": false,
+              "caption": "Coffeecito isn’t a real word apparently #spanishtiktok #learnspanish #howdoyousay #usepingo #pingoai",
+              "note": [],
+              "imageUrl": "https://p16-common-sign.tiktokcdn.com/tos-useast8-p-0068-tx2/ogHR2WFGUMrfjLR4eAe7AqBsB83v2LQQH8A0eS~tplv-tiktokx-cropcenter:500:800.jpeg?biz_tag=musically_video.video_cover&dr=14577&idc=my&ps=13740610&refresh_token=dd4d4697&shcp=9b759fb9&shp=c1333099&t=4d5b0474&x-expires=1795309200&x-signature=OglavUqRU2jAQlt5QM2jQ%2BSfUhA%3D"
+            },
+            "criteria": [
+              {
+                "text": "Makes videos about Pingo AI language app",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@britttttspanishlearning/video/7702272490298461470",
+                  "excerpt": "Coffeecito isn’t a real word apparently #spanishtiktok #learnspanish #howdoyousay #usepingo #pingoai #spanishtiktok #lea..."
+                }
+              },
+              {
+                "text": "Creates Spanish-learning content",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@britttttspanishlearning/video/7702272490298461470",
+                  "excerpt": "Coffeecito isn’t a real word apparently #spanishtiktok #learnspanish #howdoyousay #usepingo #pingoai #spanishtiktok #lea..."
+                }
+              },
+              {
+                "text": "Brand identity centered on Pingo AI",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "creator",
+                  "url": "https://www.tiktok.com/@britttttspanishlearning",
+                  "excerpt": null
+                }
+              },
+              {
+                "text": "proof video posted in the last 30 days",
+                "state": "supported",
+                "source": "check",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@britttttspanishlearning/video/7702272490298461470",
+                  "excerpt": null
+                }
+              }
+            ]
+          }
+        ],
+        "videos": [],
+        "videoIds": []
+      },
+      {
+        "kind": "group",
+        "heading": "Spanish learners built around Pingo",
+        "reason": null,
+        "creators": [
+          {
+            "handle": "studywith.olgi",
+            "profileUrl": "https://www.tiktok.com/@studywith.olgi",
+            "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-maliva-avt-0068/f83bac1ece76a485c2d19bea827f9446~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=4f36633f&x-expires=1795460400&x-signature=n1srXL2oDzNCw01pQ%2FLbWuLaAYs%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+            "followers": 67475,
+            "usualViews": 10797,
+            "postsSampled": 10,
+            "bestRecentViews": 74039,
+            "proofVsUsualRatio": 66.4,
+            "postsPerWeek": 7,
+            "paidLabelShare": 0,
+            "hasPublicEmail": true,
+            "proofVideo": {
+              "id": "7705076391036865814",
+              "url": "https://www.tiktok.com/@studywith.olgi/video/7705076391036865814",
+              "creator": "studywith.olgi",
+              "views": 716864,
+              "likes": 20663,
+              "postedUtc": 1793977904,
+              "daysAgo": 15,
+              "region": "ES",
+              "paidLabel": false,
+              "caption": "Pingo again not understand what I am saying🤪 #pingoai #learnspanish #spanish #aitutor #miami",
+              "note": [],
+              "imageUrl": "https://p16-common-sign.tiktokcdn.com/tos-no1a-p-0037-no/oo2IVfL2cQG19AGAuM6AeMI2VbgHjfwLIjG93D~tplv-tiktokx-cropcenter:500:800.jpeg?biz_tag=musically_video.video_cover&dr=14577&idc=my2&ps=13740610&refresh_token=473c313c&shcp=9b759fb9&shp=c1333099&t=4d5b0474&x-expires=1795309200&x-signature=rvKXLwbfZ6CznIXD3OijO3OIgZQ%3D"
+            },
+            "criteria": [
+              {
+                "text": "Makes videos about Pingo AI language app",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@studywith.olgi/video/7705076391036865814",
+                  "excerpt": "Pingo again not understand what I am saying🤪 #pingoai #learnspanish #spanish #aitutor #miami #pingoai #learnspanish #spa..."
+                }
+              },
+              {
+                "text": "Creates Spanish-learning content",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@studywith.olgi/video/7705076391036865814",
+                  "excerpt": "Pingo again not understand what I am saying🤪 #pingoai #learnspanish #spanish #aitutor #miami #pingoai #learnspanish #spa..."
+                }
+              },
+              {
+                "text": "Brand identity centered on Pingo AI",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "creator",
+                  "url": "https://www.tiktok.com/@studywith.olgi",
+                  "excerpt": null
+                }
+              },
+              {
+                "text": "proof video posted in the last 30 days",
+                "state": "supported",
+                "source": "check",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@studywith.olgi/video/7705076391036865814",
+                  "excerpt": null
+                }
+              }
+            ]
+          },
+          {
+            "handle": "dayspanish",
+            "profileUrl": "https://www.tiktok.com/@dayspanish",
+            "avatarUrl": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/db01f873f90337abe9f92d828b435629~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=f7ed5ee2&x-expires=1795460400&x-signature=7CRIHeV0jigkUzUetyRsnn77eEg%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+            "followers": 63790,
+            "usualViews": 11571,
+            "postsSampled": 10,
+            "bestRecentViews": 339219,
+            "proofVsUsualRatio": 10,
+            "postsPerWeek": 4.8,
+            "paidLabelShare": 0,
+            "hasPublicEmail": false,
+            "proofVideo": {
+              "id": "7708531530544516360",
+              "url": "https://www.tiktok.com/@dayspanish/video/7708531530544516360",
+              "creator": "dayspanish",
+              "views": 116186,
+              "likes": 4280,
+              "postedUtc": 1794782382,
+              "daysAgo": 5,
+              "region": "BR",
+              "paidLabel": false,
+              "caption": "practicing Spanish with pingo ai #AngryParent #pingoai #spanish #LanguageLearning",
+              "note": [],
+              "imageUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o0f6SVnyEsyjAFxD5A4EAADNWrAeEBDwIIKfjJ~tplv-tiktokx-cropcenter:500:800.jpeg?biz_tag=musically_video.video_cover&dr=14577&idc=my&ps=13740610&refresh_token=f2663b9e&shcp=9b759fb9&shp=c1333099&t=4d5b0474&x-expires=1795309200&x-signature=XccMlp%2FbpMljEqp4%2BLoEYHuZQOM%3D"
+            },
+            "criteria": [
+              {
+                "text": "Makes videos about Pingo AI language app",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@dayspanish/video/7708531530544516360",
+                  "excerpt": "practicing Spanish with pingo ai #AngryParent #pingoai #spanish #LanguageLearning #AngryParent #pingoai #spanish #Langua..."
+                }
+              },
+              {
+                "text": "Creates Spanish-learning content",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@dayspanish/video/7708531530544516360",
+                  "excerpt": "practicing Spanish with pingo ai #AngryParent #pingoai #spanish #LanguageLearning #AngryParent #pingoai #spanish #Langua..."
+                }
+              },
+              {
+                "text": "Brand identity centered on Pingo AI",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "creator",
+                  "url": "https://www.tiktok.com/@dayspanish",
+                  "excerpt": null
+                }
+              },
+              {
+                "text": "proof video posted in the last 30 days",
+                "state": "supported",
+                "source": "check",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@dayspanish/video/7708531530544516360",
+                  "excerpt": null
+                }
+              }
+            ]
+          },
+          {
+            "handle": "maksim_habla",
+            "profileUrl": "https://www.tiktok.com/@maksim_habla",
+            "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/68bdc6bfb95e0e3fbc1fe6cce841fd65~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=40f7c5a5&x-expires=1795460400&x-signature=U4njd9FQ9YKK68o0xX6GLAtN5Lg%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+            "followers": 23874,
+            "usualViews": 10508,
+            "postsSampled": 10,
+            "bestRecentViews": 68042,
+            "proofVsUsualRatio": 3.1,
+            "postsPerWeek": 5.7,
+            "paidLabelShare": 0,
+            "hasPublicEmail": false,
+            "proofVideo": {
+              "id": "7707859465516764434",
+              "url": "https://www.tiktok.com/@maksim_habla/video/7707859465516764434",
+              "creator": "maksim_habla",
+              "views": 32799,
+              "likes": 1340,
+              "postedUtc": 1794625892,
+              "daysAgo": 7,
+              "region": "BR",
+              "paidLabel": false,
+              "caption": "Learning Spanish with Pingo AI 😅 #pingoai #LanguageLearning #AngryParent #learnspanish #spanish",
+              "note": [],
+              "imageUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o0WEB9wUcIAeFAMiHq0i3fAF7gi4MCBDqEjRAi~tplv-tiktokx-cropcenter:500:800.jpeg?biz_tag=musically_video.video_cover&dr=14577&idc=my2&ps=13740610&refresh_token=04aa67dc&shcp=9b759fb9&shp=c1333099&t=4d5b0474&x-expires=1795309200&x-signature=rzNh%2B9hbblDpXo%2F6BZqkuinRlbc%3D"
+            },
+            "criteria": [
+              {
+                "text": "Makes videos about Pingo AI language app",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@maksim_habla/video/7707859465516764434",
+                  "excerpt": "Learning Spanish with Pingo AI 😅 #pingoai #LanguageLearning #AngryParent #learnspanish #spanish #pingoai #LanguageLearni..."
+                }
+              },
+              {
+                "text": "Creates Spanish-learning content",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@maksim_habla/video/7707859465516764434",
+                  "excerpt": "Learning Spanish with Pingo AI 😅 #pingoai #LanguageLearning #AngryParent #learnspanish #spanish #pingoai #LanguageLearni..."
+                }
+              },
+              {
+                "text": "Brand identity centered on Pingo AI",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "creator",
+                  "url": "https://www.tiktok.com/@maksim_habla",
+                  "excerpt": null
+                }
+              },
+              {
+                "text": "proof video posted in the last 30 days",
+                "state": "supported",
+                "source": "check",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@maksim_habla/video/7707859465516764434",
+                  "excerpt": null
+                }
+              }
+            ]
+          },
+          {
+            "handle": "spanish.bynayy",
+            "profileUrl": "https://www.tiktok.com/@spanish.bynayy",
+            "avatarUrl": "https://p16-common-sign.tiktokcdn-us.com/tos-useast8-avt-0068-tx2/27d6125ef696e0593f248cb24ca5eda6~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=9cd0b94f&x-expires=1795460400&x-signature=3WCf%2BCexwIUzVPC8lDwoM3B098k%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+            "followers": 25158,
+            "usualViews": 45149,
+            "postsSampled": 10,
+            "bestRecentViews": 382055,
+            "proofVsUsualRatio": 8.5,
+            "postsPerWeek": 5.2,
+            "paidLabelShare": 0,
+            "hasPublicEmail": false,
+            "proofVideo": {
+              "id": "7699624855901179167",
+              "url": "https://www.tiktok.com/@spanish.bynayy/video/7699624855901179167",
+              "creator": "spanish.bynayy",
+              "views": 382055,
+              "likes": 40213,
+              "postedUtc": 1792708623,
+              "daysAgo": 29,
+              "region": "US",
+              "paidLabel": false,
+              "caption": "Sorryiento was frowned upon by pingo ai #howdoyousay #usepingo #pingoai",
+              "note": [],
+              "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast8-p-0068-tx2/ooBE0fo1PAeRDp6QDqlEADBVIE2FI1duqq5J0O~tplv-tiktokx-cropcenter:300:400.jpeg?dr=10399&refresh_token=e91fc977&x-expires=1795374000&x-signature=%2FUOozhJ1c9grGgGgPB8NYLgbKA4%3D&t=4d5b0474&ps=13740610&shp=d05b14bd&shcp=34ff8df6&idc=useast2b&s=PUBLISH"
+            },
+            "criteria": [
+              {
+                "text": "Makes videos about Pingo AI language app",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@spanish.bynayy/video/7699624855901179167",
+                  "excerpt": "Sorryiento was frowned upon by pingo ai #howdoyousay #usepingo #pingoai #howdoyousay #usepingo #pingoai"
+                }
+              },
+              {
+                "text": "Creates Spanish-learning content",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@spanish.bynayy/video/7699624855901179167",
+                  "excerpt": "Sorryiento was frowned upon by pingo ai #howdoyousay #usepingo #pingoai #howdoyousay #usepingo #pingoai"
+                }
+              },
+              {
+                "text": "Brand identity centered on Pingo AI",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "creator",
+                  "url": "https://www.tiktok.com/@spanish.bynayy",
+                  "excerpt": null
+                }
+              },
+              {
+                "text": "proof video posted in the last 30 days",
+                "state": "supported",
+                "source": "check",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@spanish.bynayy/video/7699624855901179167",
+                  "excerpt": null
+                }
+              }
+            ]
+          },
+          {
+            "handle": "tooned.ai",
+            "profileUrl": "https://www.tiktok.com/@tooned.ai",
+            "avatarUrl": "https://p16-common-sign.tiktokcdn-us.com/tos-useast5-avt-0068-tx/bee3266db24a7a16e7ae33033026c29c~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=7bf989c6&x-expires=1795460400&x-signature=N5C6wlfDWD7CYSgZhxse7JhVsmI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+            "followers": 242041,
+            "usualViews": 27743,
+            "postsSampled": 10,
+            "bestRecentViews": 995677,
+            "proofVsUsualRatio": 23.9,
+            "postsPerWeek": 2,
+            "paidLabelShare": 0,
+            "hasPublicEmail": false,
+            "proofVideo": {
+              "id": "7704057778461003038",
+              "url": "https://www.tiktok.com/@tooned.ai/video/7704057778461003038",
+              "creator": "tooned.ai",
+              "views": 661701,
+              "likes": 45589,
+              "postedUtc": 1793740749,
+              "daysAgo": 17,
+              "region": "US",
+              "paidLabel": false,
+              "caption": "Why is Spanish so fn hard? 🥺 #LearnSpanish #LanguageLearning2026 #CreativeFlex #Pingoai",
+              "note": [],
+              "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast8-p-0068-tx2/oEEAqVtI2EJArAjH8fIADFEIfTDDn1AvnfUL8q~tplv-tiktokx-cropcenter:300:400.jpeg?dr=10399&refresh_token=5c215cd7&x-expires=1795374000&x-signature=vRskFItgCtWTY95zvRE6AmJYch0%3D&t=4d5b0474&ps=13740610&shp=d05b14bd&shcp=34ff8df6&idc=useast2b&s=PUBLISH"
+            },
+            "criteria": [
+              {
+                "text": "Makes videos about Pingo AI language app",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@tooned.ai/video/7704057778461003038",
+                  "excerpt": "Why is Spanish so fn hard? 🥺 #LearnSpanish #LanguageLearning2026 #CreativeFlex #Pingoai #LearnSpanish #LanguageLearning2..."
+                }
+              },
+              {
+                "text": "Creates Spanish-learning content",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@tooned.ai/video/7704057778461003038",
+                  "excerpt": "Why is Spanish so fn hard? 🥺 #LearnSpanish #LanguageLearning2026 #CreativeFlex #Pingoai #LearnSpanish #LanguageLearning2..."
+                }
+              },
+              {
+                "text": "Brand identity centered on Pingo AI",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "creator",
+                  "url": "https://www.tiktok.com/@tooned.ai",
+                  "excerpt": null
+                }
+              },
+              {
+                "text": "proof video posted in the last 30 days",
+                "state": "supported",
+                "source": "check",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@tooned.ai/video/7704057778461003038",
+                  "excerpt": null
+                }
+              }
+            ]
+          },
+          {
+            "handle": "its.all.random12",
+            "profileUrl": "https://www.tiktok.com/@its.all.random12",
+            "avatarUrl": "https://p16-common-sign.tiktokcdn-us.com/tos-useast5-avt-0068-tx/7df616272cd888d3c96da9e6a36d85b7~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=5c55ee67&x-expires=1795460400&x-signature=jXLVq%2Bz3n9PVcfFVwBLy6EtLcJw%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+            "followers": 149348,
+            "usualViews": 32267,
+            "postsSampled": 10,
+            "bestRecentViews": 91002,
+            "proofVsUsualRatio": 0.9,
+            "postsPerWeek": 2.5,
+            "paidLabelShare": 0,
+            "hasPublicEmail": false,
+            "proofVideo": {
+              "id": "7709247849610923294",
+              "url": "https://www.tiktok.com/@its.all.random12/video/7709247849610923294",
+              "creator": "its.all.random12",
+              "views": 30601,
+              "likes": 1916,
+              "postedUtc": 1794949156,
+              "daysAgo": 3,
+              "region": "US",
+              "paidLabel": false,
+              "caption": "What does Pingo mean by that?😭 #learnspanish #languagelearning2026 #creativeflex #pingoai",
+              "note": [],
+              "imageUrl": "https://p19-common-sign.tiktokcdn-eu.com/tos-useast8-p-0068-tx2/o0w61iZIiIjIAofLL8fegSmAjc8cVBqDIDHCCB~tplv-tiktokx-cropcenter:300:400.jpeg?dr=10399&refresh_token=4fc0c22a&x-expires=1795374000&x-signature=geLSnbVgbjbbv8LmbCHqtuwys9w%3D&t=4d5b0474&ps=13740610&shp=d05b14bd&shcp=34ff8df6&idc=useast2b&s=PUBLISH"
+            },
+            "criteria": [
+              {
+                "text": "Makes videos about Pingo AI language app",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@its.all.random12/video/7709247849610923294",
+                  "excerpt": "What does Pingo mean by that?😭 #learnspanish #languagelearning2026 #creativeflex #pingoai #learnspanish #languagelearnin..."
+                }
+              },
+              {
+                "text": "Creates Spanish-learning content",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@its.all.random12/video/7709247849610923294",
+                  "excerpt": "What does Pingo mean by that?😭 #learnspanish #languagelearning2026 #creativeflex #pingoai #learnspanish #languagelearnin..."
+                }
+              },
+              {
+                "text": "Brand identity centered on Pingo AI",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "creator",
+                  "url": "https://www.tiktok.com/@its.all.random12",
+                  "excerpt": null
+                }
+              },
+              {
+                "text": "proof video posted in the last 30 days",
+                "state": "supported",
+                "source": "check",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@its.all.random12/video/7709247849610923294",
+                  "excerpt": null
+                }
+              }
+            ]
+          },
+          {
+            "handle": "camilopolyglot",
+            "profileUrl": "https://www.tiktok.com/@camilopolyglot",
+            "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-maliva-avt-0068/229085a637101dd692e56218470dee59~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=47fcdfd4&x-expires=1795460400&x-signature=J9xR3v%2Foaep3Jgd6AmnU46zrvuw%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+            "followers": 28527,
+            "usualViews": 17925,
+            "postsSampled": 10,
+            "bestRecentViews": 709227,
+            "proofVsUsualRatio": 0.7,
+            "postsPerWeek": 7.1,
+            "paidLabelShare": 0,
+            "hasPublicEmail": false,
+            "proofVideo": {
+              "id": "7710652660596133142",
+              "url": "https://www.tiktok.com/@camilopolyglot/video/7710652660596133142",
+              "creator": "camilopolyglot",
+              "views": 11883,
+              "likes": 788,
+              "postedUtc": 1795276227,
+              "daysAgo": 0,
+              "region": "ES",
+              "paidLabel": false,
+              "caption": "Pingo AI best app to learn Spanish!!! #omarcourtz #bellaquita #citizenshiptest",
+              "note": [],
+              "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oscCCfNB5waIB7wIClziANAyvCgiIY091y7cFE~tplv-tiktokx-cropcenter:300:400.jpeg?dr=10399&refresh_token=8d496cd6&x-expires=1795374000&x-signature=gLbbTevAatWIFvAf0kYcGw0yXYs%3D&t=4d5b0474&ps=13740610&shp=d05b14bd&shcp=34ff8df6&idc=useast2b&s=PUBLISH"
+            },
+            "criteria": [
+              {
+                "text": "Makes videos about Pingo AI language app",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@camilopolyglot/video/7710652660596133142",
+                  "excerpt": "Pingo AI best app to learn Spanish!!! #omarcourtz #bellaquita #citizenshiptest #omarcourtz #bellaquita #citizenshiptest"
+                }
+              },
+              {
+                "text": "Creates Spanish-learning content",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@camilopolyglot/video/7710652660596133142",
+                  "excerpt": "Pingo AI best app to learn Spanish!!! #omarcourtz #bellaquita #citizenshiptest #omarcourtz #bellaquita #citizenshiptest"
+                }
+              },
+              {
+                "text": "Brand identity centered on Pingo AI",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "creator",
+                  "url": "https://www.tiktok.com/@camilopolyglot",
+                  "excerpt": null
+                }
+              },
+              {
+                "text": "proof video posted in the last 30 days",
+                "state": "supported",
+                "source": "check",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@camilopolyglot/video/7710652660596133142",
+                  "excerpt": null
+                }
+              }
+            ]
+          }
+        ],
+        "videos": [],
+        "videoIds": []
+      },
+      {
+        "kind": "group",
+        "heading": "Same format in other languages",
+        "reason": null,
+        "creators": [
+          {
+            "handle": "nayyfrench",
+            "profileUrl": "https://www.tiktok.com/@nayyfrench",
+            "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-useast5-avt-0068-tx/e3aa5a81008f6c6e419764fdcb1822a5~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=e2424a39&x-expires=1795460400&x-signature=9uaaODo7PHKgTGJyOjSmQPR4V2c%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+            "followers": 9737,
+            "usualViews": 74772,
+            "postsSampled": 10,
+            "bestRecentViews": 1553129,
+            "proofVsUsualRatio": 5,
+            "postsPerWeek": 5.2,
+            "paidLabelShare": 0,
+            "hasPublicEmail": false,
+            "proofVideo": {
+              "id": "7701467948254383373",
+              "url": "https://www.tiktok.com/@nayyfrench/video/7701467948254383373",
+              "creator": "nayyfrench",
+              "views": 376635,
+              "likes": 42269,
+              "postedUtc": 1793137771,
+              "daysAgo": 24,
+              "region": "US",
+              "paidLabel": false,
+              "caption": "Todayd’hui won’t fly with Pingo ai 😭 #howdoyousay #usepingo #pingoai",
+              "note": [],
+              "imageUrl": "https://p16-common-sign.tiktokcdn.com/tos-useast5-p-0068-tx/oEIecFQAkBALKIjHf6jNJwe9xQGvHC3QbOGVhh~tplv-tiktokx-cropcenter:500:800.jpeg?biz_tag=musically_video.video_cover&dr=14577&idc=my2&ps=13740610&refresh_token=4a3bae8f&shcp=9b759fb9&shp=c1333099&t=4d5b0474&x-expires=1795309200&x-signature=CQinmgCkwt5XQHsyWqqMEkK%2BFag%3D"
+            },
+            "criteria": [
+              {
+                "text": "Makes videos about Pingo AI language app",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@nayyfrench/video/7701467948254383373",
+                  "excerpt": "Todayd’hui won’t fly with Pingo ai 😭 #howdoyousay #usepingo #pingoai #howdoyousay #usepingo #pingoai"
+                }
+              },
+              {
+                "text": "Creates language-learning content on Pingo AI",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "creator",
+                  "url": "https://www.tiktok.com/@nayyfrench",
+                  "excerpt": null
+                }
+              },
+              {
+                "text": "proof video posted in the last 30 days",
+                "state": "supported",
+                "source": "check",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@nayyfrench/video/7701467948254383373",
+                  "excerpt": null
+                }
+              }
+            ]
+          },
+          {
+            "handle": "howtosaynihao",
+            "profileUrl": "https://www.tiktok.com/@howtosaynihao",
+            "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/2203f5c04c48d3baef84c5bfdde7e16c~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=2d7f6587&x-expires=1795460400&x-signature=SahJZEclNmt4FqXa2fR3lO01%2FTA%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+            "followers": 37888,
+            "usualViews": 42595,
+            "postsSampled": 10,
+            "bestRecentViews": 380798,
+            "proofVsUsualRatio": 11.8,
+            "postsPerWeek": 6.3,
+            "paidLabelShare": 0,
+            "hasPublicEmail": false,
+            "proofVideo": {
+              "id": "7702891012670196998",
+              "url": "https://www.tiktok.com/@howtosaynihao/video/7702891012670196998",
+              "creator": "howtosaynihao",
+              "views": 503507,
+              "likes": 117929,
+              "postedUtc": 1793469078,
+              "daysAgo": 21,
+              "region": "TW",
+              "paidLabel": false,
+              "caption": "when is this gonna stop 🫩🥀 #pingoai #learnchinese #LanguageLearning #中文 #chinese",
+              "note": [],
+              "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/oAfVSEcWVvD0IAZMC0XQAUMNIzAje6YQQm8eoF~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=05d81edf&x-expires=1795374000&x-signature=dwraw%2FLET9w%2FJggWKJLoe%2FlihUY%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover"
+            },
+            "criteria": [
+              {
+                "text": "Makes videos about Pingo AI language app",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@howtosaynihao/video/7702891012670196998",
+                  "excerpt": "when is this gonna stop 🫩🥀 #pingoai #learnchinese #LanguageLearning #中文 #chinese #pingoai #learnchinese #LanguageLearnin..."
+                }
+              },
+              {
+                "text": "Creates language-learning content on Pingo AI",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "creator",
+                  "url": "https://www.tiktok.com/@howtosaynihao",
+                  "excerpt": null
+                }
+              },
+              {
+                "text": "proof video posted in the last 30 days",
+                "state": "supported",
+                "source": "check",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@howtosaynihao/video/7702891012670196998",
+                  "excerpt": null
+                }
+              }
+            ]
+          },
+          {
+            "handle": "jayjap10",
+            "profileUrl": "https://www.tiktok.com/@jayjap10",
+            "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-useast5-avt-0068-tx/f56b2a6a93e4737fad0178edfa213f09~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=4907b9bc&x-expires=1795460400&x-signature=AMuUqJgWxr7Bnv33IwwL6LHWqSM%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+            "followers": 3376,
+            "usualViews": 49041,
+            "postsSampled": 10,
+            "bestRecentViews": 370104,
+            "proofVsUsualRatio": 7.5,
+            "postsPerWeek": 4.2,
+            "paidLabelShare": 0,
+            "hasPublicEmail": false,
+            "proofVideo": {
+              "id": "7708387227021184270",
+              "url": "https://www.tiktok.com/@jayjap10/video/7708387227021184270",
+              "creator": "jayjap10",
+              "views": 370104,
+              "likes": 34764,
+              "postedUtc": 1794748823,
+              "daysAgo": 6,
+              "region": "JP",
+              "paidLabel": false,
+              "caption": "Brooo #fyp #pingoai #basicenglish #speakingenglish #englishlanguage",
+              "note": [],
+              "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast5-p-0068-tx/ocXMZeoV8AQ6HfVCQH22TjsCkh58QXAQIfMAQM~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=0964f0dc&x-expires=1795374000&x-signature=s%2F0ftasN3v1TMLAx56sUJxySmNI%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&sc=cover&biz_tag=tt_video&s=PUBLISH"
+            },
+            "criteria": [
+              {
+                "text": "Makes videos about Pingo AI language app",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@jayjap10/video/7708387227021184270",
+                  "excerpt": "Brooo #fyp #pingoai #basicenglish #speakingenglish #englishlanguage #fyp #pingoai #basicenglish #speakingenglish #englis..."
+                }
+              },
+              {
+                "text": "Creates language-learning content on Pingo AI",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "creator",
+                  "url": "https://www.tiktok.com/@jayjap10",
+                  "excerpt": null
+                }
+              },
+              {
+                "text": "proof video posted in the last 30 days",
+                "state": "supported",
+                "source": "check",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@jayjap10/video/7708387227021184270",
+                  "excerpt": null
+                }
+              }
+            ]
+          },
+          {
+            "handle": "irene.learns.english",
+            "profileUrl": "https://www.tiktok.com/@irene.learns.english",
+            "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-useast2a-avt-0068-euttp/7293a08b3cc9d23bca9b5dda594da237~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=f8aad2a2&x-expires=1795460400&x-signature=dOykA29JKNHmU94%2BVfDUE8qrXIY%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+            "followers": 30898,
+            "usualViews": 16179,
+            "postsSampled": 10,
+            "bestRecentViews": 178930,
+            "proofVsUsualRatio": 11.1,
+            "postsPerWeek": 4.5,
+            "paidLabelShare": 0,
+            "hasPublicEmail": true,
+            "proofVideo": {
+              "id": "7707319883897261344",
+              "url": "https://www.tiktok.com/@irene.learns.english/video/7707319883897261344",
+              "creator": "irene.learns.english",
+              "views": 178930,
+              "likes": 3601,
+              "postedUtc": 1794500253,
+              "daysAgo": 9,
+              "region": null,
+              "paidLabel": false,
+              "caption": "WHAT NOW 😫 #pingoai #english #englishlearning #crashout #languageapp",
+              "note": [],
+              "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/oM8mxcZSB5yiaiqEXN0AazEU1ITB2K7gvOApP~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=811ef77c&x-expires=1795374000&x-signature=vLcWn%2BWRQd63myh%2FhJmR%2BC6gf7I%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover&item=7707319883897261344"
+            },
+            "criteria": [
+              {
+                "text": "Makes videos about Pingo AI language app",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@irene.learns.english/video/7707319883897261344",
+                  "excerpt": "WHAT NOW 😫 #pingoai #english #englishlearning #crashout #languageapp #pingoai #english #englishlearning #crashout #langu..."
+                }
+              },
+              {
+                "text": "Creates language-learning content on Pingo AI",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "creator",
+                  "url": "https://www.tiktok.com/@irene.learns.english",
+                  "excerpt": null
+                }
+              },
+              {
+                "text": "proof video posted in the last 30 days",
+                "state": "supported",
+                "source": "check",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@irene.learns.english/video/7707319883897261344",
+                  "excerpt": null
+                }
+              }
+            ]
+          }
+        ],
+        "videos": [],
+        "videoIds": []
+      },
+      {
+        "kind": "pattern",
+        "heading": "Formats that break out",
+        "reason": null,
+        "creators": [],
+        "videos": [
+          {
+            "id": "7702272490298461470",
+            "url": "https://www.tiktok.com/@britttttspanishlearning/video/7702272490298461470",
+            "creator": "britttttspanishlearning",
+            "views": 11368376,
+            "likes": 1903044,
+            "postedUtc": 1793325069,
+            "daysAgo": 22,
+            "region": "US",
+            "paidLabel": false,
+            "caption": "Coffeecito isn’t a real word apparently #spanishtiktok #learnspanish #howdoyousay #usepingo #pingoai",
+            "note": [],
+            "imageUrl": "https://p16-common-sign.tiktokcdn.com/tos-useast8-p-0068-tx2/ogHR2WFGUMrfjLR4eAe7AqBsB83v2LQQH8A0eS~tplv-tiktokx-cropcenter:500:800.jpeg?biz_tag=musically_video.video_cover&dr=14577&idc=my&ps=13740610&refresh_token=dd4d4697&shcp=9b759fb9&shp=c1333099&t=4d5b0474&x-expires=1795309200&x-signature=OglavUqRU2jAQlt5QM2jQ%2BSfUhA%3D"
+          },
+          {
+            "id": "7707654972741061918",
+            "url": "https://www.tiktok.com/@britttttspanishlearning/video/7707654972741061918",
+            "creator": "britttttspanishlearning",
+            "views": 4065701,
+            "likes": 442258,
+            "postedUtc": 1794578278,
+            "daysAgo": 8,
+            "region": "US",
+            "paidLabel": false,
+            "caption": "Passportito isn’t a real word apparently #languagelearning2026 #creativeflex #pingoai",
+            "note": [],
+            "imageUrl": "https://p16-common-sign.tiktokcdn.com/tos-useast8-p-0068-tx2/oYe3RxVdqEV8EhE1FB9FqvcEIdDA1YAbbAfB2k~tplv-tiktokx-cropcenter:500:800.jpeg?biz_tag=musically_video.video_cover&dr=14577&idc=my2&ps=13740610&refresh_token=0514da30&shcp=9b759fb9&shp=c1333099&t=4d5b0474&x-expires=1795309200&x-signature=YdB%2BpmRMhihvJogxmsiswJCL6ys%3D"
+          },
+          {
+            "id": "7701927014105664799",
+            "url": "https://www.tiktok.com/@britttttspanishlearning/video/7701927014105664799",
+            "creator": "britttttspanishlearning",
+            "views": 5452224,
+            "likes": 693998,
+            "postedUtc": 1793244639,
+            "daysAgo": 23,
+            "region": "US",
+            "paidLabel": false,
+            "caption": "Sorryiento isn’t a real word apparently 😭 #spanishtiktok #learnspanish #howdoyousay #usepingo #pingoai",
+            "note": [],
+            "imageUrl": "https://p16-common-sign.tiktokcdn.com/tos-useast8-p-0068-tx2/ocrq8jr99A31AR7LAEFq4vVDcfjxfdrEEEBPiI~tplv-tiktokx-cropcenter:500:800.jpeg?biz_tag=musically_video.video_cover&dr=14577&idc=my&ps=13740610&refresh_token=d8358035&shcp=9b759fb9&shp=c1333099&t=4d5b0474&x-expires=1795309200&x-signature=%2B1PTkj2FnhHoOONOgzReHwqQNoI%3D"
+          },
+          {
+            "id": "7705076391036865814",
+            "url": "https://www.tiktok.com/@studywith.olgi/video/7705076391036865814",
+            "creator": "studywith.olgi",
+            "views": 716864,
+            "likes": 20663,
+            "postedUtc": 1793977904,
+            "daysAgo": 15,
+            "region": "ES",
+            "paidLabel": false,
+            "caption": "Pingo again not understand what I am saying🤪 #pingoai #learnspanish #spanish #aitutor #miami",
+            "note": [],
+            "imageUrl": "https://p16-common-sign.tiktokcdn.com/tos-no1a-p-0037-no/oo2IVfL2cQG19AGAuM6AeMI2VbgHjfwLIjG93D~tplv-tiktokx-cropcenter:500:800.jpeg?biz_tag=musically_video.video_cover&dr=14577&idc=my2&ps=13740610&refresh_token=473c313c&shcp=9b759fb9&shp=c1333099&t=4d5b0474&x-expires=1795309200&x-signature=rvKXLwbfZ6CznIXD3OijO3OIgZQ%3D"
+          },
+          {
+            "id": "7702891012670196998",
+            "url": "https://www.tiktok.com/@howtosaynihao/video/7702891012670196998",
+            "creator": "howtosaynihao",
+            "views": 503507,
+            "likes": 117929,
+            "postedUtc": 1793469078,
+            "daysAgo": 21,
+            "region": "TW",
+            "paidLabel": false,
+            "caption": "when is this gonna stop 🫩🥀 #pingoai #learnchinese #LanguageLearning #中文 #chinese",
+            "note": [],
+            "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/oAfVSEcWVvD0IAZMC0XQAUMNIzAje6YQQm8eoF~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=05d81edf&x-expires=1795374000&x-signature=dwraw%2FLET9w%2FJggWKJLoe%2FlihUY%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover"
+          },
+          {
+            "id": "7701467948254383373",
+            "url": "https://www.tiktok.com/@nayyfrench/video/7701467948254383373",
+            "creator": "nayyfrench",
+            "views": 376635,
+            "likes": 42269,
+            "postedUtc": 1793137771,
+            "daysAgo": 24,
+            "region": "US",
+            "paidLabel": false,
+            "caption": "Todayd’hui won’t fly with Pingo ai 😭 #howdoyousay #usepingo #pingoai",
+            "note": [],
+            "imageUrl": "https://p16-common-sign.tiktokcdn.com/tos-useast5-p-0068-tx/oEIecFQAkBALKIjHf6jNJwe9xQGvHC3QbOGVhh~tplv-tiktokx-cropcenter:500:800.jpeg?biz_tag=musically_video.video_cover&dr=14577&idc=my2&ps=13740610&refresh_token=4a3bae8f&shcp=9b759fb9&shp=c1333099&t=4d5b0474&x-expires=1795309200&x-signature=CQinmgCkwt5XQHsyWqqMEkK%2BFag%3D"
+          },
+          {
+            "id": "7710652660596133142",
+            "url": "https://www.tiktok.com/@camilopolyglot/video/7710652660596133142",
+            "creator": "camilopolyglot",
+            "views": 11883,
+            "likes": 788,
+            "postedUtc": 1795276227,
+            "daysAgo": 0,
+            "region": "ES",
+            "paidLabel": false,
+            "caption": "Pingo AI best app to learn Spanish!!! #omarcourtz #bellaquita #citizenshiptest",
+            "note": [],
+            "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oscCCfNB5waIB7wIClziANAyvCgiIY091y7cFE~tplv-tiktokx-cropcenter:300:400.jpeg?dr=10399&refresh_token=8d496cd6&x-expires=1795374000&x-signature=gLbbTevAatWIFvAf0kYcGw0yXYs%3D&t=4d5b0474&ps=13740610&shp=d05b14bd&shcp=34ff8df6&idc=useast2b&s=PUBLISH"
+          }
+        ],
+        "videoIds": [
+          "7702272490298461470",
+          "7707654972741061918",
+          "7701927014105664799",
+          "7705076391036865814",
+          "7702891012670196998",
+          "7701467948254383373",
+          "7710652660596133142"
+        ]
+      }
+    ],
+    "assumptions": [
+      "No follower, view, recency or region limit was given, so none was applied beyond recency of the search window (videos posted this month).",
+      "Interpreted 'creators like them' as creators who post organic, non-paid Pingo AI content and whose identity centers on using the app to learn a language.",
+      "Included creators across target languages, prioritizing Spanish-learning creators since the user's app teaches Spanish."
+    ],
+    "limits": "Could not verify where creators live or whether they have existing brand deals beyond bio labels; only the video's country and the paid label are known. Several low-view Pingo creators exist but were left out for being weak matches. Some caption text was removed from bios by the data provider (contact details), so email availability is only known where flagged.",
+    "limitsSentences": [
+      {
+        "text": "Could not verify where creators live or whether they have existing brand deals beyond bio labels; only the video's country and the paid label are known.",
+        "label": "limit"
+      },
+      {
+        "text": "Several low-view Pingo creators exist but were left out for being weak matches.",
+        "label": "limit"
+      },
+      {
+        "text": "Some caption text was removed from bios by the data provider (contact details), so email availability is only known where flagged.",
+        "label": "limit"
+      }
+    ],
+    "notFound": [],
+    "budgetNote": null,
+    "finishedBy": "model",
+    "steps": [
+      {
+        "kind": "check",
+        "label": "Read the limits the question states",
+        "detail": "The question states none",
+        "failed": false,
+        "handle": null,
+        "atMs": 0,
+        "ms": 1953,
+        "costUsd": 0.000002
+      },
+      {
+        "kind": "think",
+        "label": "Planned the next steps",
+        "detail": "Turn 1 of 8",
+        "failed": false,
+        "handle": null,
+        "atMs": 1954,
+        "ms": 5978,
+        "costUsd": 0.000024
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"Pingo AI\"",
+        "detail": "19 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 7933,
+        "ms": 2939,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"Pingo AI language learning\"",
+        "detail": "13 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 7933,
+        "ms": 3051,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "think",
+        "label": "Planned the next steps",
+        "detail": "Turn 2 of 8",
+        "failed": false,
+        "handle": null,
+        "atMs": 10985,
+        "ms": 8268,
+        "costUsd": 0.000047
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @britttttspanishlearning",
+        "detail": "200,916 followers",
+        "failed": false,
+        "handle": "britttttspanishlearning",
+        "atMs": 19253,
+        "ms": 1433,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @studywith.olgi",
+        "detail": "67,475 followers",
+        "failed": false,
+        "handle": "studywith.olgi",
+        "atMs": 19254,
+        "ms": 1571,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @dayspanish",
+        "detail": "63,790 followers",
+        "failed": false,
+        "handle": "dayspanish",
+        "atMs": 19254,
+        "ms": 1657,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @maksim_habla",
+        "detail": "23,874 followers",
+        "failed": false,
+        "handle": "maksim_habla",
+        "atMs": 19255,
+        "ms": 1930,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @nayyfrench",
+        "detail": "9,737 followers",
+        "failed": false,
+        "handle": "nayyfrench",
+        "atMs": 19255,
+        "ms": 2005,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @howtosaynihao",
+        "detail": "37,888 followers",
+        "failed": false,
+        "handle": "howtosaynihao",
+        "atMs": 19255,
+        "ms": 3459,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "think",
+        "label": "Planned the next steps",
+        "detail": "Turn 3 of 8",
+        "failed": false,
+        "handle": null,
+        "atMs": 22714,
+        "ms": 14826,
+        "costUsd": 0.000037
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"usepingo\"",
+        "detail": "18 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 37541,
+        "ms": 2932,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"learning Spanish with Pingo\"",
+        "detail": "9 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 37541,
+        "ms": 3020,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"Pingo ambassador\"",
+        "detail": "13 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 37542,
+        "ms": 3002,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "think",
+        "label": "Planned the next steps",
+        "detail": "Turn 4 of 8",
+        "failed": false,
+        "handle": null,
+        "atMs": 40561,
+        "ms": 5049,
+        "costUsd": 0.000076
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @spanish.bynayy",
+        "detail": "25,158 followers",
+        "failed": false,
+        "handle": "spanish.bynayy",
+        "atMs": 45611,
+        "ms": 2158,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @tooned.ai",
+        "detail": "242,041 followers",
+        "failed": false,
+        "handle": "tooned.ai",
+        "atMs": 45612,
+        "ms": 2110,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @its.all.random12",
+        "detail": "149,348 followers",
+        "failed": false,
+        "handle": "its.all.random12",
+        "atMs": 45612,
+        "ms": 2056,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @camilopolyglot",
+        "detail": "28,527 followers",
+        "failed": false,
+        "handle": "camilopolyglot",
+        "atMs": 45612,
+        "ms": 2072,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @brittany.japanese",
+        "detail": "43,527 followers",
+        "failed": false,
+        "handle": "brittany.japanese",
+        "atMs": 45613,
+        "ms": 1885,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @irene.learns.english",
+        "detail": "30,898 followers",
+        "failed": false,
+        "handle": "irene.learns.english",
+        "atMs": 45613,
+        "ms": 3139,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "think",
+        "label": "Planned the next steps",
+        "detail": "Turn 5 of 8",
+        "failed": false,
+        "handle": null,
+        "atMs": 48752,
+        "ms": 5888,
+        "costUsd": 0.000078
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"LearnWithPingo\"",
+        "detail": "11 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 54641,
+        "ms": 3006,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @jayjap10",
+        "detail": "3,376 followers",
+        "failed": false,
+        "handle": "jayjap10",
+        "atMs": 54642,
+        "ms": 1634,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "think",
+        "label": "Planned the next steps",
+        "detail": "Turn 6 of 8",
+        "failed": false,
+        "handle": null,
+        "atMs": 57647,
+        "ms": 38145,
+        "costUsd": 0.00013
+      },
+      {
+        "kind": "answer",
+        "label": "Sent the answer back to fix its claims",
+        "detail": null,
+        "failed": false,
+        "handle": null,
+        "atMs": 95795,
+        "ms": 2,
+        "costUsd": 0
+      },
+      {
+        "kind": "think",
+        "label": "Planned the next steps",
+        "detail": "Turn 7 of 8",
+        "failed": false,
+        "handle": null,
+        "atMs": 95797,
+        "ms": 32917,
+        "costUsd": 0.000058
+      },
+      {
+        "kind": "answer",
+        "label": "Wrote the answer",
+        "detail": null,
+        "failed": false,
+        "handle": null,
+        "atMs": 128716,
+        "ms": 17080,
+        "costUsd": 0
+      },
+      {
+        "kind": "check",
+        "label": "Checked the answer against the evidence",
+        "detail": null,
+        "failed": false,
+        "handle": null,
+        "atMs": 128717,
+        "ms": 17079,
+        "costUsd": 0.00011099999999999999
+      },
+      {
+        "kind": "check",
+        "label": "Checked the text for contact details",
+        "detail": null,
+        "failed": false,
+        "handle": null,
+        "atMs": 145797,
+        "ms": 1816,
+        "costUsd": 0.000004
+      }
+    ],
+    "cost": {
+      "limitUsd": 0.1,
+      "dataUsd": 0.016599999999999997,
+      "modelUsd": 0.0005670000000000002,
+      "totalUsd": 0.017166999999999998,
+      "dataCalls": 32,
+      "modelTurns": 7,
+      "wallMs": 147615
+    },
+    "gate": "model"
+  }
+}

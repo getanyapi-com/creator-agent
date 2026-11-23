@@ -1,0 +1,495 @@
+{
+  "source": "2026-11-21T19-09-34-363Z-agent-free/q01-ai-study-us.r1.json",
+  "askedAt": "2026-11-21T19:09:34.364Z",
+  "display": {
+    "question": "Find 10 US creators with under 10,000 followers who posted about an AI study or note-taking app in the last 30 days and got a video over 100,000 views.",
+    "answer": [
+      {
+        "text": "This is a poor fit for TikTok within your constraints: US creators with small followings who went viral on an AI study or note-taking app in the last month are extremely rare in the search results.",
+        "label": "other"
+      },
+      {
+        "text": "Nearly every viral video about AI study tools found came from creators outside the US, or from creators whose follower counts exceed your limit, or videos under the view threshold.",
+        "label": "other"
+      },
+      {
+        "text": "Return no creators rather than padding, and consider widening to global creators, raising the follower cap, or extending the recency window.",
+        "label": "other"
+      }
+    ],
+    "criteriaLine": "Checked on every creator: at most 10,000 followers; proof video at least 100,000 views; proof video posted in the last 30 days.",
+    "excluded": {
+      "count": 0,
+      "byCheck": []
+    },
+    "creators": [],
+    "videos": [
+      {
+        "id": "7707643150491241780",
+        "url": "https://www.tiktok.com/@ermidailylifehack/video/7707643150491241780",
+        "creator": "ermidailylifehack",
+        "views": 200884,
+        "likes": 20413,
+        "postedUtc": 1794575521,
+        "daysAgo": 8,
+        "region": "ET",
+        "paidLabel": false,
+        "caption": "Exam Coming? No Time to Study? Try This AI Study Hack! 📱 Turn your notes into flashcards, quizzes, and summaries in seconds. Study smarter, not harder! #StudyHacks #AITools #StudyTok #LifeHacks #techtok",
+        "note": [],
+        "imageUrl": "https://p19-common-sign.tiktokcdn.com/tos-alisg-p-0037/o0lxIcaV9DAMDz3iRwFxBRqDTEIgvBj9Iffg3E~tplv-tiktokx-cropcenter:500:800.jpeg?biz_tag=musically_video.video_cover&dr=14577&idc=my&ps=13740610&refresh_token=340fbed0&shcp=9b759fb9&shp=c1333099&t=4d5b0474&x-expires=1795309200&x-signature=YwhS5R%2FzSzz%2FKBRQIhNNwk8HNPU%3D"
+      }
+    ],
+    "patterns": [],
+    "sections": [],
+    "assumptions": [
+      "US creator means the creator's videos are from the US region, since where a creator lives is not knowable from the data",
+      "A chatgpt/ai-tool video counts toward the topic only if it is about studying or note-taking specifically"
+    ],
+    "limits": "Could not confirm any creator's home country, only each video's region. No US creator with an AI study or note-taking video meeting the views threshold and recency window was found in any search.",
+    "limitsSentences": [
+      {
+        "text": "Could not confirm any creator's home country, only each video's region.",
+        "label": "limit"
+      },
+      {
+        "text": "No US creator with an AI study or note-taking video meeting the views threshold and recency window was found in any search.",
+        "label": "limit"
+      }
+    ],
+    "notFound": [],
+    "budgetNote": null,
+    "finishedBy": "model",
+    "steps": [
+      {
+        "kind": "check",
+        "label": "Read the limits the question states",
+        "detail": "3 limits",
+        "failed": false,
+        "handle": null,
+        "atMs": 3,
+        "ms": 4299,
+        "costUsd": 0.000002
+      },
+      {
+        "kind": "think",
+        "label": "Planned the next steps",
+        "detail": "Turn 1 of 8",
+        "failed": false,
+        "handle": null,
+        "atMs": 4308,
+        "ms": 11747,
+        "costUsd": 0.00003
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"AI note taking app\"",
+        "detail": "18 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 16057,
+        "ms": 2929,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"studying with AI app\"",
+        "detail": "16 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 16059,
+        "ms": 2949,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"AI notes app student\"",
+        "detail": "11 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 16060,
+        "ms": 2760,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"study with me AI\"",
+        "detail": "16 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 16060,
+        "ms": 2776,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "think",
+        "label": "Planned the next steps",
+        "detail": "Turn 2 of 8",
+        "failed": false,
+        "handle": null,
+        "atMs": 19009,
+        "ms": 9445,
+        "costUsd": 0.000033
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"AI note taking app\"",
+        "detail": "11 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 28456,
+        "ms": 3074,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"this app saved my GPA\"",
+        "detail": "13 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 28457,
+        "ms": 2685,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"study app every student needs\"",
+        "detail": "18 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 28457,
+        "ms": 3025,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"studytok AI app\"",
+        "detail": "18 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 28457,
+        "ms": 2975,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "think",
+        "label": "Planned the next steps",
+        "detail": "Turn 3 of 8",
+        "failed": false,
+        "handle": null,
+        "atMs": 31530,
+        "ms": 7400,
+        "costUsd": 0.000037
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"NotebookLM study hack\"",
+        "detail": "17 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 38930,
+        "ms": 2974,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"study tool that changed my life\"",
+        "detail": "8 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 38931,
+        "ms": 3082,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"apps I wish I knew in college\"",
+        "detail": "16 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 38931,
+        "ms": 3545,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"College AI notes\"",
+        "detail": "16 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 38931,
+        "ms": 3342,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "think",
+        "label": "Planned the next steps",
+        "detail": "Turn 4 of 8",
+        "failed": false,
+        "handle": null,
+        "atMs": 42476,
+        "ms": 6873,
+        "costUsd": 0.000041
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"AI study app\"",
+        "detail": "18 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 49352,
+        "ms": 3086,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"note taking app\"",
+        "detail": "20 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 49352,
+        "ms": 3042,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"studytok\"",
+        "detail": "20 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 49353,
+        "ms": 3136,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"chatgpt study hack student\"",
+        "detail": "18 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 49353,
+        "ms": 3403,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "think",
+        "label": "Planned the next steps",
+        "detail": "Turn 5 of 8",
+        "failed": false,
+        "handle": null,
+        "atMs": 52756,
+        "ms": 24223,
+        "costUsd": 0.000014
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @theaitoolshub_",
+        "detail": "6,879 followers",
+        "failed": false,
+        "handle": "theaitoolshub_",
+        "atMs": 76980,
+        "ms": 3986,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "transcript",
+        "label": "Read the words of a video by @theaitoolshub_",
+        "detail": "No captions",
+        "failed": false,
+        "handle": "theaitoolshub_",
+        "atMs": 76982,
+        "ms": 1528,
+        "costUsd": 0
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"Turbolearn AI notes\"",
+        "detail": "9 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 76982,
+        "ms": 2795,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"Coconote AI note\"",
+        "detail": "1 new video",
+        "failed": false,
+        "handle": null,
+        "atMs": 76982,
+        "ms": 2483,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"StudyFetch\"",
+        "detail": "17 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 76983,
+        "ms": 2840,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"Knowt flashcards\"",
+        "detail": "13 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 76983,
+        "ms": 2955,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "think",
+        "label": "Planned the next steps",
+        "detail": "Turn 6 of 8",
+        "failed": false,
+        "handle": null,
+        "atMs": 80967,
+        "ms": 9507,
+        "costUsd": 0.000072
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @getcub3d",
+        "detail": "607 followers",
+        "failed": false,
+        "handle": "getcub3d",
+        "atMs": 90475,
+        "ms": 3285,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"AI notes\"",
+        "detail": "14 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 90476,
+        "ms": 3016,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"app that turns your notes into flashcards\"",
+        "detail": "16 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 90476,
+        "ms": 3237,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"college student productivity app AI\"",
+        "detail": "17 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 90476,
+        "ms": 3229,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"high school study app viral\"",
+        "detail": "13 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 90476,
+        "ms": 2946,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "think",
+        "label": "Planned the next steps",
+        "detail": "Turn 7 of 8",
+        "failed": false,
+        "handle": null,
+        "atMs": 93760,
+        "ms": 5192,
+        "costUsd": 0.000068
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @studywithhuze",
+        "detail": "1,560 followers",
+        "failed": false,
+        "handle": "studywithhuze",
+        "atMs": 98953,
+        "ms": 2366,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"study app hack\"",
+        "detail": "19 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 98954,
+        "ms": 3239,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"students must have AI tool\"",
+        "detail": "16 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 98954,
+        "ms": 3341,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "think",
+        "label": "Planned the next steps",
+        "detail": "Turn 8 of 8",
+        "failed": false,
+        "handle": null,
+        "atMs": 102295,
+        "ms": 12461,
+        "costUsd": 0.000094
+      },
+      {
+        "kind": "answer",
+        "label": "Wrote the answer",
+        "detail": null,
+        "failed": false,
+        "handle": null,
+        "atMs": 114758,
+        "ms": 10013,
+        "costUsd": 0
+      },
+      {
+        "kind": "check",
+        "label": "Checked the answer against the evidence",
+        "detail": null,
+        "failed": false,
+        "handle": null,
+        "atMs": 114763,
+        "ms": 10006,
+        "costUsd": 0.00001
+      },
+      {
+        "kind": "check",
+        "label": "Checked the text for contact details",
+        "detail": null,
+        "failed": false,
+        "handle": null,
+        "atMs": 124772,
+        "ms": 2851,
+        "costUsd": 0.000007
+      }
+    ],
+    "cost": {
+      "limitUsd": 0.1,
+      "dataUsd": 0.0186,
+      "modelUsd": 0.00040799999999999994,
+      "totalUsd": 0.019007999999999997,
+      "dataCalls": 33,
+      "modelTurns": 8,
+      "wallMs": 127625
+    },
+    "gate": "model"
+  }
+}

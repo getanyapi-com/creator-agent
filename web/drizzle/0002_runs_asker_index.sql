@@ -1,0 +1,1 @@
+CREATE INDEX "runs_asker_started_at_idx" ON "runs" USING btree ("asker_id","started_at") WHERE "runs"."removed_at" is null;

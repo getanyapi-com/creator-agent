@@ -1,0 +1,110 @@
+[
+  {
+    "id": "q01-ai-study-us",
+    "family": "small creators talking about a product",
+    "results": "creators",
+    "text": "Find 10 US creators with under 10,000 followers who posted about an AI study or note-taking app in the last 30 days and got a video over 100,000 views.",
+    "wanted": 10,
+    "unanswerable": false,
+    "good": "Up to 10 creators, each under 10,000 followers, with a video about an AI study or note-taking app posted in the last 30 days that has over 100,000 views; US marked from the video region with the creator's own country unknown."
+  },
+  {
+    "id": "q02-claude-sub10k",
+    "family": "small creators talking about a product",
+    "results": "creators",
+    "text": "Find sub-10K creators talking about Claude.",
+    "wanted": null,
+    "unanswerable": false,
+    "good": "Creators under 10,000 followers whose videos are about Claude the AI assistant (not people named Claude), each with the video that shows it."
+  },
+  {
+    "id": "q03-nyu-1500",
+    "family": "creators at a named college",
+    "results": "creators",
+    "text": "Find me 10 NYU creators with around 1,500 followers.",
+    "wanted": 10,
+    "unanswerable": false,
+    "good": "Creators whose bio or videos tie them to NYU, with follower counts near 1,500 and the band it used stated; NYU affiliation marked unknown when only a hashtag suggests it."
+  },
+  {
+    "id": "q04-toy-unboxing",
+    "family": "a consumer niche",
+    "results": "creators",
+    "text": "Which small creators are posting toy unboxing videos that blew up this month? I sell blind boxes.",
+    "wanted": null,
+    "unanswerable": false,
+    "good": "Small creators (size band stated as an assumption) with a toy or blind-box unboxing video from this month that far outperformed their usual views."
+  },
+  {
+    "id": "q05-pingo-ai",
+    "family": "who covers a named competitor",
+    "results": "creators",
+    "text": "Who is making videos about Pingo AI, the language app? I want creators like them for my Spanish-learning app.",
+    "wanted": null,
+    "unanswerable": false,
+    "good": "Creators with videos about Pingo AI, plus similar language-learning creators, each with proof; sponsorship only from the paid label or bio words."
+  },
+  {
+    "id": "q06-hooks-language",
+    "family": "what hooks work now",
+    "results": "patterns",
+    "text": "What hooks are working this week for language learning apps?",
+    "wanted": null,
+    "unanswerable": false,
+    "good": "A few hook patterns from this week's language-app videos, each citing at least two videos, described from what is seen or said in the opening seconds."
+  },
+  {
+    "id": "q07-compare-three",
+    "family": "comparing named creators",
+    "results": "creators",
+    "text": "Compare @studyfetch.kendall, @astnstudies and @studywith.karen: who is the best fit to promote a flashcard app?",
+    "wanted": 3,
+    "unanswerable": false,
+    "good": "All three creators inspected and compared on reach, consistency and topic fit, with a stated pick and the reason; a missing or inactive account said plainly."
+  },
+  {
+    "id": "q08-uk-walking",
+    "family": "a consumer niche",
+    "results": "creators",
+    "text": "Find fitness creators in the UK under 20k followers who post walking or step-challenge content.",
+    "wanted": null,
+    "unanswerable": false,
+    "good": "Creators under 20,000 followers with walking or step-challenge videos from GB-region videos, the creator's own country marked unknown."
+  },
+  {
+    "id": "q09-b2b-payroll-cfo",
+    "family": "a poor fit for TikTok creators",
+    "results": "creators",
+    "text": "Find creators who can promote my B2B payroll software to CFOs.",
+    "wanted": null,
+    "unanswerable": true,
+    "good": "Says TikTok is a weak channel for reaching CFOs and states its assumptions; any creators offered are finance or accounting creators with proof, not padding."
+  },
+  {
+    "id": "q10-partnered-anthropic",
+    "family": "creators affiliated with a brand",
+    "results": "creators",
+    "text": "Find creators who recently partnered with Anthropic.",
+    "wanted": null,
+    "unanswerable": false,
+    "good": "Only creators with a paid label or explicit partnership words on a video about Anthropic or Claude; partnership marked unknown otherwise, and a short answer is acceptable."
+  },
+  {
+    "id": "q11-why-video",
+    "family": "why one video did well",
+    "results": "explanation",
+    "text": "Why did this video do well? https://www.tiktok.com/@studyfetch.kendall/video/7687877955111947551",
+    "wanted": null,
+    "unanswerable": false,
+    "good": "Watches or reads the video, compares its views with the creator's usual views, and separates what was observed (hook, on-screen text, timing) from the guess at why it worked."
+  },
+  {
+    "id": "q12-my-app",
+    "family": "underspecified",
+    "results": "creators",
+    "text": "Find creators for my app.",
+    "wanted": null,
+    "unanswerable": true,
+    "good": "Says the question is underspecified, asks or states what it needs (what the app does, audience, budget), and does not pad with random creators."
+  }
+]

@@ -1,0 +1,55 @@
+name: Check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    # The web app's checks that read and write real rows need a database, so CI
+    # gives them one.
+    services:
+      postgres:
+        image: postgres:17
+        env:
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: creator_agent
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U postgres"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 10
+    steps:
+      - uses: actions/checkout@v4
+      # The pnpm that wrote pnpm-lock.yaml; package.json names no packageManager.
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 12.21.0
+      - uses: actions/setup-node@v4
+        with:
+          # package.json engines: node >=24.
+          node-version: 24
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+
+      # The agent core and the bench at the repository root.
+      - run: pnpm typecheck
+      - run: pnpm lint
+      - run: pnpm test
+
+      # The web app in web/.
+      - run: pnpm --filter web typecheck
+      - run: pnpm --filter web lint
+      - run: pnpm --filter web test
+        env:
+          DATABASE_URL: postgres://postgres:postgres@localhost:5432/creator_agent
+      # Main's image is built by the deploy, which fails before it pushes when
+      # the build does, so building here as well only pays off on a pull request.
+      - run: pnpm --filter web build
+        if: github.event_name == 'pull_request'
+        env:
+          NEXT_TELEMETRY_DISABLED: "1"

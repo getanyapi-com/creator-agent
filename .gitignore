@@ -1,0 +1,9 @@
+node_modules/
+bench/out/
+.env
+.env.*
+*.env
+!.env.example
+
+# Hosting secrets (scripts/azure-provision.sh writes deploy/env.production).
+deploy/

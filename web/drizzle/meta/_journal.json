@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1795328580867,
+      "tag": "0000_runs_claims_spend_media",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1795364552898,
+      "tag": "0001_wallet_tier_and_media_resume",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1795368909069,
+      "tag": "0002_runs_asker_index",
+      "breakpoints": true
+    }
+  ]
+}

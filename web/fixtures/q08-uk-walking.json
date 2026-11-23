@@ -1,0 +1,1534 @@
+{
+  "source": "2026-11-21T19-09-34-268Z-agent-free/q08-uk-walking.r1.json",
+  "askedAt": "2026-11-21T19:41:37.154Z",
+  "display": {
+    "question": "Find fitness creators in the UK under 20k followers who post walking or step-challenge content.",
+    "answer": [
+      {
+        "text": "This niche is findable on TikTok: several UK-based creators well under the follower limit you set post walking and step-challenge content.",
+        "label": "fact"
+      },
+      {
+        "text": "Others fit as UK walking-adjacent: a wellness creator sharing tips to hit a daily step goal, a lifestyle creator whose routine includes daily steps, a fitness coach posting hike vlogs, and a creator dedicated to beginner-friendly UK hikes.",
+        "label": "fact"
+      },
+      {
+        "text": "A couple of promising larger walking/step accounts were left out for being over the follower limit.",
+        "label": "limit"
+      },
+      {
+        "text": "Note the video-region check proves where the video was posted, not where the creator lives.",
+        "label": "limit"
+      }
+    ],
+    "criteriaLine": "Checked on every creator: at most 20,000 followers; proof video region United Kingdom.",
+    "excluded": {
+      "count": 0,
+      "byCheck": []
+    },
+    "creators": [
+      {
+        "handle": "joannemc33",
+        "profileUrl": "https://www.tiktok.com/@joannemc33",
+        "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-maliva-avt-0068/8b516262d905ee9dc4638e96635f5c01~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=a14cc12e&x-expires=1795460400&x-signature=taYXHCk2WDXYBDMxCfn4SPSaJsU%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+        "followers": 463,
+        "usualViews": 989,
+        "postsSampled": 10,
+        "bestRecentViews": 1236,
+        "proofVsUsualRatio": 1,
+        "postsPerWeek": 0.6,
+        "paidLabelShare": 0,
+        "hasPublicEmail": false,
+        "proofVideo": {
+          "id": "7706864864420957462",
+          "url": "https://www.tiktok.com/@joannemc33/video/7706864864420957462",
+          "creator": "joannemc33",
+          "views": 1029,
+          "likes": 28,
+          "postedUtc": 1794394316,
+          "daysAgo": 10,
+          "region": "GB",
+          "paidLabel": false,
+          "caption": "#day1 #30daywalkingchallange #fitness #weightlossjourneyuk 💪",
+          "note": [],
+          "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oQeoDeRdGLfVLq6IP0ISJwgM6DIgVw6AP4jOBA~tplv-tiktokx-cropcenter:300:400.jpeg?dr=10399&refresh_token=defac2a9&x-expires=1795374000&x-signature=VGXTG6VDsnSAUtBVj5kJNRTgdxo%3D&t=4d5b0474&ps=13740610&shp=d05b14bd&shcp=34ff8df6&idc=useast2b&s=PUBLISH"
+        },
+        "criteria": [
+          {
+            "text": "Posts walking or step-challenge content (30-day walking challenge)",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@joannemc33/video/7706864864420957462",
+              "excerpt": "#day1 #30daywalkingchallange #fitness #weightlossjourneyuk 💪 #day1 #30daywalkingchallange #fitness #weightlossjourneyuk"
+            }
+          },
+          {
+            "text": "Fitness content on a UK weight-loss journey",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@joannemc33/video/7706864864420957462",
+              "excerpt": "#day1 #30daywalkingchallange #fitness #weightlossjourneyuk 💪 #day1 #30daywalkingchallange #fitness #weightlossjourneyuk"
+            }
+          },
+          {
+            "text": "at most 20,000 followers",
+            "state": "supported",
+            "source": "check",
+            "evidence": {
+              "kind": "creator",
+              "url": "https://www.tiktok.com/@joannemc33",
+              "excerpt": null
+            }
+          },
+          {
+            "text": "proof video region United Kingdom",
+            "state": "supported",
+            "source": "check",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@joannemc33/video/7706864864420957462",
+              "excerpt": null
+            }
+          }
+        ]
+      },
+      {
+        "handle": "robynleighjk",
+        "profileUrl": "https://www.tiktok.com/@robynleighjk",
+        "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-maliva-avt-0068/1b1c83f2e86c316916fc346e6ed8a0f1~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=4103d021&x-expires=1795460400&x-signature=69jjcRvZsZlk9q9E8Cu5JHT1rAM%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+        "followers": 2428,
+        "usualViews": 271,
+        "postsSampled": 10,
+        "bestRecentViews": 559,
+        "proofVsUsualRatio": 0.9,
+        "postsPerWeek": 4.4,
+        "paidLabelShare": 0,
+        "hasPublicEmail": false,
+        "proofVideo": {
+          "id": "7700290772268109078",
+          "url": "https://www.tiktok.com/@robynleighjk/video/7700290772268109078",
+          "creator": "robynleighjk",
+          "views": 249,
+          "likes": 25,
+          "postedUtc": 1792863664,
+          "daysAgo": 28,
+          "region": "GB",
+          "paidLabel": false,
+          "caption": "The 10k a day life #GymTok #gymhumor #gymgirl #gymmindset",
+          "note": [],
+          "imageUrl": "https://p16-common-sign.tiktokcdn.com/tos-no1a-p-0037-no/oA3Ff1qQc7DDSBO7gVkbOfE8FEARzC3lBmGGPI~tplv-tiktokx-cropcenter:500:800.jpeg?biz_tag=musically_video.video_cover&dr=14577&idc=my2&ps=13740610&refresh_token=8dac8973&shcp=9b759fb9&shp=c1333099&t=4d5b0474&x-expires=1795309200&x-signature=XsREG0F5DTsZqKLYqTwbqIcnqf8%3D"
+        },
+        "criteria": [
+          {
+            "text": "Posts step-challenge content (daily step goal)",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@robynleighjk/video/7700290772268109078",
+              "excerpt": "The 10k a day life #GymTok #gymhumor #gymgirl #gymmindset #GymTok #gymhumor #gymgirl #gymmindset"
+            }
+          },
+          {
+            "text": "Identifies as a fitness creator",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "creator",
+              "url": "https://www.tiktok.com/@robynleighjk",
+              "excerpt": null
+            }
+          },
+          {
+            "text": "at most 20,000 followers",
+            "state": "supported",
+            "source": "check",
+            "evidence": {
+              "kind": "creator",
+              "url": "https://www.tiktok.com/@robynleighjk",
+              "excerpt": null
+            }
+          },
+          {
+            "text": "proof video region United Kingdom",
+            "state": "supported",
+            "source": "check",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@robynleighjk/video/7700290772268109078",
+              "excerpt": null
+            }
+          }
+        ]
+      },
+      {
+        "handle": "essie.evu",
+        "profileUrl": "https://www.tiktok.com/@essie.evu",
+        "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-maliva-avt-0068/4d21801077a199b986a8029ae4895c3d~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=a1cb8797&x-expires=1795460400&x-signature=FLUotG4tWrC31hk7S9vamJpKRgs%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+        "followers": 94,
+        "usualViews": 691,
+        "postsSampled": 10,
+        "bestRecentViews": 898,
+        "proofVsUsualRatio": 1,
+        "postsPerWeek": 2.4,
+        "paidLabelShare": 0,
+        "hasPublicEmail": true,
+        "proofVideo": {
+          "id": "7708880919670590742",
+          "url": "https://www.tiktok.com/@essie.evu/video/7708880919670590742",
+          "creator": "essie.evu",
+          "views": 698,
+          "likes": 70,
+          "postedUtc": 1794863710,
+          "daysAgo": 4,
+          "region": "GB",
+          "paidLabel": false,
+          "caption": "My new routine: strength training - walking 10k steps a day - skating. A lifestyle change I should have adopted years ago! #healthiswealth #exercisetiktok #MomsofTikTok #lifestylechange #uklife @Decathlon UK Limited @Garmin Official Store",
+          "note": [],
+          "imageUrl": "https://p19-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oQIBqfE0uYPbEBALxEhFyvTAijkm7AZIWgfiRc~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=1f1d56e7&x-expires=1795374000&x-signature=otY18yw4yMIbgOR2HOSq1iV86Vw%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover"
+        },
+        "criteria": [
+          {
+            "text": "Posts walking/step content (daily routine including walking daily steps)",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@essie.evu/video/7708880919670590742",
+              "excerpt": "My new routine: strength training - walking 10k steps a day - skating. A lifestyle change I should have adopted years ag..."
+            }
+          },
+          {
+            "text": "at most 20,000 followers",
+            "state": "supported",
+            "source": "check",
+            "evidence": {
+              "kind": "creator",
+              "url": "https://www.tiktok.com/@essie.evu",
+              "excerpt": null
+            }
+          },
+          {
+            "text": "proof video region United Kingdom",
+            "state": "supported",
+            "source": "check",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@essie.evu/video/7708880919670590742",
+              "excerpt": null
+            }
+          }
+        ]
+      },
+      {
+        "handle": "hannahhanniecastl",
+        "profileUrl": "https://www.tiktok.com/@hannahhanniecastl",
+        "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-useast2a-avt-0068-euttp/d917784539cead846a31ea5ea3455b22~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=b5cf17e4&x-expires=1795460400&x-signature=s0Lji11azmSWK4RfH9r4EWUpPak%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+        "followers": 4884,
+        "usualViews": 330,
+        "postsSampled": 10,
+        "bestRecentViews": 9703,
+        "proofVsUsualRatio": 0.4,
+        "postsPerWeek": 6.3,
+        "paidLabelShare": 0.9,
+        "hasPublicEmail": false,
+        "proofVideo": {
+          "id": "7703527625242725654",
+          "url": "https://www.tiktok.com/@hannahhanniecastl/video/7703527625242725654",
+          "creator": "hannahhanniecastl",
+          "views": 146,
+          "likes": 7,
+          "postedUtc": 1793617305,
+          "daysAgo": 19,
+          "region": "GB",
+          "paidLabel": true,
+          "caption": "10k done by 11am✨️ . . Smashing out the steps this morning. Finding my motivation with @Bolt Pharmacy UK Getting out in the fresh air. Getting my body moving again has been hard but its happening. . #betterwithbolt AD #mondaymotivation #10ksteps #walking #MindfulLiving",
+          "note": [],
+          "imageUrl": "https://p16-common-sign.tiktokcdn.com/tos-no1a-p-0037-no/oMocjPAHiBtjhj2uBYlladbiEGbBZyA8PZIlE~tplv-tiktokx-cropcenter:500:800.jpeg?biz_tag=musically_video.video_cover&dr=14577&idc=my2&ps=13740610&refresh_token=ecd64d2a&shcp=9b759fb9&shp=c1333099&t=4d5b0474&x-expires=1795309200&x-signature=Yk9RL5BuVNOGxvDj44XAAiwlUhs%3D"
+        },
+        "criteria": [
+          {
+            "text": "Posts walking/step content (getting daily steps done in the morning)",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@hannahhanniecastl/video/7703527625242725654",
+              "excerpt": "10k done by 11am✨️ . . Smashing out the steps this morning. Finding my motivation with @Bolt Pharmacy UK Getting out in ..."
+            }
+          },
+          {
+            "text": "at most 20,000 followers",
+            "state": "supported",
+            "source": "check",
+            "evidence": {
+              "kind": "creator",
+              "url": "https://www.tiktok.com/@hannahhanniecastl",
+              "excerpt": null
+            }
+          },
+          {
+            "text": "proof video region United Kingdom",
+            "state": "supported",
+            "source": "check",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@hannahhanniecastl/video/7703527625242725654",
+              "excerpt": null
+            }
+          }
+        ]
+      },
+      {
+        "handle": "gains.with.haines",
+        "profileUrl": "https://www.tiktok.com/@gains.with.haines",
+        "avatarUrl": "https://p16-common-sign.tiktokcdn-us.com/tos-maliva-avt-0068/db5433be4c589124b4184522e0a2bd77~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=a81791f7&x-expires=1795460400&x-signature=OXp9MniGLS3Fmhsm2XyylCZYvic%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+        "followers": 1936,
+        "usualViews": 1634,
+        "postsSampled": 10,
+        "bestRecentViews": 13959,
+        "proofVsUsualRatio": 1.2,
+        "postsPerWeek": 15.7,
+        "paidLabelShare": 0,
+        "hasPublicEmail": false,
+        "proofVideo": {
+          "id": "7710387140026273046",
+          "url": "https://www.tiktok.com/@gains.with.haines/video/7710387140026273046",
+          "creator": "gains.with.haines",
+          "views": 1997,
+          "likes": 159,
+          "postedUtc": 1795251660,
+          "daysAgo": 0,
+          "region": "GB",
+          "paidLabel": false,
+          "caption": "Bedtime routine: get comfy, check your steps... then immediately undo all the getting comfy 😂🚶♂️ #StepCount #Steps #StepGoal #Walking #FitnessHumour",
+          "note": [],
+          "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/o0ARTACIjITAEIReDAEAeMGWAFfLILJZFAWizA~tplv-tiktokx-cropcenter:300:400.jpeg?dr=10399&refresh_token=05aea34c&x-expires=1795374000&x-signature=Z5VmtpH4zpffdlgyM3V9KL4V0fU%3D&t=4d5b0474&ps=13740610&shp=d05b14bd&shcp=34ff8df6&idc=useast2b&s=PUBLISH"
+        },
+        "criteria": [
+          {
+            "text": "Posts step-count/walking content (step-count humour)",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@gains.with.haines/video/7710387140026273046",
+              "excerpt": "Bedtime routine: get comfy, check your steps... then immediately undo all the getting comfy 😂🚶♂️ #StepCount #Steps #Step..."
+            }
+          },
+          {
+            "text": "Fitness creator (trainer bio)",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "creator",
+              "url": "https://www.tiktok.com/@gains.with.haines",
+              "excerpt": null
+            }
+          },
+          {
+            "text": "at most 20,000 followers",
+            "state": "supported",
+            "source": "check",
+            "evidence": {
+              "kind": "creator",
+              "url": "https://www.tiktok.com/@gains.with.haines",
+              "excerpt": null
+            }
+          },
+          {
+            "text": "proof video region United Kingdom",
+            "state": "supported",
+            "source": "check",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@gains.with.haines/video/7710387140026273046",
+              "excerpt": null
+            }
+          }
+        ]
+      },
+      {
+        "handle": "loewezz",
+        "profileUrl": "https://www.tiktok.com/@loewezz",
+        "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-maliva-avt-0068/5367dc3c01e6ebe015f24ff9e4400b2b~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=14733744&x-expires=1795460400&x-signature=kvfOe3x0elpzjbWVPZzwEEafAd4%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+        "followers": 2626,
+        "usualViews": 1057,
+        "postsSampled": 10,
+        "bestRecentViews": 16274,
+        "proofVsUsualRatio": 0.3,
+        "postsPerWeek": 7,
+        "paidLabelShare": 0,
+        "hasPublicEmail": true,
+        "proofVideo": {
+          "id": "7708500637691956502",
+          "url": "https://www.tiktok.com/@loewezz/video/7708500637691956502",
+          "creator": "loewezz",
+          "views": 352,
+          "likes": 34,
+          "postedUtc": 1794775170,
+          "daysAgo": 5,
+          "region": "GB",
+          "paidLabel": false,
+          "caption": "tips on how to hit your 10k step goal every day! #10ksteps #wellnesstok #dailymovement #walking #fitnessmotivaton",
+          "note": [],
+          "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/ooD7IFDcjILYqQPfJ6EQ6BDAGYQAI3ej9Vf4WT~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=ad3543b5&x-expires=1795374000&x-signature=mvlvVK9IYI3q0w%2FF1yZxECN1RE4%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover"
+        },
+        "criteria": [
+          {
+            "text": "Posts walking/step content (tips to hit the daily step goal)",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@loewezz/video/7708500637691956502",
+              "excerpt": "tips on how to hit your 10k step goal every day! #10ksteps #wellnesstok #dailymovement #walking #fitnessmotivaton #10kst..."
+            }
+          },
+          {
+            "text": "at most 20,000 followers",
+            "state": "supported",
+            "source": "check",
+            "evidence": {
+              "kind": "creator",
+              "url": "https://www.tiktok.com/@loewezz",
+              "excerpt": null
+            }
+          },
+          {
+            "text": "proof video region United Kingdom",
+            "state": "supported",
+            "source": "check",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@loewezz/video/7708500637691956502",
+              "excerpt": null
+            }
+          }
+        ]
+      },
+      {
+        "handle": "kammis72",
+        "profileUrl": "https://www.tiktok.com/@kammis72",
+        "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-maliva-avt-0068/7a4a7ba98c80f26880d39d0f5a324ba9~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=73efc594&x-expires=1795460400&x-signature=M3bPJwA%2BBpDPoz%2BZEOYz1RJKkKc%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+        "followers": 207,
+        "usualViews": 663,
+        "postsSampled": 10,
+        "bestRecentViews": 711,
+        "proofVsUsualRatio": 0.3,
+        "postsPerWeek": 2.7,
+        "paidLabelShare": 0,
+        "hasPublicEmail": false,
+        "proofVideo": {
+          "id": "7710683344853421334",
+          "url": "https://www.tiktok.com/@kammis72/video/7710683344853421334",
+          "creator": "kammis72",
+          "views": 183,
+          "likes": 1,
+          "postedUtc": 1795283372,
+          "daysAgo": 0,
+          "region": "GB",
+          "paidLabel": false,
+          "caption": "Otford Kent - 25km hike #hikeuk #25km #otfordkent #walkingchallenge #hikersoftiktok",
+          "note": [],
+          "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oYtPAio9HDBBaB8wZaF5IZaIDiC24GBEtYYB3~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=a341054f&x-expires=1795374000&x-signature=6x8XPO%2FvfrQX8hm9UL0Rv%2BtIvP4%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover"
+        },
+        "criteria": [
+          {
+            "text": "Posts walking content (UK hiking/walking challenge)",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@kammis72/video/7710683344853421334",
+              "excerpt": "Otford Kent - 25km hike #hikeuk #25km #otfordkent #walkingchallenge #hikersoftiktok #hikeuk #25km #otfordkent #walkingch..."
+            }
+          },
+          {
+            "text": "Fitness coach",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "creator",
+              "url": "https://www.tiktok.com/@kammis72",
+              "excerpt": null
+            }
+          },
+          {
+            "text": "at most 20,000 followers",
+            "state": "supported",
+            "source": "check",
+            "evidence": {
+              "kind": "creator",
+              "url": "https://www.tiktok.com/@kammis72",
+              "excerpt": null
+            }
+          },
+          {
+            "text": "proof video region United Kingdom",
+            "state": "supported",
+            "source": "check",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@kammis72/video/7710683344853421334",
+              "excerpt": null
+            }
+          }
+        ]
+      },
+      {
+        "handle": "thebeginnertrails",
+        "profileUrl": "https://www.tiktok.com/@thebeginnertrails",
+        "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-maliva-avt-0068/fe49fcd578bc6c40343442e8341d0152~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=47e8a6aa&x-expires=1795460400&x-signature=YrRPF0aPJH5BeMyxEu6L2n%2FLZaQ%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+        "followers": 338,
+        "usualViews": 2228,
+        "postsSampled": 10,
+        "bestRecentViews": 8585,
+        "proofVsUsualRatio": 2.4,
+        "postsPerWeek": 0.5,
+        "paidLabelShare": 0,
+        "hasPublicEmail": false,
+        "proofVideo": {
+          "id": "7709894577058106646",
+          "url": "https://www.tiktok.com/@thebeginnertrails/video/7709894577058106646",
+          "creator": "thebeginnertrails",
+          "views": 5309,
+          "likes": 338,
+          "postedUtc": 1795099724,
+          "daysAgo": 2,
+          "region": "GB",
+          "paidLabel": false,
+          "caption": "SAVE this hike!! You can make this walk as short or long as you want! ( payment is needed to see the waterfall) #easyhike #beginnerhikes #yorkshiredales",
+          "note": [],
+          "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oA5VfADfGDHLEFjtVHCKxAIIAIjfFurQAA4wEa~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=9f4a3d63&x-expires=1795374000&x-signature=kv5VdWn%2B3zsUMVlSs%2F69F9pur%2BU%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover"
+        },
+        "criteria": [
+          {
+            "text": "Posts walking content (beginner-friendly UK hikes)",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@thebeginnertrails/video/7709894577058106646",
+              "excerpt": "SAVE this hike!! You can make this walk as short or long as you want! ( payment is needed to see the waterfall) #easyhik..."
+            }
+          },
+          {
+            "text": "at most 20,000 followers",
+            "state": "supported",
+            "source": "check",
+            "evidence": {
+              "kind": "creator",
+              "url": "https://www.tiktok.com/@thebeginnertrails",
+              "excerpt": null
+            }
+          },
+          {
+            "text": "proof video region United Kingdom",
+            "state": "supported",
+            "source": "check",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@thebeginnertrails/video/7709894577058106646",
+              "excerpt": null
+            }
+          }
+        ]
+      }
+    ],
+    "videos": [],
+    "patterns": [
+      {
+        "text": "Documenting a personal step or walking challenge day by day",
+        "videoIds": [
+          "7706864864420957462",
+          "7700290772268109078",
+          "7708880919670590742",
+          "7703527625242725654"
+        ]
+      },
+      {
+        "text": "Step-count and walking content tied to everyday UK routines",
+        "videoIds": [
+          "7710683344853421334",
+          "7709894577058106646"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "kind": "best",
+        "heading": "Best fit",
+        "reason": "The caption shows a day-by-day walking challenge with UK weight-loss hashtags, exactly the walking-challenge format asked for.",
+        "creators": [
+          {
+            "handle": "joannemc33",
+            "profileUrl": "https://www.tiktok.com/@joannemc33",
+            "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-maliva-avt-0068/8b516262d905ee9dc4638e96635f5c01~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=a14cc12e&x-expires=1795460400&x-signature=taYXHCk2WDXYBDMxCfn4SPSaJsU%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+            "followers": 463,
+            "usualViews": 989,
+            "postsSampled": 10,
+            "bestRecentViews": 1236,
+            "proofVsUsualRatio": 1,
+            "postsPerWeek": 0.6,
+            "paidLabelShare": 0,
+            "hasPublicEmail": false,
+            "proofVideo": {
+              "id": "7706864864420957462",
+              "url": "https://www.tiktok.com/@joannemc33/video/7706864864420957462",
+              "creator": "joannemc33",
+              "views": 1029,
+              "likes": 28,
+              "postedUtc": 1794394316,
+              "daysAgo": 10,
+              "region": "GB",
+              "paidLabel": false,
+              "caption": "#day1 #30daywalkingchallange #fitness #weightlossjourneyuk 💪",
+              "note": [],
+              "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oQeoDeRdGLfVLq6IP0ISJwgM6DIgVw6AP4jOBA~tplv-tiktokx-cropcenter:300:400.jpeg?dr=10399&refresh_token=defac2a9&x-expires=1795374000&x-signature=VGXTG6VDsnSAUtBVj5kJNRTgdxo%3D&t=4d5b0474&ps=13740610&shp=d05b14bd&shcp=34ff8df6&idc=useast2b&s=PUBLISH"
+            },
+            "criteria": [
+              {
+                "text": "Posts walking or step-challenge content (30-day walking challenge)",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@joannemc33/video/7706864864420957462",
+                  "excerpt": "#day1 #30daywalkingchallange #fitness #weightlossjourneyuk 💪 #day1 #30daywalkingchallange #fitness #weightlossjourneyuk"
+                }
+              },
+              {
+                "text": "Fitness content on a UK weight-loss journey",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@joannemc33/video/7706864864420957462",
+                  "excerpt": "#day1 #30daywalkingchallange #fitness #weightlossjourneyuk 💪 #day1 #30daywalkingchallange #fitness #weightlossjourneyuk"
+                }
+              },
+              {
+                "text": "at most 20,000 followers",
+                "state": "supported",
+                "source": "check",
+                "evidence": {
+                  "kind": "creator",
+                  "url": "https://www.tiktok.com/@joannemc33",
+                  "excerpt": null
+                }
+              },
+              {
+                "text": "proof video region United Kingdom",
+                "state": "supported",
+                "source": "check",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@joannemc33/video/7706864864420957462",
+                  "excerpt": null
+                }
+              }
+            ]
+          }
+        ],
+        "videos": [],
+        "videoIds": []
+      },
+      {
+        "kind": "group",
+        "heading": "Documenting step routines",
+        "reason": "Each video shows the creator tracking or completing a personal daily step or walking goal, with @robynleighjk presenting as a fitness creator.",
+        "creators": [
+          {
+            "handle": "robynleighjk",
+            "profileUrl": "https://www.tiktok.com/@robynleighjk",
+            "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-maliva-avt-0068/1b1c83f2e86c316916fc346e6ed8a0f1~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=4103d021&x-expires=1795460400&x-signature=69jjcRvZsZlk9q9E8Cu5JHT1rAM%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+            "followers": 2428,
+            "usualViews": 271,
+            "postsSampled": 10,
+            "bestRecentViews": 559,
+            "proofVsUsualRatio": 0.9,
+            "postsPerWeek": 4.4,
+            "paidLabelShare": 0,
+            "hasPublicEmail": false,
+            "proofVideo": {
+              "id": "7700290772268109078",
+              "url": "https://www.tiktok.com/@robynleighjk/video/7700290772268109078",
+              "creator": "robynleighjk",
+              "views": 249,
+              "likes": 25,
+              "postedUtc": 1792863664,
+              "daysAgo": 28,
+              "region": "GB",
+              "paidLabel": false,
+              "caption": "The 10k a day life #GymTok #gymhumor #gymgirl #gymmindset",
+              "note": [],
+              "imageUrl": "https://p16-common-sign.tiktokcdn.com/tos-no1a-p-0037-no/oA3Ff1qQc7DDSBO7gVkbOfE8FEARzC3lBmGGPI~tplv-tiktokx-cropcenter:500:800.jpeg?biz_tag=musically_video.video_cover&dr=14577&idc=my2&ps=13740610&refresh_token=8dac8973&shcp=9b759fb9&shp=c1333099&t=4d5b0474&x-expires=1795309200&x-signature=XsREG0F5DTsZqKLYqTwbqIcnqf8%3D"
+            },
+            "criteria": [
+              {
+                "text": "Posts step-challenge content (daily step goal)",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@robynleighjk/video/7700290772268109078",
+                  "excerpt": "The 10k a day life #GymTok #gymhumor #gymgirl #gymmindset #GymTok #gymhumor #gymgirl #gymmindset"
+                }
+              },
+              {
+                "text": "Identifies as a fitness creator",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "creator",
+                  "url": "https://www.tiktok.com/@robynleighjk",
+                  "excerpt": null
+                }
+              },
+              {
+                "text": "at most 20,000 followers",
+                "state": "supported",
+                "source": "check",
+                "evidence": {
+                  "kind": "creator",
+                  "url": "https://www.tiktok.com/@robynleighjk",
+                  "excerpt": null
+                }
+              },
+              {
+                "text": "proof video region United Kingdom",
+                "state": "supported",
+                "source": "check",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@robynleighjk/video/7700290772268109078",
+                  "excerpt": null
+                }
+              }
+            ]
+          },
+          {
+            "handle": "essie.evu",
+            "profileUrl": "https://www.tiktok.com/@essie.evu",
+            "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-maliva-avt-0068/4d21801077a199b986a8029ae4895c3d~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=a1cb8797&x-expires=1795460400&x-signature=FLUotG4tWrC31hk7S9vamJpKRgs%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+            "followers": 94,
+            "usualViews": 691,
+            "postsSampled": 10,
+            "bestRecentViews": 898,
+            "proofVsUsualRatio": 1,
+            "postsPerWeek": 2.4,
+            "paidLabelShare": 0,
+            "hasPublicEmail": true,
+            "proofVideo": {
+              "id": "7708880919670590742",
+              "url": "https://www.tiktok.com/@essie.evu/video/7708880919670590742",
+              "creator": "essie.evu",
+              "views": 698,
+              "likes": 70,
+              "postedUtc": 1794863710,
+              "daysAgo": 4,
+              "region": "GB",
+              "paidLabel": false,
+              "caption": "My new routine: strength training - walking 10k steps a day - skating. A lifestyle change I should have adopted years ago! #healthiswealth #exercisetiktok #MomsofTikTok #lifestylechange #uklife @Decathlon UK Limited @Garmin Official Store",
+              "note": [],
+              "imageUrl": "https://p19-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oQIBqfE0uYPbEBALxEhFyvTAijkm7AZIWgfiRc~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=1f1d56e7&x-expires=1795374000&x-signature=otY18yw4yMIbgOR2HOSq1iV86Vw%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover"
+            },
+            "criteria": [
+              {
+                "text": "Posts walking/step content (daily routine including walking daily steps)",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@essie.evu/video/7708880919670590742",
+                  "excerpt": "My new routine: strength training - walking 10k steps a day - skating. A lifestyle change I should have adopted years ag..."
+                }
+              },
+              {
+                "text": "at most 20,000 followers",
+                "state": "supported",
+                "source": "check",
+                "evidence": {
+                  "kind": "creator",
+                  "url": "https://www.tiktok.com/@essie.evu",
+                  "excerpt": null
+                }
+              },
+              {
+                "text": "proof video region United Kingdom",
+                "state": "supported",
+                "source": "check",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@essie.evu/video/7708880919670590742",
+                  "excerpt": null
+                }
+              }
+            ]
+          },
+          {
+            "handle": "hannahhanniecastl",
+            "profileUrl": "https://www.tiktok.com/@hannahhanniecastl",
+            "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-useast2a-avt-0068-euttp/d917784539cead846a31ea5ea3455b22~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=b5cf17e4&x-expires=1795460400&x-signature=s0Lji11azmSWK4RfH9r4EWUpPak%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+            "followers": 4884,
+            "usualViews": 330,
+            "postsSampled": 10,
+            "bestRecentViews": 9703,
+            "proofVsUsualRatio": 0.4,
+            "postsPerWeek": 6.3,
+            "paidLabelShare": 0.9,
+            "hasPublicEmail": false,
+            "proofVideo": {
+              "id": "7703527625242725654",
+              "url": "https://www.tiktok.com/@hannahhanniecastl/video/7703527625242725654",
+              "creator": "hannahhanniecastl",
+              "views": 146,
+              "likes": 7,
+              "postedUtc": 1793617305,
+              "daysAgo": 19,
+              "region": "GB",
+              "paidLabel": true,
+              "caption": "10k done by 11am✨️ . . Smashing out the steps this morning. Finding my motivation with @Bolt Pharmacy UK Getting out in the fresh air. Getting my body moving again has been hard but its happening. . #betterwithbolt AD #mondaymotivation #10ksteps #walking #MindfulLiving",
+              "note": [],
+              "imageUrl": "https://p16-common-sign.tiktokcdn.com/tos-no1a-p-0037-no/oMocjPAHiBtjhj2uBYlladbiEGbBZyA8PZIlE~tplv-tiktokx-cropcenter:500:800.jpeg?biz_tag=musically_video.video_cover&dr=14577&idc=my2&ps=13740610&refresh_token=ecd64d2a&shcp=9b759fb9&shp=c1333099&t=4d5b0474&x-expires=1795309200&x-signature=Yk9RL5BuVNOGxvDj44XAAiwlUhs%3D"
+            },
+            "criteria": [
+              {
+                "text": "Posts walking/step content (getting daily steps done in the morning)",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@hannahhanniecastl/video/7703527625242725654",
+                  "excerpt": "10k done by 11am✨️ . . Smashing out the steps this morning. Finding my motivation with @Bolt Pharmacy UK Getting out in ..."
+                }
+              },
+              {
+                "text": "at most 20,000 followers",
+                "state": "supported",
+                "source": "check",
+                "evidence": {
+                  "kind": "creator",
+                  "url": "https://www.tiktok.com/@hannahhanniecastl",
+                  "excerpt": null
+                }
+              },
+              {
+                "text": "proof video region United Kingdom",
+                "state": "supported",
+                "source": "check",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@hannahhanniecastl/video/7703527625242725654",
+                  "excerpt": null
+                }
+              }
+            ]
+          }
+        ],
+        "videos": [],
+        "videoIds": []
+      },
+      {
+        "kind": "group",
+        "heading": "Fitness creators posting step and walking content",
+        "reason": "Trainer and coach profiles posting step-count humour, UK hiking challenges, step-goal tips and beginner-friendly UK hikes.",
+        "creators": [
+          {
+            "handle": "gains.with.haines",
+            "profileUrl": "https://www.tiktok.com/@gains.with.haines",
+            "avatarUrl": "https://p16-common-sign.tiktokcdn-us.com/tos-maliva-avt-0068/db5433be4c589124b4184522e0a2bd77~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=a81791f7&x-expires=1795460400&x-signature=OXp9MniGLS3Fmhsm2XyylCZYvic%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+            "followers": 1936,
+            "usualViews": 1634,
+            "postsSampled": 10,
+            "bestRecentViews": 13959,
+            "proofVsUsualRatio": 1.2,
+            "postsPerWeek": 15.7,
+            "paidLabelShare": 0,
+            "hasPublicEmail": false,
+            "proofVideo": {
+              "id": "7710387140026273046",
+              "url": "https://www.tiktok.com/@gains.with.haines/video/7710387140026273046",
+              "creator": "gains.with.haines",
+              "views": 1997,
+              "likes": 159,
+              "postedUtc": 1795251660,
+              "daysAgo": 0,
+              "region": "GB",
+              "paidLabel": false,
+              "caption": "Bedtime routine: get comfy, check your steps... then immediately undo all the getting comfy 😂🚶♂️ #StepCount #Steps #StepGoal #Walking #FitnessHumour",
+              "note": [],
+              "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/o0ARTACIjITAEIReDAEAeMGWAFfLILJZFAWizA~tplv-tiktokx-cropcenter:300:400.jpeg?dr=10399&refresh_token=05aea34c&x-expires=1795374000&x-signature=Z5VmtpH4zpffdlgyM3V9KL4V0fU%3D&t=4d5b0474&ps=13740610&shp=d05b14bd&shcp=34ff8df6&idc=useast2b&s=PUBLISH"
+            },
+            "criteria": [
+              {
+                "text": "Posts step-count/walking content (step-count humour)",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@gains.with.haines/video/7710387140026273046",
+                  "excerpt": "Bedtime routine: get comfy, check your steps... then immediately undo all the getting comfy 😂🚶♂️ #StepCount #Steps #Step..."
+                }
+              },
+              {
+                "text": "Fitness creator (trainer bio)",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "creator",
+                  "url": "https://www.tiktok.com/@gains.with.haines",
+                  "excerpt": null
+                }
+              },
+              {
+                "text": "at most 20,000 followers",
+                "state": "supported",
+                "source": "check",
+                "evidence": {
+                  "kind": "creator",
+                  "url": "https://www.tiktok.com/@gains.with.haines",
+                  "excerpt": null
+                }
+              },
+              {
+                "text": "proof video region United Kingdom",
+                "state": "supported",
+                "source": "check",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@gains.with.haines/video/7710387140026273046",
+                  "excerpt": null
+                }
+              }
+            ]
+          },
+          {
+            "handle": "kammis72",
+            "profileUrl": "https://www.tiktok.com/@kammis72",
+            "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-maliva-avt-0068/7a4a7ba98c80f26880d39d0f5a324ba9~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=73efc594&x-expires=1795460400&x-signature=M3bPJwA%2BBpDPoz%2BZEOYz1RJKkKc%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+            "followers": 207,
+            "usualViews": 663,
+            "postsSampled": 10,
+            "bestRecentViews": 711,
+            "proofVsUsualRatio": 0.3,
+            "postsPerWeek": 2.7,
+            "paidLabelShare": 0,
+            "hasPublicEmail": false,
+            "proofVideo": {
+              "id": "7710683344853421334",
+              "url": "https://www.tiktok.com/@kammis72/video/7710683344853421334",
+              "creator": "kammis72",
+              "views": 183,
+              "likes": 1,
+              "postedUtc": 1795283372,
+              "daysAgo": 0,
+              "region": "GB",
+              "paidLabel": false,
+              "caption": "Otford Kent - 25km hike #hikeuk #25km #otfordkent #walkingchallenge #hikersoftiktok",
+              "note": [],
+              "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oYtPAio9HDBBaB8wZaF5IZaIDiC24GBEtYYB3~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=a341054f&x-expires=1795374000&x-signature=6x8XPO%2FvfrQX8hm9UL0Rv%2BtIvP4%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover"
+            },
+            "criteria": [
+              {
+                "text": "Posts walking content (UK hiking/walking challenge)",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@kammis72/video/7710683344853421334",
+                  "excerpt": "Otford Kent - 25km hike #hikeuk #25km #otfordkent #walkingchallenge #hikersoftiktok #hikeuk #25km #otfordkent #walkingch..."
+                }
+              },
+              {
+                "text": "Fitness coach",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "creator",
+                  "url": "https://www.tiktok.com/@kammis72",
+                  "excerpt": null
+                }
+              },
+              {
+                "text": "at most 20,000 followers",
+                "state": "supported",
+                "source": "check",
+                "evidence": {
+                  "kind": "creator",
+                  "url": "https://www.tiktok.com/@kammis72",
+                  "excerpt": null
+                }
+              },
+              {
+                "text": "proof video region United Kingdom",
+                "state": "supported",
+                "source": "check",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@kammis72/video/7710683344853421334",
+                  "excerpt": null
+                }
+              }
+            ]
+          },
+          {
+            "handle": "loewezz",
+            "profileUrl": "https://www.tiktok.com/@loewezz",
+            "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-maliva-avt-0068/5367dc3c01e6ebe015f24ff9e4400b2b~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=14733744&x-expires=1795460400&x-signature=kvfOe3x0elpzjbWVPZzwEEafAd4%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+            "followers": 2626,
+            "usualViews": 1057,
+            "postsSampled": 10,
+            "bestRecentViews": 16274,
+            "proofVsUsualRatio": 0.3,
+            "postsPerWeek": 7,
+            "paidLabelShare": 0,
+            "hasPublicEmail": true,
+            "proofVideo": {
+              "id": "7708500637691956502",
+              "url": "https://www.tiktok.com/@loewezz/video/7708500637691956502",
+              "creator": "loewezz",
+              "views": 352,
+              "likes": 34,
+              "postedUtc": 1794775170,
+              "daysAgo": 5,
+              "region": "GB",
+              "paidLabel": false,
+              "caption": "tips on how to hit your 10k step goal every day! #10ksteps #wellnesstok #dailymovement #walking #fitnessmotivaton",
+              "note": [],
+              "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/ooD7IFDcjILYqQPfJ6EQ6BDAGYQAI3ej9Vf4WT~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=ad3543b5&x-expires=1795374000&x-signature=mvlvVK9IYI3q0w%2FF1yZxECN1RE4%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover"
+            },
+            "criteria": [
+              {
+                "text": "Posts walking/step content (tips to hit the daily step goal)",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@loewezz/video/7708500637691956502",
+                  "excerpt": "tips on how to hit your 10k step goal every day! #10ksteps #wellnesstok #dailymovement #walking #fitnessmotivaton #10kst..."
+                }
+              },
+              {
+                "text": "at most 20,000 followers",
+                "state": "supported",
+                "source": "check",
+                "evidence": {
+                  "kind": "creator",
+                  "url": "https://www.tiktok.com/@loewezz",
+                  "excerpt": null
+                }
+              },
+              {
+                "text": "proof video region United Kingdom",
+                "state": "supported",
+                "source": "check",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@loewezz/video/7708500637691956502",
+                  "excerpt": null
+                }
+              }
+            ]
+          },
+          {
+            "handle": "thebeginnertrails",
+            "profileUrl": "https://www.tiktok.com/@thebeginnertrails",
+            "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-maliva-avt-0068/fe49fcd578bc6c40343442e8341d0152~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=47e8a6aa&x-expires=1795460400&x-signature=YrRPF0aPJH5BeMyxEu6L2n%2FLZaQ%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+            "followers": 338,
+            "usualViews": 2228,
+            "postsSampled": 10,
+            "bestRecentViews": 8585,
+            "proofVsUsualRatio": 2.4,
+            "postsPerWeek": 0.5,
+            "paidLabelShare": 0,
+            "hasPublicEmail": false,
+            "proofVideo": {
+              "id": "7709894577058106646",
+              "url": "https://www.tiktok.com/@thebeginnertrails/video/7709894577058106646",
+              "creator": "thebeginnertrails",
+              "views": 5309,
+              "likes": 338,
+              "postedUtc": 1795099724,
+              "daysAgo": 2,
+              "region": "GB",
+              "paidLabel": false,
+              "caption": "SAVE this hike!! You can make this walk as short or long as you want! ( payment is needed to see the waterfall) #easyhike #beginnerhikes #yorkshiredales",
+              "note": [],
+              "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oA5VfADfGDHLEFjtVHCKxAIIAIjfFurQAA4wEa~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=9f4a3d63&x-expires=1795374000&x-signature=kv5VdWn%2B3zsUMVlSs%2F69F9pur%2BU%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover"
+            },
+            "criteria": [
+              {
+                "text": "Posts walking content (beginner-friendly UK hikes)",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@thebeginnertrails/video/7709894577058106646",
+                  "excerpt": "SAVE this hike!! You can make this walk as short or long as you want! ( payment is needed to see the waterfall) #easyhik..."
+                }
+              },
+              {
+                "text": "at most 20,000 followers",
+                "state": "supported",
+                "source": "check",
+                "evidence": {
+                  "kind": "creator",
+                  "url": "https://www.tiktok.com/@thebeginnertrails",
+                  "excerpt": null
+                }
+              },
+              {
+                "text": "proof video region United Kingdom",
+                "state": "supported",
+                "source": "check",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@thebeginnertrails/video/7709894577058106646",
+                  "excerpt": null
+                }
+              }
+            ]
+          }
+        ],
+        "videos": [],
+        "videoIds": []
+      }
+    ],
+    "assumptions": [
+      "Include beginner UK hiking/walking vlogs as walking content",
+      "Only creators whose videos posted this month were considered"
+    ],
+    "limits": "Whether creators are UK-based is inferred from video region and bio text, not confirmed residence. A couple of walking/step creators found were excluded for being over the follower limit; some searches returned no results, so coverage of the niche is not exhaustive.",
+    "limitsSentences": [
+      {
+        "text": "Whether creators are UK-based is inferred from video region and bio text, not confirmed residence.",
+        "label": "limit"
+      },
+      {
+        "text": "A couple of walking/step creators found were excluded for being over the follower limit; some searches returned no results, so coverage of the niche is not exhaustive.",
+        "label": "limit"
+      }
+    ],
+    "notFound": [],
+    "budgetNote": null,
+    "finishedBy": "model",
+    "steps": [
+      {
+        "kind": "check",
+        "label": "Read the limits the question states",
+        "detail": "2 limits",
+        "failed": false,
+        "handle": null,
+        "atMs": 0,
+        "ms": 3878,
+        "costUsd": 0.000001
+      },
+      {
+        "kind": "think",
+        "label": "Planned the next steps",
+        "detail": "Turn 1 of 8",
+        "failed": false,
+        "handle": null,
+        "atMs": 3878,
+        "ms": 13730,
+        "costUsd": 0.00001
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"walking challenge UK\"",
+        "detail": "6 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 17608,
+        "ms": 2420,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"10k steps a day UK\"",
+        "detail": "12 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 17609,
+        "ms": 2974,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"step count challenge walking fitness\"",
+        "detail": "19 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 17609,
+        "ms": 2681,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"walking workout UK fitness\"",
+        "detail": "10 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 17609,
+        "ms": 3109,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"hot girl walk UK\"",
+        "detail": "0 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 17609,
+        "ms": 1408,
+        "costUsd": 0
+      },
+      {
+        "kind": "think",
+        "label": "Planned the next steps",
+        "detail": "Turn 2 of 8",
+        "failed": false,
+        "handle": null,
+        "atMs": 20718,
+        "ms": 17935,
+        "costUsd": 0.000019
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @joannemc33",
+        "detail": "463 followers",
+        "failed": false,
+        "handle": "joannemc33",
+        "atMs": 38654,
+        "ms": 4309,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @macyyfit_",
+        "detail": "24,990 followers",
+        "failed": false,
+        "handle": "macyyfit_",
+        "atMs": 38654,
+        "ms": 1368,
+        "costUsd": 0.0004
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @essie.evu",
+        "detail": "94 followers",
+        "failed": false,
+        "handle": "essie.evu",
+        "atMs": 38654,
+        "ms": 2415,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @hannahhanniecastl",
+        "detail": "4,884 followers",
+        "failed": false,
+        "handle": "hannahhanniecastl",
+        "atMs": 38654,
+        "ms": 4238,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @robynleighjk",
+        "detail": "2,428 followers",
+        "failed": false,
+        "handle": "robynleighjk",
+        "atMs": 38654,
+        "ms": 3619,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @gains.with.haines",
+        "detail": "1,936 followers",
+        "failed": false,
+        "handle": "gains.with.haines",
+        "atMs": 38654,
+        "ms": 3087,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @rachsilvester",
+        "detail": "2,179 followers",
+        "failed": false,
+        "handle": "rachsilvester",
+        "atMs": 38655,
+        "ms": 2947,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "think",
+        "label": "Planned the next steps",
+        "detail": "Turn 3 of 8",
+        "failed": false,
+        "handle": null,
+        "atMs": 42963,
+        "ms": 8732,
+        "costUsd": 0.000056
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"30 day walking challenge\"",
+        "detail": "18 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 51696,
+        "ms": 2886,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"getting my steps in weight loss journey\"",
+        "detail": "0 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 51696,
+        "ms": 1076,
+        "costUsd": 0
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"daily step goal fitness motivation\"",
+        "detail": "17 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 51696,
+        "ms": 3235,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @kammis72",
+        "detail": "207 followers",
+        "failed": false,
+        "handle": "kammis72",
+        "atMs": 51696,
+        "ms": 2562,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "think",
+        "label": "Planned the next steps",
+        "detail": "Turn 4 of 8",
+        "failed": false,
+        "handle": null,
+        "atMs": 54931,
+        "ms": 25390,
+        "costUsd": 0.000023
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @loewezz",
+        "detail": "2,626 followers",
+        "failed": false,
+        "handle": "loewezz",
+        "atMs": 80323,
+        "ms": 2568,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"walking for weight loss journey UK\"",
+        "detail": "0 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 80323,
+        "ms": 1117,
+        "costUsd": 0
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"10k steps before work\"",
+        "detail": "4 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 80323,
+        "ms": 3004,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"step tracker streak walking\"",
+        "detail": "0 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 80323,
+        "ms": 2495,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "think",
+        "label": "Planned the next steps",
+        "detail": "Turn 5 of 8",
+        "failed": false,
+        "handle": null,
+        "atMs": 83327,
+        "ms": 5767,
+        "costUsd": 0.000067
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @lygiacerski1",
+        "detail": "20,678 followers",
+        "failed": false,
+        "handle": "lygiacerski1",
+        "atMs": 89094,
+        "ms": 1281,
+        "costUsd": 0.0004
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"walking pad treadmill UK fitness\"",
+        "detail": "6 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 89095,
+        "ms": 2835,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"#30daywalkingchallenge\"",
+        "detail": "3 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 89095,
+        "ms": 2421,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"hiking UK fitness beginner\"",
+        "detail": "5 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 89095,
+        "ms": 2875,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "think",
+        "label": "Planned the next steps",
+        "detail": "Turn 6 of 8",
+        "failed": false,
+        "handle": null,
+        "atMs": 91970,
+        "ms": 3380,
+        "costUsd": 0.000062
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @thebeginnertrails",
+        "detail": "338 followers",
+        "failed": false,
+        "handle": "thebeginnertrails",
+        "atMs": 95352,
+        "ms": 2517,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @jessiesleight",
+        "detail": "454 followers",
+        "failed": false,
+        "handle": "jessiesleight",
+        "atMs": 95352,
+        "ms": 2121,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @thelifeofm5",
+        "detail": "271 followers",
+        "failed": false,
+        "handle": "thelifeofm5",
+        "atMs": 95352,
+        "ms": 2423,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "think",
+        "label": "Planned the next steps",
+        "detail": "Turn 7 of 8",
+        "failed": false,
+        "handle": null,
+        "atMs": 97869,
+        "ms": 21525,
+        "costUsd": 0.000088
+      },
+      {
+        "kind": "answer",
+        "label": "Sent the answer back to fix its claims",
+        "detail": null,
+        "failed": false,
+        "handle": null,
+        "atMs": 119396,
+        "ms": 1,
+        "costUsd": 0
+      },
+      {
+        "kind": "think",
+        "label": "Planned the next steps",
+        "detail": "Turn 8 of 8",
+        "failed": false,
+        "handle": null,
+        "atMs": 119397,
+        "ms": 18745,
+        "costUsd": 0.000035
+      },
+      {
+        "kind": "answer",
+        "label": "Wrote the answer",
+        "detail": null,
+        "failed": false,
+        "handle": null,
+        "atMs": 138144,
+        "ms": 13071,
+        "costUsd": 0
+      },
+      {
+        "kind": "check",
+        "label": "Checked the answer against the evidence",
+        "detail": null,
+        "failed": false,
+        "handle": null,
+        "atMs": 138146,
+        "ms": 13069,
+        "costUsd": 0.000068
+      },
+      {
+        "kind": "check",
+        "label": "Checked the text for contact details",
+        "detail": null,
+        "failed": false,
+        "handle": null,
+        "atMs": 151215,
+        "ms": 2167,
+        "costUsd": 0.000014
+      }
+    ],
+    "cost": {
+      "limitUsd": 0.1,
+      "dataUsd": 0.0184,
+      "modelUsd": 0.0004429999999999996,
+      "totalUsd": 0.018843,
+      "dataCalls": 38,
+      "modelTurns": 8,
+      "wallMs": 153384
+    },
+    "gate": "model"
+  }
+}

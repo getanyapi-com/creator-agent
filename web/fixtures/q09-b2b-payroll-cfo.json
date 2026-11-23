@@ -1,0 +1,1458 @@
+{
+  "source": "2026-11-21T19-09-34-268Z-agent-free/q09-b2b-payroll-cfo.r1.json",
+  "askedAt": "2026-11-21T19:44:10.540Z",
+  "display": {
+    "question": "Find creators who can promote my B2B payroll software to CFOs.",
+    "answer": [
+      {
+        "text": "TikTok reaches the CFO audience only thinly, so treat this as a niche shortlist rather than a large bench: the strongest fits are creators who already talk about payroll itself, plus finance-education creators whose audience is CFOs and finance leaders.",
+        "label": "other"
+      },
+      {
+        "text": "No follower, view, recency or region limit was stated, so none was applied; the list skews to small and mid-size creators because that is who posts this topic.",
+        "label": "limit"
+      }
+    ],
+    "criteriaLine": null,
+    "excluded": {
+      "count": 0,
+      "byCheck": []
+    },
+    "creators": [
+      {
+        "handle": "hershygoldstein",
+        "profileUrl": "https://www.tiktok.com/@hershygoldstein",
+        "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-useast5-avt-0068-tx/ce5cd5ca3007e4cf0dcaa1c12d7144e1~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=983ba878&x-expires=1795460400&x-signature=V40k7G%2FSwCBmnGpb8SX63wN%2F9rA%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+        "followers": 1549,
+        "usualViews": 859,
+        "postsSampled": 10,
+        "bestRecentViews": 3401,
+        "proofVsUsualRatio": 3.6,
+        "postsPerWeek": 6.2,
+        "paidLabelShare": 0,
+        "hasPublicEmail": true,
+        "proofVideo": {
+          "id": "7701734209567689998",
+          "url": "https://www.tiktok.com/@hershygoldstein/video/7701734209567689998",
+          "creator": "hershygoldstein",
+          "views": 3104,
+          "likes": 50,
+          "postedUtc": 1793199737,
+          "daysAgo": 24,
+          "region": "US",
+          "paidLabel": false,
+          "caption": "Rating Payroll Tools From 1-10 💼 Follow for more simple payroll tips and education!",
+          "note": [],
+          "imageUrl": "https://p16-common-sign.tiktokcdn.com/tos-useast5-p-85c255-tx/oI2CcDfEZg4nq5TSHIB5BhEAIeE4FgwUD8bgDi~tplv-tiktokx-cropcenter:500:800.jpeg?biz_tag=musically_video.video_cover&dr=14577&idc=my&ps=13740610&refresh_token=156dee24&shcp=9b759fb9&shp=c1333099&t=4d5b0474&x-expires=1795309200&x-signature=MjHMADdQEgVpKF0RUNNnzblWWZY%3D"
+        },
+        "criteria": [
+          {
+            "text": "posts payroll education content",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@hershygoldstein/video/7701734209567689998",
+              "excerpt": "Rating Payroll Tools From 1-10 💼 Follow for more simple payroll tips and education!"
+            }
+          },
+          {
+            "text": "positions as a business founder able to speak to business owners and finance buyers",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "creator",
+              "url": "https://www.tiktok.com/@hershygoldstein",
+              "excerpt": null
+            }
+          }
+        ]
+      },
+      {
+        "handle": "scottiehanson",
+        "profileUrl": "https://www.tiktok.com/@scottiehanson",
+        "avatarUrl": "https://p16-common-sign.tiktokcdn-us.com/tos-useast8-avt-0068-tx2/e07095a15cf1962f8745f6ae764dad26~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=dd483836&x-expires=1795460400&x-signature=NNWsS3Ob4xaH1JIFfkFfSQ1lUGU%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+        "followers": 7568,
+        "usualViews": 91,
+        "postsSampled": 10,
+        "bestRecentViews": 122,
+        "proofVsUsualRatio": 1.1,
+        "postsPerWeek": 4.3,
+        "paidLabelShare": 0,
+        "hasPublicEmail": false,
+        "proofVideo": {
+          "id": "7706696057920523551",
+          "url": "https://www.tiktok.com/@scottiehanson/video/7706696057920523551",
+          "creator": "scottiehanson",
+          "views": 101,
+          "likes": 1,
+          "postedUtc": 1794355020,
+          "daysAgo": 10,
+          "region": "US",
+          "paidLabel": false,
+          "caption": "Payroll mistakes are rarely dramatic. A rate that wasn’t updated, an hour that wasn’t counted. One system for HR and payroll keeps employee details in one place. When did you last double-check your pay rates? #payroll #payrollmistakes #hrsoftware #smallbusiness #businessowner",
+          "note": [],
+          "imageUrl": "https://p16-common-sign.tiktokcdn.com/tos-useast8-p-0068-tx2/ogXzyJA8fAEIb8DJADVqezCurEEVFCAJh6AI84~tplv-tiktokx-cropcenter:500:800.jpeg?biz_tag=musically_video.video_cover&dr=14577&idc=my2&ps=13740610&refresh_token=a49694fc&shcp=9b759fb9&shp=c1333099&t=4d5b0474&x-expires=1795309200&x-signature=mCsSuoocdkeJJ%2B8CC%2BwZYL6zVlM%3D"
+        },
+        "criteria": [
+          {
+            "text": "already runs a payroll and HR software company and posts about payroll problems",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "creator",
+              "url": "https://www.tiktok.com/@scottiehanson",
+              "excerpt": null
+            }
+          },
+          {
+            "text": "posts about payroll mistakes and one-system HR payroll messaging",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@scottiehanson/video/7706696057920523551",
+              "excerpt": "Payroll mistakes are rarely dramatic. A rate that wasn’t updated, an hour that wasn’t counted. One system for HR and pay..."
+            }
+          }
+        ]
+      },
+      {
+        "handle": "the_cfo_academy",
+        "profileUrl": "https://www.tiktok.com/@the_cfo_academy",
+        "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-maliva-avt-0068/fd6120ccfb6b8e701ed9db8c3c5e9eb2~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=1778e308&x-expires=1795460400&x-signature=avVWJRiPwLGSwLh%2F8csZoFnHNuI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+        "followers": 842,
+        "usualViews": 521,
+        "postsSampled": 10,
+        "bestRecentViews": 917,
+        "proofVsUsualRatio": 1.4,
+        "postsPerWeek": 13.6,
+        "paidLabelShare": 0,
+        "hasPublicEmail": false,
+        "proofVideo": {
+          "id": "7704498160655256854",
+          "url": "https://www.tiktok.com/@the_cfo_academy/video/7704498160655256854",
+          "creator": "the_cfo_academy",
+          "views": 708,
+          "likes": 32,
+          "postedUtc": 1794213000,
+          "daysAgo": 12,
+          "region": "ID",
+          "paidLabel": false,
+          "caption": "How to become a CFO: the five skills to build before you get the role. My first CFO Academy course is free. Start there and decide if the Academy is right for you. Link in bio. #LearnOnTikTok #AccountingTok #CFO #FinanceCareers #the_CFO_Academy",
+          "note": [],
+          "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/o4B1rDfAAh8eViAEaw6FAfIqi1IL4EKArkDA84~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=0c981575&x-expires=1795374000&x-signature=A2vdFz6nfAJ30T7qxBEQpOfW4i8%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover"
+        },
+        "criteria": [
+          {
+            "text": "creates content aimed at current and aspiring CFOs",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@the_cfo_academy/video/7704498160655256854",
+              "excerpt": "How to become a CFO: the five skills to build before you get the role. My first CFO Academy course is free. Start there ..."
+            }
+          },
+          {
+            "text": "posts frequently about CFO decision-making and finance careers",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@the_cfo_academy/video/7697122658915224854",
+              "excerpt": "How CFOs make good decisions with only 70% of the data. What you know, the one assumption, and a decision with a check d..."
+            }
+          }
+        ]
+      },
+      {
+        "handle": "nicolasboucherofficial",
+        "profileUrl": "https://www.tiktok.com/@nicolasboucherofficial",
+        "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-useast2a-avt-0068-euttp/6eb78027ffc17be6dc5bb92335eebdff~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=ecadc436&x-expires=1795460400&x-signature=yGCnmv6m7SvqEqdPzV2Xw5lQUO8%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+        "followers": 5426,
+        "usualViews": 242,
+        "postsSampled": 10,
+        "bestRecentViews": 718,
+        "proofVsUsualRatio": 1.1,
+        "postsPerWeek": 108.9,
+        "paidLabelShare": 0,
+        "hasPublicEmail": false,
+        "proofVideo": {
+          "id": "7709838807704538390",
+          "url": "https://www.tiktok.com/@nicolasboucherofficial/video/7709838807704538390",
+          "creator": "nicolasboucherofficial",
+          "views": 267,
+          "likes": 0,
+          "postedUtc": 1795086721,
+          "daysAgo": 2,
+          "region": "DE",
+          "paidLabel": false,
+          "caption": "25 Excel tricks that make office work much easier, how many do you already use? 👉 Free AI CFO masterclass, link in bio #excel #exceltips #productivity #finance",
+          "note": [],
+          "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-4864-no/o8mfDfoBgE6IQZ2HWCVAFDteIGDtJmsuXLQLZY~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=b62ec5d7&x-expires=1795374000&x-signature=5O8DoxoyPHdaD5xx7BafoNW8oWA%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover"
+        },
+        "criteria": [
+          {
+            "text": "audience is finance professionals and aspiring AI CFOs per bio",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "creator",
+              "url": "https://www.tiktok.com/@nicolasboucherofficial",
+              "excerpt": null
+            }
+          },
+          {
+            "text": "posts daily AI and finance tips for finance teams",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@nicolasboucherofficial/video/7709838807704538390",
+              "excerpt": "25 Excel tricks that make office work much easier, how many do you already use? 👉 Free AI CFO masterclass, link in bio #..."
+            }
+          }
+        ]
+      },
+      {
+        "handle": "drimranbhattiphd",
+        "profileUrl": "https://www.tiktok.com/@drimranbhattiphd",
+        "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/d980d1c561956f83433745d088bebe06~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=6c1a1baf&x-expires=1795460400&x-signature=NjgxproX8RKN6YqVavQ0hexoztQ%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+        "followers": 125,
+        "usualViews": 97,
+        "postsSampled": 10,
+        "bestRecentViews": 151,
+        "proofVsUsualRatio": 1.3,
+        "postsPerWeek": 10,
+        "paidLabelShare": 0,
+        "hasPublicEmail": false,
+        "proofVideo": {
+          "id": "7700636372402507009",
+          "url": "https://www.tiktok.com/@drimranbhattiphd/video/7700636372402507009",
+          "creator": "drimranbhattiphd",
+          "views": 125,
+          "likes": 1,
+          "postedUtc": 1792962000,
+          "daysAgo": 26,
+          "region": "US",
+          "paidLabel": false,
+          "caption": "Board wants $100M revenue + 8% EBITDA by 2029. Here's how I start as CFO, with AI 🤖📈 ▶️ Full session on YouTube: [removed] 📦 Free kit (deck, prompts, Power BI file): link in my [removed] 🤝 Join my regular AI sessions: [removed] #CFO #Finance #AI #Business #Strategy #Startups",
+          "note": [],
+          "imageUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/okFVEezAQ1BXIGKArAHIvSUArAfeMDANE8oQAo~tplv-tiktokx-origin.image?biz_tag=musically_video.video_cover&dr=1370&idc=my2&ps=933b5bde&refresh_token=57734817&s=SEARCH&sc=cover&shcp=c1333099&shp=d05b14bd&t=bacd0480&x-expires=1795374000&x-signature=RmaJ1JtdGRcnbG1LJ3wdwa2j5iM%3D"
+        },
+        "criteria": [
+          {
+            "text": "is a fractional CFO posting finance leadership content",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "creator",
+              "url": "https://www.tiktok.com/@drimranbhattiphd",
+              "excerpt": null
+            }
+          },
+          {
+            "text": "posts about CFO-style reporting and board decks",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@drimranbhattiphd/video/7700636372402507009",
+              "excerpt": "Board wants $100M revenue + 8% EBITDA by 2029. Here's how I start as CFO, with AI 🤖📈 ▶️ Full session on [removed]"
+            }
+          }
+        ]
+      },
+      {
+        "handle": "shondrawashington4",
+        "profileUrl": "https://www.tiktok.com/@shondrawashington4",
+        "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-useast5-avt-0068-tx/0c7df9dafa841d2bacdebd37537aa489~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=39ad4e9c&x-expires=1795460400&x-signature=nT%2F1rJMer6WBkdnRwwz1fOLMXkA%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+        "followers": 246,
+        "usualViews": 375,
+        "postsSampled": 10,
+        "bestRecentViews": 898,
+        "proofVsUsualRatio": 1.2,
+        "postsPerWeek": 8.1,
+        "paidLabelShare": 0,
+        "hasPublicEmail": false,
+        "proofVideo": {
+          "id": "7708250122802498830",
+          "url": "https://www.tiktok.com/@shondrawashington4/video/7708250122802498830",
+          "creator": "shondrawashington4",
+          "views": 438,
+          "likes": 24,
+          "postedUtc": 1794716868,
+          "daysAgo": 6,
+          "region": "US",
+          "paidLabel": false,
+          "caption": "A full-time FP&A analyst can cost around $80K a year. Here's how I'm using Claude to handle much of my analyst-level work as a fractional CFO, from financial dashboards to forecasting and expense analysis. #ClaudeAI #AIForBusiness #FPandA #FractionalCFO #AITools",
+          "note": [],
+          "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast5-p-0068-tx/ogfgIkssQWAfe8LAgj0Mk3JAmua0lYVyRHZ8CY~tplv-tiktokx-dmt-logoccm:300:400:tos-useast5-i-0068-tx/o8dVIcTBAAA1Aj1sAEFreNkDCfTSeMTEHIED5I.jpeg?dr=10398&refresh_token=2bf654d6&x-expires=1795374000&x-signature=rTkMcg3HEY525BPwHpNJme7tFMk%3D&t=4d5b0474&ps=13740610&shp=d05b14bd&shcp=34ff8df6&idc=useast2b&s=PUBLISH"
+        },
+        "criteria": [
+          {
+            "text": "is a CFO by trade serving business clients",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "creator",
+              "url": "https://www.tiktok.com/@shondrawashington4",
+              "excerpt": null
+            }
+          },
+          {
+            "text": "posts finance operations content for business clients",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@shondrawashington4/video/7708250122802498830",
+              "excerpt": "A full-time FP&A analyst can cost around $80K a year. Here's how I'm using Claude to handle much of my analyst-level wor..."
+            }
+          }
+        ]
+      },
+      {
+        "handle": "masterycfo",
+        "profileUrl": "https://www.tiktok.com/@masterycfo",
+        "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-maliva-avt-0068/6d0ef12d6d4a80640a35a6eda0b259e5~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=b13be93a&x-expires=1795460400&x-signature=NOHIhvq8fzIYl%2FN2jtHHnIPu454%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+        "followers": 75,
+        "usualViews": 293,
+        "postsSampled": 10,
+        "bestRecentViews": 356,
+        "proofVsUsualRatio": 1,
+        "postsPerWeek": 10.4,
+        "paidLabelShare": 0,
+        "hasPublicEmail": false,
+        "proofVideo": {
+          "id": "7708964172897209621",
+          "url": "https://www.tiktok.com/@masterycfo/video/7708964172897209621",
+          "creator": "masterycfo",
+          "views": 293,
+          "likes": 2,
+          "postedUtc": 1794883096,
+          "daysAgo": 4,
+          "region": "CA",
+          "paidLabel": false,
+          "caption": "The tools that helped you build the business are not always the tools that will help you scale it. Early growth often comes from figuring things out as you go. But eventually, the questions change. Where are we losing money? Which jobs are actually profitable? How do we increase capacity without destroying margin? What needs to change before we grow again? At that stage, working harder is not enough. You need better financial visibility, stronger systems, and a team that knows how to use them. Because scaling is not just about getting bigger. It is about building a stronger business underneath the growth. Book a strategy session through the link in our bio, and let’s build the financial systems to support your next stage of growth.",
+          "note": [],
+          "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/owXIUIvGgAeGBAzuRiPMdqBBoFfjRiELhIkFB7~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=e76e43ad&x-expires=1795374000&x-signature=PGjAYA3TqzVchqa1PBA5%2BY1ufMA%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&s=PUBLISH&sc=cover&biz_tag=tt_video"
+        },
+        "criteria": [
+          {
+            "text": "offers financial leadership to companies with dedicated finance buyers",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "creator",
+              "url": "https://www.tiktok.com/@masterycfo",
+              "excerpt": null
+            }
+          },
+          {
+            "text": "posts about scaling tools and margins for growth companies",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@masterycfo/video/7708964172897209621",
+              "excerpt": "The tools that helped you build the business are not always the tools that will help you scale it. Early growth often co..."
+            }
+          }
+        ]
+      },
+      {
+        "handle": "gonzaleztaxservicess",
+        "profileUrl": "https://www.tiktok.com/@gonzaleztaxservicess",
+        "avatarUrl": null,
+        "followers": null,
+        "usualViews": null,
+        "postsSampled": 0,
+        "bestRecentViews": null,
+        "proofVsUsualRatio": null,
+        "postsPerWeek": null,
+        "paidLabelShare": null,
+        "hasPublicEmail": false,
+        "proofVideo": {
+          "id": "7710434130890198285",
+          "url": "https://www.tiktok.com/@gonzaleztaxservicess/video/7710434130890198285",
+          "creator": "gonzaleztaxservicess",
+          "views": 94,
+          "likes": 0,
+          "postedUtc": 1795225367,
+          "daysAgo": 0,
+          "region": "US",
+          "paidLabel": false,
+          "caption": "🚨 BUSINESS OWNERS! SPECIAL PAYROLL PROMOTION! 🚨 💰 Get up to 6 MONTHS of FREE Payroll Services! At Gonzalez Tax Services, we’re helping small business owners save money and simplify their payroll with Gusto! ✅ Easy payroll setup ✅ Direct deposit for employees ✅ Automated payroll tax filings & payments ✅ W-2s & 1099s ✅ Employee self-service ✅ Ongoing payroll support 💼 Spend less time worrying about payroll and more time growing your business! 📍 Based in Anaheim, CA 📲 DM us today for a FREE consultation! ⏳ Limited-time offer for eligible new payroll clients. Terms and conditions apply. Gonzalez Tax Services [removed] #GonzalezTaxServices #FreePayroll #GustoPayroll #SmallBusinessOwners #PayrollServices",
+          "note": [],
+          "imageUrl": "https://p16-common-sign.tiktokcdn.com/tos-useast5-p-0068-tx/ooQNArTE7BPeIgRKqzQA4FEDc9D1iAIgNfMFxS~tplv-tiktokx-cropcenter:500:800.jpeg?biz_tag=musically_video.video_cover&dr=14577&idc=my&ps=13740610&refresh_token=b24c96e1&shcp=9b759fb9&shp=c1333099&t=4d5b0474&x-expires=1795309200&x-signature=jWoD59bCgR3Ilu2LihGV3OseYio%3D"
+        },
+        "criteria": [
+          {
+            "text": "posts payroll services promotion to business owners",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@gonzaleztaxservicess/video/7710434130890198285",
+              "excerpt": "🚨 BUSINESS OWNERS! SPECIAL PAYROLL PROMOTION! 🚨 💰 Get up to 6 MONTHS of FREE Payroll Services! At Gonzalez Tax Services,..."
+            }
+          },
+          {
+            "text": "audience is small business owners needing payroll",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@gonzaleztaxservicess/video/7710434130890198285",
+              "excerpt": "🚨 BUSINESS OWNERS! SPECIAL PAYROLL PROMOTION! 🚨 💰 Get up to 6 MONTHS of FREE Payroll Services! At Gonzalez Tax Services,..."
+            }
+          }
+        ]
+      }
+    ],
+    "videos": [
+      {
+        "id": "7701734209567689998",
+        "url": "https://www.tiktok.com/@hershygoldstein/video/7701734209567689998",
+        "creator": "hershygoldstein",
+        "views": 3104,
+        "likes": 50,
+        "postedUtc": 1793199737,
+        "daysAgo": 24,
+        "region": "US",
+        "paidLabel": false,
+        "caption": "Rating Payroll Tools From 1-10 💼 Follow for more simple payroll tips and education!",
+        "note": [
+          {
+            "text": "Payroll tools rating video by @hershygoldstein",
+            "label": "fact"
+          }
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn.com/tos-useast5-p-85c255-tx/oI2CcDfEZg4nq5TSHIB5BhEAIeE4FgwUD8bgDi~tplv-tiktokx-cropcenter:500:800.jpeg?biz_tag=musically_video.video_cover&dr=14577&idc=my&ps=13740610&refresh_token=156dee24&shcp=9b759fb9&shp=c1333099&t=4d5b0474&x-expires=1795309200&x-signature=MjHMADdQEgVpKF0RUNNnzblWWZY%3D"
+      },
+      {
+        "id": "7706696057920523551",
+        "url": "https://www.tiktok.com/@scottiehanson/video/7706696057920523551",
+        "creator": "scottiehanson",
+        "views": 101,
+        "likes": 1,
+        "postedUtc": 1794355020,
+        "daysAgo": 10,
+        "region": "US",
+        "paidLabel": false,
+        "caption": "Payroll mistakes are rarely dramatic. A rate that wasn’t updated, an hour that wasn’t counted. One system for HR and payroll keeps employee details in one place. When did you last double-check your pay rates? #payroll #payrollmistakes #hrsoftware #smallbusiness #businessowner",
+        "note": [
+          {
+            "text": "Payroll mistake and one-system pitch by @scottiehanson",
+            "label": "fact"
+          }
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn.com/tos-useast8-p-0068-tx2/ogXzyJA8fAEIb8DJADVqezCurEEVFCAJh6AI84~tplv-tiktokx-cropcenter:500:800.jpeg?biz_tag=musically_video.video_cover&dr=14577&idc=my2&ps=13740610&refresh_token=a49694fc&shcp=9b759fb9&shp=c1333099&t=4d5b0474&x-expires=1795309200&x-signature=mCsSuoocdkeJJ%2B8CC%2BwZYL6zVlM%3D"
+      },
+      {
+        "id": "7704498160655256854",
+        "url": "https://www.tiktok.com/@the_cfo_academy/video/7704498160655256854",
+        "creator": "the_cfo_academy",
+        "views": 708,
+        "likes": 32,
+        "postedUtc": 1794213000,
+        "daysAgo": 12,
+        "region": "ID",
+        "paidLabel": false,
+        "caption": "How to become a CFO: the five skills to build before you get the role. My first CFO Academy course is free. Start there and decide if the Academy is right for you. Link in bio. #LearnOnTikTok #AccountingTok #CFO #FinanceCareers #the_CFO_Academy",
+        "note": [
+          {
+            "text": "How to become a CFO by @the_cfo_academy",
+            "label": "fact"
+          }
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/o4B1rDfAAh8eViAEaw6FAfIqi1IL4EKArkDA84~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=0c981575&x-expires=1795374000&x-signature=A2vdFz6nfAJ30T7qxBEQpOfW4i8%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover"
+      },
+      {
+        "id": "7709838807704538390",
+        "url": "https://www.tiktok.com/@nicolasboucherofficial/video/7709838807704538390",
+        "creator": "nicolasboucherofficial",
+        "views": 267,
+        "likes": 0,
+        "postedUtc": 1795086721,
+        "daysAgo": 2,
+        "region": "DE",
+        "paidLabel": false,
+        "caption": "25 Excel tricks that make office work much easier, how many do you already use? 👉 Free AI CFO masterclass, link in bio #excel #exceltips #productivity #finance",
+        "note": [
+          {
+            "text": "Excel and AI tips for finance work by @nicolasboucherofficial",
+            "label": "fact"
+          }
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-4864-no/o8mfDfoBgE6IQZ2HWCVAFDteIGDtJmsuXLQLZY~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=b62ec5d7&x-expires=1795374000&x-signature=5O8DoxoyPHdaD5xx7BafoNW8oWA%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover"
+      },
+      {
+        "id": "7700636372402507009",
+        "url": "https://www.tiktok.com/@drimranbhattiphd/video/7700636372402507009",
+        "creator": "drimranbhattiphd",
+        "views": 125,
+        "likes": 1,
+        "postedUtc": 1792962000,
+        "daysAgo": 26,
+        "region": "US",
+        "paidLabel": false,
+        "caption": "Board wants $100M revenue + 8% EBITDA by 2029. Here's how I start as CFO, with AI 🤖📈 ▶️ Full session on YouTube: [removed] 📦 Free kit (deck, prompts, Power BI file): link in my [removed] 🤝 Join my regular AI sessions: [removed] #CFO #Finance #AI #Business #Strategy #Startups",
+        "note": [
+          {
+            "text": "CFO board-planning video by @drimranbhattiphd",
+            "label": "fact"
+          }
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/okFVEezAQ1BXIGKArAHIvSUArAfeMDANE8oQAo~tplv-tiktokx-origin.image?biz_tag=musically_video.video_cover&dr=1370&idc=my2&ps=933b5bde&refresh_token=57734817&s=SEARCH&sc=cover&shcp=c1333099&shp=d05b14bd&t=bacd0480&x-expires=1795374000&x-signature=RmaJ1JtdGRcnbG1LJ3wdwa2j5iM%3D"
+      },
+      {
+        "id": "7708250122802498830",
+        "url": "https://www.tiktok.com/@shondrawashington4/video/7708250122802498830",
+        "creator": "shondrawashington4",
+        "views": 438,
+        "likes": 24,
+        "postedUtc": 1794716868,
+        "daysAgo": 6,
+        "region": "US",
+        "paidLabel": false,
+        "caption": "A full-time FP&A analyst can cost around $80K a year. Here's how I'm using Claude to handle much of my analyst-level work as a fractional CFO, from financial dashboards to forecasting and expense analysis. #ClaudeAI #AIForBusiness #FPandA #FractionalCFO #AITools",
+        "note": [
+          {
+            "text": "FP&A and analyst work by @shondrawashington4",
+            "label": "fact"
+          }
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast5-p-0068-tx/ogfgIkssQWAfe8LAgj0Mk3JAmua0lYVyRHZ8CY~tplv-tiktokx-dmt-logoccm:300:400:tos-useast5-i-0068-tx/o8dVIcTBAAA1Aj1sAEFreNkDCfTSeMTEHIED5I.jpeg?dr=10398&refresh_token=2bf654d6&x-expires=1795374000&x-signature=rTkMcg3HEY525BPwHpNJme7tFMk%3D&t=4d5b0474&ps=13740610&shp=d05b14bd&shcp=34ff8df6&idc=useast2b&s=PUBLISH"
+      },
+      {
+        "id": "7708964172897209621",
+        "url": "https://www.tiktok.com/@masterycfo/video/7708964172897209621",
+        "creator": "masterycfo",
+        "views": 293,
+        "likes": 2,
+        "postedUtc": 1794883096,
+        "daysAgo": 4,
+        "region": "CA",
+        "paidLabel": false,
+        "caption": "The tools that helped you build the business are not always the tools that will help you scale it. Early growth often comes from figuring things out as you go. But eventually, the questions change. Where are we losing money? Which jobs are actually profitable? How do we increase capacity without destroying margin? What needs to change before we grow again? At that stage, working harder is not enough. You need better financial visibility, stronger systems, and a team that knows how to use them. Because scaling is not just about getting bigger. It is about building a stronger business underneath the growth. Book a strategy session through the link in our bio, and let’s build the financial systems to support your next stage of growth.",
+        "note": [
+          {
+            "text": "Tools to scale by @masterycfo",
+            "label": "fact"
+          }
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/owXIUIvGgAeGBAzuRiPMdqBBoFfjRiELhIkFB7~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=e76e43ad&x-expires=1795374000&x-signature=PGjAYA3TqzVchqa1PBA5%2BY1ufMA%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&s=PUBLISH&sc=cover&biz_tag=tt_video"
+      },
+      {
+        "id": "7710434130890198285",
+        "url": "https://www.tiktok.com/@gonzaleztaxservicess/video/7710434130890198285",
+        "creator": "gonzaleztaxservicess",
+        "views": 94,
+        "likes": 0,
+        "postedUtc": 1795225367,
+        "daysAgo": 0,
+        "region": "US",
+        "paidLabel": false,
+        "caption": "🚨 BUSINESS OWNERS! SPECIAL PAYROLL PROMOTION! 🚨 💰 Get up to 6 MONTHS of FREE Payroll Services! At Gonzalez Tax Services, we’re helping small business owners save money and simplify their payroll with Gusto! ✅ Easy payroll setup ✅ Direct deposit for employees ✅ Automated payroll tax filings & payments ✅ W-2s & 1099s ✅ Employee self-service ✅ Ongoing payroll support 💼 Spend less time worrying about payroll and more time growing your business! 📍 Based in Anaheim, CA 📲 DM us today for a FREE consultation! ⏳ Limited-time offer for eligible new payroll clients. Terms and conditions apply. Gonzalez Tax Services [removed] #GonzalezTaxServices #FreePayroll #GustoPayroll #SmallBusinessOwners #PayrollServices",
+        "note": [
+          {
+            "text": "Payroll promotion by @gonzaleztaxservicess",
+            "label": "fact"
+          }
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn.com/tos-useast5-p-0068-tx/ooQNArTE7BPeIgRKqzQA4FEDc9D1iAIgNfMFxS~tplv-tiktokx-cropcenter:500:800.jpeg?biz_tag=musically_video.video_cover&dr=14577&idc=my&ps=13740610&refresh_token=b24c96e1&shcp=9b759fb9&shp=c1333099&t=4d5b0474&x-expires=1795309200&x-signature=jWoD59bCgR3Ilu2LihGV3OseYio%3D"
+      }
+    ],
+    "patterns": [
+      {
+        "text": "Payroll-mistake framing (what errors cost you) is the most common hook among payroll content creators",
+        "videoIds": [
+          "7705956399968242976",
+          "7703448032494357790",
+          "7704378748686159135",
+          "7706696057920523551"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "kind": "best",
+        "heading": "Best overall fit",
+        "reason": null,
+        "creators": [
+          {
+            "handle": "hershygoldstein",
+            "profileUrl": "https://www.tiktok.com/@hershygoldstein",
+            "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-useast5-avt-0068-tx/ce5cd5ca3007e4cf0dcaa1c12d7144e1~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=983ba878&x-expires=1795460400&x-signature=V40k7G%2FSwCBmnGpb8SX63wN%2F9rA%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+            "followers": 1549,
+            "usualViews": 859,
+            "postsSampled": 10,
+            "bestRecentViews": 3401,
+            "proofVsUsualRatio": 3.6,
+            "postsPerWeek": 6.2,
+            "paidLabelShare": 0,
+            "hasPublicEmail": true,
+            "proofVideo": {
+              "id": "7701734209567689998",
+              "url": "https://www.tiktok.com/@hershygoldstein/video/7701734209567689998",
+              "creator": "hershygoldstein",
+              "views": 3104,
+              "likes": 50,
+              "postedUtc": 1793199737,
+              "daysAgo": 24,
+              "region": "US",
+              "paidLabel": false,
+              "caption": "Rating Payroll Tools From 1-10 💼 Follow for more simple payroll tips and education!",
+              "note": [],
+              "imageUrl": "https://p16-common-sign.tiktokcdn.com/tos-useast5-p-85c255-tx/oI2CcDfEZg4nq5TSHIB5BhEAIeE4FgwUD8bgDi~tplv-tiktokx-cropcenter:500:800.jpeg?biz_tag=musically_video.video_cover&dr=14577&idc=my&ps=13740610&refresh_token=156dee24&shcp=9b759fb9&shp=c1333099&t=4d5b0474&x-expires=1795309200&x-signature=MjHMADdQEgVpKF0RUNNnzblWWZY%3D"
+            },
+            "criteria": [
+              {
+                "text": "posts payroll education content",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@hershygoldstein/video/7701734209567689998",
+                  "excerpt": "Rating Payroll Tools From 1-10 💼 Follow for more simple payroll tips and education!"
+                }
+              },
+              {
+                "text": "positions as a business founder able to speak to business owners and finance buyers",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "creator",
+                  "url": "https://www.tiktok.com/@hershygoldstein",
+                  "excerpt": null
+                }
+              }
+            ]
+          }
+        ],
+        "videos": [],
+        "videoIds": []
+      },
+      {
+        "kind": "group",
+        "heading": "Payroll and HR software voices",
+        "reason": "They already run payroll or HR businesses and post about payroll pain points, so their audiences are buyers of exactly this software.",
+        "creators": [
+          {
+            "handle": "scottiehanson",
+            "profileUrl": "https://www.tiktok.com/@scottiehanson",
+            "avatarUrl": "https://p16-common-sign.tiktokcdn-us.com/tos-useast8-avt-0068-tx2/e07095a15cf1962f8745f6ae764dad26~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=dd483836&x-expires=1795460400&x-signature=NNWsS3Ob4xaH1JIFfkFfSQ1lUGU%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+            "followers": 7568,
+            "usualViews": 91,
+            "postsSampled": 10,
+            "bestRecentViews": 122,
+            "proofVsUsualRatio": 1.1,
+            "postsPerWeek": 4.3,
+            "paidLabelShare": 0,
+            "hasPublicEmail": false,
+            "proofVideo": {
+              "id": "7706696057920523551",
+              "url": "https://www.tiktok.com/@scottiehanson/video/7706696057920523551",
+              "creator": "scottiehanson",
+              "views": 101,
+              "likes": 1,
+              "postedUtc": 1794355020,
+              "daysAgo": 10,
+              "region": "US",
+              "paidLabel": false,
+              "caption": "Payroll mistakes are rarely dramatic. A rate that wasn’t updated, an hour that wasn’t counted. One system for HR and payroll keeps employee details in one place. When did you last double-check your pay rates? #payroll #payrollmistakes #hrsoftware #smallbusiness #businessowner",
+              "note": [],
+              "imageUrl": "https://p16-common-sign.tiktokcdn.com/tos-useast8-p-0068-tx2/ogXzyJA8fAEIb8DJADVqezCurEEVFCAJh6AI84~tplv-tiktokx-cropcenter:500:800.jpeg?biz_tag=musically_video.video_cover&dr=14577&idc=my2&ps=13740610&refresh_token=a49694fc&shcp=9b759fb9&shp=c1333099&t=4d5b0474&x-expires=1795309200&x-signature=mCsSuoocdkeJJ%2B8CC%2BwZYL6zVlM%3D"
+            },
+            "criteria": [
+              {
+                "text": "already runs a payroll and HR software company and posts about payroll problems",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "creator",
+                  "url": "https://www.tiktok.com/@scottiehanson",
+                  "excerpt": null
+                }
+              },
+              {
+                "text": "posts about payroll mistakes and one-system HR payroll messaging",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@scottiehanson/video/7706696057920523551",
+                  "excerpt": "Payroll mistakes are rarely dramatic. A rate that wasn’t updated, an hour that wasn’t counted. One system for HR and pay..."
+                }
+              }
+            ]
+          },
+          {
+            "handle": "gonzaleztaxservicess",
+            "profileUrl": "https://www.tiktok.com/@gonzaleztaxservicess",
+            "avatarUrl": null,
+            "followers": null,
+            "usualViews": null,
+            "postsSampled": 0,
+            "bestRecentViews": null,
+            "proofVsUsualRatio": null,
+            "postsPerWeek": null,
+            "paidLabelShare": null,
+            "hasPublicEmail": false,
+            "proofVideo": {
+              "id": "7710434130890198285",
+              "url": "https://www.tiktok.com/@gonzaleztaxservicess/video/7710434130890198285",
+              "creator": "gonzaleztaxservicess",
+              "views": 94,
+              "likes": 0,
+              "postedUtc": 1795225367,
+              "daysAgo": 0,
+              "region": "US",
+              "paidLabel": false,
+              "caption": "🚨 BUSINESS OWNERS! SPECIAL PAYROLL PROMOTION! 🚨 💰 Get up to 6 MONTHS of FREE Payroll Services! At Gonzalez Tax Services, we’re helping small business owners save money and simplify their payroll with Gusto! ✅ Easy payroll setup ✅ Direct deposit for employees ✅ Automated payroll tax filings & payments ✅ W-2s & 1099s ✅ Employee self-service ✅ Ongoing payroll support 💼 Spend less time worrying about payroll and more time growing your business! 📍 Based in Anaheim, CA 📲 DM us today for a FREE consultation! ⏳ Limited-time offer for eligible new payroll clients. Terms and conditions apply. Gonzalez Tax Services [removed] #GonzalezTaxServices #FreePayroll #GustoPayroll #SmallBusinessOwners #PayrollServices",
+              "note": [],
+              "imageUrl": "https://p16-common-sign.tiktokcdn.com/tos-useast5-p-0068-tx/ooQNArTE7BPeIgRKqzQA4FEDc9D1iAIgNfMFxS~tplv-tiktokx-cropcenter:500:800.jpeg?biz_tag=musically_video.video_cover&dr=14577&idc=my&ps=13740610&refresh_token=b24c96e1&shcp=9b759fb9&shp=c1333099&t=4d5b0474&x-expires=1795309200&x-signature=jWoD59bCgR3Ilu2LihGV3OseYio%3D"
+            },
+            "criteria": [
+              {
+                "text": "posts payroll services promotion to business owners",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@gonzaleztaxservicess/video/7710434130890198285",
+                  "excerpt": "🚨 BUSINESS OWNERS! SPECIAL PAYROLL PROMOTION! 🚨 💰 Get up to 6 MONTHS of FREE Payroll Services! At Gonzalez Tax Services,..."
+                }
+              },
+              {
+                "text": "audience is small business owners needing payroll",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@gonzaleztaxservicess/video/7710434130890198285",
+                  "excerpt": "🚨 BUSINESS OWNERS! SPECIAL PAYROLL PROMOTION! 🚨 💰 Get up to 6 MONTHS of FREE Payroll Services! At Gonzalez Tax Services,..."
+                }
+              }
+            ]
+          }
+        ],
+        "videos": [],
+        "videoIds": []
+      },
+      {
+        "kind": "group",
+        "heading": "CFO and finance-leader educators",
+        "reason": "Their content is explicitly aimed at CFOs, finance teams and business owners, which is the audience you want, though none currently covers payroll specifically.",
+        "creators": [
+          {
+            "handle": "the_cfo_academy",
+            "profileUrl": "https://www.tiktok.com/@the_cfo_academy",
+            "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-maliva-avt-0068/fd6120ccfb6b8e701ed9db8c3c5e9eb2~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=1778e308&x-expires=1795460400&x-signature=avVWJRiPwLGSwLh%2F8csZoFnHNuI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+            "followers": 842,
+            "usualViews": 521,
+            "postsSampled": 10,
+            "bestRecentViews": 917,
+            "proofVsUsualRatio": 1.4,
+            "postsPerWeek": 13.6,
+            "paidLabelShare": 0,
+            "hasPublicEmail": false,
+            "proofVideo": {
+              "id": "7704498160655256854",
+              "url": "https://www.tiktok.com/@the_cfo_academy/video/7704498160655256854",
+              "creator": "the_cfo_academy",
+              "views": 708,
+              "likes": 32,
+              "postedUtc": 1794213000,
+              "daysAgo": 12,
+              "region": "ID",
+              "paidLabel": false,
+              "caption": "How to become a CFO: the five skills to build before you get the role. My first CFO Academy course is free. Start there and decide if the Academy is right for you. Link in bio. #LearnOnTikTok #AccountingTok #CFO #FinanceCareers #the_CFO_Academy",
+              "note": [],
+              "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/o4B1rDfAAh8eViAEaw6FAfIqi1IL4EKArkDA84~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=0c981575&x-expires=1795374000&x-signature=A2vdFz6nfAJ30T7qxBEQpOfW4i8%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover"
+            },
+            "criteria": [
+              {
+                "text": "creates content aimed at current and aspiring CFOs",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@the_cfo_academy/video/7704498160655256854",
+                  "excerpt": "How to become a CFO: the five skills to build before you get the role. My first CFO Academy course is free. Start there ..."
+                }
+              },
+              {
+                "text": "posts frequently about CFO decision-making and finance careers",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@the_cfo_academy/video/7697122658915224854",
+                  "excerpt": "How CFOs make good decisions with only 70% of the data. What you know, the one assumption, and a decision with a check d..."
+                }
+              }
+            ]
+          },
+          {
+            "handle": "nicolasboucherofficial",
+            "profileUrl": "https://www.tiktok.com/@nicolasboucherofficial",
+            "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-useast2a-avt-0068-euttp/6eb78027ffc17be6dc5bb92335eebdff~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=ecadc436&x-expires=1795460400&x-signature=yGCnmv6m7SvqEqdPzV2Xw5lQUO8%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+            "followers": 5426,
+            "usualViews": 242,
+            "postsSampled": 10,
+            "bestRecentViews": 718,
+            "proofVsUsualRatio": 1.1,
+            "postsPerWeek": 108.9,
+            "paidLabelShare": 0,
+            "hasPublicEmail": false,
+            "proofVideo": {
+              "id": "7709838807704538390",
+              "url": "https://www.tiktok.com/@nicolasboucherofficial/video/7709838807704538390",
+              "creator": "nicolasboucherofficial",
+              "views": 267,
+              "likes": 0,
+              "postedUtc": 1795086721,
+              "daysAgo": 2,
+              "region": "DE",
+              "paidLabel": false,
+              "caption": "25 Excel tricks that make office work much easier, how many do you already use? 👉 Free AI CFO masterclass, link in bio #excel #exceltips #productivity #finance",
+              "note": [],
+              "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-4864-no/o8mfDfoBgE6IQZ2HWCVAFDteIGDtJmsuXLQLZY~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=b62ec5d7&x-expires=1795374000&x-signature=5O8DoxoyPHdaD5xx7BafoNW8oWA%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover"
+            },
+            "criteria": [
+              {
+                "text": "audience is finance professionals and aspiring AI CFOs per bio",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "creator",
+                  "url": "https://www.tiktok.com/@nicolasboucherofficial",
+                  "excerpt": null
+                }
+              },
+              {
+                "text": "posts daily AI and finance tips for finance teams",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@nicolasboucherofficial/video/7709838807704538390",
+                  "excerpt": "25 Excel tricks that make office work much easier, how many do you already use? 👉 Free AI CFO masterclass, link in bio #..."
+                }
+              }
+            ]
+          },
+          {
+            "handle": "drimranbhattiphd",
+            "profileUrl": "https://www.tiktok.com/@drimranbhattiphd",
+            "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/d980d1c561956f83433745d088bebe06~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=6c1a1baf&x-expires=1795460400&x-signature=NjgxproX8RKN6YqVavQ0hexoztQ%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+            "followers": 125,
+            "usualViews": 97,
+            "postsSampled": 10,
+            "bestRecentViews": 151,
+            "proofVsUsualRatio": 1.3,
+            "postsPerWeek": 10,
+            "paidLabelShare": 0,
+            "hasPublicEmail": false,
+            "proofVideo": {
+              "id": "7700636372402507009",
+              "url": "https://www.tiktok.com/@drimranbhattiphd/video/7700636372402507009",
+              "creator": "drimranbhattiphd",
+              "views": 125,
+              "likes": 1,
+              "postedUtc": 1792962000,
+              "daysAgo": 26,
+              "region": "US",
+              "paidLabel": false,
+              "caption": "Board wants $100M revenue + 8% EBITDA by 2029. Here's how I start as CFO, with AI 🤖📈 ▶️ Full session on YouTube: [removed] 📦 Free kit (deck, prompts, Power BI file): link in my [removed] 🤝 Join my regular AI sessions: [removed] #CFO #Finance #AI #Business #Strategy #Startups",
+              "note": [],
+              "imageUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/okFVEezAQ1BXIGKArAHIvSUArAfeMDANE8oQAo~tplv-tiktokx-origin.image?biz_tag=musically_video.video_cover&dr=1370&idc=my2&ps=933b5bde&refresh_token=57734817&s=SEARCH&sc=cover&shcp=c1333099&shp=d05b14bd&t=bacd0480&x-expires=1795374000&x-signature=RmaJ1JtdGRcnbG1LJ3wdwa2j5iM%3D"
+            },
+            "criteria": [
+              {
+                "text": "is a fractional CFO posting finance leadership content",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "creator",
+                  "url": "https://www.tiktok.com/@drimranbhattiphd",
+                  "excerpt": null
+                }
+              },
+              {
+                "text": "posts about CFO-style reporting and board decks",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@drimranbhattiphd/video/7700636372402507009",
+                  "excerpt": "Board wants $100M revenue + 8% EBITDA by 2029. Here's how I start as CFO, with AI 🤖📈 ▶️ Full session on [removed]"
+                }
+              }
+            ]
+          },
+          {
+            "handle": "shondrawashington4",
+            "profileUrl": "https://www.tiktok.com/@shondrawashington4",
+            "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-useast5-avt-0068-tx/0c7df9dafa841d2bacdebd37537aa489~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=39ad4e9c&x-expires=1795460400&x-signature=nT%2F1rJMer6WBkdnRwwz1fOLMXkA%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+            "followers": 246,
+            "usualViews": 375,
+            "postsSampled": 10,
+            "bestRecentViews": 898,
+            "proofVsUsualRatio": 1.2,
+            "postsPerWeek": 8.1,
+            "paidLabelShare": 0,
+            "hasPublicEmail": false,
+            "proofVideo": {
+              "id": "7708250122802498830",
+              "url": "https://www.tiktok.com/@shondrawashington4/video/7708250122802498830",
+              "creator": "shondrawashington4",
+              "views": 438,
+              "likes": 24,
+              "postedUtc": 1794716868,
+              "daysAgo": 6,
+              "region": "US",
+              "paidLabel": false,
+              "caption": "A full-time FP&A analyst can cost around $80K a year. Here's how I'm using Claude to handle much of my analyst-level work as a fractional CFO, from financial dashboards to forecasting and expense analysis. #ClaudeAI #AIForBusiness #FPandA #FractionalCFO #AITools",
+              "note": [],
+              "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast5-p-0068-tx/ogfgIkssQWAfe8LAgj0Mk3JAmua0lYVyRHZ8CY~tplv-tiktokx-dmt-logoccm:300:400:tos-useast5-i-0068-tx/o8dVIcTBAAA1Aj1sAEFreNkDCfTSeMTEHIED5I.jpeg?dr=10398&refresh_token=2bf654d6&x-expires=1795374000&x-signature=rTkMcg3HEY525BPwHpNJme7tFMk%3D&t=4d5b0474&ps=13740610&shp=d05b14bd&shcp=34ff8df6&idc=useast2b&s=PUBLISH"
+            },
+            "criteria": [
+              {
+                "text": "is a CFO by trade serving business clients",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "creator",
+                  "url": "https://www.tiktok.com/@shondrawashington4",
+                  "excerpt": null
+                }
+              },
+              {
+                "text": "posts finance operations content for business clients",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@shondrawashington4/video/7708250122802498830",
+                  "excerpt": "A full-time FP&A analyst can cost around $80K a year. Here's how I'm using Claude to handle much of my analyst-level wor..."
+                }
+              }
+            ]
+          },
+          {
+            "handle": "masterycfo",
+            "profileUrl": "https://www.tiktok.com/@masterycfo",
+            "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-maliva-avt-0068/6d0ef12d6d4a80640a35a6eda0b259e5~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=b13be93a&x-expires=1795460400&x-signature=NOHIhvq8fzIYl%2FN2jtHHnIPu454%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+            "followers": 75,
+            "usualViews": 293,
+            "postsSampled": 10,
+            "bestRecentViews": 356,
+            "proofVsUsualRatio": 1,
+            "postsPerWeek": 10.4,
+            "paidLabelShare": 0,
+            "hasPublicEmail": false,
+            "proofVideo": {
+              "id": "7708964172897209621",
+              "url": "https://www.tiktok.com/@masterycfo/video/7708964172897209621",
+              "creator": "masterycfo",
+              "views": 293,
+              "likes": 2,
+              "postedUtc": 1794883096,
+              "daysAgo": 4,
+              "region": "CA",
+              "paidLabel": false,
+              "caption": "The tools that helped you build the business are not always the tools that will help you scale it. Early growth often comes from figuring things out as you go. But eventually, the questions change. Where are we losing money? Which jobs are actually profitable? How do we increase capacity without destroying margin? What needs to change before we grow again? At that stage, working harder is not enough. You need better financial visibility, stronger systems, and a team that knows how to use them. Because scaling is not just about getting bigger. It is about building a stronger business underneath the growth. Book a strategy session through the link in our bio, and let’s build the financial systems to support your next stage of growth.",
+              "note": [],
+              "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/owXIUIvGgAeGBAzuRiPMdqBBoFfjRiELhIkFB7~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=e76e43ad&x-expires=1795374000&x-signature=PGjAYA3TqzVchqa1PBA5%2BY1ufMA%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&s=PUBLISH&sc=cover&biz_tag=tt_video"
+            },
+            "criteria": [
+              {
+                "text": "offers financial leadership to companies with dedicated finance buyers",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "creator",
+                  "url": "https://www.tiktok.com/@masterycfo",
+                  "excerpt": null
+                }
+              },
+              {
+                "text": "posts about scaling tools and margins for growth companies",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@masterycfo/video/7708964172897209621",
+                  "excerpt": "The tools that helped you build the business are not always the tools that will help you scale it. Early growth often co..."
+                }
+              }
+            ]
+          }
+        ],
+        "videos": [],
+        "videoIds": []
+      }
+    ],
+    "assumptions": [
+      "No follower, view, recency or region limit was applied because the question states none.",
+      "Good fit means the creator already posts about payroll, HR tech, or finance/CFO topics in English, since the question does not name a region or language."
+    ],
+    "limits": "The strongest CFO-audience creators found have small followings; I did not verify transcripts, so fit rests on captions and bios.",
+    "limitsSentences": [
+      {
+        "text": "The strongest CFO-audience creators found have small followings; I did not verify transcripts, so fit rests on captions and bios.",
+        "label": "limit"
+      }
+    ],
+    "notFound": [],
+    "budgetNote": null,
+    "finishedBy": "model",
+    "steps": [
+      {
+        "kind": "check",
+        "label": "Read the limits the question states",
+        "detail": "The question states none",
+        "failed": false,
+        "handle": null,
+        "atMs": 0,
+        "ms": 2006,
+        "costUsd": 0.000002
+      },
+      {
+        "kind": "think",
+        "label": "Planned the next steps",
+        "detail": "Turn 1 of 8",
+        "failed": false,
+        "handle": null,
+        "atMs": 2006,
+        "ms": 5950,
+        "costUsd": 0.000024
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"payroll software\"",
+        "detail": "15 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 7956,
+        "ms": 2480,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"CFO tips\"",
+        "detail": "14 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 7956,
+        "ms": 2175,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"finance leader career\"",
+        "detail": "4 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 7956,
+        "ms": 2322,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "think",
+        "label": "Planned the next steps",
+        "detail": "Turn 2 of 8",
+        "failed": false,
+        "handle": null,
+        "atMs": 10436,
+        "ms": 3989,
+        "costUsd": 0.000045
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"CFO accounting humor\"",
+        "detail": "19 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 14425,
+        "ms": 3102,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"HR tech payroll automation\"",
+        "detail": "14 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 14425,
+        "ms": 2892,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @hershygoldstein",
+        "detail": "1,549 followers",
+        "failed": false,
+        "handle": "hershygoldstein",
+        "atMs": 14425,
+        "ms": 1603,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @the_cfo_academy",
+        "detail": "842 followers",
+        "failed": false,
+        "handle": "the_cfo_academy",
+        "atMs": 14425,
+        "ms": 1462,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @nicolasboucherofficial",
+        "detail": "5,426 followers",
+        "failed": false,
+        "handle": "nicolasboucherofficial",
+        "atMs": 14425,
+        "ms": 1711,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "think",
+        "label": "Planned the next steps",
+        "detail": "Turn 3 of 8",
+        "failed": false,
+        "handle": null,
+        "atMs": 17527,
+        "ms": 5775,
+        "costUsd": 0.000067
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"accounting tips small business\"",
+        "detail": "18 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 23304,
+        "ms": 2914,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"finance automation AI CFO\"",
+        "detail": "10 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 23304,
+        "ms": 2686,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @drimranbhattiphd",
+        "detail": "125 followers",
+        "failed": false,
+        "handle": "drimranbhattiphd",
+        "atMs": 23304,
+        "ms": 2324,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @tahirabbas_ca",
+        "detail": "1,273 followers",
+        "failed": false,
+        "handle": "tahirabbas_ca",
+        "atMs": 23304,
+        "ms": 1784,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @ryanmsloanz",
+        "detail": "50 followers",
+        "failed": false,
+        "handle": "ryanmsloanz",
+        "atMs": 23304,
+        "ms": 1835,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "think",
+        "label": "Planned the next steps",
+        "detail": "Turn 4 of 8",
+        "failed": false,
+        "handle": null,
+        "atMs": 26218,
+        "ms": 9313,
+        "costUsd": 0.000026
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @scottiehanson",
+        "detail": "7,568 followers",
+        "failed": false,
+        "handle": "scottiehanson",
+        "atMs": 35532,
+        "ms": 1779,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @excel4freelancers",
+        "detail": "177,331 followers",
+        "failed": false,
+        "handle": "excel4freelancers",
+        "atMs": 35533,
+        "ms": 2176,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @thedispensableceo",
+        "detail": "237,130 followers",
+        "failed": false,
+        "handle": "thedispensableceo",
+        "atMs": 35533,
+        "ms": 3000,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"fractional CFO\"",
+        "detail": "18 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 35533,
+        "ms": 2731,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"adp payroll\"",
+        "detail": "7 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 35533,
+        "ms": 2844,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"gusto payroll\"",
+        "detail": "5 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 35533,
+        "ms": 2955,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "think",
+        "label": "Planned the next steps",
+        "detail": "Turn 5 of 8",
+        "failed": false,
+        "handle": null,
+        "atMs": 38533,
+        "ms": 3505,
+        "costUsd": 0.00011
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @masterycfo",
+        "detail": "75 followers",
+        "failed": false,
+        "handle": "masterycfo",
+        "atMs": 42040,
+        "ms": 1338,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @monicarazak",
+        "detail": "7,644 followers",
+        "failed": false,
+        "handle": "monicarazak",
+        "atMs": 42041,
+        "ms": 1285,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @maddydaddytime",
+        "detail": "5,812 followers",
+        "failed": false,
+        "handle": "maddydaddytime",
+        "atMs": 42041,
+        "ms": 2000,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @shondrawashington4",
+        "detail": "246 followers",
+        "failed": false,
+        "handle": "shondrawashington4",
+        "atMs": 42041,
+        "ms": 1687,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "think",
+        "label": "Planned the next steps",
+        "detail": "Turn 6 of 8",
+        "failed": false,
+        "handle": null,
+        "atMs": 44041,
+        "ms": 5809,
+        "costUsd": 0.000105
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @headheartandboots",
+        "detail": "647 followers",
+        "failed": false,
+        "handle": "headheartandboots",
+        "atMs": 49852,
+        "ms": 1931,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @ceonumbersnetwork",
+        "detail": "4 followers",
+        "failed": false,
+        "handle": "ceonumbersnetwork",
+        "atMs": 49853,
+        "ms": 1692,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @investormo5",
+        "detail": "10,046 followers",
+        "failed": false,
+        "handle": "investormo5",
+        "atMs": 49853,
+        "ms": 1447,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"payroll mistakes cost businesses\"",
+        "detail": "19 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 49853,
+        "ms": 3565,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "think",
+        "label": "Planned the next steps",
+        "detail": "Turn 7 of 8",
+        "failed": false,
+        "handle": null,
+        "atMs": 53418,
+        "ms": 5336,
+        "costUsd": 0.00012
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @precisenumbers",
+        "detail": "46 followers",
+        "failed": false,
+        "handle": "precisenumbers",
+        "atMs": 58755,
+        "ms": 1576,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @ffcconsultinginc",
+        "detail": "21,528 followers",
+        "failed": false,
+        "handle": "ffcconsultinginc",
+        "atMs": 58755,
+        "ms": 2289,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @pivot.solutions4",
+        "detail": "29 followers",
+        "failed": false,
+        "handle": "pivot.solutions4",
+        "atMs": 58756,
+        "ms": 1952,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @landscapersaccountant",
+        "detail": "2,664 followers",
+        "failed": false,
+        "handle": "landscapersaccountant",
+        "atMs": 58756,
+        "ms": 2245,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "think",
+        "label": "Planned the next steps",
+        "detail": "Turn 8 of 8",
+        "failed": false,
+        "handle": null,
+        "atMs": 61044,
+        "ms": 31109,
+        "costUsd": 0.000183
+      },
+      {
+        "kind": "answer",
+        "label": "Wrote the answer",
+        "detail": null,
+        "failed": false,
+        "handle": null,
+        "atMs": 92155,
+        "ms": 14948,
+        "costUsd": 0
+      },
+      {
+        "kind": "check",
+        "label": "Checked the answer against the evidence",
+        "detail": null,
+        "failed": false,
+        "handle": null,
+        "atMs": 92158,
+        "ms": 14945,
+        "costUsd": 0.000032
+      },
+      {
+        "kind": "check",
+        "label": "Checked the text for contact details",
+        "detail": null,
+        "failed": false,
+        "handle": null,
+        "atMs": 107105,
+        "ms": 3369,
+        "costUsd": 0.000008
+      }
+    ],
+    "cost": {
+      "limitUsd": 0.1,
+      "dataUsd": 0.026600000000000002,
+      "modelUsd": 0.0007220000000000002,
+      "totalUsd": 0.027322000000000003,
+      "dataCalls": 51,
+      "modelTurns": 8,
+      "wallMs": 110478
+    },
+    "gate": "model"
+  }
+}

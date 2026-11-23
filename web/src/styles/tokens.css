@@ -1,0 +1,72 @@
+/* Design tokens: the AnyAPI white and blue language. No component may hardcode a colour.
+   Light is the default; dark is [data-theme="dark"] on <html>, set before paint by ThemeScript. */
+
+:root {
+  --bg: oklch(1 0 0);
+  --surface: oklch(0.985 0 0);
+  --surface-2: oklch(0.965 0.003 265);
+  --border: oklch(0.93 0 0);
+  --fg: oklch(0.145 0 0);
+  --fg-muted: oklch(0.45 0.014 260);
+  --fg-subtle: oklch(0.53 0.01 260);
+  --accent: oklch(0.5 0.22 264);
+  --accent-fg: oklch(1 0 0);
+  --accent-text: oklch(0.5 0.22 264);
+  --accent-soft: oklch(0.97 0.015 264);
+  --accent-line: oklch(0.9 0.04 264);
+  --supported: oklch(0.6 0.15 155);
+  --unknown: oklch(0.62 0.01 260);
+  --contradicted: oklch(0.58 0.2 27);
+  --danger: oklch(0.55 0.2 27);
+  --danger-fg: oklch(1 0 0);
+
+  /* Text and controls laid over a video. A video can be any colour in either theme, so these stay
+     the same in dark: light text on a dark scrim, always. */
+  --media-fg: oklch(1 0 0);
+  --media-fg-muted: oklch(0.92 0 0);
+  --scrim: oklch(0.13 0 0 / 0.78);
+  --scrim-clear: oklch(0.13 0 0 / 0);
+  --media-chip: oklch(0.13 0 0 / 0.6);
+  --media-stage: oklch(0.13 0 0);
+
+  /* The dev bar is deliberately unlike the product, so it is never mistaken for it. */
+  --dev-bg: oklch(0.96 0.06 95);
+  --dev-border: oklch(0.86 0.08 90);
+  --dev-fg: oklch(0.3 0.05 80);
+  --dev-fg-muted: oklch(0.45 0.05 80);
+  --dev-hover: oklch(0.92 0.07 95);
+  --dev-active: oklch(0.3 0.05 80);
+  --dev-active-fg: oklch(0.97 0.04 95);
+
+  --radius-control: 10px;
+  --radius-card: 14px;
+  --motion: 150ms;
+}
+
+[data-theme="dark"] {
+  --bg: oklch(0.22 0 0);
+  --surface: oklch(0.25 0 0);
+  --surface-2: oklch(0.285 0 0);
+  --border: oklch(0.33 0 0);
+  --fg: oklch(0.92 0 0);
+  --fg-muted: oklch(0.74 0 0);
+  --fg-subtle: oklch(0.68 0 0);
+  --accent: oklch(0.5 0.12 268);
+  --accent-fg: oklch(1 0 0);
+  --accent-text: oklch(0.76 0.1 268);
+  --accent-soft: oklch(0.26 0.02 265);
+  --accent-line: oklch(0.36 0.06 268);
+  --supported: oklch(0.75 0.14 155);
+  --unknown: oklch(0.66 0 0);
+  --contradicted: oklch(0.72 0.16 25);
+  --danger: oklch(0.52 0.17 27);
+  --danger-fg: oklch(1 0 0);
+
+  --dev-bg: oklch(0.3 0.05 85);
+  --dev-border: oklch(0.38 0.06 85);
+  --dev-fg: oklch(0.93 0.05 95);
+  --dev-fg-muted: oklch(0.8 0.05 90);
+  --dev-hover: oklch(0.36 0.06 85);
+  --dev-active: oklch(0.93 0.05 95);
+  --dev-active-fg: oklch(0.25 0.04 85);
+}

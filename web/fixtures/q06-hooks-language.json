@@ -1,0 +1,2686 @@
+{
+  "source": "2026-11-21T19-09-34-390Z-agent-free/q06-hooks-language.r1.json",
+  "askedAt": "2026-11-21T19:22:42.682Z",
+  "display": {
+    "question": "What hooks are working this week for language learning apps?",
+    "answer": [
+      {
+        "text": "Language-learning-app hooks working this week on TikTok fall into a handful of repeatable formats: showing an AI tutor \"roasting\" or scolding the learner, asking native speakers a direct question as comment bait, overwhelming the viewer with how hard the language is, mascot/character skits from brand accounts, meme-payoff translations, and quiz/test-your-level hooks that demand a score in the comments.",
+        "label": "other"
+      },
+      {
+        "text": "I assumed no follower, view, region or recency limit beyond the question's \"this week,\" so all examples were posted within the past few days.",
+        "label": "assumption"
+      }
+    ],
+    "criteriaLine": "Assumed, not asked (a creator who misses these stays, marked): proof video posted in the last 7 days.",
+    "excluded": {
+      "count": 0,
+      "byCheck": []
+    },
+    "creators": [
+      {
+        "handle": "dayspanish",
+        "profileUrl": "https://www.tiktok.com/@dayspanish",
+        "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/db01f873f90337abe9f92d828b435629~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=42957173&x-expires=1795460400&x-signature=l9zHgtJeQFgAVWNWUWKelR7jI5Q%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+        "followers": 63791,
+        "usualViews": 11576,
+        "postsSampled": 10,
+        "bestRecentViews": 339226,
+        "proofVsUsualRatio": 10,
+        "postsPerWeek": 4.8,
+        "paidLabelShare": 0,
+        "hasPublicEmail": false,
+        "proofVideo": {
+          "id": "7708531530544516360",
+          "url": "https://www.tiktok.com/@dayspanish/video/7708531530544516360",
+          "creator": "dayspanish",
+          "views": 116194,
+          "likes": 4280,
+          "postedUtc": 1794782382,
+          "daysAgo": 5,
+          "region": "BR",
+          "paidLabel": false,
+          "caption": "practicing Spanish with pingo ai #AngryParent #pingoai #spanish #LanguageLearning",
+          "note": [],
+          "imageUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o0f6SVnyEsyjAFxD5A4EAADNWrAeEBDwIIKfjJ~tplv-tiktokx-cropcenter:500:800.jpeg?biz_tag=musically_video.video_cover&dr=14577&idc=my&ps=13740610&refresh_token=f2663b9e&shcp=9b759fb9&shp=c1333099&t=4d5b0474&x-expires=1795309200&x-signature=XccMlp%2FbpMljEqp4%2BLoEYHuZQOM%3D"
+        },
+        "criteria": [
+          {
+            "text": "content shows a language learning app product",
+            "state": "unknown",
+            "source": "claim",
+            "evidence": {
+              "kind": "watch",
+              "url": "https://www.tiktok.com/@dayspanish/video/7708531530544516360",
+              "excerpt": "0:00-0:03 A woman with long blonde hair in a white t-shirt sits at a dark table, blowing soap bubbles through a green wa..."
+            }
+          },
+          {
+            "text": "hook is an AI acting like a strict parent scolding the learner",
+            "state": "unknown",
+            "source": "claim",
+            "evidence": {
+              "kind": "watch",
+              "url": "https://www.tiktok.com/@dayspanish/video/7708531530544516360",
+              "excerpt": "0:00-0:03 A woman with long blonde hair in a white t-shirt sits at a dark table, blowing soap bubbles through a green wa..."
+            }
+          },
+          {
+            "text": "proof video posted in the last 7 days",
+            "state": "supported",
+            "source": "check",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@dayspanish/video/7708531530544516360",
+              "excerpt": null
+            }
+          }
+        ]
+      },
+      {
+        "handle": "reythetutor",
+        "profileUrl": "https://www.tiktok.com/@reythetutor",
+        "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/773e90a6e328836da774ab4a0570d03b~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=2310e764&x-expires=1795460400&x-signature=NMQ1W%2FRddAvE7BXtHOcwrlX%2B6U0%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+        "followers": 5716,
+        "usualViews": 3428,
+        "postsSampled": 10,
+        "bestRecentViews": 34046,
+        "proofVsUsualRatio": 245.2,
+        "postsPerWeek": 302.4,
+        "paidLabelShare": 0,
+        "hasPublicEmail": false,
+        "proofVideo": {
+          "id": "7708196930085473537",
+          "url": "https://www.tiktok.com/@reythetutor/video/7708196930085473537",
+          "creator": "reythetutor",
+          "views": 840682,
+          "likes": 100002,
+          "postedUtc": 1794704508,
+          "daysAgo": 6,
+          "region": "ID",
+          "paidLabel": false,
+          "caption": "bentar, tadi tutor english gue ngomong apa barusan 😭 latihan speaking sama AI App name - GoSpeak. Website name - [removed] #gospeak #belajarbahasainggris #englishspeaking #aiteacher",
+          "note": [],
+          "imageUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-4863-sg/oIQEBQFABIrIu5xRStiAQr7fpFfDV7GEiwAOfe~tplv-tiktokx-cropcenter:500:800.jpeg?biz_tag=musically_video.video_cover&dr=14577&idc=my&ps=13740610&refresh_token=5aa7a683&shcp=9b759fb9&shp=c1333099&t=4d5b0474&x-expires=1795309200&x-signature=A8VXisYU%2FjO30WcMRqcW2zkw5M0%3D"
+        },
+        "criteria": [
+          {
+            "text": "content shows a language learning app product",
+            "state": "unknown",
+            "source": "claim",
+            "evidence": {
+              "kind": "watch",
+              "url": "https://www.tiktok.com/@reythetutor/video/7708196930085473537",
+              "excerpt": "0:00-0:03 Split-screen video. Left: a laptop screen showing the GoSpeak website with an orange, rounded-rectangle mascot..."
+            }
+          },
+          {
+            "text": "hook is a bait-and-switch where the tutor explodes into an absurd rant",
+            "state": "unknown",
+            "source": "claim",
+            "evidence": {
+              "kind": "watch",
+              "url": "https://www.tiktok.com/@reythetutor/video/7708196930085473537",
+              "excerpt": "0:00-0:03 Split-screen video. Left: a laptop screen showing the GoSpeak website with an orange, rounded-rectangle mascot..."
+            }
+          },
+          {
+            "text": "proof video posted in the last 7 days",
+            "state": "supported",
+            "source": "check",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@reythetutor/video/7708196930085473537",
+              "excerpt": null
+            }
+          }
+        ]
+      },
+      {
+        "handle": "fluentlywrong",
+        "profileUrl": "https://www.tiktok.com/@fluentlywrong",
+        "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-useast8-avt-0068-tx2/59a95c7108aa13a34ec78157cc4fd35f~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=0c92378b&x-expires=1795460400&x-signature=MHlC1RbqRwdRPNRLSm0Sl9HwdgY%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+        "followers": 105,
+        "usualViews": 200,
+        "postsSampled": 10,
+        "bestRecentViews": 3166,
+        "proofVsUsualRatio": 15.8,
+        "postsPerWeek": 8,
+        "paidLabelShare": 0,
+        "hasPublicEmail": false,
+        "proofVideo": {
+          "id": "7709997758740024606",
+          "url": "https://www.tiktok.com/@fluentlywrong/video/7709997758740024606",
+          "creator": "fluentlywrong",
+          "views": 3166,
+          "likes": 113,
+          "postedUtc": 1795123753,
+          "daysAgo": 1,
+          "region": "US",
+          "paidLabel": false,
+          "caption": "I downloaded an AI app to learn Spanish... now I'm getting verbally destroyed for every word I pronounce wrong. 💀😭 Follow to watch me struggle my way to fluency. 😂 #LearnSpanish #SpanishHumor #LanguageLearning #FunnyAI #relatablememes",
+          "note": [],
+          "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast8-p-0068-tx2/oAeGIRRseoJZHAJfmEJQQ0oaAALiQrAtfLGUAI~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=5e27bfd3&x-expires=1795374000&x-signature=dWTeGA4WVwxiYQXerfwjb%2Fd%2FTzs%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&s=PUBLISH&sc=cover&biz_tag=tt_video"
+        },
+        "criteria": [
+          {
+            "text": "content shows a language learning app product",
+            "state": "unknown",
+            "source": "claim",
+            "evidence": {
+              "kind": "watch",
+              "url": "https://www.tiktok.com/@fluentlywrong/video/7709997758740024606",
+              "excerpt": "0:00-0:03 A man with short twists and a beard, wearing an olive-green button-up over a gray tee, stands indoors holding ..."
+            }
+          },
+          {
+            "text": "hook is the AI roasting the learner's wrong answer with an absurd punchline",
+            "state": "unknown",
+            "source": "claim",
+            "evidence": {
+              "kind": "watch",
+              "url": "https://www.tiktok.com/@fluentlywrong/video/7709997758740024606",
+              "excerpt": "0:00-0:03 A man with short twists and a beard, wearing an olive-green button-up over a gray tee, stands indoors holding ..."
+            }
+          },
+          {
+            "text": "proof video posted in the last 7 days",
+            "state": "supported",
+            "source": "check",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@fluentlywrong/video/7709997758740024606",
+              "excerpt": null
+            }
+          }
+        ]
+      },
+      {
+        "handle": "tiavsjapanese",
+        "profileUrl": "https://www.tiktok.com/@tiavsjapanese",
+        "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/cbf03dab116d12ab6b2cf2722c1b703d~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=304c7323&x-expires=1795460400&x-signature=itnNPKSYxvCZW%2F%2F6vbbWjDDlCN8%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+        "followers": 7925,
+        "usualViews": 12447,
+        "postsSampled": 10,
+        "bestRecentViews": 58840,
+        "proofVsUsualRatio": 4.3,
+        "postsPerWeek": 6.2,
+        "paidLabelShare": 0,
+        "hasPublicEmail": false,
+        "proofVideo": {
+          "id": "7709447141915200788",
+          "url": "https://www.tiktok.com/@tiavsjapanese/video/7709447141915200788",
+          "creator": "tiavsjapanese",
+          "views": 53348,
+          "likes": 4397,
+          "postedUtc": 1794995547,
+          "daysAgo": 3,
+          "region": "JP",
+          "paidLabel": false,
+          "caption": "she was indeed a spy😳 Tenmin app - ad #learnchinese #learnmandarin #learnlanguages #learnenglish #nvidia",
+          "note": [],
+          "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/oge1pxqQJHGCOgfgzFWrA1vMAYwM9GeX8ueRKA~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=72a65136&x-expires=1795374000&x-signature=EXEfsGsheMWNGpvCPw%2F9QDqKIqM%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover"
+        },
+        "criteria": [
+          {
+            "text": "content shows a language learning app product",
+            "state": "unknown",
+            "source": "claim",
+            "evidence": {
+              "kind": "watch",
+              "url": "https://www.tiktok.com/@tiavsjapanese/video/7709447141915200788",
+              "excerpt": "0:00-0:04 A tablet and a smartphone sit side by side on a white table next to a glass vase with green plants. The tablet..."
+            }
+          },
+          {
+            "text": "proof video posted in the last 7 days",
+            "state": "supported",
+            "source": "check",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@tiavsjapanese/video/7709447141915200788",
+              "excerpt": null
+            }
+          }
+        ]
+      },
+      {
+        "handle": "madisonspeaksspanish",
+        "profileUrl": "https://www.tiktok.com/@madisonspeaksspanish",
+        "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-useast8-avt-0068-tx2/fe003af64d9a82550a0e8df3b7e7b0dd~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=9fbe74a4&x-expires=1795460400&x-signature=qT7iGapGx0qsYTzYLLdq0E0WzWw%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+        "followers": 19385,
+        "usualViews": 10101,
+        "postsSampled": 10,
+        "bestRecentViews": 597593,
+        "proofVsUsualRatio": 49.9,
+        "postsPerWeek": 15.3,
+        "paidLabelShare": 0,
+        "hasPublicEmail": false,
+        "proofVideo": {
+          "id": "7708890457387961614",
+          "url": "https://www.tiktok.com/@madisonspeaksspanish/video/7708890457387961614",
+          "creator": "madisonspeaksspanish",
+          "views": 504234,
+          "likes": 11120,
+          "postedUtc": 1794865938,
+          "daysAgo": 4,
+          "region": "US",
+          "paidLabel": false,
+          "caption": "#bilingualkids #LanguageLearning #spanishtiktok #fyp #speakapp",
+          "note": [],
+          "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast5-p-0068-tx/okAHDxe2MLVQeCywYnGvtQzFk9ejIQLAq7FIoi~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=2fa1b6bc&x-expires=1795374000&x-signature=lC5jbEH5lUZnRTzEUIXJdQAKOBw%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&sc=cover&biz_tag=tt_video&s=PUBLISH"
+        },
+        "criteria": [
+          {
+            "text": "content shows a language learning app product",
+            "state": "unknown",
+            "source": "claim",
+            "evidence": {
+              "kind": "watch",
+              "url": "https://www.tiktok.com/@madisonspeaksspanish/video/7708890457387961614",
+              "excerpt": "0:00-0:03 A woman with long brown hair, wearing a gray zip-up sweater, speaks directly to the camera in a classroom with..."
+            }
+          },
+          {
+            "text": "hook is asking native speakers directly how to say something, as comment bait",
+            "state": "unknown",
+            "source": "claim",
+            "evidence": {
+              "kind": "watch",
+              "url": "https://www.tiktok.com/@madisonspeaksspanish/video/7708890457387961614",
+              "excerpt": "0:00-0:03 A woman with long brown hair, wearing a gray zip-up sweater, speaks directly to the camera in a classroom with..."
+            }
+          },
+          {
+            "text": "proof video posted in the last 7 days",
+            "state": "supported",
+            "source": "check",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@madisonspeaksspanish/video/7708890457387961614",
+              "excerpt": null
+            }
+          }
+        ]
+      },
+      {
+        "handle": "teuidaapp",
+        "profileUrl": "https://www.tiktok.com/@teuidaapp",
+        "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/249b07d7f619b141725e8546e6a29ca4~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=a5c61c0a&x-expires=1795460400&x-signature=bQinpv13lmA%2B52ESW2Gm1Qw5848%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+        "followers": 364662,
+        "usualViews": 2144,
+        "postsSampled": 10,
+        "bestRecentViews": 340494,
+        "proofVsUsualRatio": 158.8,
+        "postsPerWeek": 3,
+        "paidLabelShare": 0,
+        "hasPublicEmail": false,
+        "proofVideo": {
+          "id": "7709587821136219399",
+          "url": "https://www.tiktok.com/@teuidaapp/video/7709587821136219399",
+          "creator": "teuidaapp",
+          "views": 340494,
+          "likes": 44079,
+          "postedUtc": 1795028300,
+          "daysAgo": 3,
+          "region": "KR",
+          "paidLabel": false,
+          "caption": "50 shades of Jinjjas 👀 . Want to learn a new language the easy way? Try TEUIDA! 📲 TEUIDA makes language learning fun, interactive, and focused entirely on speaking. 🌍 Explore our courses now: 🇰🇷 Korean 🇪🇸 Spanish 🇫🇷 French 🇯🇵 Japanese . Check the link in the bio ✨ Tap the link in bio to start speaking today! 🎉 #TEUIDA #LanguageLearning #Polyglot #Study #learnlanguages",
+          "note": [],
+          "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/oAqQUZ9BZBqIvAiR3BqIpU3E0fE0gWfP9q9BiG~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=65319dac&x-expires=1795374000&x-signature=Wm7Mp8Y7KXGM8wwLWnmh1MGihGg%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&s=PUBLISH&sc=cover&biz_tag=tt_video"
+        },
+        "criteria": [
+          {
+            "text": "content shows a language learning app product",
+            "state": "unknown",
+            "source": "claim",
+            "evidence": {
+              "kind": "watch",
+              "url": "https://www.tiktok.com/@teuidaapp/video/7709587821136219399",
+              "excerpt": "0:00-0:03 A camera films a tablet screen showing a Korean document with two column headers, '번호' and '표현'. Rows 1-4 are ..."
+            }
+          },
+          {
+            "text": "hook is overwhelming the viewer with how hard the language is",
+            "state": "unknown",
+            "source": "claim",
+            "evidence": {
+              "kind": "watch",
+              "url": "https://www.tiktok.com/@teuidaapp/video/7709587821136219399",
+              "excerpt": "0:00-0:03 A camera films a tablet screen showing a Korean document with two column headers, '번호' and '표현'. Rows 1-4 are ..."
+            }
+          },
+          {
+            "text": "proof video posted in the last 7 days",
+            "state": "supported",
+            "source": "check",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@teuidaapp/video/7709587821136219399",
+              "excerpt": null
+            }
+          }
+        ]
+      },
+      {
+        "handle": "bunpo_learnjapanese",
+        "profileUrl": "https://www.tiktok.com/@bunpo_learnjapanese",
+        "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-maliva-avt-0068/cf6cbadc464e329ddb725154ba1a145f~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=d9b73fdd&x-expires=1795460400&x-signature=rzMmZKXYLfw4ZmMdezXx0bE3iTM%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+        "followers": 63319,
+        "usualViews": 2097,
+        "postsSampled": 10,
+        "bestRecentViews": 324787,
+        "proofVsUsualRatio": 154.9,
+        "postsPerWeek": 3.7,
+        "paidLabelShare": 0,
+        "hasPublicEmail": false,
+        "proofVideo": {
+          "id": "7709163578669960481",
+          "url": "https://www.tiktok.com/@bunpo_learnjapanese/video/7709163578669960481",
+          "creator": "bunpo_learnjapanese",
+          "views": 324787,
+          "likes": 98659,
+          "postedUtc": 1794929524,
+          "daysAgo": 4,
+          "region": "PL",
+          "paidLabel": false,
+          "caption": "Try Bunpo — the Japanese app that actually explains the language, not just drills it. Real grammar, real AI conversations. Link in bio!🇯🇵✨ #japan #japanese #learningjapanese #learnjapanese #bunpo",
+          "note": [],
+          "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/og8zQfBAAIqAiDDmJmfCRXwn223FcjEWAiDiLE~tplv-tiktokx-cropcenter:300:400.jpeg?dr=10399&refresh_token=d4b5d758&x-expires=1795374000&x-signature=6i5a0PpmfYmKHjTfqukUDSpMapM%3D&t=4d5b0474&ps=13740610&shp=d05b14bd&shcp=34ff8df6&idc=useast2b&s=PUBLISH"
+        },
+        "criteria": [
+          {
+            "text": "content shows a language learning app product",
+            "state": "unknown",
+            "source": "claim",
+            "evidence": {
+              "kind": "watch",
+              "url": "https://www.tiktok.com/@bunpo_learnjapanese/video/7709163578669960481",
+              "excerpt": "0:00-0:02 A woman with long light-brown hair and bangs, in a pale blue top, holds a pink stylus near her face and speaks..."
+            }
+          },
+          {
+            "text": "hook is a literal phrase followed by an over-the-top meme reaction clip",
+            "state": "unknown",
+            "source": "claim",
+            "evidence": {
+              "kind": "watch",
+              "url": "https://www.tiktok.com/@bunpo_learnjapanese/video/7709163578669960481",
+              "excerpt": "0:00-0:02 A woman with long light-brown hair and bangs, in a pale blue top, holds a pink stylus near her face and speaks..."
+            }
+          },
+          {
+            "text": "proof video posted in the last 7 days",
+            "state": "supported",
+            "source": "check",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@bunpo_learnjapanese/video/7709163578669960481",
+              "excerpt": null
+            }
+          }
+        ]
+      },
+      {
+        "handle": "spanish_with_music",
+        "profileUrl": "https://www.tiktok.com/@spanish_with_music",
+        "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-useast5-avt-0068-tx/70ca787fbadf6fff7c9aba90f6f22a3e~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=3641beaf&x-expires=1795460400&x-signature=movp6vmJ9ml3xJer5HYkdCFFo5k%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+        "followers": 267333,
+        "usualViews": 160103,
+        "postsSampled": 10,
+        "bestRecentViews": 640818,
+        "proofVsUsualRatio": 0.9,
+        "postsPerWeek": 10.5,
+        "paidLabelShare": 0,
+        "hasPublicEmail": false,
+        "proofVideo": {
+          "id": "7709196181796113677",
+          "url": "https://www.tiktok.com/@spanish_with_music/video/7709196181796113677",
+          "creator": "spanish_with_music",
+          "views": 151935,
+          "likes": 12791,
+          "postedUtc": 1794937123,
+          "daysAgo": 4,
+          "region": "PL",
+          "paidLabel": false,
+          "caption": "Poco Coco Challenge 🥥 Part 2. Still easy? Meet Paco 🦜 Part 3 tomorrow. Full video on [removed] \"Poco Coco Challenge MeloLingo\". Can you say it 3 times fast? 👇 #LearnSpanish #SpanishWithMusic",
+          "note": [],
+          "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast5-p-0068-tx/oUfrNBWHJJDeX5nEfIFFfIAXOIA4QAJ4SNAIdA~tplv-tiktokx-cropcenter:300:400.jpeg?dr=10399&refresh_token=d4c69990&x-expires=1795374000&x-signature=fGSQ%2B4PphIzSUdpMOzuC75EapwM%3D&t=4d5b0474&ps=13740610&shp=d05b14bd&shcp=34ff8df6&idc=useast2b&s=PUBLISH"
+        },
+        "criteria": [
+          {
+            "text": "content shows a language learning app product",
+            "state": "unknown",
+            "source": "claim",
+            "evidence": {
+              "kind": "watch",
+              "url": "https://www.tiktok.com/@spanish_with_music/video/7709196181796113677",
+              "excerpt": "0:00-0:03 An orange cartoon cat in a teal cap holds a coconut drink with a straw and tiny umbrella beside a hanging micr..."
+            }
+          },
+          {
+            "text": "hook is an earworm rap tongue twister with escalating difficulty and comment bait",
+            "state": "unknown",
+            "source": "claim",
+            "evidence": {
+              "kind": "watch",
+              "url": "https://www.tiktok.com/@spanish_with_music/video/7709196181796113677",
+              "excerpt": "0:00-0:03 An orange cartoon cat in a teal cap holds a coconut drink with a straw and tiny umbrella beside a hanging micr..."
+            }
+          },
+          {
+            "text": "proof video posted in the last 7 days",
+            "state": "supported",
+            "source": "check",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@spanish_with_music/video/7709196181796113677",
+              "excerpt": null
+            }
+          }
+        ]
+      },
+      {
+        "handle": "spanish.with.ryanne",
+        "profileUrl": "https://www.tiktok.com/@spanish.with.ryanne",
+        "avatarUrl": "https://p16-common-sign.tiktokcdn-us.com/tos-maliva-avt-0068/4308206b6e855b8232f89b912ee41312~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=15d73544&x-expires=1795460400&x-signature=Z%2FfZVmsY2rwsYeA1neKsaSdae9s%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+        "followers": 41963,
+        "usualViews": 2545,
+        "postsSampled": 10,
+        "bestRecentViews": 17317,
+        "proofVsUsualRatio": 40,
+        "postsPerWeek": 6.5,
+        "paidLabelShare": 0,
+        "hasPublicEmail": false,
+        "proofVideo": {
+          "id": "7709205775117192480",
+          "url": "https://www.tiktok.com/@spanish.with.ryanne/video/7709205775117192480",
+          "creator": "spanish.with.ryanne",
+          "views": 101904,
+          "likes": 18477,
+          "postedUtc": 1794939323,
+          "daysAgo": 4,
+          "region": "ES",
+          "paidLabel": false,
+          "caption": "publi #ad #spanishlearning #spanishtok #learnspanish #spanishtips spanish apps. parrot app learn spanish online watching content. content in spanish. spanish videos. spanish show recs. spanish vocab words. easy spanish practice. grwm in spanish. spanish vlogs. beginner spanish",
+          "note": [],
+          "imageUrl": "https://p19-common-sign.tiktokcdn-eu.com/tos-useast2a-p-4864-euttp/oASVPlmDQJH3BDqXgEFffmMD7fMp4dJEGgDD8I~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=81ff0379&x-expires=1795374000&x-signature=wiQiEF4z7oHU5c95eTOQkukytzU%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&s=PUBLISH&sc=cover&biz_tag=tt_video"
+        },
+        "criteria": [
+          {
+            "text": "content shows a language learning app product",
+            "state": "unknown",
+            "source": "claim",
+            "evidence": {
+              "kind": "watch",
+              "url": "https://www.tiktok.com/@spanish.with.ryanne/video/7709205775117192480",
+              "excerpt": "0:00-0:05 A woman with long wavy brown hair and sunglasses perched on her head stands indoors under warm lighting, weari..."
+            }
+          },
+          {
+            "text": "hook is a playful taunt about missing out on bangers paired with a catchy song",
+            "state": "unknown",
+            "source": "claim",
+            "evidence": {
+              "kind": "watch",
+              "url": "https://www.tiktok.com/@spanish.with.ryanne/video/7709205775117192480",
+              "excerpt": "0:00-0:05 A woman with long wavy brown hair and sunglasses perched on her head stands indoors under warm lighting, weari..."
+            }
+          },
+          {
+            "text": "proof video posted in the last 7 days",
+            "state": "supported",
+            "source": "check",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@spanish.with.ryanne/video/7709205775117192480",
+              "excerpt": null
+            }
+          }
+        ]
+      },
+      {
+        "handle": "language_inspo",
+        "profileUrl": "https://www.tiktok.com/@language_inspo",
+        "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-maliva-avt-0068/cafe702aa131555546be639372426fbd~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=d2463c67&x-expires=1795460400&x-signature=bScBE7Uz0djvPLpfQWXAsiQ6IeI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+        "followers": 1628,
+        "usualViews": 23025,
+        "postsSampled": 10,
+        "bestRecentViews": 403507,
+        "proofVsUsualRatio": 4,
+        "postsPerWeek": 6.3,
+        "paidLabelShare": 0,
+        "hasPublicEmail": false,
+        "proofVideo": {
+          "id": "7709203189081361697",
+          "url": "https://www.tiktok.com/@language_inspo/video/7709203189081361697",
+          "creator": "language_inspo",
+          "views": 92433,
+          "likes": 18483,
+          "postedUtc": 1794938745,
+          "daysAgo": 4,
+          "region": "NL",
+          "paidLabel": false,
+          "caption": "i love speaking spanish. what languages do you speak?? #languages #LanguageLearning #viral #multilingual #languagetok",
+          "note": [],
+          "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/oM3va8BvigUZXIPBlyEvA3r6ig0TpYBmVwiwE~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=ebac973c&x-expires=1795374000&x-signature=G8V0GbcXtf0s8QlQKUwkg9kQvbo%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover&item=7709203189081361697"
+        },
+        "criteria": [
+          {
+            "text": "hook is an aspirational romantic premise for learning the language",
+            "state": "unknown",
+            "source": "claim",
+            "evidence": {
+              "kind": "watch",
+              "url": "https://www.tiktok.com/@language_inspo/video/7709203189081361697",
+              "excerpt": "0:00-0:01 A desk scene: an open Spanish textbook titled 'Gramática en español' with highlighted pages, handwritten noteb..."
+            }
+          },
+          {
+            "text": "proof video posted in the last 7 days",
+            "state": "supported",
+            "source": "check",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@language_inspo/video/7709203189081361697",
+              "excerpt": null
+            }
+          }
+        ]
+      },
+      {
+        "handle": "duolingo",
+        "profileUrl": "https://www.tiktok.com/@duolingo",
+        "avatarUrl": "https://p16-common-sign.tiktokcdn-us.com/tos-useast5-avt-0068-tx/2f96ebc0ed08d45f9922204a5281f38e~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=d1ab3ca5&x-expires=1795460400&x-signature=RqCwlaGkW1W%2FTImGesDfA7j5JD4%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+        "followers": 18613409,
+        "usualViews": 455376,
+        "postsSampled": 10,
+        "bestRecentViews": 15687966,
+        "proofVsUsualRatio": 1.8,
+        "postsPerWeek": 5.7,
+        "paidLabelShare": 0,
+        "hasPublicEmail": false,
+        "proofVideo": {
+          "id": "7710349070543375629",
+          "url": "https://www.tiktok.com/@duolingo/video/7710349070543375629",
+          "creator": "duolingo",
+          "views": 821028,
+          "likes": 119222,
+          "postedUtc": 1795205548,
+          "daysAgo": 0,
+          "region": "US",
+          "paidLabel": false,
+          "caption": "we love a queen who tries",
+          "note": [],
+          "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast5-p-0068-tx/o8A87BCCIuEB4BaQ6vUaoI4jqwA0qii6mgTpd~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=1130208e&x-expires=1795374000&x-signature=EOYPqoLs6Usg09dQqlfQeBO5eOc%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&sc=cover&biz_tag=tt_video&s=PUBLISH"
+        },
+        "criteria": [
+          {
+            "text": "brand-account mascot skit with a language angle",
+            "state": "unknown",
+            "source": "claim",
+            "evidence": {
+              "kind": "watch",
+              "url": "https://www.tiktok.com/@duolingo/video/7710349070543375629",
+              "excerpt": "0:00-0:01 Duolingo's green owl (Duo), wearing a long brown wig and a white button-up shirt, stands on a red carpet again..."
+            }
+          },
+          {
+            "text": "hook is the mascot answering food choice questions with app-style feedback",
+            "state": "unknown",
+            "source": "claim",
+            "evidence": {
+              "kind": "watch",
+              "url": "https://www.tiktok.com/@duolingo/video/7710349070543375629",
+              "excerpt": "0:00-0:01 Duolingo's green owl (Duo), wearing a long brown wig and a white button-up shirt, stands on a red carpet again..."
+            }
+          },
+          {
+            "text": "proof video posted in the last 7 days",
+            "state": "supported",
+            "source": "check",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@duolingo/video/7710349070543375629",
+              "excerpt": null
+            }
+          }
+        ]
+      },
+      {
+        "handle": "duolingoespanol",
+        "profileUrl": "https://www.tiktok.com/@duolingoespanol",
+        "avatarUrl": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/081c506d39fb8eb7b53253fb644a361a~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=818658b1&x-expires=1795460400&x-signature=TxE8BZ9q3vZmG1BMpO1c45eWM2E%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+        "followers": 7262429,
+        "usualViews": 48548,
+        "postsSampled": 10,
+        "bestRecentViews": 1021794,
+        "proofVsUsualRatio": 5.1,
+        "postsPerWeek": 7,
+        "paidLabelShare": 0,
+        "hasPublicEmail": false,
+        "proofVideo": {
+          "id": "7710411645830335764",
+          "url": "https://www.tiktok.com/@duolingoespanol/video/7710411645830335764",
+          "creator": "duolingoespanol",
+          "views": 247702,
+          "likes": 49600,
+          "postedUtc": 1795220103,
+          "daysAgo": 0,
+          "region": "MX",
+          "paidLabel": false,
+          "caption": "Comenta si tienes el mismo bias que Duo o Zari",
+          "note": [],
+          "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-4863-sg/os1vp2AuDBtIHEie9BUIUpEBAgv6gnfQuF4BiR~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=fcda5a13&x-expires=1795374000&x-signature=QrIXaGgq%2FsMuzzRy5M3zCGms%2BVc%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover"
+        },
+        "criteria": [
+          {
+            "text": "brand-account character skit with fandom meme angle",
+            "state": "unknown",
+            "source": "claim",
+            "evidence": {
+              "kind": "watch",
+              "url": "https://www.tiktok.com/@duolingoespanol/video/7710411645830335764",
+              "excerpt": "0:00-0:03 Two animated Duolingo-style characters sit on a red ledge outdoors (green hills, blue sky). The green owl has ..."
+            }
+          },
+          {
+            "text": "hook invites viewers to pick a side and comment",
+            "state": "unknown",
+            "source": "claim",
+            "evidence": {
+              "kind": "watch",
+              "url": "https://www.tiktok.com/@duolingoespanol/video/7710411645830335764",
+              "excerpt": "0:00-0:03 Two animated Duolingo-style characters sit on a red ledge outdoors (green hills, blue sky). The green owl has ..."
+            }
+          },
+          {
+            "text": "proof video posted in the last 7 days",
+            "state": "supported",
+            "source": "check",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@duolingoespanol/video/7710411645830335764",
+              "excerpt": null
+            }
+          }
+        ]
+      },
+      {
+        "handle": "duolingoturkiye",
+        "profileUrl": "https://www.tiktok.com/@duolingoturkiye",
+        "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-useast5-avt-0068-tx/4034fe4b1cb9b0fba672f59671cf003b~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=b024ecab&x-expires=1795460400&x-signature=62%2FWWF1iv58E6OPz6kbwaoINjts%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+        "followers": 433998,
+        "usualViews": 20878,
+        "postsSampled": 10,
+        "bestRecentViews": 100512,
+        "proofVsUsualRatio": 13,
+        "postsPerWeek": 7,
+        "paidLabelShare": 0,
+        "hasPublicEmail": false,
+        "proofVideo": {
+          "id": "7709903508270484749",
+          "url": "https://www.tiktok.com/@duolingoturkiye/video/7709903508270484749",
+          "creator": "duolingoturkiye",
+          "views": 270578,
+          "likes": 23947,
+          "postedUtc": 1795101807,
+          "daysAgo": 2,
+          "region": "TR",
+          "paidLabel": false,
+          "caption": "simple present tense önemli tabi 🥰 #DuolingoTurkiye #streak #ders #duolingo",
+          "note": [],
+          "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast5-p-0068-tx/o8HZQuFEIOkO7TXfHEDAQRfjjqVAFCXIPxEkfx~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=b608756d&x-expires=1795374000&x-signature=N2jj%2BF0chAKRLebizTsq3gqDmuU%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover"
+        },
+        "criteria": [
+          {
+            "text": "brand-account skit with literal word-by-word translation gag",
+            "state": "unknown",
+            "source": "claim",
+            "evidence": {
+              "kind": "watch",
+              "url": "https://www.tiktok.com/@duolingoturkiye/video/7709903508270484749",
+              "excerpt": "0:00-0:03 Animated classroom scene. A cartoon teacher with black pompadour hair, thick eyebrows and a big mustache, wear..."
+            }
+          },
+          {
+            "text": "hook is an absurd rant translated into word tiles",
+            "state": "unknown",
+            "source": "claim",
+            "evidence": {
+              "kind": "watch",
+              "url": "https://www.tiktok.com/@duolingoturkiye/video/7709903508270484749",
+              "excerpt": "0:00-0:03 Animated classroom scene. A cartoon teacher with black pompadour hair, thick eyebrows and a big mustache, wear..."
+            }
+          },
+          {
+            "text": "proof video posted in the last 7 days",
+            "state": "supported",
+            "source": "check",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@duolingoturkiye/video/7709903508270484749",
+              "excerpt": null
+            }
+          }
+        ]
+      },
+      {
+        "handle": "nuttelabrot3",
+        "profileUrl": "https://www.tiktok.com/@nuttelabrot3",
+        "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-useast2a-avt-0068-euttp/b3e5d46e6aa5c2b3cb92289694aef462~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=f185db07&x-expires=1795460400&x-signature=oBynHwU8hizXuNYROFUzo1Dhtvo%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+        "followers": 8651,
+        "usualViews": 20744,
+        "postsSampled": 10,
+        "bestRecentViews": 437902,
+        "proofVsUsualRatio": 12.9,
+        "postsPerWeek": 0.7,
+        "paidLabelShare": 0,
+        "hasPublicEmail": false,
+        "proofVideo": {
+          "id": "7709467883759275296",
+          "url": "https://www.tiktok.com/@nuttelabrot3/video/7709467883759275296",
+          "creator": "nuttelabrot3",
+          "views": 266621,
+          "likes": 45979,
+          "postedUtc": 1795000380,
+          "daysAgo": 3,
+          "region": "DE",
+          "paidLabel": false,
+          "caption": "#milk #duolingo #first #lesson #real",
+          "note": [],
+          "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/o4YFIIDOE7jMTgmsPf7f9IYxVDTihDyBfAEgAG~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=be057f72&x-expires=1795374000&x-signature=xP8TZnly7BQD0gIeHLwMwguxDqw%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover&item=7709467883759275296"
+        },
+        "criteria": [
+          {
+            "text": "hook is a relatable meme about how basic the app's first lessons are",
+            "state": "unknown",
+            "source": "claim",
+            "evidence": {
+              "kind": "watch",
+              "url": "https://www.tiktok.com/@nuttelabrot3/video/7709467883759275296",
+              "excerpt": "0:00-0:02 A static close-up of a tall clear glass filled with white milk, sitting on a plain beige countertop; white cap..."
+            }
+          },
+          {
+            "text": "proof video posted in the last 7 days",
+            "state": "supported",
+            "source": "check",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@nuttelabrot3/video/7709467883759275296",
+              "excerpt": null
+            }
+          }
+        ]
+      },
+      {
+        "handle": "kicsi_11",
+        "profileUrl": "https://www.tiktok.com/@kicsi_11",
+        "avatarUrl": "https://p16-common-sign.tiktokcdn-us.com/tos-useast8-avt-0068-tx2/82d21f5066fca83e5810442066c81a52~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=750a3170&x-expires=1795460400&x-signature=ePfaRFxudLYInPMCGWxFR5Nz4U8%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+        "followers": 3836,
+        "usualViews": 12351,
+        "postsSampled": 10,
+        "bestRecentViews": 143368,
+        "proofVsUsualRatio": 4.3,
+        "postsPerWeek": 2,
+        "paidLabelShare": 0,
+        "hasPublicEmail": false,
+        "proofVideo": {
+          "id": "7708455347584830751",
+          "url": "https://www.tiktok.com/@kicsi_11/video/7708455347584830751",
+          "creator": "kicsi_11",
+          "views": 52719,
+          "likes": 2757,
+          "postedUtc": 1794764637,
+          "daysAgo": 6,
+          "region": "US",
+          "paidLabel": false,
+          "caption": "How to say Tuesday 🌍 #languages #language #european #linguistics #LanguageLearning",
+          "note": [],
+          "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast8-p-0068-tx2/ogqREIAFsIi03jDALjI8Q6Qe2K3XDffCqrKVBz~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=ffb395c7&x-expires=1795374000&x-signature=0CLpDQ1iKvDbECGb9xlD32XzxMo%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover"
+        },
+        "criteria": [
+          {
+            "text": "hook is a dense multilingual comparison graphic that invites viewers to find their own language",
+            "state": "unknown",
+            "source": "claim",
+            "evidence": {
+              "kind": "watch",
+              "url": "https://www.tiktok.com/@kicsi_11/video/7708455347584830751",
+              "excerpt": "0:00-0:09 A static illustrated map of Europe fills the vertical frame. Each country/region is marked with a small nation..."
+            }
+          },
+          {
+            "text": "proof video posted in the last 7 days",
+            "state": "supported",
+            "source": "check",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@kicsi_11/video/7708455347584830751",
+              "excerpt": null
+            }
+          }
+        ]
+      }
+    ],
+    "videos": [
+      {
+        "id": "7708531530544516360",
+        "url": "https://www.tiktok.com/@dayspanish/video/7708531530544516360",
+        "creator": "dayspanish",
+        "views": 116194,
+        "likes": 4280,
+        "postedUtc": 1794782382,
+        "daysAgo": 5,
+        "region": "BR",
+        "paidLabel": false,
+        "caption": "practicing Spanish with pingo ai #AngryParent #pingoai #spanish #LanguageLearning",
+        "note": [
+          {
+            "text": "Strict-parent AI hook, huge breakout",
+            "label": "other"
+          }
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o0f6SVnyEsyjAFxD5A4EAADNWrAeEBDwIIKfjJ~tplv-tiktokx-cropcenter:500:800.jpeg?biz_tag=musically_video.video_cover&dr=14577&idc=my&ps=13740610&refresh_token=f2663b9e&shcp=9b759fb9&shp=c1333099&t=4d5b0474&x-expires=1795309200&x-signature=XccMlp%2FbpMljEqp4%2BLoEYHuZQOM%3D"
+      },
+      {
+        "id": "7708196930085473537",
+        "url": "https://www.tiktok.com/@reythetutor/video/7708196930085473537",
+        "creator": "reythetutor",
+        "views": 840682,
+        "likes": 100002,
+        "postedUtc": 1794704508,
+        "daysAgo": 6,
+        "region": "ID",
+        "paidLabel": false,
+        "caption": "bentar, tadi tutor english gue ngomong apa barusan 😭 latihan speaking sama AI App name - GoSpeak. Website name - [removed] #gospeak #belajarbahasainggris #englishspeaking #aiteacher",
+        "note": [
+          {
+            "text": "Bait-and-switch tutor rant hook",
+            "label": "other"
+          }
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-4863-sg/oIQEBQFABIrIu5xRStiAQr7fpFfDV7GEiwAOfe~tplv-tiktokx-cropcenter:500:800.jpeg?biz_tag=musically_video.video_cover&dr=14577&idc=my&ps=13740610&refresh_token=5aa7a683&shcp=9b759fb9&shp=c1333099&t=4d5b0474&x-expires=1795309200&x-signature=A8VXisYU%2FjO30WcMRqcW2zkw5M0%3D"
+      },
+      {
+        "id": "7709997758740024606",
+        "url": "https://www.tiktok.com/@fluentlywrong/video/7709997758740024606",
+        "creator": "fluentlywrong",
+        "views": 3166,
+        "likes": 113,
+        "postedUtc": 1795123753,
+        "daysAgo": 1,
+        "region": "US",
+        "paidLabel": false,
+        "caption": "I downloaded an AI app to learn Spanish... now I'm getting verbally destroyed for every word I pronounce wrong. 💀😭 Follow to watch me struggle my way to fluency. 😂 #LearnSpanish #SpanishHumor #LanguageLearning #FunnyAI #relatablememes",
+        "note": [
+          {
+            "text": "AI roast with absurd punchline",
+            "label": "other"
+          }
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast8-p-0068-tx2/oAeGIRRseoJZHAJfmEJQQ0oaAALiQrAtfLGUAI~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=5e27bfd3&x-expires=1795374000&x-signature=dWTeGA4WVwxiYQXerfwjb%2Fd%2FTzs%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&s=PUBLISH&sc=cover&biz_tag=tt_video"
+      },
+      {
+        "id": "7709447141915200788",
+        "url": "https://www.tiktok.com/@tiavsjapanese/video/7709447141915200788",
+        "creator": "tiavsjapanese",
+        "views": 53348,
+        "likes": 4397,
+        "postedUtc": 1794995547,
+        "daysAgo": 3,
+        "region": "JP",
+        "paidLabel": false,
+        "caption": "she was indeed a spy😳 Tenmin app - ad #learnchinese #learnmandarin #learnlanguages #learnenglish #nvidia",
+        "note": [],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/oge1pxqQJHGCOgfgzFWrA1vMAYwM9GeX8ueRKA~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=72a65136&x-expires=1795374000&x-signature=EXEfsGsheMWNGpvCPw%2F9QDqKIqM%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover"
+      },
+      {
+        "id": "7708890457387961614",
+        "url": "https://www.tiktok.com/@madisonspeaksspanish/video/7708890457387961614",
+        "creator": "madisonspeaksspanish",
+        "views": 504234,
+        "likes": 11120,
+        "postedUtc": 1794865938,
+        "daysAgo": 4,
+        "region": "US",
+        "paidLabel": false,
+        "caption": "#bilingualkids #LanguageLearning #spanishtiktok #fyp #speakapp",
+        "note": [
+          {
+            "text": "Ask-the-natives comment bait",
+            "label": "other"
+          }
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast5-p-0068-tx/okAHDxe2MLVQeCywYnGvtQzFk9ejIQLAq7FIoi~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=2fa1b6bc&x-expires=1795374000&x-signature=lC5jbEH5lUZnRTzEUIXJdQAKOBw%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&sc=cover&biz_tag=tt_video&s=PUBLISH"
+      },
+      {
+        "id": "7709299704768498957",
+        "url": "https://www.tiktok.com/@madisonspeaksspanish/video/7709299704768498957",
+        "creator": "madisonspeaksspanish",
+        "views": 20554,
+        "likes": 662,
+        "postedUtc": 1794961233,
+        "daysAgo": 3,
+        "region": "US",
+        "paidLabel": false,
+        "caption": "#LanguageLearning #spanishtiktok #fyp #learnspanish #speakapp",
+        "note": [
+          {
+            "text": "Same format, repeated question ending",
+            "label": "other"
+          }
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast5-p-0068-tx/o8AHHq95bIVQfCL9mHDOMQJekf3jERFAGpSIqB~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=8974411d&x-expires=1795374000&x-signature=l%2BBwXuHVUYoHDzWMLBOwNVsvAQY%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover"
+      },
+      {
+        "id": "7709587821136219399",
+        "url": "https://www.tiktok.com/@teuidaapp/video/7709587821136219399",
+        "creator": "teuidaapp",
+        "views": 340494,
+        "likes": 44079,
+        "postedUtc": 1795028300,
+        "daysAgo": 3,
+        "region": "KR",
+        "paidLabel": false,
+        "caption": "50 shades of Jinjjas 👀 . Want to learn a new language the easy way? Try TEUIDA! 📲 TEUIDA makes language learning fun, interactive, and focused entirely on speaking. 🌍 Explore our courses now: 🇰🇷 Korean 🇪🇸 Spanish 🇫🇷 French 🇯🇵 Japanese . Check the link in the bio ✨ Tap the link in bio to start speaking today! 🎉 #TEUIDA #LanguageLearning #Polyglot #Study #learnlanguages",
+        "note": [
+          {
+            "text": "Difficulty overload list hook",
+            "label": "other"
+          }
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/oAqQUZ9BZBqIvAiR3BqIpU3E0fE0gWfP9q9BiG~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=65319dac&x-expires=1795374000&x-signature=Wm7Mp8Y7KXGM8wwLWnmh1MGihGg%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&s=PUBLISH&sc=cover&biz_tag=tt_video"
+      },
+      {
+        "id": "7708455347584830751",
+        "url": "https://www.tiktok.com/@kicsi_11/video/7708455347584830751",
+        "creator": "kicsi_11",
+        "views": 52719,
+        "likes": 2757,
+        "postedUtc": 1794764637,
+        "daysAgo": 6,
+        "region": "US",
+        "paidLabel": false,
+        "caption": "How to say Tuesday 🌍 #languages #language #european #linguistics #LanguageLearning",
+        "note": [
+          {
+            "text": "Multilingual map pause-and-scan hook",
+            "label": "other"
+          }
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast8-p-0068-tx2/ogqREIAFsIi03jDALjI8Q6Qe2K3XDffCqrKVBz~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=ffb395c7&x-expires=1795374000&x-signature=0CLpDQ1iKvDbECGb9xlD32XzxMo%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover"
+      },
+      {
+        "id": "7709163578669960481",
+        "url": "https://www.tiktok.com/@bunpo_learnjapanese/video/7709163578669960481",
+        "creator": "bunpo_learnjapanese",
+        "views": 324787,
+        "likes": 98659,
+        "postedUtc": 1794929524,
+        "daysAgo": 4,
+        "region": "PL",
+        "paidLabel": false,
+        "caption": "Try Bunpo — the Japanese app that actually explains the language, not just drills it. Real grammar, real AI conversations. Link in bio!🇯🇵✨ #japan #japanese #learningjapanese #learnjapanese #bunpo",
+        "note": [
+          {
+            "text": "Meme payoff translation hook",
+            "label": "other"
+          }
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/og8zQfBAAIqAiDDmJmfCRXwn223FcjEWAiDiLE~tplv-tiktokx-cropcenter:300:400.jpeg?dr=10399&refresh_token=d4b5d758&x-expires=1795374000&x-signature=6i5a0PpmfYmKHjTfqukUDSpMapM%3D&t=4d5b0474&ps=13740610&shp=d05b14bd&shcp=34ff8df6&idc=useast2b&s=PUBLISH"
+      },
+      {
+        "id": "7709203189081361697",
+        "url": "https://www.tiktok.com/@language_inspo/video/7709203189081361697",
+        "creator": "language_inspo",
+        "views": 92433,
+        "likes": 18483,
+        "postedUtc": 1794938745,
+        "daysAgo": 4,
+        "region": "NL",
+        "paidLabel": false,
+        "caption": "i love speaking spanish. what languages do you speak?? #languages #LanguageLearning #viral #multilingual #languagetok",
+        "note": [
+          {
+            "text": "Aspirational romantic hook",
+            "label": "other"
+          }
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/oM3va8BvigUZXIPBlyEvA3r6ig0TpYBmVwiwE~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=ebac973c&x-expires=1795374000&x-signature=G8V0GbcXtf0s8QlQKUwkg9kQvbo%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover&item=7709203189081361697"
+      },
+      {
+        "id": "7709196181796113677",
+        "url": "https://www.tiktok.com/@spanish_with_music/video/7709196181796113677",
+        "creator": "spanish_with_music",
+        "views": 151935,
+        "likes": 12791,
+        "postedUtc": 1794937123,
+        "daysAgo": 4,
+        "region": "PL",
+        "paidLabel": false,
+        "caption": "Poco Coco Challenge 🥥 Part 2. Still easy? Meet Paco 🦜 Part 3 tomorrow. Full video on [removed] \"Poco Coco Challenge MeloLingo\". Can you say it 3 times fast? 👇 #LearnSpanish #SpanishWithMusic",
+        "note": [
+          {
+            "text": "Rap tongue twister earworm hook",
+            "label": "other"
+          }
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast5-p-0068-tx/oUfrNBWHJJDeX5nEfIFFfIAXOIA4QAJ4SNAIdA~tplv-tiktokx-cropcenter:300:400.jpeg?dr=10399&refresh_token=d4c69990&x-expires=1795374000&x-signature=fGSQ%2B4PphIzSUdpMOzuC75EapwM%3D&t=4d5b0474&ps=13740610&shp=d05b14bd&shcp=34ff8df6&idc=useast2b&s=PUBLISH"
+      },
+      {
+        "id": "7709205775117192480",
+        "url": "https://www.tiktok.com/@spanish.with.ryanne/video/7709205775117192480",
+        "creator": "spanish.with.ryanne",
+        "views": 101904,
+        "likes": 18477,
+        "postedUtc": 1794939323,
+        "daysAgo": 4,
+        "region": "ES",
+        "paidLabel": false,
+        "caption": "publi #ad #spanishlearning #spanishtok #learnspanish #spanishtips spanish apps. parrot app learn spanish online watching content. content in spanish. spanish videos. spanish show recs. spanish vocab words. easy spanish practice. grwm in spanish. spanish vlogs. beginner spanish",
+        "note": [
+          {
+            "text": "Missing-the-bangers taunt hook",
+            "label": "other"
+          }
+        ],
+        "imageUrl": "https://p19-common-sign.tiktokcdn-eu.com/tos-useast2a-p-4864-euttp/oASVPlmDQJH3BDqXgEFffmMD7fMp4dJEGgDD8I~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=81ff0379&x-expires=1795374000&x-signature=wiQiEF4z7oHU5c95eTOQkukytzU%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&s=PUBLISH&sc=cover&biz_tag=tt_video"
+      },
+      {
+        "id": "7710349070543375629",
+        "url": "https://www.tiktok.com/@duolingo/video/7710349070543375629",
+        "creator": "duolingo",
+        "views": 821028,
+        "likes": 119222,
+        "postedUtc": 1795205548,
+        "daysAgo": 0,
+        "region": "US",
+        "paidLabel": false,
+        "caption": "we love a queen who tries",
+        "note": [
+          {
+            "text": "Mascot food-choice interview hook",
+            "label": "other"
+          }
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast5-p-0068-tx/o8A87BCCIuEB4BaQ6vUaoI4jqwA0qii6mgTpd~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=1130208e&x-expires=1795374000&x-signature=EOYPqoLs6Usg09dQqlfQeBO5eOc%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&sc=cover&biz_tag=tt_video&s=PUBLISH"
+      },
+      {
+        "id": "7710411645830335764",
+        "url": "https://www.tiktok.com/@duolingoespanol/video/7710411645830335764",
+        "creator": "duolingoespanol",
+        "views": 247702,
+        "likes": 49600,
+        "postedUtc": 1795220103,
+        "daysAgo": 0,
+        "region": "MX",
+        "paidLabel": false,
+        "caption": "Comenta si tienes el mismo bias que Duo o Zari",
+        "note": [
+          {
+            "text": "Fandom POV hook",
+            "label": "other"
+          }
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-4863-sg/os1vp2AuDBtIHEie9BUIUpEBAgv6gnfQuF4BiR~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=fcda5a13&x-expires=1795374000&x-signature=QrIXaGgq%2FsMuzzRy5M3zCGms%2BVc%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover"
+      },
+      {
+        "id": "7709903508270484749",
+        "url": "https://www.tiktok.com/@duolingoturkiye/video/7709903508270484749",
+        "creator": "duolingoturkiye",
+        "views": 270578,
+        "likes": 23947,
+        "postedUtc": 1795101807,
+        "daysAgo": 2,
+        "region": "TR",
+        "paidLabel": false,
+        "caption": "simple present tense önemli tabi 🥰 #DuolingoTurkiye #streak #ders #duolingo",
+        "note": [
+          {
+            "text": "Word-tile translation rant hook",
+            "label": "other"
+          }
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast5-p-0068-tx/o8HZQuFEIOkO7TXfHEDAQRfjjqVAFCXIPxEkfx~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=b608756d&x-expires=1795374000&x-signature=N2jj%2BF0chAKRLebizTsq3gqDmuU%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover"
+      },
+      {
+        "id": "7709467883759275296",
+        "url": "https://www.tiktok.com/@nuttelabrot3/video/7709467883759275296",
+        "creator": "nuttelabrot3",
+        "views": 266621,
+        "likes": 45979,
+        "postedUtc": 1795000380,
+        "daysAgo": 3,
+        "region": "DE",
+        "paidLabel": false,
+        "caption": "#milk #duolingo #first #lesson #real",
+        "note": [
+          {
+            "text": "Basic first lessons meme hook",
+            "label": "other"
+          }
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/o4YFIIDOE7jMTgmsPf7f9IYxVDTihDyBfAEgAG~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=be057f72&x-expires=1795374000&x-signature=xP8TZnly7BQD0gIeHLwMwguxDqw%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover&item=7709467883759275296"
+      },
+      {
+        "id": "7708840722669063427",
+        "url": "https://www.tiktok.com/@cambridgeenglishwalking/video/7708840722669063427",
+        "creator": "cambridgeenglishwalking",
+        "views": 274239,
+        "likes": 35606,
+        "postedUtc": 1794854353,
+        "daysAgo": 5,
+        "region": "GB",
+        "paidLabel": false,
+        "caption": "What’s Your English Level? 🇬🇧 Listening Test A2–C1 | Learn English While Walking in London Join us for a real evening walk through central London as we practise British English together! 🎧🇬🇧 Listen to 6 short stories, from A2 to C1, and test your English listening skills while exploring the beautiful streets of London at night. Which English level can you understand? Share your result in the comments! #EnglishListeningPractice #EnglishLevelTest #LearnEnglish #BritishEnglish #EnglishForBeginners",
+        "note": [
+          {
+            "text": "Level-test walking-tour hook",
+            "label": "other"
+          }
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn.com/tos-no1a-p-0037-no/o8fr7AGrIWKIAHomeRAAQeALJT2fos2c5FUGQm~tplv-tiktokx-cropcenter:500:800.jpeg?biz_tag=musically_video.video_cover&dr=14577&idc=my&ps=13740610&refresh_token=451e2566&shcp=9b759fb9&shp=c1333099&t=4d5b0474&x-expires=1795309200&x-signature=G7Vu5JdnKsVRNchQVeca63F17RI%3D"
+      },
+      {
+        "id": "7709576821385268511",
+        "url": "https://www.tiktok.com/@englishwithjhons/video/7709576821385268511",
+        "creator": "englishwithjhons",
+        "views": 22661,
+        "likes": 1919,
+        "postedUtc": 1795025754,
+        "daysAgo": 3,
+        "region": "US",
+        "paidLabel": false,
+        "caption": "English Level Test: B1, B2, C1, C2 Level (12 Questions Only) #englishlevel #b1 #b2 #c1 #c2",
+        "note": [
+          {
+            "text": "Bounded question-count quiz hook",
+            "label": "other"
+          }
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn.com/tos-useast8-p-0068-tx2/owOEnLifNEBVZ6AAU9LAfuilq9IkRiJEVy1v6B~tplv-tiktokx-cropcenter:500:800.jpeg?biz_tag=musically_video.video_cover&dr=14577&idc=my&ps=13740610&refresh_token=f8421c6f&shcp=9b759fb9&shp=c1333099&t=4d5b0474&x-expires=1795309200&x-signature=R55qasu4ulBGkf8HEHLpDVD%2F7Qo%3D"
+      }
+    ],
+    "patterns": [],
+    "sections": [
+      {
+        "kind": "best",
+        "heading": "Strict AI parent persona",
+        "reason": null,
+        "creators": [
+          {
+            "handle": "dayspanish",
+            "profileUrl": "https://www.tiktok.com/@dayspanish",
+            "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/db01f873f90337abe9f92d828b435629~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=42957173&x-expires=1795460400&x-signature=l9zHgtJeQFgAVWNWUWKelR7jI5Q%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+            "followers": 63791,
+            "usualViews": 11576,
+            "postsSampled": 10,
+            "bestRecentViews": 339226,
+            "proofVsUsualRatio": 10,
+            "postsPerWeek": 4.8,
+            "paidLabelShare": 0,
+            "hasPublicEmail": false,
+            "proofVideo": {
+              "id": "7708531530544516360",
+              "url": "https://www.tiktok.com/@dayspanish/video/7708531530544516360",
+              "creator": "dayspanish",
+              "views": 116194,
+              "likes": 4280,
+              "postedUtc": 1794782382,
+              "daysAgo": 5,
+              "region": "BR",
+              "paidLabel": false,
+              "caption": "practicing Spanish with pingo ai #AngryParent #pingoai #spanish #LanguageLearning",
+              "note": [],
+              "imageUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/o0f6SVnyEsyjAFxD5A4EAADNWrAeEBDwIIKfjJ~tplv-tiktokx-cropcenter:500:800.jpeg?biz_tag=musically_video.video_cover&dr=14577&idc=my&ps=13740610&refresh_token=f2663b9e&shcp=9b759fb9&shp=c1333099&t=4d5b0474&x-expires=1795309200&x-signature=XccMlp%2FbpMljEqp4%2BLoEYHuZQOM%3D"
+            },
+            "criteria": [
+              {
+                "text": "content shows a language learning app product",
+                "state": "unknown",
+                "source": "claim",
+                "evidence": {
+                  "kind": "watch",
+                  "url": "https://www.tiktok.com/@dayspanish/video/7708531530544516360",
+                  "excerpt": "0:00-0:03 A woman with long blonde hair in a white t-shirt sits at a dark table, blowing soap bubbles through a green wa..."
+                }
+              },
+              {
+                "text": "hook is an AI acting like a strict parent scolding the learner",
+                "state": "unknown",
+                "source": "claim",
+                "evidence": {
+                  "kind": "watch",
+                  "url": "https://www.tiktok.com/@dayspanish/video/7708531530544516360",
+                  "excerpt": "0:00-0:03 A woman with long blonde hair in a white t-shirt sits at a dark table, blowing soap bubbles through a green wa..."
+                }
+              },
+              {
+                "text": "proof video posted in the last 7 days",
+                "state": "supported",
+                "source": "check",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@dayspanish/video/7708531530544516360",
+                  "excerpt": null
+                }
+              }
+            ]
+          }
+        ],
+        "videos": [],
+        "videoIds": []
+      },
+      {
+        "kind": "group",
+        "heading": "AI roasting the learner",
+        "reason": "Variations on the same joke: the tutor explodes, insults, or gets caught in an absurd situation, and the creator's confused or deadpan reaction carries the payoff.",
+        "creators": [
+          {
+            "handle": "reythetutor",
+            "profileUrl": "https://www.tiktok.com/@reythetutor",
+            "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/773e90a6e328836da774ab4a0570d03b~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=2310e764&x-expires=1795460400&x-signature=NMQ1W%2FRddAvE7BXtHOcwrlX%2B6U0%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+            "followers": 5716,
+            "usualViews": 3428,
+            "postsSampled": 10,
+            "bestRecentViews": 34046,
+            "proofVsUsualRatio": 245.2,
+            "postsPerWeek": 302.4,
+            "paidLabelShare": 0,
+            "hasPublicEmail": false,
+            "proofVideo": {
+              "id": "7708196930085473537",
+              "url": "https://www.tiktok.com/@reythetutor/video/7708196930085473537",
+              "creator": "reythetutor",
+              "views": 840682,
+              "likes": 100002,
+              "postedUtc": 1794704508,
+              "daysAgo": 6,
+              "region": "ID",
+              "paidLabel": false,
+              "caption": "bentar, tadi tutor english gue ngomong apa barusan 😭 latihan speaking sama AI App name - GoSpeak. Website name - [removed] #gospeak #belajarbahasainggris #englishspeaking #aiteacher",
+              "note": [],
+              "imageUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-4863-sg/oIQEBQFABIrIu5xRStiAQr7fpFfDV7GEiwAOfe~tplv-tiktokx-cropcenter:500:800.jpeg?biz_tag=musically_video.video_cover&dr=14577&idc=my&ps=13740610&refresh_token=5aa7a683&shcp=9b759fb9&shp=c1333099&t=4d5b0474&x-expires=1795309200&x-signature=A8VXisYU%2FjO30WcMRqcW2zkw5M0%3D"
+            },
+            "criteria": [
+              {
+                "text": "content shows a language learning app product",
+                "state": "unknown",
+                "source": "claim",
+                "evidence": {
+                  "kind": "watch",
+                  "url": "https://www.tiktok.com/@reythetutor/video/7708196930085473537",
+                  "excerpt": "0:00-0:03 Split-screen video. Left: a laptop screen showing the GoSpeak website with an orange, rounded-rectangle mascot..."
+                }
+              },
+              {
+                "text": "hook is a bait-and-switch where the tutor explodes into an absurd rant",
+                "state": "unknown",
+                "source": "claim",
+                "evidence": {
+                  "kind": "watch",
+                  "url": "https://www.tiktok.com/@reythetutor/video/7708196930085473537",
+                  "excerpt": "0:00-0:03 Split-screen video. Left: a laptop screen showing the GoSpeak website with an orange, rounded-rectangle mascot..."
+                }
+              },
+              {
+                "text": "proof video posted in the last 7 days",
+                "state": "supported",
+                "source": "check",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@reythetutor/video/7708196930085473537",
+                  "excerpt": null
+                }
+              }
+            ]
+          },
+          {
+            "handle": "fluentlywrong",
+            "profileUrl": "https://www.tiktok.com/@fluentlywrong",
+            "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-useast8-avt-0068-tx2/59a95c7108aa13a34ec78157cc4fd35f~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=0c92378b&x-expires=1795460400&x-signature=MHlC1RbqRwdRPNRLSm0Sl9HwdgY%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+            "followers": 105,
+            "usualViews": 200,
+            "postsSampled": 10,
+            "bestRecentViews": 3166,
+            "proofVsUsualRatio": 15.8,
+            "postsPerWeek": 8,
+            "paidLabelShare": 0,
+            "hasPublicEmail": false,
+            "proofVideo": {
+              "id": "7709997758740024606",
+              "url": "https://www.tiktok.com/@fluentlywrong/video/7709997758740024606",
+              "creator": "fluentlywrong",
+              "views": 3166,
+              "likes": 113,
+              "postedUtc": 1795123753,
+              "daysAgo": 1,
+              "region": "US",
+              "paidLabel": false,
+              "caption": "I downloaded an AI app to learn Spanish... now I'm getting verbally destroyed for every word I pronounce wrong. 💀😭 Follow to watch me struggle my way to fluency. 😂 #LearnSpanish #SpanishHumor #LanguageLearning #FunnyAI #relatablememes",
+              "note": [],
+              "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast8-p-0068-tx2/oAeGIRRseoJZHAJfmEJQQ0oaAALiQrAtfLGUAI~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=5e27bfd3&x-expires=1795374000&x-signature=dWTeGA4WVwxiYQXerfwjb%2Fd%2FTzs%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&s=PUBLISH&sc=cover&biz_tag=tt_video"
+            },
+            "criteria": [
+              {
+                "text": "content shows a language learning app product",
+                "state": "unknown",
+                "source": "claim",
+                "evidence": {
+                  "kind": "watch",
+                  "url": "https://www.tiktok.com/@fluentlywrong/video/7709997758740024606",
+                  "excerpt": "0:00-0:03 A man with short twists and a beard, wearing an olive-green button-up over a gray tee, stands indoors holding ..."
+                }
+              },
+              {
+                "text": "hook is the AI roasting the learner's wrong answer with an absurd punchline",
+                "state": "unknown",
+                "source": "claim",
+                "evidence": {
+                  "kind": "watch",
+                  "url": "https://www.tiktok.com/@fluentlywrong/video/7709997758740024606",
+                  "excerpt": "0:00-0:03 A man with short twists and a beard, wearing an olive-green button-up over a gray tee, stands indoors holding ..."
+                }
+              },
+              {
+                "text": "proof video posted in the last 7 days",
+                "state": "supported",
+                "source": "check",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@fluentlywrong/video/7709997758740024606",
+                  "excerpt": null
+                }
+              }
+            ]
+          },
+          {
+            "handle": "tiavsjapanese",
+            "profileUrl": "https://www.tiktok.com/@tiavsjapanese",
+            "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/cbf03dab116d12ab6b2cf2722c1b703d~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=304c7323&x-expires=1795460400&x-signature=itnNPKSYxvCZW%2F%2F6vbbWjDDlCN8%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+            "followers": 7925,
+            "usualViews": 12447,
+            "postsSampled": 10,
+            "bestRecentViews": 58840,
+            "proofVsUsualRatio": 4.3,
+            "postsPerWeek": 6.2,
+            "paidLabelShare": 0,
+            "hasPublicEmail": false,
+            "proofVideo": {
+              "id": "7709447141915200788",
+              "url": "https://www.tiktok.com/@tiavsjapanese/video/7709447141915200788",
+              "creator": "tiavsjapanese",
+              "views": 53348,
+              "likes": 4397,
+              "postedUtc": 1794995547,
+              "daysAgo": 3,
+              "region": "JP",
+              "paidLabel": false,
+              "caption": "she was indeed a spy😳 Tenmin app - ad #learnchinese #learnmandarin #learnlanguages #learnenglish #nvidia",
+              "note": [],
+              "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/oge1pxqQJHGCOgfgzFWrA1vMAYwM9GeX8ueRKA~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=72a65136&x-expires=1795374000&x-signature=EXEfsGsheMWNGpvCPw%2F9QDqKIqM%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover"
+            },
+            "criteria": [
+              {
+                "text": "content shows a language learning app product",
+                "state": "unknown",
+                "source": "claim",
+                "evidence": {
+                  "kind": "watch",
+                  "url": "https://www.tiktok.com/@tiavsjapanese/video/7709447141915200788",
+                  "excerpt": "0:00-0:04 A tablet and a smartphone sit side by side on a white table next to a glass vase with green plants. The tablet..."
+                }
+              },
+              {
+                "text": "proof video posted in the last 7 days",
+                "state": "supported",
+                "source": "check",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@tiavsjapanese/video/7709447141915200788",
+                  "excerpt": null
+                }
+              }
+            ]
+          }
+        ],
+        "videos": [],
+        "videoIds": []
+      },
+      {
+        "kind": "group",
+        "heading": "Ask the natives comment bait",
+        "reason": "A text overlay addresses native speakers directly with a usage question, the app screenshot appears mid-video as proof, and the same question is repeated at the end to farm comments.",
+        "creators": [
+          {
+            "handle": "madisonspeaksspanish",
+            "profileUrl": "https://www.tiktok.com/@madisonspeaksspanish",
+            "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-useast8-avt-0068-tx2/fe003af64d9a82550a0e8df3b7e7b0dd~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=9fbe74a4&x-expires=1795460400&x-signature=qT7iGapGx0qsYTzYLLdq0E0WzWw%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+            "followers": 19385,
+            "usualViews": 10101,
+            "postsSampled": 10,
+            "bestRecentViews": 597593,
+            "proofVsUsualRatio": 49.9,
+            "postsPerWeek": 15.3,
+            "paidLabelShare": 0,
+            "hasPublicEmail": false,
+            "proofVideo": {
+              "id": "7708890457387961614",
+              "url": "https://www.tiktok.com/@madisonspeaksspanish/video/7708890457387961614",
+              "creator": "madisonspeaksspanish",
+              "views": 504234,
+              "likes": 11120,
+              "postedUtc": 1794865938,
+              "daysAgo": 4,
+              "region": "US",
+              "paidLabel": false,
+              "caption": "#bilingualkids #LanguageLearning #spanishtiktok #fyp #speakapp",
+              "note": [],
+              "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast5-p-0068-tx/okAHDxe2MLVQeCywYnGvtQzFk9ejIQLAq7FIoi~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=2fa1b6bc&x-expires=1795374000&x-signature=lC5jbEH5lUZnRTzEUIXJdQAKOBw%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&sc=cover&biz_tag=tt_video&s=PUBLISH"
+            },
+            "criteria": [
+              {
+                "text": "content shows a language learning app product",
+                "state": "unknown",
+                "source": "claim",
+                "evidence": {
+                  "kind": "watch",
+                  "url": "https://www.tiktok.com/@madisonspeaksspanish/video/7708890457387961614",
+                  "excerpt": "0:00-0:03 A woman with long brown hair, wearing a gray zip-up sweater, speaks directly to the camera in a classroom with..."
+                }
+              },
+              {
+                "text": "hook is asking native speakers directly how to say something, as comment bait",
+                "state": "unknown",
+                "source": "claim",
+                "evidence": {
+                  "kind": "watch",
+                  "url": "https://www.tiktok.com/@madisonspeaksspanish/video/7708890457387961614",
+                  "excerpt": "0:00-0:03 A woman with long brown hair, wearing a gray zip-up sweater, speaks directly to the camera in a classroom with..."
+                }
+              },
+              {
+                "text": "proof video posted in the last 7 days",
+                "state": "supported",
+                "source": "check",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@madisonspeaksspanish/video/7708890457387961614",
+                  "excerpt": null
+                }
+              }
+            ]
+          }
+        ],
+        "videos": [],
+        "videoIds": []
+      },
+      {
+        "kind": "group",
+        "heading": "Difficulty overload",
+        "reason": "Showing how complicated the language is — a rapid list of one word's many variants under a 'why is this so hard' banner, or a dense multilingual map — triggers rewatching and 'in my language...' comments.",
+        "creators": [
+          {
+            "handle": "teuidaapp",
+            "profileUrl": "https://www.tiktok.com/@teuidaapp",
+            "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/249b07d7f619b141725e8546e6a29ca4~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=a5c61c0a&x-expires=1795460400&x-signature=bQinpv13lmA%2B52ESW2Gm1Qw5848%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+            "followers": 364662,
+            "usualViews": 2144,
+            "postsSampled": 10,
+            "bestRecentViews": 340494,
+            "proofVsUsualRatio": 158.8,
+            "postsPerWeek": 3,
+            "paidLabelShare": 0,
+            "hasPublicEmail": false,
+            "proofVideo": {
+              "id": "7709587821136219399",
+              "url": "https://www.tiktok.com/@teuidaapp/video/7709587821136219399",
+              "creator": "teuidaapp",
+              "views": 340494,
+              "likes": 44079,
+              "postedUtc": 1795028300,
+              "daysAgo": 3,
+              "region": "KR",
+              "paidLabel": false,
+              "caption": "50 shades of Jinjjas 👀 . Want to learn a new language the easy way? Try TEUIDA! 📲 TEUIDA makes language learning fun, interactive, and focused entirely on speaking. 🌍 Explore our courses now: 🇰🇷 Korean 🇪🇸 Spanish 🇫🇷 French 🇯🇵 Japanese . Check the link in the bio ✨ Tap the link in bio to start speaking today! 🎉 #TEUIDA #LanguageLearning #Polyglot #Study #learnlanguages",
+              "note": [],
+              "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/oAqQUZ9BZBqIvAiR3BqIpU3E0fE0gWfP9q9BiG~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=65319dac&x-expires=1795374000&x-signature=Wm7Mp8Y7KXGM8wwLWnmh1MGihGg%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&s=PUBLISH&sc=cover&biz_tag=tt_video"
+            },
+            "criteria": [
+              {
+                "text": "content shows a language learning app product",
+                "state": "unknown",
+                "source": "claim",
+                "evidence": {
+                  "kind": "watch",
+                  "url": "https://www.tiktok.com/@teuidaapp/video/7709587821136219399",
+                  "excerpt": "0:00-0:03 A camera films a tablet screen showing a Korean document with two column headers, '번호' and '표현'. Rows 1-4 are ..."
+                }
+              },
+              {
+                "text": "hook is overwhelming the viewer with how hard the language is",
+                "state": "unknown",
+                "source": "claim",
+                "evidence": {
+                  "kind": "watch",
+                  "url": "https://www.tiktok.com/@teuidaapp/video/7709587821136219399",
+                  "excerpt": "0:00-0:03 A camera films a tablet screen showing a Korean document with two column headers, '번호' and '표현'. Rows 1-4 are ..."
+                }
+              },
+              {
+                "text": "proof video posted in the last 7 days",
+                "state": "supported",
+                "source": "check",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@teuidaapp/video/7709587821136219399",
+                  "excerpt": null
+                }
+              }
+            ]
+          },
+          {
+            "handle": "kicsi_11",
+            "profileUrl": "https://www.tiktok.com/@kicsi_11",
+            "avatarUrl": "https://p16-common-sign.tiktokcdn-us.com/tos-useast8-avt-0068-tx2/82d21f5066fca83e5810442066c81a52~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=750a3170&x-expires=1795460400&x-signature=ePfaRFxudLYInPMCGWxFR5Nz4U8%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+            "followers": 3836,
+            "usualViews": 12351,
+            "postsSampled": 10,
+            "bestRecentViews": 143368,
+            "proofVsUsualRatio": 4.3,
+            "postsPerWeek": 2,
+            "paidLabelShare": 0,
+            "hasPublicEmail": false,
+            "proofVideo": {
+              "id": "7708455347584830751",
+              "url": "https://www.tiktok.com/@kicsi_11/video/7708455347584830751",
+              "creator": "kicsi_11",
+              "views": 52719,
+              "likes": 2757,
+              "postedUtc": 1794764637,
+              "daysAgo": 6,
+              "region": "US",
+              "paidLabel": false,
+              "caption": "How to say Tuesday 🌍 #languages #language #european #linguistics #LanguageLearning",
+              "note": [],
+              "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast8-p-0068-tx2/ogqREIAFsIi03jDALjI8Q6Qe2K3XDffCqrKVBz~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=ffb395c7&x-expires=1795374000&x-signature=0CLpDQ1iKvDbECGb9xlD32XzxMo%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover"
+            },
+            "criteria": [
+              {
+                "text": "hook is a dense multilingual comparison graphic that invites viewers to find their own language",
+                "state": "unknown",
+                "source": "claim",
+                "evidence": {
+                  "kind": "watch",
+                  "url": "https://www.tiktok.com/@kicsi_11/video/7708455347584830751",
+                  "excerpt": "0:00-0:09 A static illustrated map of Europe fills the vertical frame. Each country/region is marked with a small nation..."
+                }
+              },
+              {
+                "text": "proof video posted in the last 7 days",
+                "state": "supported",
+                "source": "check",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@kicsi_11/video/7708455347584830751",
+                  "excerpt": null
+                }
+              }
+            ]
+          }
+        ],
+        "videos": [],
+        "videoIds": []
+      },
+      {
+        "kind": "group",
+        "heading": "Meme payoff translations",
+        "reason": "A plain phrase is set up, then an over-the-top pop-culture clip or absurd punchline delivers the native equivalent, rewarding viewers who recognize the reference.",
+        "creators": [
+          {
+            "handle": "bunpo_learnjapanese",
+            "profileUrl": "https://www.tiktok.com/@bunpo_learnjapanese",
+            "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-maliva-avt-0068/cf6cbadc464e329ddb725154ba1a145f~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=d9b73fdd&x-expires=1795460400&x-signature=rzMmZKXYLfw4ZmMdezXx0bE3iTM%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+            "followers": 63319,
+            "usualViews": 2097,
+            "postsSampled": 10,
+            "bestRecentViews": 324787,
+            "proofVsUsualRatio": 154.9,
+            "postsPerWeek": 3.7,
+            "paidLabelShare": 0,
+            "hasPublicEmail": false,
+            "proofVideo": {
+              "id": "7709163578669960481",
+              "url": "https://www.tiktok.com/@bunpo_learnjapanese/video/7709163578669960481",
+              "creator": "bunpo_learnjapanese",
+              "views": 324787,
+              "likes": 98659,
+              "postedUtc": 1794929524,
+              "daysAgo": 4,
+              "region": "PL",
+              "paidLabel": false,
+              "caption": "Try Bunpo — the Japanese app that actually explains the language, not just drills it. Real grammar, real AI conversations. Link in bio!🇯🇵✨ #japan #japanese #learningjapanese #learnjapanese #bunpo",
+              "note": [],
+              "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/og8zQfBAAIqAiDDmJmfCRXwn223FcjEWAiDiLE~tplv-tiktokx-cropcenter:300:400.jpeg?dr=10399&refresh_token=d4b5d758&x-expires=1795374000&x-signature=6i5a0PpmfYmKHjTfqukUDSpMapM%3D&t=4d5b0474&ps=13740610&shp=d05b14bd&shcp=34ff8df6&idc=useast2b&s=PUBLISH"
+            },
+            "criteria": [
+              {
+                "text": "content shows a language learning app product",
+                "state": "unknown",
+                "source": "claim",
+                "evidence": {
+                  "kind": "watch",
+                  "url": "https://www.tiktok.com/@bunpo_learnjapanese/video/7709163578669960481",
+                  "excerpt": "0:00-0:02 A woman with long light-brown hair and bangs, in a pale blue top, holds a pink stylus near her face and speaks..."
+                }
+              },
+              {
+                "text": "hook is a literal phrase followed by an over-the-top meme reaction clip",
+                "state": "unknown",
+                "source": "claim",
+                "evidence": {
+                  "kind": "watch",
+                  "url": "https://www.tiktok.com/@bunpo_learnjapanese/video/7709163578669960481",
+                  "excerpt": "0:00-0:02 A woman with long light-brown hair and bangs, in a pale blue top, holds a pink stylus near her face and speaks..."
+                }
+              },
+              {
+                "text": "proof video posted in the last 7 days",
+                "state": "supported",
+                "source": "check",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@bunpo_learnjapanese/video/7709163578669960481",
+                  "excerpt": null
+                }
+              }
+            ]
+          },
+          {
+            "handle": "language_inspo",
+            "profileUrl": "https://www.tiktok.com/@language_inspo",
+            "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-maliva-avt-0068/cafe702aa131555546be639372426fbd~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=d2463c67&x-expires=1795460400&x-signature=bScBE7Uz0djvPLpfQWXAsiQ6IeI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+            "followers": 1628,
+            "usualViews": 23025,
+            "postsSampled": 10,
+            "bestRecentViews": 403507,
+            "proofVsUsualRatio": 4,
+            "postsPerWeek": 6.3,
+            "paidLabelShare": 0,
+            "hasPublicEmail": false,
+            "proofVideo": {
+              "id": "7709203189081361697",
+              "url": "https://www.tiktok.com/@language_inspo/video/7709203189081361697",
+              "creator": "language_inspo",
+              "views": 92433,
+              "likes": 18483,
+              "postedUtc": 1794938745,
+              "daysAgo": 4,
+              "region": "NL",
+              "paidLabel": false,
+              "caption": "i love speaking spanish. what languages do you speak?? #languages #LanguageLearning #viral #multilingual #languagetok",
+              "note": [],
+              "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/oM3va8BvigUZXIPBlyEvA3r6ig0TpYBmVwiwE~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=ebac973c&x-expires=1795374000&x-signature=G8V0GbcXtf0s8QlQKUwkg9kQvbo%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover&item=7709203189081361697"
+            },
+            "criteria": [
+              {
+                "text": "hook is an aspirational romantic premise for learning the language",
+                "state": "unknown",
+                "source": "claim",
+                "evidence": {
+                  "kind": "watch",
+                  "url": "https://www.tiktok.com/@language_inspo/video/7709203189081361697",
+                  "excerpt": "0:00-0:01 A desk scene: an open Spanish textbook titled 'Gramática en español' with highlighted pages, handwritten noteb..."
+                }
+              },
+              {
+                "text": "proof video posted in the last 7 days",
+                "state": "supported",
+                "source": "check",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@language_inspo/video/7709203189081361697",
+                  "excerpt": null
+                }
+              }
+            ]
+          }
+        ],
+        "videos": [],
+        "videoIds": []
+      },
+      {
+        "kind": "group",
+        "heading": "Musical earworm hooks",
+        "reason": "Rapping tongue twisters and teasing captions about the songs you're missing turn vocabulary into a beat that loops in your head, with a comment prompt to try it fast.",
+        "creators": [
+          {
+            "handle": "spanish_with_music",
+            "profileUrl": "https://www.tiktok.com/@spanish_with_music",
+            "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-useast5-avt-0068-tx/70ca787fbadf6fff7c9aba90f6f22a3e~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=3641beaf&x-expires=1795460400&x-signature=movp6vmJ9ml3xJer5HYkdCFFo5k%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+            "followers": 267333,
+            "usualViews": 160103,
+            "postsSampled": 10,
+            "bestRecentViews": 640818,
+            "proofVsUsualRatio": 0.9,
+            "postsPerWeek": 10.5,
+            "paidLabelShare": 0,
+            "hasPublicEmail": false,
+            "proofVideo": {
+              "id": "7709196181796113677",
+              "url": "https://www.tiktok.com/@spanish_with_music/video/7709196181796113677",
+              "creator": "spanish_with_music",
+              "views": 151935,
+              "likes": 12791,
+              "postedUtc": 1794937123,
+              "daysAgo": 4,
+              "region": "PL",
+              "paidLabel": false,
+              "caption": "Poco Coco Challenge 🥥 Part 2. Still easy? Meet Paco 🦜 Part 3 tomorrow. Full video on [removed] \"Poco Coco Challenge MeloLingo\". Can you say it 3 times fast? 👇 #LearnSpanish #SpanishWithMusic",
+              "note": [],
+              "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast5-p-0068-tx/oUfrNBWHJJDeX5nEfIFFfIAXOIA4QAJ4SNAIdA~tplv-tiktokx-cropcenter:300:400.jpeg?dr=10399&refresh_token=d4c69990&x-expires=1795374000&x-signature=fGSQ%2B4PphIzSUdpMOzuC75EapwM%3D&t=4d5b0474&ps=13740610&shp=d05b14bd&shcp=34ff8df6&idc=useast2b&s=PUBLISH"
+            },
+            "criteria": [
+              {
+                "text": "content shows a language learning app product",
+                "state": "unknown",
+                "source": "claim",
+                "evidence": {
+                  "kind": "watch",
+                  "url": "https://www.tiktok.com/@spanish_with_music/video/7709196181796113677",
+                  "excerpt": "0:00-0:03 An orange cartoon cat in a teal cap holds a coconut drink with a straw and tiny umbrella beside a hanging micr..."
+                }
+              },
+              {
+                "text": "hook is an earworm rap tongue twister with escalating difficulty and comment bait",
+                "state": "unknown",
+                "source": "claim",
+                "evidence": {
+                  "kind": "watch",
+                  "url": "https://www.tiktok.com/@spanish_with_music/video/7709196181796113677",
+                  "excerpt": "0:00-0:03 An orange cartoon cat in a teal cap holds a coconut drink with a straw and tiny umbrella beside a hanging micr..."
+                }
+              },
+              {
+                "text": "proof video posted in the last 7 days",
+                "state": "supported",
+                "source": "check",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@spanish_with_music/video/7709196181796113677",
+                  "excerpt": null
+                }
+              }
+            ]
+          },
+          {
+            "handle": "spanish.with.ryanne",
+            "profileUrl": "https://www.tiktok.com/@spanish.with.ryanne",
+            "avatarUrl": "https://p16-common-sign.tiktokcdn-us.com/tos-maliva-avt-0068/4308206b6e855b8232f89b912ee41312~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=15d73544&x-expires=1795460400&x-signature=Z%2FfZVmsY2rwsYeA1neKsaSdae9s%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+            "followers": 41963,
+            "usualViews": 2545,
+            "postsSampled": 10,
+            "bestRecentViews": 17317,
+            "proofVsUsualRatio": 40,
+            "postsPerWeek": 6.5,
+            "paidLabelShare": 0,
+            "hasPublicEmail": false,
+            "proofVideo": {
+              "id": "7709205775117192480",
+              "url": "https://www.tiktok.com/@spanish.with.ryanne/video/7709205775117192480",
+              "creator": "spanish.with.ryanne",
+              "views": 101904,
+              "likes": 18477,
+              "postedUtc": 1794939323,
+              "daysAgo": 4,
+              "region": "ES",
+              "paidLabel": false,
+              "caption": "publi #ad #spanishlearning #spanishtok #learnspanish #spanishtips spanish apps. parrot app learn spanish online watching content. content in spanish. spanish videos. spanish show recs. spanish vocab words. easy spanish practice. grwm in spanish. spanish vlogs. beginner spanish",
+              "note": [],
+              "imageUrl": "https://p19-common-sign.tiktokcdn-eu.com/tos-useast2a-p-4864-euttp/oASVPlmDQJH3BDqXgEFffmMD7fMp4dJEGgDD8I~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=81ff0379&x-expires=1795374000&x-signature=wiQiEF4z7oHU5c95eTOQkukytzU%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&s=PUBLISH&sc=cover&biz_tag=tt_video"
+            },
+            "criteria": [
+              {
+                "text": "content shows a language learning app product",
+                "state": "unknown",
+                "source": "claim",
+                "evidence": {
+                  "kind": "watch",
+                  "url": "https://www.tiktok.com/@spanish.with.ryanne/video/7709205775117192480",
+                  "excerpt": "0:00-0:05 A woman with long wavy brown hair and sunglasses perched on her head stands indoors under warm lighting, weari..."
+                }
+              },
+              {
+                "text": "hook is a playful taunt about missing out on bangers paired with a catchy song",
+                "state": "unknown",
+                "source": "claim",
+                "evidence": {
+                  "kind": "watch",
+                  "url": "https://www.tiktok.com/@spanish.with.ryanne/video/7709205775117192480",
+                  "excerpt": "0:00-0:05 A woman with long wavy brown hair and sunglasses perched on her head stands indoors under warm lighting, weari..."
+                }
+              },
+              {
+                "text": "proof video posted in the last 7 days",
+                "state": "supported",
+                "source": "check",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@spanish.with.ryanne/video/7709205775117192480",
+                  "excerpt": null
+                }
+              }
+            ]
+          }
+        ],
+        "videos": [],
+        "videoIds": []
+      },
+      {
+        "kind": "group",
+        "heading": "Brand mascot skits",
+        "reason": null,
+        "creators": [
+          {
+            "handle": "duolingo",
+            "profileUrl": "https://www.tiktok.com/@duolingo",
+            "avatarUrl": "https://p16-common-sign.tiktokcdn-us.com/tos-useast5-avt-0068-tx/2f96ebc0ed08d45f9922204a5281f38e~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=d1ab3ca5&x-expires=1795460400&x-signature=RqCwlaGkW1W%2FTImGesDfA7j5JD4%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+            "followers": 18613409,
+            "usualViews": 455376,
+            "postsSampled": 10,
+            "bestRecentViews": 15687966,
+            "proofVsUsualRatio": 1.8,
+            "postsPerWeek": 5.7,
+            "paidLabelShare": 0,
+            "hasPublicEmail": false,
+            "proofVideo": {
+              "id": "7710349070543375629",
+              "url": "https://www.tiktok.com/@duolingo/video/7710349070543375629",
+              "creator": "duolingo",
+              "views": 821028,
+              "likes": 119222,
+              "postedUtc": 1795205548,
+              "daysAgo": 0,
+              "region": "US",
+              "paidLabel": false,
+              "caption": "we love a queen who tries",
+              "note": [],
+              "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast5-p-0068-tx/o8A87BCCIuEB4BaQ6vUaoI4jqwA0qii6mgTpd~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=1130208e&x-expires=1795374000&x-signature=EOYPqoLs6Usg09dQqlfQeBO5eOc%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&sc=cover&biz_tag=tt_video&s=PUBLISH"
+            },
+            "criteria": [
+              {
+                "text": "brand-account mascot skit with a language angle",
+                "state": "unknown",
+                "source": "claim",
+                "evidence": {
+                  "kind": "watch",
+                  "url": "https://www.tiktok.com/@duolingo/video/7710349070543375629",
+                  "excerpt": "0:00-0:01 Duolingo's green owl (Duo), wearing a long brown wig and a white button-up shirt, stands on a red carpet again..."
+                }
+              },
+              {
+                "text": "hook is the mascot answering food choice questions with app-style feedback",
+                "state": "unknown",
+                "source": "claim",
+                "evidence": {
+                  "kind": "watch",
+                  "url": "https://www.tiktok.com/@duolingo/video/7710349070543375629",
+                  "excerpt": "0:00-0:01 Duolingo's green owl (Duo), wearing a long brown wig and a white button-up shirt, stands on a red carpet again..."
+                }
+              },
+              {
+                "text": "proof video posted in the last 7 days",
+                "state": "supported",
+                "source": "check",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@duolingo/video/7710349070543375629",
+                  "excerpt": null
+                }
+              }
+            ]
+          },
+          {
+            "handle": "duolingoespanol",
+            "profileUrl": "https://www.tiktok.com/@duolingoespanol",
+            "avatarUrl": "https://p16-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/081c506d39fb8eb7b53253fb644a361a~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=818658b1&x-expires=1795460400&x-signature=TxE8BZ9q3vZmG1BMpO1c45eWM2E%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+            "followers": 7262429,
+            "usualViews": 48548,
+            "postsSampled": 10,
+            "bestRecentViews": 1021794,
+            "proofVsUsualRatio": 5.1,
+            "postsPerWeek": 7,
+            "paidLabelShare": 0,
+            "hasPublicEmail": false,
+            "proofVideo": {
+              "id": "7710411645830335764",
+              "url": "https://www.tiktok.com/@duolingoespanol/video/7710411645830335764",
+              "creator": "duolingoespanol",
+              "views": 247702,
+              "likes": 49600,
+              "postedUtc": 1795220103,
+              "daysAgo": 0,
+              "region": "MX",
+              "paidLabel": false,
+              "caption": "Comenta si tienes el mismo bias que Duo o Zari",
+              "note": [],
+              "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-4863-sg/os1vp2AuDBtIHEie9BUIUpEBAgv6gnfQuF4BiR~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=fcda5a13&x-expires=1795374000&x-signature=QrIXaGgq%2FsMuzzRy5M3zCGms%2BVc%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover"
+            },
+            "criteria": [
+              {
+                "text": "brand-account character skit with fandom meme angle",
+                "state": "unknown",
+                "source": "claim",
+                "evidence": {
+                  "kind": "watch",
+                  "url": "https://www.tiktok.com/@duolingoespanol/video/7710411645830335764",
+                  "excerpt": "0:00-0:03 Two animated Duolingo-style characters sit on a red ledge outdoors (green hills, blue sky). The green owl has ..."
+                }
+              },
+              {
+                "text": "hook invites viewers to pick a side and comment",
+                "state": "unknown",
+                "source": "claim",
+                "evidence": {
+                  "kind": "watch",
+                  "url": "https://www.tiktok.com/@duolingoespanol/video/7710411645830335764",
+                  "excerpt": "0:00-0:03 Two animated Duolingo-style characters sit on a red ledge outdoors (green hills, blue sky). The green owl has ..."
+                }
+              },
+              {
+                "text": "proof video posted in the last 7 days",
+                "state": "supported",
+                "source": "check",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@duolingoespanol/video/7710411645830335764",
+                  "excerpt": null
+                }
+              }
+            ]
+          },
+          {
+            "handle": "duolingoturkiye",
+            "profileUrl": "https://www.tiktok.com/@duolingoturkiye",
+            "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-useast5-avt-0068-tx/4034fe4b1cb9b0fba672f59671cf003b~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=b024ecab&x-expires=1795460400&x-signature=62%2FWWF1iv58E6OPz6kbwaoINjts%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+            "followers": 433998,
+            "usualViews": 20878,
+            "postsSampled": 10,
+            "bestRecentViews": 100512,
+            "proofVsUsualRatio": 13,
+            "postsPerWeek": 7,
+            "paidLabelShare": 0,
+            "hasPublicEmail": false,
+            "proofVideo": {
+              "id": "7709903508270484749",
+              "url": "https://www.tiktok.com/@duolingoturkiye/video/7709903508270484749",
+              "creator": "duolingoturkiye",
+              "views": 270578,
+              "likes": 23947,
+              "postedUtc": 1795101807,
+              "daysAgo": 2,
+              "region": "TR",
+              "paidLabel": false,
+              "caption": "simple present tense önemli tabi 🥰 #DuolingoTurkiye #streak #ders #duolingo",
+              "note": [],
+              "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast5-p-0068-tx/o8HZQuFEIOkO7TXfHEDAQRfjjqVAFCXIPxEkfx~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=b608756d&x-expires=1795374000&x-signature=N2jj%2BF0chAKRLebizTsq3gqDmuU%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover"
+            },
+            "criteria": [
+              {
+                "text": "brand-account skit with literal word-by-word translation gag",
+                "state": "unknown",
+                "source": "claim",
+                "evidence": {
+                  "kind": "watch",
+                  "url": "https://www.tiktok.com/@duolingoturkiye/video/7709903508270484749",
+                  "excerpt": "0:00-0:03 Animated classroom scene. A cartoon teacher with black pompadour hair, thick eyebrows and a big mustache, wear..."
+                }
+              },
+              {
+                "text": "hook is an absurd rant translated into word tiles",
+                "state": "unknown",
+                "source": "claim",
+                "evidence": {
+                  "kind": "watch",
+                  "url": "https://www.tiktok.com/@duolingoturkiye/video/7709903508270484749",
+                  "excerpt": "0:00-0:03 Animated classroom scene. A cartoon teacher with black pompadour hair, thick eyebrows and a big mustache, wear..."
+                }
+              },
+              {
+                "text": "proof video posted in the last 7 days",
+                "state": "supported",
+                "source": "check",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@duolingoturkiye/video/7709903508270484749",
+                  "excerpt": null
+                }
+              }
+            ]
+          },
+          {
+            "handle": "nuttelabrot3",
+            "profileUrl": "https://www.tiktok.com/@nuttelabrot3",
+            "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-useast2a-avt-0068-euttp/b3e5d46e6aa5c2b3cb92289694aef462~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=f185db07&x-expires=1795460400&x-signature=oBynHwU8hizXuNYROFUzo1Dhtvo%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+            "followers": 8651,
+            "usualViews": 20744,
+            "postsSampled": 10,
+            "bestRecentViews": 437902,
+            "proofVsUsualRatio": 12.9,
+            "postsPerWeek": 0.7,
+            "paidLabelShare": 0,
+            "hasPublicEmail": false,
+            "proofVideo": {
+              "id": "7709467883759275296",
+              "url": "https://www.tiktok.com/@nuttelabrot3/video/7709467883759275296",
+              "creator": "nuttelabrot3",
+              "views": 266621,
+              "likes": 45979,
+              "postedUtc": 1795000380,
+              "daysAgo": 3,
+              "region": "DE",
+              "paidLabel": false,
+              "caption": "#milk #duolingo #first #lesson #real",
+              "note": [],
+              "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/o4YFIIDOE7jMTgmsPf7f9IYxVDTihDyBfAEgAG~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=be057f72&x-expires=1795374000&x-signature=xP8TZnly7BQD0gIeHLwMwguxDqw%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover&item=7709467883759275296"
+            },
+            "criteria": [
+              {
+                "text": "hook is a relatable meme about how basic the app's first lessons are",
+                "state": "unknown",
+                "source": "claim",
+                "evidence": {
+                  "kind": "watch",
+                  "url": "https://www.tiktok.com/@nuttelabrot3/video/7709467883759275296",
+                  "excerpt": "0:00-0:02 A static close-up of a tall clear glass filled with white milk, sitting on a plain beige countertop; white cap..."
+                }
+              },
+              {
+                "text": "proof video posted in the last 7 days",
+                "state": "supported",
+                "source": "check",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@nuttelabrot3/video/7709467883759275296",
+                  "excerpt": null
+                }
+              }
+            ]
+          }
+        ],
+        "videos": [],
+        "videoIds": []
+      }
+    ],
+    "assumptions": [],
+    "limits": "I could not verify sponsorship labels beyond what TikTok showed (paid labels were false on every video cited, though several bios declare brand ambassadorships), and a creator's home country is unknown — only the video's upload region is known. Scores in comment sections were not checked, so comment-bait effectiveness is inferred from format, not measured replies.",
+    "limitsSentences": [
+      {
+        "text": "I could not verify sponsorship labels beyond what TikTok showed (paid labels were false on every video cited, though several bios declare brand ambassadorships), and a creator's home country is unknown — only the video's upload region is known.",
+        "label": "limit"
+      },
+      {
+        "text": "Scores in comment sections were not checked, so comment-bait effectiveness is inferred from format, not measured replies.",
+        "label": "limit"
+      }
+    ],
+    "notFound": [],
+    "budgetNote": null,
+    "finishedBy": "model",
+    "steps": [
+      {
+        "kind": "check",
+        "label": "Read the limits the question states",
+        "detail": "The question states none",
+        "failed": false,
+        "handle": null,
+        "atMs": 0,
+        "ms": 3928,
+        "costUsd": 0.000001
+      },
+      {
+        "kind": "think",
+        "label": "Planned the next steps",
+        "detail": "Turn 1 of 8",
+        "failed": false,
+        "handle": null,
+        "atMs": 3928,
+        "ms": 43298,
+        "costUsd": 0.000019
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"language learning app\"",
+        "detail": "13 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 47226,
+        "ms": 2689,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"duolingo\"",
+        "detail": "18 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 47226,
+        "ms": 2986,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"language learning hack\"",
+        "detail": "20 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 47227,
+        "ms": 3158,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"learn a language\"",
+        "detail": "16 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 47227,
+        "ms": 3299,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"learn spanish app\"",
+        "detail": "19 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 47227,
+        "ms": 3346,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"day of learning japanese\"",
+        "detail": "14 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 47227,
+        "ms": 2948,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "think",
+        "label": "Planned the next steps",
+        "detail": "Turn 2 of 8",
+        "failed": false,
+        "handle": null,
+        "atMs": 50573,
+        "ms": 48420,
+        "costUsd": 0.000059
+      },
+      {
+        "kind": "watch",
+        "label": "Watched a video by @duolingo",
+        "detail": "Watched by qwen3.8-omni-flash",
+        "failed": false,
+        "handle": "duolingo",
+        "atMs": 98994,
+        "ms": 53462,
+        "costUsd": 0.0008019999999999998
+      },
+      {
+        "kind": "watch",
+        "label": "Watched a video by @madisonspeaksspanish",
+        "detail": "Watched by qwen3.8-omni-flash",
+        "failed": false,
+        "handle": "madisonspeaksspanish",
+        "atMs": 98994,
+        "ms": 36300,
+        "costUsd": 0.0008019999999999998
+      },
+      {
+        "kind": "watch",
+        "label": "Watched a video by @teuidaapp",
+        "detail": "Watched by qwen3.8-omni-flash",
+        "failed": false,
+        "handle": "teuidaapp",
+        "atMs": 98994,
+        "ms": 62127,
+        "costUsd": 0.0008029999999999999
+      },
+      {
+        "kind": "watch",
+        "label": "Watched a video by @bunpo_learnjapanese",
+        "detail": "Watched by qwen3.8-omni-flash",
+        "failed": false,
+        "handle": "bunpo_learnjapanese",
+        "atMs": 98994,
+        "ms": 49784,
+        "costUsd": 0.0008019999999999998
+      },
+      {
+        "kind": "watch",
+        "label": "Watched a video by @cambridgeenglishwalking",
+        "detail": "Too long to watch; its transcript can be read instead",
+        "failed": true,
+        "handle": "cambridgeenglishwalking",
+        "atMs": 98994,
+        "ms": 1299,
+        "costUsd": 0.0008
+      },
+      {
+        "kind": "watch",
+        "label": "Watched a video by @nuttelabrot3",
+        "detail": "Watched by qwen3.8-omni-flash",
+        "failed": false,
+        "handle": "nuttelabrot3",
+        "atMs": 98994,
+        "ms": 44492,
+        "costUsd": 0.0008010000000000001
+      },
+      {
+        "kind": "watch",
+        "label": "Watched a video by @duolingoespanol",
+        "detail": "Watched by qwen3.8-omni-flash",
+        "failed": false,
+        "handle": "duolingoespanol",
+        "atMs": 98994,
+        "ms": 49008,
+        "costUsd": 0.0008019999999999998
+      },
+      {
+        "kind": "watch",
+        "label": "Watched a video by @spanish_with_music",
+        "detail": "Watched by qwen3.8-omni-flash",
+        "failed": false,
+        "handle": "spanish_with_music",
+        "atMs": 98994,
+        "ms": 70767,
+        "costUsd": 0.0008029999999999999
+      },
+      {
+        "kind": "watch",
+        "label": "Watched a video by @dayspanish",
+        "detail": "Watched by qwen3.8-omni-flash",
+        "failed": false,
+        "handle": "dayspanish",
+        "atMs": 98994,
+        "ms": 48194,
+        "costUsd": 0.0008019999999999998
+      },
+      {
+        "kind": "watch",
+        "label": "Watched a video by @tiavsjapanese",
+        "detail": "Watched by qwen3.8-omni-flash",
+        "failed": false,
+        "handle": "tiavsjapanese",
+        "atMs": 98994,
+        "ms": 49531,
+        "costUsd": 0.0008019999999999998
+      },
+      {
+        "kind": "watch",
+        "label": "Watched a video by @sbuj_0",
+        "detail": "Too long to watch; its transcript can be read instead",
+        "failed": true,
+        "handle": "sbuj_0",
+        "atMs": 100293,
+        "ms": 2331,
+        "costUsd": 0.0008
+      },
+      {
+        "kind": "watch",
+        "label": "Watched a video by @spanish.with.ryanne",
+        "detail": "Watched by qwen3.8-omni-flash",
+        "failed": false,
+        "handle": "spanish.with.ryanne",
+        "atMs": 102625,
+        "ms": 56667,
+        "costUsd": 0.0008029999999999999
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @madisonspeaksspanish",
+        "detail": "19,385 followers",
+        "failed": false,
+        "handle": "madisonspeaksspanish",
+        "atMs": 135294,
+        "ms": 1454,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @teuidaapp",
+        "detail": "364,662 followers",
+        "failed": false,
+        "handle": "teuidaapp",
+        "atMs": 136748,
+        "ms": 1343,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @bunpo_learnjapanese",
+        "detail": "63,319 followers",
+        "failed": false,
+        "handle": "bunpo_learnjapanese",
+        "atMs": 138091,
+        "ms": 1650,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @dayspanish",
+        "detail": "63,791 followers",
+        "failed": false,
+        "handle": "dayspanish",
+        "atMs": 139741,
+        "ms": 1357,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @spanish_with_music",
+        "detail": "267,333 followers",
+        "failed": false,
+        "handle": "spanish_with_music",
+        "atMs": 141098,
+        "ms": 2547,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"speaking practice app\"",
+        "detail": "13 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 143486,
+        "ms": 2486,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"ai language tutor app\"",
+        "detail": "17 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 143645,
+        "ms": 3095,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "think",
+        "label": "Planned the next steps",
+        "detail": "Turn 3 of 8",
+        "failed": false,
+        "handle": null,
+        "atMs": 169761,
+        "ms": 59529,
+        "costUsd": 0.000076
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @duolingo",
+        "detail": "18,613,409 followers",
+        "failed": false,
+        "handle": "duolingo",
+        "atMs": 229294,
+        "ms": 1623,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @duolingoespanol",
+        "detail": "7,262,429 followers",
+        "failed": false,
+        "handle": "duolingoespanol",
+        "atMs": 229295,
+        "ms": 1612,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @nuttelabrot3",
+        "detail": "8,651 followers",
+        "failed": false,
+        "handle": "nuttelabrot3",
+        "atMs": 229295,
+        "ms": 1550,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @tiavsjapanese",
+        "detail": "7,925 followers",
+        "failed": false,
+        "handle": "tiavsjapanese",
+        "atMs": 229295,
+        "ms": 2210,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @reythetutor",
+        "detail": "5,716 followers",
+        "failed": false,
+        "handle": "reythetutor",
+        "atMs": 229296,
+        "ms": 1656,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @spanish.with.ryanne",
+        "detail": "41,963 followers",
+        "failed": false,
+        "handle": "spanish.with.ryanne",
+        "atMs": 229296,
+        "ms": 2904,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "think",
+        "label": "Planned the next steps",
+        "detail": "Turn 4 of 8",
+        "failed": false,
+        "handle": null,
+        "atMs": 232200,
+        "ms": 13767,
+        "costUsd": 0.000179
+      },
+      {
+        "kind": "watch",
+        "label": "Watched a video by @reythetutor",
+        "detail": "Watched by qwen3.8-omni-flash",
+        "failed": false,
+        "handle": "reythetutor",
+        "atMs": 245971,
+        "ms": 36869,
+        "costUsd": 0.0008010000000000001
+      },
+      {
+        "kind": "watch",
+        "label": "Watched a video by @fluentlywrong",
+        "detail": "Watched by qwen3.8-omni-flash",
+        "failed": false,
+        "handle": "fluentlywrong",
+        "atMs": 245971,
+        "ms": 38712,
+        "costUsd": 0.0008010000000000001
+      },
+      {
+        "kind": "watch",
+        "label": "Watched a video by @madisonspeaksspanish",
+        "detail": "Watched by qwen3.8-omni-flash",
+        "failed": false,
+        "handle": "madisonspeaksspanish",
+        "atMs": 245971,
+        "ms": 42892,
+        "costUsd": 0.0008019999999999998
+      },
+      {
+        "kind": "think",
+        "label": "Planned the next steps",
+        "detail": "Turn 5 of 8",
+        "failed": false,
+        "handle": null,
+        "atMs": 288863,
+        "ms": 73698,
+        "costUsd": 0.000097
+      },
+      {
+        "kind": "think",
+        "label": "Planned the next steps",
+        "detail": "Turn 6 of 8",
+        "failed": false,
+        "handle": null,
+        "atMs": 362564,
+        "ms": 71285,
+        "costUsd": 0.000101
+      },
+      {
+        "kind": "watch",
+        "label": "Watched a video by @language_inspo",
+        "detail": "Watched by qwen3.8-omni-flash",
+        "failed": false,
+        "handle": "language_inspo",
+        "atMs": 433852,
+        "ms": 29427,
+        "costUsd": 0.0008010000000000001
+      },
+      {
+        "kind": "watch",
+        "label": "Watched a video by @kicsi_11",
+        "detail": "Watched by qwen3.8-omni-flash",
+        "failed": false,
+        "handle": "kicsi_11",
+        "atMs": 433852,
+        "ms": 48182,
+        "costUsd": 0.0008010000000000001
+      },
+      {
+        "kind": "watch",
+        "label": "Watched a video by @duolingoturkiye",
+        "detail": "Watched by qwen3.8-omni-flash",
+        "failed": false,
+        "handle": "duolingoturkiye",
+        "atMs": 433852,
+        "ms": 66440,
+        "costUsd": 0.0008029999999999999
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"what's your english level test\"",
+        "detail": "18 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 433852,
+        "ms": 3074,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "think",
+        "label": "Planned the next steps",
+        "detail": "Turn 7 of 8",
+        "failed": false,
+        "handle": null,
+        "atMs": 500293,
+        "ms": 42527,
+        "costUsd": 0.000148
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @fluentlywrong",
+        "detail": "105 followers",
+        "failed": false,
+        "handle": "fluentlywrong",
+        "atMs": 542824,
+        "ms": 1676,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @language_inspo",
+        "detail": "1,628 followers",
+        "failed": false,
+        "handle": "language_inspo",
+        "atMs": 542825,
+        "ms": 1521,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @kicsi_11",
+        "detail": "3,836 followers",
+        "failed": false,
+        "handle": "kicsi_11",
+        "atMs": 542825,
+        "ms": 1616,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @duolingoturkiye",
+        "detail": "433,998 followers",
+        "failed": false,
+        "handle": "duolingoturkiye",
+        "atMs": 542825,
+        "ms": 1963,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "think",
+        "label": "Planned the next steps",
+        "detail": "Turn 8 of 8",
+        "failed": false,
+        "handle": null,
+        "atMs": 544789,
+        "ms": 88165,
+        "costUsd": 0.000109
+      },
+      {
+        "kind": "answer",
+        "label": "Wrote the answer",
+        "detail": null,
+        "failed": false,
+        "handle": null,
+        "atMs": 632959,
+        "ms": 180009,
+        "costUsd": 0
+      },
+      {
+        "kind": "check",
+        "label": "Checked the answer against the evidence",
+        "detail": "The check did not run; unchecked claims are shown as unknown",
+        "failed": true,
+        "handle": null,
+        "atMs": 632963,
+        "ms": 180004,
+        "costUsd": 0.00028
+      },
+      {
+        "kind": "check",
+        "label": "Checked the text for contact details",
+        "detail": null,
+        "failed": false,
+        "handle": null,
+        "atMs": 812969,
+        "ms": 2432,
+        "costUsd": 0.000024
+      }
+    ],
+    "cost": {
+      "limitUsd": 0.1,
+      "dataUsd": 0.034800000000000005,
+      "modelUsd": 0.0066299199999999975,
+      "totalUsd": 0.04142992,
+      "dataCalls": 57,
+      "modelTurns": 8,
+      "wallMs": 815413
+    },
+    "gate": "model"
+  }
+}

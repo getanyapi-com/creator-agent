@@ -1,0 +1,5 @@
+/* Clerk names its own internal custom property --accent on its buttons, so it cannot be handed var(--accent)
+   directly: that would point at itself. This alias is resolved on :root, where the theme's --accent lives. */
+:root {
+  --clerk-primary: var(--accent);
+}

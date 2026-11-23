@@ -1,0 +1,106 @@
+name: Deploy
+
+# Every push to main that passes Check builds the image, pushes it to the
+# registry, rolls the container app, and waits for the new revision to serve.
+# The commit deployed is the one Check passed, not whatever main has become
+# since. The repository variables and secrets it reads are listed in the deploy
+# section of README.md.
+on:
+  workflow_run:
+    workflows: [Check]
+    types: [completed]
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (github.event.workflow_run.conclusion == 'success' &&
+      github.event.workflow_run.event == 'push')
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: read
+    env:
+      RESOURCE_GROUP: ${{ vars.AZURE_RESOURCE_GROUP }}
+      CONTAINER_APP: ${{ vars.AZURE_CONTAINER_APP }}
+      REGISTRY: ${{ vars.AZURE_CONTAINER_REGISTRY }}
+      HEALTH_URL: ${{ vars.APP_HEALTH_URL }}
+      IMAGE: creator-agent
+      SHA: ${{ github.event.workflow_run.head_sha || github.sha }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ env.SHA }}
+
+      - name: Sign in to Azure
+        uses: azure/login@v2
+        with:
+          client-id: ${{ secrets.AZURE_CLIENT_ID }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+
+      - name: Build and push the image
+        env:
+          NEXT_SERVER_ACTIONS_ENCRYPTION_KEY: ${{ secrets.NEXT_SERVER_ACTIONS_ENCRYPTION_KEY }}
+        run: |
+          set -euo pipefail
+          if [ -z "$NEXT_SERVER_ACTIONS_ENCRYPTION_KEY" ]; then
+            echo "::error::NEXT_SERVER_ACTIONS_ENCRYPTION_KEY is not set; every open tab would break on this deploy"
+            exit 1
+          fi
+          az acr login --name "$REGISTRY"
+          TAG="$REGISTRY.azurecr.io/$IMAGE:$SHA"
+          docker build -t "$TAG" \
+            --secret id=actions_key,env=NEXT_SERVER_ACTIONS_ENCRYPTION_KEY \
+            --build-arg NEXT_DEPLOYMENT_ID="$SHA" .
+          docker push "$TAG"
+
+      # The image applies its own migrations from docker-entrypoint.sh before it
+      # serves, and the app is pinned to one replica, so a deploy runs them once.
+      - name: Roll the container app
+        run: |
+          set -euo pipefail
+          az containerapp update \
+            --name "$CONTAINER_APP" \
+            --resource-group "$RESOURCE_GROUP" \
+            --image "$REGISTRY.azurecr.io/$IMAGE:$SHA" \
+            --revision-suffix "s$(echo "$SHA" | cut -c1-8)" \
+            --output none
+
+      - name: Show the active revisions
+        run: |
+          az containerapp revision list \
+            --name "$CONTAINER_APP" \
+            --resource-group "$RESOURCE_GROUP" \
+            --query "[?properties.active].{name:name,state:properties.runningState,traffic:properties.trafficWeight}" \
+            --output table
+
+      # The step's own timeout is the whole budget for the new revision to start
+      # serving; raise it here if a cold start ever needs longer. The old
+      # revision answers the health path too, so the new one has to be running
+      # first or a failed rollout would pass.
+      - name: Wait for the deployed instance to answer
+        timeout-minutes: 10
+        run: |
+          set -euo pipefail
+          REVISION="$CONTAINER_APP--s$(echo "$SHA" | cut -c1-8)"
+          # Azure says Running, or RunningAtMaxScale once every replica is up.
+          until az containerapp revision show \
+            --name "$CONTAINER_APP" \
+            --resource-group "$RESOURCE_GROUP" \
+            --revision "$REVISION" \
+            --query "properties.runningState" --output tsv | grep -q '^Running'; do
+            echo "waiting for $REVISION to run"
+            sleep 5
+          done
+          until [ "$(curl -s -o /dev/null -w '%{http_code}' "$HEALTH_URL")" = "200" ]; do
+            echo "waiting for $HEALTH_URL"
+            sleep 5
+          done
+          echo "$REVISION is running and $HEALTH_URL answered 200"

@@ -1,0 +1,48 @@
+services:
+  postgres:
+    image: postgres:17
+    environment:
+      POSTGRES_USER: creator_agent
+      POSTGRES_PASSWORD: creator_agent
+      POSTGRES_DB: creator_agent
+    ports:
+      - "127.0.0.1:5433:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U creator_agent"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  app:
+    build: .
+    image: creator-agent
+    # The server exits when it loses the database connection holding its owner
+    # lock (web/src/db/owner.ts), so Docker starts a fresh one. Lurk's Compose
+    # file has no restart policy; this one needs it.
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+    # Everything else comes from .env as written, so a setting .env.example
+    # documents reaches the app without being listed here too.
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      DATABASE_URL: postgres://creator_agent:creator_agent@postgres:5432/creator_agent
+      NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY: ${NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY:?set your Clerk publishable key}
+      CLERK_SECRET_KEY: ${CLERK_SECRET_KEY:?set your Clerk secret key}
+      ANYAPI_HOUSE_API_KEY: ${ANYAPI_HOUSE_API_KEY:?set the AnyAPI key free questions run on}
+      SURPLUS_API_KEY: ${SURPLUS_API_KEY:?set the Surplus Intelligence key the models run on}
+      # Self-hosting defaults, which .env can still override. A self-hoster has no
+      # per-account limit (lurk's Compose file); the hosted instance sets false.
+      SELF_HOSTED: ${SELF_HOSTED:-true}
+      HOUSE_LLM_CAP_USD_PER_DAY: ${HOUSE_LLM_CAP_USD_PER_DAY:-10}
+      MAX_QUESTION_CHARS: ${MAX_QUESTION_CHARS:-500}
+    ports:
+      - "3000:3000"
+
+volumes:
+  postgres-data:

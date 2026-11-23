@@ -1,0 +1,2136 @@
+{
+  "source": "2026-11-21T19-09-34-390Z-agent-free/q02-claude-sub10k.r1.json",
+  "askedAt": "2026-11-21T19:11:24.130Z",
+  "display": {
+    "question": "Find sub-10K creators talking about Claude.",
+    "answer": [
+      {
+        "text": "Around that best fit sit a cluster of practical Claude tutorial makers, a pair of Claude-code and AI-engineering accounts, and niche-community users who bring Claude into Roblox game development, reels tutorials and math commentary.",
+        "label": "fact"
+      },
+      {
+        "text": "None of the returned accounts carries a paid label on recent posts, so none appears to be sponsored.",
+        "label": "fact"
+      }
+    ],
+    "criteriaLine": "Checked on every creator: at most 10,000 followers.",
+    "excluded": {
+      "count": 0,
+      "byCheck": []
+    },
+    "creators": [
+      {
+        "handle": "wchan28",
+        "profileUrl": "https://www.tiktok.com/@wchan28",
+        "avatarUrl": "https://p16-common-sign.tiktokcdn-us.com/tos-maliva-avt-0068/c85c039859c13cae25ff2f61079af79c~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=3628e3b9&x-expires=1795460400&x-signature=JiAv4wC6d3S3hnijVX12oWrzBI8%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+        "followers": 9449,
+        "usualViews": 5341,
+        "postsSampled": 10,
+        "bestRecentViews": 117953,
+        "proofVsUsualRatio": 22.1,
+        "postsPerWeek": 2.4,
+        "paidLabelShare": 0,
+        "hasPublicEmail": false,
+        "proofVideo": {
+          "id": "7710083096259038477",
+          "url": "https://www.tiktok.com/@wchan28/video/7710083096259038477",
+          "creator": "wchan28",
+          "views": 117953,
+          "likes": 8254,
+          "postedUtc": 1795143625,
+          "daysAgo": 1,
+          "region": "US",
+          "paidLabel": false,
+          "caption": "1. Watermark remover: [removed] 2. [removed] OR Google paper: [removed] #medicalstudent #residency #medtok #aiwriting",
+          "note": [],
+          "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast8-p-0068-tx2/oMAfbVAfeAQshuPXEGGr28FetIQULR5Uk2qQSv~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=73cbffc0&x-expires=1795374000&x-signature=o7OVxyL3ZmV5SzOj2lu2D3t0xSU%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover"
+        },
+        "criteria": [
+          {
+            "text": "talks about Claude",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "transcript",
+              "url": "https://www.tiktok.com/@wchan28/video/7710083096259038477",
+              "excerpt": "This is how to avoid A I. Detection. First, you want the claude watermark remover skill from Github. The highest rated o..."
+            }
+          },
+          {
+            "text": "content is a how-to about using Claude skills",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "transcript",
+              "url": "https://www.tiktok.com/@wchan28/video/7710083096259038477",
+              "excerpt": "This is how to avoid A I. Detection. First, you want the claude watermark remover skill from Github. The highest rated o..."
+            }
+          },
+          {
+            "text": "at most 10,000 followers",
+            "state": "supported",
+            "source": "check",
+            "evidence": {
+              "kind": "creator",
+              "url": "https://www.tiktok.com/@wchan28",
+              "excerpt": null
+            }
+          }
+        ]
+      },
+      {
+        "handle": "artofthepossible.ai",
+        "profileUrl": "https://www.tiktok.com/@artofthepossible.ai",
+        "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/33c6cab574a81145f289cf7dcbf3d41b~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=2820e14c&x-expires=1795460400&x-signature=Ah6hSzwfEfMynowrDbd7HtxBF3c%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+        "followers": 4558,
+        "usualViews": 636,
+        "postsSampled": 10,
+        "bestRecentViews": 14443,
+        "proofVsUsualRatio": 288.8,
+        "postsPerWeek": 25.2,
+        "paidLabelShare": 0,
+        "hasPublicEmail": false,
+        "proofVideo": {
+          "id": "7706828727837101333",
+          "url": "https://www.tiktok.com/@artofthepossible.ai/video/7706828727837101333",
+          "creator": "artofthepossible.ai",
+          "views": 183706,
+          "likes": 9743,
+          "postedUtc": 1794385891,
+          "daysAgo": 10,
+          "region": "AU",
+          "paidLabel": false,
+          "caption": "Everybody's telling you to install Claude skills. These are the 5 I'd start with, and all of them are free. 1. Matt Pocock's engineering skills: a proper engineering process for anything you build with AI. 2. Apple design: Apple's design principles, so your designs look clean and minimal. 3. Humanizer: built on Wikipedia's guide to spotting AI writing, so your work stops sounding like ChatGPT. 4. Lemo-Opuscar: 66 film styles, so Claude can make an animated video for anything, entirely from code. 5. Corey Haines' marketing skills: 53 growth skills for SEO, copywriting, ads and email. DM me \"FIVE\" for all five links and a guide on how to install them. #ai #claude #chatgpt #claudeskills #aitools",
+          "note": [],
+          "imageUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-4863-sg/osQfoFVtEGoyGVD6QfbqVkGAEXTjm6ukUXfS7e~tplv-tiktokx-cropcenter:500:800.jpeg?biz_tag=musically_video.video_cover&dr=14577&idc=my&ps=13740610&refresh_token=d5261d88&shcp=9b759fb9&shp=c1333099&t=4d5b0474&x-expires=1795309200&x-signature=W1bx5JuP%2FmJBtfSjE73NJ0ZKDR4%3D"
+        },
+        "criteria": [
+          {
+            "text": "talks about Claude and its skills in the video",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@artofthepossible.ai/video/7706828727837101333",
+              "excerpt": "Everybody's telling you to install Claude skills. These are the 5 I'd start with, and all of them are free. 1. Matt Poco..."
+            }
+          },
+          {
+            "text": "bio is AI-guide oriented",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "creator",
+              "url": "https://www.tiktok.com/@artofthepossible.ai",
+              "excerpt": null
+            }
+          },
+          {
+            "text": "at most 10,000 followers",
+            "state": "supported",
+            "source": "check",
+            "evidence": {
+              "kind": "creator",
+              "url": "https://www.tiktok.com/@artofthepossible.ai",
+              "excerpt": null
+            }
+          }
+        ]
+      },
+      {
+        "handle": "nilomotionhq",
+        "profileUrl": "https://www.tiktok.com/@nilomotionhq",
+        "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-maliva-avt-0068/d1cd75c50951afdc72e51acf31ace0b2~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=d62aa56a&x-expires=1795460400&x-signature=NwWuheTuE8Cw5g6sFqF0a7WljeI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+        "followers": 144,
+        "usualViews": 675,
+        "postsSampled": 10,
+        "bestRecentViews": 905,
+        "proofVsUsualRatio": 6.1,
+        "postsPerWeek": 15.5,
+        "paidLabelShare": 0,
+        "hasPublicEmail": false,
+        "proofVideo": {
+          "id": "7708517751677029634",
+          "url": "https://www.tiktok.com/@nilomotionhq/video/7708517751677029634",
+          "creator": "nilomotionhq",
+          "views": 4092,
+          "likes": 146,
+          "postedUtc": 1794779154,
+          "daysAgo": 5,
+          "region": "IE",
+          "paidLabel": false,
+          "caption": "5 Claude skills that cover most of what you need, and all five are free. 1. Matt Pocock's engineering skills: a proper build process (/grill-me, /tdd, /code-review) 2. Apple design skills by Emil Kowalski: Apple's design principles, so your designs look clean and minimal 3. Humanizer: strips the signs of AI writing, built on Wikipedia's guide 4. Lemo-Opuscar: 99 film styles, animated videos made entirely in code 5. Corey Haines' marketing skills: 53 of them for SEO, copywriting, ads and email DM me FIVE and I'll send you all five links and a guide on how to install them. Which one are you installing first? #claude #claudeai #claudecode #aitools #productivity",
+          "note": [],
+          "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/owrQ2AkBqCK7tH4iiAARIAEbEF46ffEgLRIBDI~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=fc19652a&x-expires=1795374000&x-signature=I5zSUt%2Ff%2FAulEIaj0ZSukBEJDiY%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&sc=cover&biz_tag=tt_video&s=PUBLISH"
+        },
+        "criteria": [
+          {
+            "text": "talks about Claude skills in the video",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@nilomotionhq/video/7708517751677029634",
+              "excerpt": "5 Claude skills that cover most of what you need, and all five are free. 1. Matt Pocock's engineering skills: a proper b..."
+            }
+          },
+          {
+            "text": "bio targets practical AI tutorials",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "creator",
+              "url": "https://www.tiktok.com/@nilomotionhq",
+              "excerpt": null
+            }
+          },
+          {
+            "text": "at most 10,000 followers",
+            "state": "supported",
+            "source": "check",
+            "evidence": {
+              "kind": "creator",
+              "url": "https://www.tiktok.com/@nilomotionhq",
+              "excerpt": null
+            }
+          }
+        ]
+      },
+      {
+        "handle": "zachdoesai",
+        "profileUrl": "https://www.tiktok.com/@zachdoesai",
+        "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-useast5-avt-0068-tx/fc63821dc0ffde8744f32c4064a3e4e4~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=3cb9584e&x-expires=1795460400&x-signature=MQZPKYRJa%2Bg7TTfAoUYGkuiTbfQ%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+        "followers": 7867,
+        "usualViews": 522,
+        "postsSampled": 10,
+        "bestRecentViews": 7694,
+        "proofVsUsualRatio": 0.2,
+        "postsPerWeek": 5.7,
+        "paidLabelShare": 0,
+        "hasPublicEmail": true,
+        "proofVideo": {
+          "id": "7710236153307237645",
+          "url": "https://www.tiktok.com/@zachdoesai/video/7710236153307237645",
+          "creator": "zachdoesai",
+          "views": 102,
+          "likes": 6,
+          "postedUtc": 1795179256,
+          "daysAgo": 1,
+          "region": "US",
+          "paidLabel": false,
+          "caption": "Comment “TUTOR” and I’ll send you the free Claude Tutor skill pack👇 It’s 8 skills that work as a teaching team inside Claude. One researches your topic live across the web. One fact-checks every claim against two sources. One tests what you already know + builds a mini-course for your level that you can finish in an afternoon. Then it teaches you the way learning research says works: you guess first, answer a question after every idea + explain it back. Final exam at the end, then 5-minute reviews so it sticks. Free + MIT. Comment “TUTOR” + follow and I’ll DM you the link. #claude #learnanything #StudyTips #aitools #howtouseai",
+          "note": [],
+          "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast5-p-85c255-tx/o0fr1vBYwMDAKApExQFL5IXvDuexQgB4EHBSYE~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=9706e73d&x-expires=1795374000&x-signature=nfWgF3UNmubaRSNjWeMrcA6TcB4%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover"
+        },
+        "criteria": [
+          {
+            "text": "talks about Claude tips and skills in the video",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@zachdoesai/video/7710236153307237645",
+              "excerpt": "Comment “TUTOR” and I’ll send you the free Claude Tutor skill pack👇 It’s 8 skills that work as a teaching team inside Cl..."
+            }
+          },
+          {
+            "text": "bio is about Claude and AI tips",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "creator",
+              "url": "https://www.tiktok.com/@zachdoesai",
+              "excerpt": null
+            }
+          },
+          {
+            "text": "at most 10,000 followers",
+            "state": "supported",
+            "source": "check",
+            "evidence": {
+              "kind": "creator",
+              "url": "https://www.tiktok.com/@zachdoesai",
+              "excerpt": null
+            }
+          }
+        ]
+      },
+      {
+        "handle": "monsieurj.app",
+        "profileUrl": "https://www.tiktok.com/@monsieurj.app",
+        "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-maliva-avt-0068/3d0ab4edbf9ad15721fa62632569db82~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=7abd17e1&x-expires=1795460400&x-signature=j1VnYMTp5AB%2BWYL8LQUPCr5CDPc%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+        "followers": 4652,
+        "usualViews": 882,
+        "postsSampled": 10,
+        "bestRecentViews": 1497,
+        "proofVsUsualRatio": 89.2,
+        "postsPerWeek": 12.6,
+        "paidLabelShare": 0,
+        "hasPublicEmail": false,
+        "proofVideo": {
+          "id": "7701396880542027041",
+          "url": "https://www.tiktok.com/@monsieurj.app/video/7701396880542027041",
+          "creator": "monsieurj.app",
+          "views": 78682,
+          "likes": 3677,
+          "postedUtc": 1793121198,
+          "daysAgo": 25,
+          "region": "FR",
+          "paidLabel": false,
+          "caption": "Améliore la puissance de ton Claude code x1000 avec ces 5 SKILLS sous côtés !! #claude #code #ai #skills #astuces",
+          "note": [],
+          "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/oYvRDEQOQJqHqxE2QBBz6mFk54UetDfN0vAot5~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=2a0628bc&x-expires=1795374000&x-signature=rOFF1D0ccj%2BFpLB4Gz%2FuHZ1iRLg%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover&item=7701396880542027041"
+        },
+        "criteria": [
+          {
+            "text": "talks about Claude code skills in the video",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@monsieurj.app/video/7701396880542027041",
+              "excerpt": "Améliore la puissance de ton Claude code x1000 avec ces 5 SKILLS sous côtés !! #claude #code #ai #skills #astuces #claud..."
+            }
+          },
+          {
+            "text": "bio is about building apps",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "creator",
+              "url": "https://www.tiktok.com/@monsieurj.app",
+              "excerpt": null
+            }
+          },
+          {
+            "text": "at most 10,000 followers",
+            "state": "supported",
+            "source": "check",
+            "evidence": {
+              "kind": "creator",
+              "url": "https://www.tiktok.com/@monsieurj.app",
+              "excerpt": null
+            }
+          }
+        ]
+      },
+      {
+        "handle": "dodovid40",
+        "profileUrl": "https://www.tiktok.com/@dodovid40",
+        "avatarUrl": "https://p16-common-sign.tiktokcdn-us.com/tos-useast2a-avt-0068-euttp/68fa9cc76e4b5bab2d70f0de1361b9ef~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=dfa1559d&x-expires=1795460400&x-signature=vKQZjwwC09BbGPL%2Fmm2lReab7JI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+        "followers": 2,
+        "usualViews": 191,
+        "postsSampled": 10,
+        "bestRecentViews": 272,
+        "proofVsUsualRatio": 1,
+        "postsPerWeek": 6.3,
+        "paidLabelShare": 0,
+        "hasPublicEmail": false,
+        "proofVideo": {
+          "id": "7710276773946117379",
+          "url": "https://www.tiktok.com/@dodovid40/video/7710276773946117379",
+          "creator": "dodovid40",
+          "views": 185,
+          "likes": 3,
+          "postedUtc": 1795188692,
+          "daysAgo": 1,
+          "region": "ES",
+          "paidLabel": false,
+          "caption": "Tu primera skill de Claude en 3 pasos 🤖 Una carpeta, un nombre con descripción y las instrucciones con un ejemplo. Usa solo skills de fuentes de confianza. Guárdalo y sígueme 🦤 #claude #skills #ia #productividad #tutorial",
+          "note": [],
+          "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-4864-no/owkAGPAQIpGTAQQLZaG4AszeJMeWGACKICe2eZ~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=72f6f08c&x-expires=1795374000&x-signature=o0pcjbm69kIlLaEqC2kj6o%2FnZ7E%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&s=PUBLISH&sc=cover&biz_tag=tt_video"
+        },
+        "criteria": [
+          {
+            "text": "talks about Claude skills in the video",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@dodovid40/video/7710276773946117379",
+              "excerpt": "Tu primera skill de Claude en 3 pasos 🤖 Una carpeta, un nombre con descripción y las instrucciones con un ejemplo. Usa s..."
+            }
+          },
+          {
+            "text": "at most 10,000 followers",
+            "state": "supported",
+            "source": "check",
+            "evidence": {
+              "kind": "creator",
+              "url": "https://www.tiktok.com/@dodovid40",
+              "excerpt": null
+            }
+          }
+        ]
+      },
+      {
+        "handle": "edlovestech",
+        "profileUrl": "https://www.tiktok.com/@edlovestech",
+        "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-maliva-avt-0068/c6a8d86b3efb700012939abb4bfbfb2e~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=8286f776&x-expires=1795460400&x-signature=pnMX1JDTHEHJuXstcME0tIzb32s%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+        "followers": 9945,
+        "usualViews": 839,
+        "postsSampled": 10,
+        "bestRecentViews": 1369,
+        "proofVsUsualRatio": 0.3,
+        "postsPerWeek": 17,
+        "paidLabelShare": 0,
+        "hasPublicEmail": false,
+        "proofVideo": {
+          "id": "7710658306016087318",
+          "url": "https://www.tiktok.com/@edlovestech/video/7710658306016087318",
+          "creator": "edlovestech",
+          "views": 228,
+          "likes": 5,
+          "postedUtc": 1795279327,
+          "daysAgo": 0,
+          "region": "ES",
+          "paidLabel": false,
+          "caption": "If you want to be better at using Claude then watch this #claude #anthropic #aiagents #usa #composiopartner",
+          "note": [],
+          "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oAgrVrEIIFgrkmAffwFkB44aTuKtBEA2DBcRC6~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=57cb5087&x-expires=1795374000&x-signature=cxQS188pMX5R4vY4RPc%2FEJwPbjk%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover"
+        },
+        "criteria": [
+          {
+            "text": "talks about Claude in the video",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@edlovestech/video/7710658306016087318",
+              "excerpt": "If you want to be better at using Claude then watch this #claude #anthropic #aiagents #usa #composiopartner #claude #ant..."
+            }
+          },
+          {
+            "text": "bio shows AI enthusiasm",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "creator",
+              "url": "https://www.tiktok.com/@edlovestech",
+              "excerpt": null
+            }
+          },
+          {
+            "text": "at most 10,000 followers",
+            "state": "supported",
+            "source": "check",
+            "evidence": {
+              "kind": "creator",
+              "url": "https://www.tiktok.com/@edlovestech",
+              "excerpt": null
+            }
+          }
+        ]
+      },
+      {
+        "handle": "felixcallahan.ai",
+        "profileUrl": "https://www.tiktok.com/@felixcallahan.ai",
+        "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-useast2a-avt-0068-euttp/3420acc5e8f94d0111701f5a1a0e5b0e~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=a0fc658f&x-expires=1795460400&x-signature=h26PrPcw459r%2FgjMcwB01OUQgWk%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+        "followers": 3412,
+        "usualViews": 1377,
+        "postsSampled": 10,
+        "bestRecentViews": 6290,
+        "proofVsUsualRatio": 1.3,
+        "postsPerWeek": 8.8,
+        "paidLabelShare": 0,
+        "hasPublicEmail": false,
+        "proofVideo": {
+          "id": "7710470323380014369",
+          "url": "https://www.tiktok.com/@felixcallahan.ai/video/7710470323380014369",
+          "creator": "felixcallahan.ai",
+          "views": 1754,
+          "likes": 53,
+          "postedUtc": 1795233807,
+          "daysAgo": 0,
+          "region": "PT",
+          "paidLabel": false,
+          "caption": "Graphify builds a codebase knowledge graph so Claude Code can navigate instead of rereading files and wasting tokens. #AI #AITools #ClaudeAI",
+          "note": [],
+          "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/oMiGMFDPjIGedQSoPCEIqeDAMCDgBukSAWfwVA~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=a5208886&x-expires=1795374000&x-signature=%2BIGlwwgESQOg7NkrEPvf2nsatC4%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover&item=7710470323380014369"
+        },
+        "criteria": [
+          {
+            "text": "talks about Claude code tooling in the video",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@felixcallahan.ai/video/7710470323380014369",
+              "excerpt": "Graphify builds a codebase knowledge graph so Claude Code can navigate instead of rereading files and wasting tokens. #A..."
+            }
+          },
+          {
+            "text": "bio identifies them as an AI engineer",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "creator",
+              "url": "https://www.tiktok.com/@felixcallahan.ai",
+              "excerpt": null
+            }
+          },
+          {
+            "text": "at most 10,000 followers",
+            "state": "supported",
+            "source": "check",
+            "evidence": {
+              "kind": "creator",
+              "url": "https://www.tiktok.com/@felixcallahan.ai",
+              "excerpt": null
+            }
+          }
+        ]
+      },
+      {
+        "handle": "inferpod",
+        "profileUrl": "https://www.tiktok.com/@inferpod",
+        "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-useast5-avt-0068-tx/248622285bf0679e881935fae5e18395~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=ec001bf5&x-expires=1795460400&x-signature=SCBv0ogVvOGvTFShVJs2%2FCXiq9M%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+        "followers": 3056,
+        "usualViews": 13006,
+        "postsSampled": 10,
+        "bestRecentViews": 122975,
+        "proofVsUsualRatio": 3,
+        "postsPerWeek": 12.9,
+        "paidLabelShare": 0,
+        "hasPublicEmail": false,
+        "proofVideo": {
+          "id": "7706391778567490829",
+          "url": "https://www.tiktok.com/@inferpod/video/7706391778567490829",
+          "creator": "inferpod",
+          "views": 38728,
+          "likes": 740,
+          "postedUtc": 1794284184,
+          "daysAgo": 11,
+          "region": "US",
+          "paidLabel": false,
+          "caption": "[removed] used claude fable 5.2 with one-shot prompts and no human feedback; he says the models, sounds and textures were generated from scratch in about eight hours, at roughly $550 in api tokens. the demo is called saltline. play it in the browser: [removed] #slopware #fable #claude #aigaming",
+          "note": [],
+          "imageUrl": "https://p16-common-sign.tiktokcdn.com/tos-useast5-p-0068-tx/oQfVAMSHpqYDIgEpNKAFLEPDCeA48QRlq6SAAD~tplv-tiktokx-cropcenter:500:800.jpeg?biz_tag=musically_video.video_cover&dr=14577&idc=my2&ps=13740610&refresh_token=4cea27bd&shcp=9b759fb9&shp=c1333099&t=4d5b0474&x-expires=1795309200&x-signature=W%2FrOK1psi4Ttn32qZ6dARMNGNWs%3D"
+        },
+        "criteria": [
+          {
+            "text": "talks about a Claude one-shot build in the video",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@inferpod/video/7706391778567490829",
+              "excerpt": "[removed] used claude fable 5.2 with one-shot prompts and no human feedback; he says the models, sounds and..."
+            }
+          },
+          {
+            "text": "at most 10,000 followers",
+            "state": "supported",
+            "source": "check",
+            "evidence": {
+              "kind": "creator",
+              "url": "https://www.tiktok.com/@inferpod",
+              "excerpt": null
+            }
+          }
+        ]
+      },
+      {
+        "handle": "mojangopa",
+        "profileUrl": "https://www.tiktok.com/@mojangopa",
+        "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-maliva-avt-0068/37ccf8a7b669183536b551bd2dfd78bd~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=b31ac09b&x-expires=1795460400&x-signature=GhHJmqj3KfBaXhKlsQmkRNVKedY%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+        "followers": 692,
+        "usualViews": 21626,
+        "postsSampled": 10,
+        "bestRecentViews": 147386,
+        "proofVsUsualRatio": 4.9,
+        "postsPerWeek": 7.2,
+        "paidLabelShare": 0,
+        "hasPublicEmail": false,
+        "proofVideo": {
+          "id": "7707073411368914198",
+          "url": "https://www.tiktok.com/@mojangopa/video/7707073411368914198",
+          "creator": "mojangopa",
+          "views": 105493,
+          "likes": 8616,
+          "postedUtc": 1794442886,
+          "daysAgo": 9,
+          "region": "AT",
+          "paidLabel": false,
+          "caption": "Part 2 using the top 5 claude tools! #robloxdev #claudeai #gamedeveloper #ai #newrobloxgame",
+          "note": [],
+          "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oUqeDyaBIAoACsFEE8A1vFAVARinnkfpug1BMi~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=252e015b&x-expires=1795374000&x-signature=GEqTMVgXOiQx4eRjSwWQKa5NeXo%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover"
+        },
+        "criteria": [
+          {
+            "text": "talks about Claude for game development in the video",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@mojangopa/video/7707073411368914198",
+              "excerpt": "Part 2 using the top 5 claude tools! #robloxdev #claudeai #gamedeveloper #ai #newrobloxgame #robloxdev #claudeai #gamede..."
+            }
+          },
+          {
+            "text": "video shows a Claude-tools breakdown",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@mojangopa/video/7706610542370196758",
+              "excerpt": "Top 5 tools i use to build my roblox game! #robloxdev #claudeai #gamedeveloper #robloxdev #claudeai #gamedeveloper"
+            }
+          },
+          {
+            "text": "at most 10,000 followers",
+            "state": "supported",
+            "source": "check",
+            "evidence": {
+              "kind": "creator",
+              "url": "https://www.tiktok.com/@mojangopa",
+              "excerpt": null
+            }
+          }
+        ]
+      },
+      {
+        "handle": "streamerclipssssssss2ss",
+        "profileUrl": "https://www.tiktok.com/@streamerclipssssssss2ss",
+        "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/ddf7a680c573945b2994f685d4d44187~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=009efea0&x-expires=1795460400&x-signature=dM1Zm61I7oNcLtGRwqy1xUNn3eE%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+        "followers": 312,
+        "usualViews": 12498,
+        "postsSampled": 6,
+        "bestRecentViews": 65684,
+        "proofVsUsualRatio": 2.2,
+        "postsPerWeek": 5.3,
+        "paidLabelShare": 0,
+        "hasPublicEmail": false,
+        "proofVideo": {
+          "id": "7706746302750625045",
+          "url": "https://www.tiktok.com/@streamerclipssssssss2ss/video/7706746302750625045",
+          "creator": "streamerclipssssssss2ss",
+          "views": 28081,
+          "likes": 2135,
+          "postedUtc": 1794366710,
+          "daysAgo": 10,
+          "region": "PH",
+          "paidLabel": false,
+          "caption": "dm for the skills files📈📈 #claude #fyp #tutorial #reels #viral",
+          "note": [],
+          "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/oIYLEezERcrfmxzu3gH9pQa8QASq78DCsWPBFB~tplv-tiktokx-cropcenter:300:400.jpeg?dr=10399&refresh_token=371a38ff&x-expires=1795374000&x-signature=WLgMy%2FWNlTDs9h2CwFlgRD8cLEY%3D&t=4d5b0474&ps=13740610&shp=d05b14bd&shcp=34ff8df6&idc=useast2b&s=PUBLISH"
+        },
+        "criteria": [
+          {
+            "text": "talks about Claude in a tutorial video",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@streamerclipssssssss2ss/video/7706489949146696966",
+              "excerpt": "basic lng hindi na need msg code💪🏽💪🏽 #claude #fyp #reels #tutorial #viral #claude #fyp #reels #tutorial #viral"
+            }
+          },
+          {
+            "text": "offers Claude skills files in a tutorial video",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@streamerclipssssssss2ss/video/7706746302750625045",
+              "excerpt": "dm for the skills files📈📈 #claude #fyp #tutorial #reels #viral #claude #fyp #tutorial #reels #viral"
+            }
+          },
+          {
+            "text": "at most 10,000 followers",
+            "state": "supported",
+            "source": "check",
+            "evidence": {
+              "kind": "creator",
+              "url": "https://www.tiktok.com/@streamerclipssssssss2ss",
+              "excerpt": null
+            }
+          }
+        ]
+      },
+      {
+        "handle": "sohil_rathi",
+        "profileUrl": "https://www.tiktok.com/@sohil_rathi",
+        "avatarUrl": "https://p16-common-sign.tiktokcdn-us.com/tos-useast5-avt-0068-tx/d49af7c9efab31562f1da9790389e1bc~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=21920068&x-expires=1795460400&x-signature=x0TXgUwFFrGM1RvcBBlBhIuOdc8%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+        "followers": 428,
+        "usualViews": 2160,
+        "postsSampled": 10,
+        "bestRecentViews": 49225,
+        "proofVsUsualRatio": 22.8,
+        "postsPerWeek": 2.2,
+        "paidLabelShare": 0,
+        "hasPublicEmail": false,
+        "proofVideo": {
+          "id": "7710538343389416718",
+          "url": "https://www.tiktok.com/@sohil_rathi/video/7710538343389416718",
+          "creator": "sohil_rathi",
+          "views": 49225,
+          "likes": 1863,
+          "postedUtc": 1795249681,
+          "daysAgo": 0,
+          "region": "US",
+          "paidLabel": false,
+          "caption": "A million-dollar math problem, open for 167 years, and now there's a claimed proof written with Claude. Here's what the Riemann hypothesis says about the primes, using one spiral. #math #riemannhypothesis #primenumbers #claude #learnontiktok",
+          "note": [],
+          "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast5-p-0068-tx/oInAvDfEmgAfr1CS3QCXVSAJAZIUFyCADoAVqC~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=3d9bb838&x-expires=1795374000&x-signature=85qG5IYiICS9LVUKHX5yYdzZtlc%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover"
+        },
+        "criteria": [
+          {
+            "text": "talks about a proof written with Claude in the video",
+            "state": "supported",
+            "source": "claim",
+            "evidence": {
+              "kind": "video",
+              "url": "https://www.tiktok.com/@sohil_rathi/video/7710538343389416718",
+              "excerpt": "A million-dollar math problem, open for 167 years, and now there's a claimed proof written with Claude. Here's what the ..."
+            }
+          },
+          {
+            "text": "at most 10,000 followers",
+            "state": "supported",
+            "source": "check",
+            "evidence": {
+              "kind": "creator",
+              "url": "https://www.tiktok.com/@sohil_rathi",
+              "excerpt": null
+            }
+          }
+        ]
+      }
+    ],
+    "videos": [
+      {
+        "id": "7710083096259038477",
+        "url": "https://www.tiktok.com/@wchan28/video/7710083096259038477",
+        "creator": "wchan28",
+        "views": 117953,
+        "likes": 8254,
+        "postedUtc": 1795143625,
+        "daysAgo": 1,
+        "region": "US",
+        "paidLabel": false,
+        "caption": "1. Watermark remover: [removed] 2. [removed] OR Google paper: [removed] #medicalstudent #residency #medtok #aiwriting",
+        "note": [
+          {
+            "text": "Claude skills walkthrough, transcript confirms Claude named repeatedly",
+            "label": "fact"
+          }
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast8-p-0068-tx2/oMAfbVAfeAQshuPXEGGr28FetIQULR5Uk2qQSv~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=73cbffc0&x-expires=1795374000&x-signature=o7OVxyL3ZmV5SzOj2lu2D3t0xSU%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover"
+      },
+      {
+        "id": "7706828727837101333",
+        "url": "https://www.tiktok.com/@artofthepossible.ai/video/7706828727837101333",
+        "creator": "artofthepossible.ai",
+        "views": 183706,
+        "likes": 9743,
+        "postedUtc": 1794385891,
+        "daysAgo": 10,
+        "region": "AU",
+        "paidLabel": false,
+        "caption": "Everybody's telling you to install Claude skills. These are the 5 I'd start with, and all of them are free. 1. Matt Pocock's engineering skills: a proper engineering process for anything you build with AI. 2. Apple design: Apple's design principles, so your designs look clean and minimal. 3. Humanizer: built on Wikipedia's guide to spotting AI writing, so your work stops sounding like ChatGPT. 4. Lemo-Opuscar: 66 film styles, so Claude can make an animated video for anything, entirely from code. 5. Corey Haines' marketing skills: 53 growth skills for SEO, copywriting, ads and email. DM me \"FIVE\" for all five links and a guide on how to install them. #ai #claude #chatgpt #claudeskills #aitools",
+        "note": [
+          {
+            "text": "top Claude skills recommendations",
+            "label": "fact"
+          }
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-4863-sg/osQfoFVtEGoyGVD6QfbqVkGAEXTjm6ukUXfS7e~tplv-tiktokx-cropcenter:500:800.jpeg?biz_tag=musically_video.video_cover&dr=14577&idc=my&ps=13740610&refresh_token=d5261d88&shcp=9b759fb9&shp=c1333099&t=4d5b0474&x-expires=1795309200&x-signature=W1bx5JuP%2FmJBtfSjE73NJ0ZKDR4%3D"
+      },
+      {
+        "id": "7708517751677029634",
+        "url": "https://www.tiktok.com/@nilomotionhq/video/7708517751677029634",
+        "creator": "nilomotionhq",
+        "views": 4092,
+        "likes": 146,
+        "postedUtc": 1794779154,
+        "daysAgo": 5,
+        "region": "IE",
+        "paidLabel": false,
+        "caption": "5 Claude skills that cover most of what you need, and all five are free. 1. Matt Pocock's engineering skills: a proper build process (/grill-me, /tdd, /code-review) 2. Apple design skills by Emil Kowalski: Apple's design principles, so your designs look clean and minimal 3. Humanizer: strips the signs of AI writing, built on Wikipedia's guide 4. Lemo-Opuscar: 99 film styles, animated videos made entirely in code 5. Corey Haines' marketing skills: 53 of them for SEO, copywriting, ads and email DM me FIVE and I'll send you all five links and a guide on how to install them. Which one are you installing first? #claude #claudeai #claudecode #aitools #productivity",
+        "note": [
+          {
+            "text": "free Claude skills breakdown",
+            "label": "fact"
+          }
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/owrQ2AkBqCK7tH4iiAARIAEbEF46ffEgLRIBDI~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=fc19652a&x-expires=1795374000&x-signature=I5zSUt%2Ff%2FAulEIaj0ZSukBEJDiY%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&sc=cover&biz_tag=tt_video&s=PUBLISH"
+      },
+      {
+        "id": "7710236153307237645",
+        "url": "https://www.tiktok.com/@zachdoesai/video/7710236153307237645",
+        "creator": "zachdoesai",
+        "views": 102,
+        "likes": 6,
+        "postedUtc": 1795179256,
+        "daysAgo": 1,
+        "region": "US",
+        "paidLabel": false,
+        "caption": "Comment “TUTOR” and I’ll send you the free Claude Tutor skill pack👇 It’s 8 skills that work as a teaching team inside Claude. One researches your topic live across the web. One fact-checks every claim against two sources. One tests what you already know + builds a mini-course for your level that you can finish in an afternoon. Then it teaches you the way learning research says works: you guess first, answer a question after every idea + explain it back. Final exam at the end, then 5-minute reviews so it sticks. Free + MIT. Comment “TUTOR” + follow and I’ll DM you the link. #claude #learnanything #StudyTips #aitools #howtouseai",
+        "note": [
+          {
+            "text": "free Claude tutor skill pack",
+            "label": "fact"
+          }
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast5-p-85c255-tx/o0fr1vBYwMDAKApExQFL5IXvDuexQgB4EHBSYE~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=9706e73d&x-expires=1795374000&x-signature=nfWgF3UNmubaRSNjWeMrcA6TcB4%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover"
+      },
+      {
+        "id": "7701396880542027041",
+        "url": "https://www.tiktok.com/@monsieurj.app/video/7701396880542027041",
+        "creator": "monsieurj.app",
+        "views": 78682,
+        "likes": 3677,
+        "postedUtc": 1793121198,
+        "daysAgo": 25,
+        "region": "FR",
+        "paidLabel": false,
+        "caption": "Améliore la puissance de ton Claude code x1000 avec ces 5 SKILLS sous côtés !! #claude #code #ai #skills #astuces",
+        "note": [
+          {
+            "text": "underused Claude code skills",
+            "label": "fact"
+          }
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/oYvRDEQOQJqHqxE2QBBz6mFk54UetDfN0vAot5~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=2a0628bc&x-expires=1795374000&x-signature=rOFF1D0ccj%2BFpLB4Gz%2FuHZ1iRLg%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover&item=7701396880542027041"
+      },
+      {
+        "id": "7710276773946117379",
+        "url": "https://www.tiktok.com/@dodovid40/video/7710276773946117379",
+        "creator": "dodovid40",
+        "views": 185,
+        "likes": 3,
+        "postedUtc": 1795188692,
+        "daysAgo": 1,
+        "region": "ES",
+        "paidLabel": false,
+        "caption": "Tu primera skill de Claude en 3 pasos 🤖 Una carpeta, un nombre con descripción y las instrucciones con un ejemplo. Usa solo skills de fuentes de confianza. Guárdalo y sígueme 🦤 #claude #skills #ia #productividad #tutorial",
+        "note": [
+          {
+            "text": "first Claude skill in steps",
+            "label": "fact"
+          }
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-4864-no/owkAGPAQIpGTAQQLZaG4AszeJMeWGACKICe2eZ~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=72f6f08c&x-expires=1795374000&x-signature=o0pcjbm69kIlLaEqC2kj6o%2FnZ7E%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&s=PUBLISH&sc=cover&biz_tag=tt_video"
+      },
+      {
+        "id": "7710658306016087318",
+        "url": "https://www.tiktok.com/@edlovestech/video/7710658306016087318",
+        "creator": "edlovestech",
+        "views": 228,
+        "likes": 5,
+        "postedUtc": 1795279327,
+        "daysAgo": 0,
+        "region": "ES",
+        "paidLabel": false,
+        "caption": "If you want to be better at using Claude then watch this #claude #anthropic #aiagents #usa #composiopartner",
+        "note": [
+          {
+            "text": "getting better at Claude",
+            "label": "fact"
+          }
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oAgrVrEIIFgrkmAffwFkB44aTuKtBEA2DBcRC6~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=57cb5087&x-expires=1795374000&x-signature=cxQS188pMX5R4vY4RPc%2FEJwPbjk%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover"
+      },
+      {
+        "id": "7710470323380014369",
+        "url": "https://www.tiktok.com/@felixcallahan.ai/video/7710470323380014369",
+        "creator": "felixcallahan.ai",
+        "views": 1754,
+        "likes": 53,
+        "postedUtc": 1795233807,
+        "daysAgo": 0,
+        "region": "PT",
+        "paidLabel": false,
+        "caption": "Graphify builds a codebase knowledge graph so Claude Code can navigate instead of rereading files and wasting tokens. #AI #AITools #ClaudeAI",
+        "note": [
+          {
+            "text": "codebase knowledge graph for Claude code",
+            "label": "fact"
+          }
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/oMiGMFDPjIGedQSoPCEIqeDAMCDgBukSAWfwVA~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=a5208886&x-expires=1795374000&x-signature=%2BIGlwwgESQOg7NkrEPvf2nsatC4%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover&item=7710470323380014369"
+      },
+      {
+        "id": "7706391778567490829",
+        "url": "https://www.tiktok.com/@inferpod/video/7706391778567490829",
+        "creator": "inferpod",
+        "views": 38728,
+        "likes": 740,
+        "postedUtc": 1794284184,
+        "daysAgo": 11,
+        "region": "US",
+        "paidLabel": false,
+        "caption": "[removed] used claude fable 5.2 with one-shot prompts and no human feedback; he says the models, sounds and textures were generated from scratch in about eight hours, at roughly $550 in api tokens. the demo is called saltline. play it in the browser: [removed] #slopware #fable #claude #aigaming",
+        "note": [
+          {
+            "text": "one-shot Claude build commentary",
+            "label": "fact"
+          }
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn.com/tos-useast5-p-0068-tx/oQfVAMSHpqYDIgEpNKAFLEPDCeA48QRlq6SAAD~tplv-tiktokx-cropcenter:500:800.jpeg?biz_tag=musically_video.video_cover&dr=14577&idc=my2&ps=13740610&refresh_token=4cea27bd&shcp=9b759fb9&shp=c1333099&t=4d5b0474&x-expires=1795309200&x-signature=W%2FrOK1psi4Ttn32qZ6dARMNGNWs%3D"
+      },
+      {
+        "id": "7707073411368914198",
+        "url": "https://www.tiktok.com/@mojangopa/video/7707073411368914198",
+        "creator": "mojangopa",
+        "views": 105493,
+        "likes": 8616,
+        "postedUtc": 1794442886,
+        "daysAgo": 9,
+        "region": "AT",
+        "paidLabel": false,
+        "caption": "Part 2 using the top 5 claude tools! #robloxdev #claudeai #gamedeveloper #ai #newrobloxgame",
+        "note": [
+          {
+            "text": "Claude tools for Roblox development",
+            "label": "fact"
+          }
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oUqeDyaBIAoACsFEE8A1vFAVARinnkfpug1BMi~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=252e015b&x-expires=1795374000&x-signature=GEqTMVgXOiQx4eRjSwWQKa5NeXo%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover"
+      },
+      {
+        "id": "7706746302750625045",
+        "url": "https://www.tiktok.com/@streamerclipssssssss2ss/video/7706746302750625045",
+        "creator": "streamerclipssssssss2ss",
+        "views": 28081,
+        "likes": 2135,
+        "postedUtc": 1794366710,
+        "daysAgo": 10,
+        "region": "PH",
+        "paidLabel": false,
+        "caption": "dm for the skills files📈📈 #claude #fyp #tutorial #reels #viral",
+        "note": [
+          {
+            "text": "Claude reels tutorial with skills files",
+            "label": "fact"
+          }
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/oIYLEezERcrfmxzu3gH9pQa8QASq78DCsWPBFB~tplv-tiktokx-cropcenter:300:400.jpeg?dr=10399&refresh_token=371a38ff&x-expires=1795374000&x-signature=WLgMy%2FWNlTDs9h2CwFlgRD8cLEY%3D&t=4d5b0474&ps=13740610&shp=d05b14bd&shcp=34ff8df6&idc=useast2b&s=PUBLISH"
+      },
+      {
+        "id": "7710538343389416718",
+        "url": "https://www.tiktok.com/@sohil_rathi/video/7710538343389416718",
+        "creator": "sohil_rathi",
+        "views": 49225,
+        "likes": 1863,
+        "postedUtc": 1795249681,
+        "daysAgo": 0,
+        "region": "US",
+        "paidLabel": false,
+        "caption": "A million-dollar math problem, open for 167 years, and now there's a claimed proof written with Claude. Here's what the Riemann hypothesis says about the primes, using one spiral. #math #riemannhypothesis #primenumbers #claude #learnontiktok",
+        "note": [
+          {
+            "text": "claimed math proof written with Claude",
+            "label": "fact"
+          }
+        ],
+        "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast5-p-0068-tx/oInAvDfEmgAfr1CS3QCXVSAJAZIUFyCADoAVqC~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=3d9bb838&x-expires=1795374000&x-signature=85qG5IYiICS9LVUKHX5yYdzZtlc%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover"
+      }
+    ],
+    "patterns": [],
+    "sections": [
+      {
+        "kind": "best",
+        "heading": "Best fit: Claude how-to with breakout reach",
+        "reason": null,
+        "creators": [
+          {
+            "handle": "wchan28",
+            "profileUrl": "https://www.tiktok.com/@wchan28",
+            "avatarUrl": "https://p16-common-sign.tiktokcdn-us.com/tos-maliva-avt-0068/c85c039859c13cae25ff2f61079af79c~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=3628e3b9&x-expires=1795460400&x-signature=JiAv4wC6d3S3hnijVX12oWrzBI8%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+            "followers": 9449,
+            "usualViews": 5341,
+            "postsSampled": 10,
+            "bestRecentViews": 117953,
+            "proofVsUsualRatio": 22.1,
+            "postsPerWeek": 2.4,
+            "paidLabelShare": 0,
+            "hasPublicEmail": false,
+            "proofVideo": {
+              "id": "7710083096259038477",
+              "url": "https://www.tiktok.com/@wchan28/video/7710083096259038477",
+              "creator": "wchan28",
+              "views": 117953,
+              "likes": 8254,
+              "postedUtc": 1795143625,
+              "daysAgo": 1,
+              "region": "US",
+              "paidLabel": false,
+              "caption": "1. Watermark remover: [removed] 2. [removed] OR Google paper: [removed] #medicalstudent #residency #medtok #aiwriting",
+              "note": [],
+              "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast8-p-0068-tx2/oMAfbVAfeAQshuPXEGGr28FetIQULR5Uk2qQSv~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=73cbffc0&x-expires=1795374000&x-signature=o7OVxyL3ZmV5SzOj2lu2D3t0xSU%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover"
+            },
+            "criteria": [
+              {
+                "text": "talks about Claude",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "transcript",
+                  "url": "https://www.tiktok.com/@wchan28/video/7710083096259038477",
+                  "excerpt": "This is how to avoid A I. Detection. First, you want the claude watermark remover skill from Github. The highest rated o..."
+                }
+              },
+              {
+                "text": "content is a how-to about using Claude skills",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "transcript",
+                  "url": "https://www.tiktok.com/@wchan28/video/7710083096259038477",
+                  "excerpt": "This is how to avoid A I. Detection. First, you want the claude watermark remover skill from Github. The highest rated o..."
+                }
+              },
+              {
+                "text": "at most 10,000 followers",
+                "state": "supported",
+                "source": "check",
+                "evidence": {
+                  "kind": "creator",
+                  "url": "https://www.tiktok.com/@wchan28",
+                  "excerpt": null
+                }
+              }
+            ]
+          }
+        ],
+        "videos": [],
+        "videoIds": []
+      },
+      {
+        "kind": "group",
+        "heading": "Practical Claude tutorial makers",
+        "reason": "Each posts step-by-step Claude skills and tips videos, and several bios explicitly frame their account as Claude or AI tips.",
+        "creators": [
+          {
+            "handle": "artofthepossible.ai",
+            "profileUrl": "https://www.tiktok.com/@artofthepossible.ai",
+            "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/33c6cab574a81145f289cf7dcbf3d41b~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=2820e14c&x-expires=1795460400&x-signature=Ah6hSzwfEfMynowrDbd7HtxBF3c%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+            "followers": 4558,
+            "usualViews": 636,
+            "postsSampled": 10,
+            "bestRecentViews": 14443,
+            "proofVsUsualRatio": 288.8,
+            "postsPerWeek": 25.2,
+            "paidLabelShare": 0,
+            "hasPublicEmail": false,
+            "proofVideo": {
+              "id": "7706828727837101333",
+              "url": "https://www.tiktok.com/@artofthepossible.ai/video/7706828727837101333",
+              "creator": "artofthepossible.ai",
+              "views": 183706,
+              "likes": 9743,
+              "postedUtc": 1794385891,
+              "daysAgo": 10,
+              "region": "AU",
+              "paidLabel": false,
+              "caption": "Everybody's telling you to install Claude skills. These are the 5 I'd start with, and all of them are free. 1. Matt Pocock's engineering skills: a proper engineering process for anything you build with AI. 2. Apple design: Apple's design principles, so your designs look clean and minimal. 3. Humanizer: built on Wikipedia's guide to spotting AI writing, so your work stops sounding like ChatGPT. 4. Lemo-Opuscar: 66 film styles, so Claude can make an animated video for anything, entirely from code. 5. Corey Haines' marketing skills: 53 growth skills for SEO, copywriting, ads and email. DM me \"FIVE\" for all five links and a guide on how to install them. #ai #claude #chatgpt #claudeskills #aitools",
+              "note": [],
+              "imageUrl": "https://p16-common-sign.tiktokcdn.com/tos-alisg-p-4863-sg/osQfoFVtEGoyGVD6QfbqVkGAEXTjm6ukUXfS7e~tplv-tiktokx-cropcenter:500:800.jpeg?biz_tag=musically_video.video_cover&dr=14577&idc=my&ps=13740610&refresh_token=d5261d88&shcp=9b759fb9&shp=c1333099&t=4d5b0474&x-expires=1795309200&x-signature=W1bx5JuP%2FmJBtfSjE73NJ0ZKDR4%3D"
+            },
+            "criteria": [
+              {
+                "text": "talks about Claude and its skills in the video",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@artofthepossible.ai/video/7706828727837101333",
+                  "excerpt": "Everybody's telling you to install Claude skills. These are the 5 I'd start with, and all of them are free. 1. Matt Poco..."
+                }
+              },
+              {
+                "text": "bio is AI-guide oriented",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "creator",
+                  "url": "https://www.tiktok.com/@artofthepossible.ai",
+                  "excerpt": null
+                }
+              },
+              {
+                "text": "at most 10,000 followers",
+                "state": "supported",
+                "source": "check",
+                "evidence": {
+                  "kind": "creator",
+                  "url": "https://www.tiktok.com/@artofthepossible.ai",
+                  "excerpt": null
+                }
+              }
+            ]
+          },
+          {
+            "handle": "nilomotionhq",
+            "profileUrl": "https://www.tiktok.com/@nilomotionhq",
+            "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-maliva-avt-0068/d1cd75c50951afdc72e51acf31ace0b2~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=d62aa56a&x-expires=1795460400&x-signature=NwWuheTuE8Cw5g6sFqF0a7WljeI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+            "followers": 144,
+            "usualViews": 675,
+            "postsSampled": 10,
+            "bestRecentViews": 905,
+            "proofVsUsualRatio": 6.1,
+            "postsPerWeek": 15.5,
+            "paidLabelShare": 0,
+            "hasPublicEmail": false,
+            "proofVideo": {
+              "id": "7708517751677029634",
+              "url": "https://www.tiktok.com/@nilomotionhq/video/7708517751677029634",
+              "creator": "nilomotionhq",
+              "views": 4092,
+              "likes": 146,
+              "postedUtc": 1794779154,
+              "daysAgo": 5,
+              "region": "IE",
+              "paidLabel": false,
+              "caption": "5 Claude skills that cover most of what you need, and all five are free. 1. Matt Pocock's engineering skills: a proper build process (/grill-me, /tdd, /code-review) 2. Apple design skills by Emil Kowalski: Apple's design principles, so your designs look clean and minimal 3. Humanizer: strips the signs of AI writing, built on Wikipedia's guide 4. Lemo-Opuscar: 99 film styles, animated videos made entirely in code 5. Corey Haines' marketing skills: 53 of them for SEO, copywriting, ads and email DM me FIVE and I'll send you all five links and a guide on how to install them. Which one are you installing first? #claude #claudeai #claudecode #aitools #productivity",
+              "note": [],
+              "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/owrQ2AkBqCK7tH4iiAARIAEbEF46ffEgLRIBDI~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=fc19652a&x-expires=1795374000&x-signature=I5zSUt%2Ff%2FAulEIaj0ZSukBEJDiY%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&sc=cover&biz_tag=tt_video&s=PUBLISH"
+            },
+            "criteria": [
+              {
+                "text": "talks about Claude skills in the video",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@nilomotionhq/video/7708517751677029634",
+                  "excerpt": "5 Claude skills that cover most of what you need, and all five are free. 1. Matt Pocock's engineering skills: a proper b..."
+                }
+              },
+              {
+                "text": "bio targets practical AI tutorials",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "creator",
+                  "url": "https://www.tiktok.com/@nilomotionhq",
+                  "excerpt": null
+                }
+              },
+              {
+                "text": "at most 10,000 followers",
+                "state": "supported",
+                "source": "check",
+                "evidence": {
+                  "kind": "creator",
+                  "url": "https://www.tiktok.com/@nilomotionhq",
+                  "excerpt": null
+                }
+              }
+            ]
+          },
+          {
+            "handle": "zachdoesai",
+            "profileUrl": "https://www.tiktok.com/@zachdoesai",
+            "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-useast5-avt-0068-tx/fc63821dc0ffde8744f32c4064a3e4e4~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=3cb9584e&x-expires=1795460400&x-signature=MQZPKYRJa%2Bg7TTfAoUYGkuiTbfQ%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+            "followers": 7867,
+            "usualViews": 522,
+            "postsSampled": 10,
+            "bestRecentViews": 7694,
+            "proofVsUsualRatio": 0.2,
+            "postsPerWeek": 5.7,
+            "paidLabelShare": 0,
+            "hasPublicEmail": true,
+            "proofVideo": {
+              "id": "7710236153307237645",
+              "url": "https://www.tiktok.com/@zachdoesai/video/7710236153307237645",
+              "creator": "zachdoesai",
+              "views": 102,
+              "likes": 6,
+              "postedUtc": 1795179256,
+              "daysAgo": 1,
+              "region": "US",
+              "paidLabel": false,
+              "caption": "Comment “TUTOR” and I’ll send you the free Claude Tutor skill pack👇 It’s 8 skills that work as a teaching team inside Claude. One researches your topic live across the web. One fact-checks every claim against two sources. One tests what you already know + builds a mini-course for your level that you can finish in an afternoon. Then it teaches you the way learning research says works: you guess first, answer a question after every idea + explain it back. Final exam at the end, then 5-minute reviews so it sticks. Free + MIT. Comment “TUTOR” + follow and I’ll DM you the link. #claude #learnanything #StudyTips #aitools #howtouseai",
+              "note": [],
+              "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast5-p-85c255-tx/o0fr1vBYwMDAKApExQFL5IXvDuexQgB4EHBSYE~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=9706e73d&x-expires=1795374000&x-signature=nfWgF3UNmubaRSNjWeMrcA6TcB4%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover"
+            },
+            "criteria": [
+              {
+                "text": "talks about Claude tips and skills in the video",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@zachdoesai/video/7710236153307237645",
+                  "excerpt": "Comment “TUTOR” and I’ll send you the free Claude Tutor skill pack👇 It’s 8 skills that work as a teaching team inside Cl..."
+                }
+              },
+              {
+                "text": "bio is about Claude and AI tips",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "creator",
+                  "url": "https://www.tiktok.com/@zachdoesai",
+                  "excerpt": null
+                }
+              },
+              {
+                "text": "at most 10,000 followers",
+                "state": "supported",
+                "source": "check",
+                "evidence": {
+                  "kind": "creator",
+                  "url": "https://www.tiktok.com/@zachdoesai",
+                  "excerpt": null
+                }
+              }
+            ]
+          },
+          {
+            "handle": "monsieurj.app",
+            "profileUrl": "https://www.tiktok.com/@monsieurj.app",
+            "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-maliva-avt-0068/3d0ab4edbf9ad15721fa62632569db82~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=7abd17e1&x-expires=1795460400&x-signature=j1VnYMTp5AB%2BWYL8LQUPCr5CDPc%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+            "followers": 4652,
+            "usualViews": 882,
+            "postsSampled": 10,
+            "bestRecentViews": 1497,
+            "proofVsUsualRatio": 89.2,
+            "postsPerWeek": 12.6,
+            "paidLabelShare": 0,
+            "hasPublicEmail": false,
+            "proofVideo": {
+              "id": "7701396880542027041",
+              "url": "https://www.tiktok.com/@monsieurj.app/video/7701396880542027041",
+              "creator": "monsieurj.app",
+              "views": 78682,
+              "likes": 3677,
+              "postedUtc": 1793121198,
+              "daysAgo": 25,
+              "region": "FR",
+              "paidLabel": false,
+              "caption": "Améliore la puissance de ton Claude code x1000 avec ces 5 SKILLS sous côtés !! #claude #code #ai #skills #astuces",
+              "note": [],
+              "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/oYvRDEQOQJqHqxE2QBBz6mFk54UetDfN0vAot5~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=2a0628bc&x-expires=1795374000&x-signature=rOFF1D0ccj%2BFpLB4Gz%2FuHZ1iRLg%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover&item=7701396880542027041"
+            },
+            "criteria": [
+              {
+                "text": "talks about Claude code skills in the video",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@monsieurj.app/video/7701396880542027041",
+                  "excerpt": "Améliore la puissance de ton Claude code x1000 avec ces 5 SKILLS sous côtés !! #claude #code #ai #skills #astuces #claud..."
+                }
+              },
+              {
+                "text": "bio is about building apps",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "creator",
+                  "url": "https://www.tiktok.com/@monsieurj.app",
+                  "excerpt": null
+                }
+              },
+              {
+                "text": "at most 10,000 followers",
+                "state": "supported",
+                "source": "check",
+                "evidence": {
+                  "kind": "creator",
+                  "url": "https://www.tiktok.com/@monsieurj.app",
+                  "excerpt": null
+                }
+              }
+            ]
+          },
+          {
+            "handle": "dodovid40",
+            "profileUrl": "https://www.tiktok.com/@dodovid40",
+            "avatarUrl": "https://p16-common-sign.tiktokcdn-us.com/tos-useast2a-avt-0068-euttp/68fa9cc76e4b5bab2d70f0de1361b9ef~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=dfa1559d&x-expires=1795460400&x-signature=vKQZjwwC09BbGPL%2Fmm2lReab7JI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+            "followers": 2,
+            "usualViews": 191,
+            "postsSampled": 10,
+            "bestRecentViews": 272,
+            "proofVsUsualRatio": 1,
+            "postsPerWeek": 6.3,
+            "paidLabelShare": 0,
+            "hasPublicEmail": false,
+            "proofVideo": {
+              "id": "7710276773946117379",
+              "url": "https://www.tiktok.com/@dodovid40/video/7710276773946117379",
+              "creator": "dodovid40",
+              "views": 185,
+              "likes": 3,
+              "postedUtc": 1795188692,
+              "daysAgo": 1,
+              "region": "ES",
+              "paidLabel": false,
+              "caption": "Tu primera skill de Claude en 3 pasos 🤖 Una carpeta, un nombre con descripción y las instrucciones con un ejemplo. Usa solo skills de fuentes de confianza. Guárdalo y sígueme 🦤 #claude #skills #ia #productividad #tutorial",
+              "note": [],
+              "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-4864-no/owkAGPAQIpGTAQQLZaG4AszeJMeWGACKICe2eZ~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=72f6f08c&x-expires=1795374000&x-signature=o0pcjbm69kIlLaEqC2kj6o%2FnZ7E%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&s=PUBLISH&sc=cover&biz_tag=tt_video"
+            },
+            "criteria": [
+              {
+                "text": "talks about Claude skills in the video",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@dodovid40/video/7710276773946117379",
+                  "excerpt": "Tu primera skill de Claude en 3 pasos 🤖 Una carpeta, un nombre con descripción y las instrucciones con un ejemplo. Usa s..."
+                }
+              },
+              {
+                "text": "at most 10,000 followers",
+                "state": "supported",
+                "source": "check",
+                "evidence": {
+                  "kind": "creator",
+                  "url": "https://www.tiktok.com/@dodovid40",
+                  "excerpt": null
+                }
+              }
+            ]
+          },
+          {
+            "handle": "edlovestech",
+            "profileUrl": "https://www.tiktok.com/@edlovestech",
+            "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-maliva-avt-0068/c6a8d86b3efb700012939abb4bfbfb2e~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=8286f776&x-expires=1795460400&x-signature=pnMX1JDTHEHJuXstcME0tIzb32s%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+            "followers": 9945,
+            "usualViews": 839,
+            "postsSampled": 10,
+            "bestRecentViews": 1369,
+            "proofVsUsualRatio": 0.3,
+            "postsPerWeek": 17,
+            "paidLabelShare": 0,
+            "hasPublicEmail": false,
+            "proofVideo": {
+              "id": "7710658306016087318",
+              "url": "https://www.tiktok.com/@edlovestech/video/7710658306016087318",
+              "creator": "edlovestech",
+              "views": 228,
+              "likes": 5,
+              "postedUtc": 1795279327,
+              "daysAgo": 0,
+              "region": "ES",
+              "paidLabel": false,
+              "caption": "If you want to be better at using Claude then watch this #claude #anthropic #aiagents #usa #composiopartner",
+              "note": [],
+              "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oAgrVrEIIFgrkmAffwFkB44aTuKtBEA2DBcRC6~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=57cb5087&x-expires=1795374000&x-signature=cxQS188pMX5R4vY4RPc%2FEJwPbjk%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover"
+            },
+            "criteria": [
+              {
+                "text": "talks about Claude in the video",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@edlovestech/video/7710658306016087318",
+                  "excerpt": "If you want to be better at using Claude then watch this #claude #anthropic #aiagents #usa #composiopartner #claude #ant..."
+                }
+              },
+              {
+                "text": "bio shows AI enthusiasm",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "creator",
+                  "url": "https://www.tiktok.com/@edlovestech",
+                  "excerpt": null
+                }
+              },
+              {
+                "text": "at most 10,000 followers",
+                "state": "supported",
+                "source": "check",
+                "evidence": {
+                  "kind": "creator",
+                  "url": "https://www.tiktok.com/@edlovestech",
+                  "excerpt": null
+                }
+              }
+            ]
+          }
+        ],
+        "videos": [],
+        "videoIds": []
+      },
+      {
+        "kind": "group",
+        "heading": "Claude-code and AI-engineering accounts",
+        "reason": null,
+        "creators": [
+          {
+            "handle": "felixcallahan.ai",
+            "profileUrl": "https://www.tiktok.com/@felixcallahan.ai",
+            "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-useast2a-avt-0068-euttp/3420acc5e8f94d0111701f5a1a0e5b0e~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=a0fc658f&x-expires=1795460400&x-signature=h26PrPcw459r%2FgjMcwB01OUQgWk%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+            "followers": 3412,
+            "usualViews": 1377,
+            "postsSampled": 10,
+            "bestRecentViews": 6290,
+            "proofVsUsualRatio": 1.3,
+            "postsPerWeek": 8.8,
+            "paidLabelShare": 0,
+            "hasPublicEmail": false,
+            "proofVideo": {
+              "id": "7710470323380014369",
+              "url": "https://www.tiktok.com/@felixcallahan.ai/video/7710470323380014369",
+              "creator": "felixcallahan.ai",
+              "views": 1754,
+              "likes": 53,
+              "postedUtc": 1795233807,
+              "daysAgo": 0,
+              "region": "PT",
+              "paidLabel": false,
+              "caption": "Graphify builds a codebase knowledge graph so Claude Code can navigate instead of rereading files and wasting tokens. #AI #AITools #ClaudeAI",
+              "note": [],
+              "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-p-0037-euttp/oMiGMFDPjIGedQSoPCEIqeDAMCDgBukSAWfwVA~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=a5208886&x-expires=1795374000&x-signature=%2BIGlwwgESQOg7NkrEPvf2nsatC4%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover&item=7710470323380014369"
+            },
+            "criteria": [
+              {
+                "text": "talks about Claude code tooling in the video",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@felixcallahan.ai/video/7710470323380014369",
+                  "excerpt": "Graphify builds a codebase knowledge graph so Claude Code can navigate instead of rereading files and wasting tokens. #A..."
+                }
+              },
+              {
+                "text": "bio identifies them as an AI engineer",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "creator",
+                  "url": "https://www.tiktok.com/@felixcallahan.ai",
+                  "excerpt": null
+                }
+              },
+              {
+                "text": "at most 10,000 followers",
+                "state": "supported",
+                "source": "check",
+                "evidence": {
+                  "kind": "creator",
+                  "url": "https://www.tiktok.com/@felixcallahan.ai",
+                  "excerpt": null
+                }
+              }
+            ]
+          },
+          {
+            "handle": "inferpod",
+            "profileUrl": "https://www.tiktok.com/@inferpod",
+            "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-useast5-avt-0068-tx/248622285bf0679e881935fae5e18395~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=ec001bf5&x-expires=1795460400&x-signature=SCBv0ogVvOGvTFShVJs2%2FCXiq9M%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+            "followers": 3056,
+            "usualViews": 13006,
+            "postsSampled": 10,
+            "bestRecentViews": 122975,
+            "proofVsUsualRatio": 3,
+            "postsPerWeek": 12.9,
+            "paidLabelShare": 0,
+            "hasPublicEmail": false,
+            "proofVideo": {
+              "id": "7706391778567490829",
+              "url": "https://www.tiktok.com/@inferpod/video/7706391778567490829",
+              "creator": "inferpod",
+              "views": 38728,
+              "likes": 740,
+              "postedUtc": 1794284184,
+              "daysAgo": 11,
+              "region": "US",
+              "paidLabel": false,
+              "caption": "[removed] used claude fable 5.2 with one-shot prompts and no human feedback; he says the models, sounds and textures were generated from scratch in about eight hours, at roughly $550 in api tokens. the demo is called saltline. play it in the browser: [removed] #slopware #fable #claude #aigaming",
+              "note": [],
+              "imageUrl": "https://p16-common-sign.tiktokcdn.com/tos-useast5-p-0068-tx/oQfVAMSHpqYDIgEpNKAFLEPDCeA48QRlq6SAAD~tplv-tiktokx-cropcenter:500:800.jpeg?biz_tag=musically_video.video_cover&dr=14577&idc=my2&ps=13740610&refresh_token=4cea27bd&shcp=9b759fb9&shp=c1333099&t=4d5b0474&x-expires=1795309200&x-signature=W%2FrOK1psi4Ttn32qZ6dARMNGNWs%3D"
+            },
+            "criteria": [
+              {
+                "text": "talks about a Claude one-shot build in the video",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@inferpod/video/7706391778567490829",
+                  "excerpt": "[removed] used claude fable 5.2 with one-shot prompts and no human feedback; he says the models, sounds and..."
+                }
+              },
+              {
+                "text": "at most 10,000 followers",
+                "state": "supported",
+                "source": "check",
+                "evidence": {
+                  "kind": "creator",
+                  "url": "https://www.tiktok.com/@inferpod",
+                  "excerpt": null
+                }
+              }
+            ]
+          }
+        ],
+        "videos": [],
+        "videoIds": []
+      },
+      {
+        "kind": "group",
+        "heading": "Niche communities using Claude",
+        "reason": "They bring Claude into their own niches — Roblox game development, reels tutorials, and math-research commentary — showing the topic travels beyond AI accounts.",
+        "creators": [
+          {
+            "handle": "mojangopa",
+            "profileUrl": "https://www.tiktok.com/@mojangopa",
+            "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-maliva-avt-0068/37ccf8a7b669183536b551bd2dfd78bd~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=b31ac09b&x-expires=1795460400&x-signature=GhHJmqj3KfBaXhKlsQmkRNVKedY%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+            "followers": 692,
+            "usualViews": 21626,
+            "postsSampled": 10,
+            "bestRecentViews": 147386,
+            "proofVsUsualRatio": 4.9,
+            "postsPerWeek": 7.2,
+            "paidLabelShare": 0,
+            "hasPublicEmail": false,
+            "proofVideo": {
+              "id": "7707073411368914198",
+              "url": "https://www.tiktok.com/@mojangopa/video/7707073411368914198",
+              "creator": "mojangopa",
+              "views": 105493,
+              "likes": 8616,
+              "postedUtc": 1794442886,
+              "daysAgo": 9,
+              "region": "AT",
+              "paidLabel": false,
+              "caption": "Part 2 using the top 5 claude tools! #robloxdev #claudeai #gamedeveloper #ai #newrobloxgame",
+              "note": [],
+              "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-p-0037-no/oUqeDyaBIAoACsFEE8A1vFAVARinnkfpug1BMi~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=252e015b&x-expires=1795374000&x-signature=GEqTMVgXOiQx4eRjSwWQKa5NeXo%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover"
+            },
+            "criteria": [
+              {
+                "text": "talks about Claude for game development in the video",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@mojangopa/video/7707073411368914198",
+                  "excerpt": "Part 2 using the top 5 claude tools! #robloxdev #claudeai #gamedeveloper #ai #newrobloxgame #robloxdev #claudeai #gamede..."
+                }
+              },
+              {
+                "text": "video shows a Claude-tools breakdown",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@mojangopa/video/7706610542370196758",
+                  "excerpt": "Top 5 tools i use to build my roblox game! #robloxdev #claudeai #gamedeveloper #robloxdev #claudeai #gamedeveloper"
+                }
+              },
+              {
+                "text": "at most 10,000 followers",
+                "state": "supported",
+                "source": "check",
+                "evidence": {
+                  "kind": "creator",
+                  "url": "https://www.tiktok.com/@mojangopa",
+                  "excerpt": null
+                }
+              }
+            ]
+          },
+          {
+            "handle": "streamerclipssssssss2ss",
+            "profileUrl": "https://www.tiktok.com/@streamerclipssssssss2ss",
+            "avatarUrl": "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-avt-0068/ddf7a680c573945b2994f685d4d44187~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=009efea0&x-expires=1795460400&x-signature=dM1Zm61I7oNcLtGRwqy1xUNn3eE%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+            "followers": 312,
+            "usualViews": 12498,
+            "postsSampled": 6,
+            "bestRecentViews": 65684,
+            "proofVsUsualRatio": 2.2,
+            "postsPerWeek": 5.3,
+            "paidLabelShare": 0,
+            "hasPublicEmail": false,
+            "proofVideo": {
+              "id": "7706746302750625045",
+              "url": "https://www.tiktok.com/@streamerclipssssssss2ss/video/7706746302750625045",
+              "creator": "streamerclipssssssss2ss",
+              "views": 28081,
+              "likes": 2135,
+              "postedUtc": 1794366710,
+              "daysAgo": 10,
+              "region": "PH",
+              "paidLabel": false,
+              "caption": "dm for the skills files📈📈 #claude #fyp #tutorial #reels #viral",
+              "note": [],
+              "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-alisg-p-0037/oIYLEezERcrfmxzu3gH9pQa8QASq78DCsWPBFB~tplv-tiktokx-cropcenter:300:400.jpeg?dr=10399&refresh_token=371a38ff&x-expires=1795374000&x-signature=WLgMy%2FWNlTDs9h2CwFlgRD8cLEY%3D&t=4d5b0474&ps=13740610&shp=d05b14bd&shcp=34ff8df6&idc=useast2b&s=PUBLISH"
+            },
+            "criteria": [
+              {
+                "text": "talks about Claude in a tutorial video",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@streamerclipssssssss2ss/video/7706489949146696966",
+                  "excerpt": "basic lng hindi na need msg code💪🏽💪🏽 #claude #fyp #reels #tutorial #viral #claude #fyp #reels #tutorial #viral"
+                }
+              },
+              {
+                "text": "offers Claude skills files in a tutorial video",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@streamerclipssssssss2ss/video/7706746302750625045",
+                  "excerpt": "dm for the skills files📈📈 #claude #fyp #tutorial #reels #viral #claude #fyp #tutorial #reels #viral"
+                }
+              },
+              {
+                "text": "at most 10,000 followers",
+                "state": "supported",
+                "source": "check",
+                "evidence": {
+                  "kind": "creator",
+                  "url": "https://www.tiktok.com/@streamerclipssssssss2ss",
+                  "excerpt": null
+                }
+              }
+            ]
+          },
+          {
+            "handle": "sohil_rathi",
+            "profileUrl": "https://www.tiktok.com/@sohil_rathi",
+            "avatarUrl": "https://p16-common-sign.tiktokcdn-us.com/tos-useast5-avt-0068-tx/d49af7c9efab31562f1da9790389e1bc~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=21920068&x-expires=1795460400&x-signature=x0TXgUwFFrGM1RvcBBlBhIuOdc8%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=2472a6c6&idc=useast8",
+            "followers": 428,
+            "usualViews": 2160,
+            "postsSampled": 10,
+            "bestRecentViews": 49225,
+            "proofVsUsualRatio": 22.8,
+            "postsPerWeek": 2.2,
+            "paidLabelShare": 0,
+            "hasPublicEmail": false,
+            "proofVideo": {
+              "id": "7710538343389416718",
+              "url": "https://www.tiktok.com/@sohil_rathi/video/7710538343389416718",
+              "creator": "sohil_rathi",
+              "views": 49225,
+              "likes": 1863,
+              "postedUtc": 1795249681,
+              "daysAgo": 0,
+              "region": "US",
+              "paidLabel": false,
+              "caption": "A million-dollar math problem, open for 167 years, and now there's a claimed proof written with Claude. Here's what the Riemann hypothesis says about the primes, using one spiral. #math #riemannhypothesis #primenumbers #claude #learnontiktok",
+              "note": [],
+              "imageUrl": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast5-p-0068-tx/oInAvDfEmgAfr1CS3QCXVSAJAZIUFyCADoAVqC~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg?dr=9232&refresh_token=3d9bb838&x-expires=1795374000&x-signature=85qG5IYiICS9LVUKHX5yYdzZtlc%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=useast2b&biz_tag=tt_video&s=PUBLISH&sc=cover"
+            },
+            "criteria": [
+              {
+                "text": "talks about a proof written with Claude in the video",
+                "state": "supported",
+                "source": "claim",
+                "evidence": {
+                  "kind": "video",
+                  "url": "https://www.tiktok.com/@sohil_rathi/video/7710538343389416718",
+                  "excerpt": "A million-dollar math problem, open for 167 years, and now there's a claimed proof written with Claude. Here's what the ..."
+                }
+              },
+              {
+                "text": "at most 10,000 followers",
+                "state": "supported",
+                "source": "check",
+                "evidence": {
+                  "kind": "creator",
+                  "url": "https://www.tiktok.com/@sohil_rathi",
+                  "excerpt": null
+                }
+              }
+            ]
+          }
+        ],
+        "videos": [],
+        "videoIds": []
+      }
+    ],
+    "assumptions": [],
+    "limits": "Only each video's region is known, not where these creators live. Sponsorship is judged only from the paid label and bio words; whether any of them already works with brands is otherwise unknown.",
+    "limitsSentences": [
+      {
+        "text": "Only each video's region is known, not where these creators live.",
+        "label": "limit"
+      },
+      {
+        "text": "Sponsorship is judged only from the paid label and bio words; whether any of them already works with brands is otherwise unknown.",
+        "label": "limit"
+      }
+    ],
+    "notFound": [],
+    "budgetNote": null,
+    "finishedBy": "model",
+    "steps": [
+      {
+        "kind": "check",
+        "label": "Read the limits the question states",
+        "detail": "1 limit",
+        "failed": false,
+        "handle": null,
+        "atMs": 1,
+        "ms": 2626,
+        "costUsd": 0.000003
+      },
+      {
+        "kind": "think",
+        "label": "Planned the next steps",
+        "detail": "Turn 1 of 8",
+        "failed": false,
+        "handle": null,
+        "atMs": 2627,
+        "ms": 35014,
+        "costUsd": 0.000014
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"claude ai\"",
+        "detail": "17 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 37641,
+        "ms": 3149,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"claude code\"",
+        "detail": "18 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 37642,
+        "ms": 2976,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"using claude\"",
+        "detail": "15 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 37643,
+        "ms": 3353,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "think",
+        "label": "Planned the next steps",
+        "detail": "Turn 2 of 8",
+        "failed": false,
+        "handle": null,
+        "atMs": 40996,
+        "ms": 13138,
+        "costUsd": 0.000014
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @vibewithkevin",
+        "detail": "11,112 followers",
+        "failed": false,
+        "handle": "vibewithkevin",
+        "atMs": 54135,
+        "ms": 1463,
+        "costUsd": 0.0004
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @felixcallahan.ai",
+        "detail": "3,412 followers",
+        "failed": false,
+        "handle": "felixcallahan.ai",
+        "atMs": 54136,
+        "ms": 2644,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @maverickgpt",
+        "detail": "638,709 followers",
+        "failed": false,
+        "handle": "maverickgpt",
+        "atMs": 54136,
+        "ms": 1559,
+        "costUsd": 0.0004
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @ray_fu",
+        "detail": "180,772 followers",
+        "failed": false,
+        "handle": "ray_fu",
+        "atMs": 54136,
+        "ms": 1969,
+        "costUsd": 0.0004
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @brennan_wells",
+        "detail": "40,043 followers",
+        "failed": false,
+        "handle": "brennan_wells",
+        "atMs": 54136,
+        "ms": 2757,
+        "costUsd": 0.0004
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @softgirlnocode",
+        "detail": "32,586 followers",
+        "failed": false,
+        "handle": "softgirlnocode",
+        "atMs": 54136,
+        "ms": 1857,
+        "costUsd": 0.0004
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @dvminhai",
+        "detail": "492 followers",
+        "failed": false,
+        "handle": "dvminhai",
+        "atMs": 54136,
+        "ms": 2574,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @samdespo",
+        "detail": "724,644 followers",
+        "failed": false,
+        "handle": "samdespo",
+        "atMs": 54137,
+        "ms": 2283,
+        "costUsd": 0.0004
+      },
+      {
+        "kind": "think",
+        "label": "Planned the next steps",
+        "detail": "Turn 3 of 8",
+        "failed": false,
+        "handle": null,
+        "atMs": 56893,
+        "ms": 5478,
+        "costUsd": 0.000063
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @pro.glitch",
+        "detail": "120,629 followers",
+        "failed": false,
+        "handle": "pro.glitch",
+        "atMs": 62371,
+        "ms": 1452,
+        "costUsd": 0.0004
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @mojangopa",
+        "detail": "692 followers",
+        "failed": false,
+        "handle": "mojangopa",
+        "atMs": 62372,
+        "ms": 2924,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @sohil_rathi",
+        "detail": "428 followers",
+        "failed": false,
+        "handle": "sohil_rathi",
+        "atMs": 62372,
+        "ms": 3290,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @inferpod",
+        "detail": "3,056 followers",
+        "failed": false,
+        "handle": "inferpod",
+        "atMs": 62372,
+        "ms": 3093,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @mr..unionn",
+        "detail": "698 followers",
+        "failed": false,
+        "handle": "mr..unionn",
+        "atMs": 62372,
+        "ms": 3645,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @artofthepossible.ai",
+        "detail": "4,558 followers",
+        "failed": false,
+        "handle": "artofthepossible.ai",
+        "atMs": 62373,
+        "ms": 3359,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @wchan28",
+        "detail": "9,449 followers",
+        "failed": false,
+        "handle": "wchan28",
+        "atMs": 62374,
+        "ms": 3233,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @notification.2901",
+        "detail": "2,632 followers",
+        "failed": false,
+        "handle": "notification.2901",
+        "atMs": 62374,
+        "ms": 4395,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"claude skills tutorial\"",
+        "detail": "12 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 62374,
+        "ms": 3572,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "search",
+        "label": "Searched \"claude tips\"",
+        "detail": "13 new videos",
+        "failed": false,
+        "handle": null,
+        "atMs": 62374,
+        "ms": 3499,
+        "costUsd": 0.0006
+      },
+      {
+        "kind": "think",
+        "label": "Planned the next steps",
+        "detail": "Turn 4 of 8",
+        "failed": false,
+        "handle": null,
+        "atMs": 66770,
+        "ms": 26378,
+        "costUsd": 0.000006
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @nilomotionhq",
+        "detail": "144 followers",
+        "failed": false,
+        "handle": "nilomotionhq",
+        "atMs": 93149,
+        "ms": 2475,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @jordanrobertsai",
+        "detail": "10,893 followers",
+        "failed": false,
+        "handle": "jordanrobertsai",
+        "atMs": 93150,
+        "ms": 1336,
+        "costUsd": 0.0004
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @edlovestech",
+        "detail": "9,945 followers",
+        "failed": false,
+        "handle": "edlovestech",
+        "atMs": 93150,
+        "ms": 2544,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @dodovid40",
+        "detail": "2 followers",
+        "failed": false,
+        "handle": "dodovid40",
+        "atMs": 93151,
+        "ms": 3703,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @zachdoesai",
+        "detail": "7,867 followers",
+        "failed": false,
+        "handle": "zachdoesai",
+        "atMs": 93151,
+        "ms": 3468,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @ai.honeycove",
+        "detail": "84,792 followers",
+        "failed": false,
+        "handle": "ai.honeycove",
+        "atMs": 93151,
+        "ms": 2554,
+        "costUsd": 0.0004
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @beam.siraj",
+        "detail": "5,082 followers",
+        "failed": false,
+        "handle": "beam.siraj",
+        "atMs": 93151,
+        "ms": 2938,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "transcript",
+        "label": "Read the words of a video by @wchan28",
+        "detail": null,
+        "failed": false,
+        "handle": "wchan28",
+        "atMs": 93152,
+        "ms": 2394,
+        "costUsd": 0.0011
+      },
+      {
+        "kind": "think",
+        "label": "Planned the next steps",
+        "detail": "Turn 5 of 8",
+        "failed": false,
+        "handle": null,
+        "atMs": 96854,
+        "ms": 6346,
+        "costUsd": 0.000101
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @monsieurj.app",
+        "detail": "4,652 followers",
+        "failed": false,
+        "handle": "monsieurj.app",
+        "atMs": 103201,
+        "ms": 2597,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @bengusberg",
+        "detail": "89,036 followers",
+        "failed": false,
+        "handle": "bengusberg",
+        "atMs": 103202,
+        "ms": 1392,
+        "costUsd": 0.0004
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @cindiezhu",
+        "detail": "34,734 followers",
+        "failed": false,
+        "handle": "cindiezhu",
+        "atMs": 103203,
+        "ms": 1693,
+        "costUsd": 0.0004
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @streamerclipssssssss2ss",
+        "detail": "312 followers",
+        "failed": false,
+        "handle": "streamerclipssssssss2ss",
+        "atMs": 103203,
+        "ms": 3096,
+        "costUsd": 0.001
+      },
+      {
+        "kind": "creator",
+        "label": "Looked at @k.buildsapps",
+        "detail": "17,172 followers",
+        "failed": false,
+        "handle": "k.buildsapps",
+        "atMs": 103203,
+        "ms": 1438,
+        "costUsd": 0.0004
+      },
+      {
+        "kind": "think",
+        "label": "Planned the next steps",
+        "detail": "Turn 6 of 8",
+        "failed": false,
+        "handle": null,
+        "atMs": 106300,
+        "ms": 29466,
+        "costUsd": 0.000127
+      },
+      {
+        "kind": "answer",
+        "label": "Sent the answer back to fix its claims",
+        "detail": null,
+        "failed": false,
+        "handle": null,
+        "atMs": 135768,
+        "ms": 3,
+        "costUsd": 0
+      },
+      {
+        "kind": "think",
+        "label": "Planned the next steps",
+        "detail": "Turn 7 of 8",
+        "failed": false,
+        "handle": null,
+        "atMs": 135771,
+        "ms": 28363,
+        "costUsd": 0.000055
+      },
+      {
+        "kind": "answer",
+        "label": "Wrote the answer",
+        "detail": null,
+        "failed": false,
+        "handle": null,
+        "atMs": 164138,
+        "ms": 20407,
+        "costUsd": 0
+      },
+      {
+        "kind": "check",
+        "label": "Checked the answer against the evidence",
+        "detail": null,
+        "failed": false,
+        "handle": null,
+        "atMs": 164140,
+        "ms": 20402,
+        "costUsd": 0.000118
+      },
+      {
+        "kind": "check",
+        "label": "Checked the text for contact details",
+        "detail": null,
+        "failed": false,
+        "handle": null,
+        "atMs": 184547,
+        "ms": 2328,
+        "costUsd": 0.000003
+      }
+    ],
+    "cost": {
+      "limitUsd": 0.1,
+      "dataUsd": 0.024900000000000005,
+      "modelUsd": 0.0005040000000000005,
+      "totalUsd": 0.025404000000000006,
+      "dataCalls": 50,
+      "modelTurns": 7,
+      "wallMs": 186879
+    },
+    "gate": "model"
+  }
+}
