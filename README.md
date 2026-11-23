@@ -83,6 +83,7 @@ AnyAPI accepts an `https` address, or plain `http` only on `localhost` or a loop
 | `MAX_QUESTION_CHARS` | yes | `500` under the Compose file | The longest question accepted. |
 | `RUNS_IN_FLIGHT` | no | unset: no limit | Questions being researched at once across the whole instance, counted in the database. The next asker is told to try again in a few minutes, and that question is not counted. |
 | `DATA_CALLS_PER_MINUTE` | no | unset: no limit | AnyAPI data calls a minute across the server process, house and wallet alike. Calls are sent evenly spaced, one every 60/N seconds, first come first served; a call waits its turn and is never refused for waiting. Set it from the call rate your AnyAPI key's sources serve. |
+| `VIDEO_INSPECTIONS_AT_ONCE` | no | unset: no limit | Video inspections at once across the server process, each from its file's download until the watch ends; the next waits its turn. Each re-encodes the video with ffmpeg, which on a 32-core test machine took up to 224 MiB, so set it from your machine's memory. |
 
 When either daily ceiling is reached, new free questions are refused until the next UTC day and
 the refused question is not counted. The model ceiling also refuses questions paid from a
@@ -121,8 +122,8 @@ revokes it at AnyAPI; a connection you end at AnyAPI puts you back on the free t
 time the app tries to use it.
 
 Self-hosting with `SELF_HOSTED=true` has no per-account limit. The question length and the two
-daily ceilings still apply, and you set them, as you may the instance-wide `RUNS_IN_FLIGHT` and
-`DATA_CALLS_PER_MINUTE`.
+daily ceilings still apply, and you set them, as you may the instance-wide `RUNS_IN_FLIGHT`,
+`DATA_CALLS_PER_MINUTE` and `VIDEO_INSPECTIONS_AT_ONCE`.
 
 ## Costs, measured
 
@@ -202,8 +203,8 @@ RESOURCE_GROUP=creator-agent-prod scripts/azure-provision.sh
 ```
 
 All five are required. `HOUSE_DATA_CAP_USD_PER_DAY` and `HOUSE_LLM_CAP_USD_PER_DAY` may be
-added to the same file to override their defaults, and `RUNS_IN_FLIGHT` and
-`DATA_CALLS_PER_MINUTE` to set those limits, which are off unless set.
+added to the same file to override their defaults, and `RUNS_IN_FLIGHT`,
+`DATA_CALLS_PER_MINUTE` and `VIDEO_INSPECTIONS_AT_ONCE` to set those limits, which are off unless set.
 
 It writes `PG_ADMIN_PASSWORD`, `APP_ENCRYPTION_KEY`, `DATABASE_URL` and `APP_URL` back into that
 file, and sets the same values as Container App secrets. Nothing else holds them.
