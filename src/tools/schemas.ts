@@ -79,7 +79,7 @@ export const FINISH_TOOL = tool(
         properties: {
           handle: { type: "string" },
           proof_video_id: { type: "string", description: "A video by this creator that you saw, on the question's topic." },
-          evidence_id: { type: "string", description: "Text that shows the topic, as for a criterion; the proof video's caption when left out." },
+          evidence_id: { type: "string", description: "The evidence id whose text shows the topic, as a criterion cites it: a video id (its caption), t:<video id>, w:<video id> or @handle. Left out, the proof video's caption." },
         },
         required: ["handle", "proof_video_id"],
       },
