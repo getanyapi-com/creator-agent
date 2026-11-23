@@ -51,6 +51,27 @@ test("N calls a minute: the N+1th starts only once the minute has moved on, call
   expect(started.at(-1)?.at).toBe(60_000);
 });
 
+test("after a stall past several turns, the waiting calls still go one spacing apart, in the order they asked", async () => {
+  const clock = fakeClock();
+  const pace = new CallPace(clock.now, clock.wait);
+  const spacing = 1000;
+  const started: { call: number; at: number }[] = [];
+  const calls = Array.from({ length: 4 }, (_, call) => pace.turn(spacing).then(() => started.push({ call, at: clock.now() })));
+  await clock.advance(0);
+  // The event loop is held up: the clock jumps past three calls' turns at once.
+  await clock.advance(3 * spacing);
+  expect(started).toEqual([
+    { call: 0, at: 0 },
+    { call: 1, at: 3000 },
+  ]);
+  await clock.advance(spacing - 1);
+  expect(started).toHaveLength(2);
+  await clock.advance(1);
+  await clock.advance(spacing);
+  await Promise.all(calls);
+  expect(started).toEqual([0, 3000, 4000, 5000].map((at, call) => ({ call, at })));
+});
+
 test("a call after a quiet spell goes at once", async () => {
   const clock = fakeClock();
   const pace = new CallPace(clock.now, clock.wait);

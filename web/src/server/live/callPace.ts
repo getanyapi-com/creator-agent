@@ -4,12 +4,15 @@ import { config } from "@/server/config";
 const MINUTE_MS = 60_000;
 
 /**
- * Spaces data calls evenly: each call is given the first free moment at least `spacingMs` after the call before
- * it, so calls never come in a burst. Moments are handed out in the order calls ask, so the first to ask goes first,
- * and a call only ever waits; it is never refused. The clock and the timer are passed in so a check can drive them.
+ * Spaces data calls evenly: calls wait in one queue, in the order they asked, and each is released at least
+ * `spacingMs` after the call before it was actually released. A timer that fires late (a busy or throttled process)
+ * delays the calls behind it rather than releasing them together, so calls never come in a burst. A call only ever
+ * waits; it is never refused. The clock and the timer are passed in so a check can drive them.
  */
 export class CallPace {
-  #nextAt = Number.NEGATIVE_INFINITY;
+  #lastAt = Number.NEGATIVE_INFINITY;
+  #releasing = false;
+  readonly #queue: { spacingMs: number; go: () => void }[] = [];
   readonly #now: () => number;
   readonly #wait: (ms: number) => Promise<void>;
 
@@ -19,11 +22,22 @@ export class CallPace {
   }
 
   /** Resolves when it is this call's turn to be sent. */
-  async turn(spacingMs: number): Promise<void> {
-    const now = this.#now();
-    const at = Math.max(now, this.#nextAt);
-    this.#nextAt = at + spacingMs;
-    if (at > now) await this.#wait(at - now);
+  turn(spacingMs: number): Promise<void> {
+    const turn = new Promise<void>((go) => this.#queue.push({ spacingMs, go }));
+    if (!this.#releasing) void this.#release();
+    return turn;
+  }
+
+  /** Releases the queue one call at a time, each once its spacing has passed since the last release. */
+  async #release(): Promise<void> {
+    this.#releasing = true;
+    for (let next = this.#queue.shift(); next; next = this.#queue.shift()) {
+      const due = this.#lastAt + next.spacingMs;
+      for (let now = this.#now(); now < due; now = this.#now()) await this.#wait(due - now);
+      this.#lastAt = this.#now();
+      next.go();
+    }
+    this.#releasing = false;
   }
 }
 
