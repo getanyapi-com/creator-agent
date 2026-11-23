@@ -31,7 +31,7 @@ interface Wanted {
 }
 
 /**
- * Every avatar and cover the display object links, named avatar-<handle> and video-<id>. The core has
+ * Every avatar and cover the display object links, close creators' included, named avatar-<handle> and video-<id>. The core has
  * already checked each link is https on a TikTok media host when it read the row (`src/ingest.ts`).
  * A pattern video the display object carries no row for has no cover to save.
  */
@@ -40,7 +40,7 @@ function wanted(display: DisplayRun): Wanted[] {
   const add = (name: string, url: string | null) => {
     if (url && SAFE_NAME.test(name) && !items.some((item) => item.name === name)) items.push({ name, url });
   };
-  for (const creator of display.creators) {
+  for (const creator of [...display.creators, ...(display.close ?? [])]) {
     add(`avatar-${creator.handle}`, creator.avatarUrl);
     add(`video-${creator.proofVideo.id}`, creator.proofVideo.imageUrl);
   }

@@ -30,6 +30,7 @@ export function liveThread(run: LiveRun): ThreadView {
     criteriaLine: null,
     creators: [],
     sections: [],
+    close: null,
     patterns: [],
     assumptions: [],
     limits: [],

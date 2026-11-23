@@ -190,13 +190,14 @@ export async function yourQuestions(askerId: string): Promise<{ items: OwnFeedIt
 
 /**
  * The email the core found in this creator's public bio, read from the private record at the moment
- * of a Reveal, for a creator the display object says has one; null when there is none, undefined
+ * of a Reveal, for a creator (or close creator) the display object says has one; null when there is none, undefined
  * when the run is unknown to this viewer.
  */
 export async function bioEmail(id: string, handle: string, viewerId: string): Promise<string | null | undefined> {
   const run = await readRun(id, viewerId);
   if (run === null) return undefined;
-  const creator = run.display?.creators.find((c) => c.handle === handle.replace(/^@/, "").toLowerCase());
+  const shown = run.display === null ? [] : [...run.display.creators, ...(run.display.close ?? [])];
+  const creator = shown.find((c) => c.handle === handle.replace(/^@/, "").toLowerCase());
   const record = creator?.hasPublicEmail === true ? await readRecord<RunOutput>(id) : null;
   return record === null || creator === undefined ? null : revealContact(record, creator.handle).email;
 }
