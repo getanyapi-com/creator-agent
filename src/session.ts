@@ -20,7 +20,7 @@ import { validateFinish, type Validation } from "./finish/validate.ts";
 import type { ChatModel } from "./llm.ts";
 import type { ModelPrices } from "./modelCost.ts";
 import { cleanUserText } from "./modelText.ts";
-import type { ToolContext, VideoModels } from "./tools/context.ts";
+import type { ToolContext, VideoModels, VideoSlot } from "./tools/context.ts";
 import type { ClosingCall, RunOutput, TraceTurn } from "./trace.ts";
 
 /** The free tier's limit per question, data and model cost together (spec, Tiers). */
@@ -35,6 +35,8 @@ export interface Services {
   llm: ChatModel;
   agentModels: string[];
   videoModels: VideoModels;
+  /** Where video inspections wait for room across the instance; absent, each runs at once. */
+  videoSlot?: VideoSlot;
   /** The model that reads each content claim and each sentence of the answer beside the evidence. */
   verifierModel: string;
   /** The model that scans the display object's free text for a way to contact a person. */
@@ -116,6 +118,7 @@ export function openSession(rawQuestion: string, tier: Tier, services: Services,
       contacts: new MemoryContactStore(),
       nowSec: Math.floor(startedMs / 1000),
       videoModels: services.videoModels,
+      videoSlot: services.videoSlot ?? ((work) => work()),
       modelPrices: services.modelPrices,
       lookedFor: new Set(),
       searchCursors: new Map(),

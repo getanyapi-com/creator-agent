@@ -24,10 +24,15 @@ export async function inspectVideo(ctx: ToolContext, args: Args): Promise<ToolRe
   if (typeof fileUrl !== "string") return { video: video.id, error: "no downloadable file (deleted, private or a photo post)" };
   const stated = numberOrNull(download.data?.durationSeconds) ?? video.durationSeconds;
   if (stated !== null && stated > MAX_WATCH_SECONDS) return tooLong(video);
+  return ctx.videoSlot(() => watchFile(ctx, video, fileUrl, numberOrNull(download.data?.durationSeconds)));
+}
+
+/** Downloads the file and has it watched; the file's bytes, and every copy made of them, are released when this returns. */
+async function watchFile(ctx: ToolContext, video: VideoRow, fileUrl: string, statedSeconds: number | null): Promise<ToolResult> {
   const file = await fetchVideoFile(fileUrl);
   if (!file.ok && file.tooLarge) return tooLong(video);
   if (!file.ok) return { video: video.id, error: file.error };
-  const seconds = (await probeSeconds(file.bytes)) ?? numberOrNull(download.data?.durationSeconds);
+  const seconds = (await probeSeconds(file.bytes)) ?? statedSeconds;
   if (seconds === null) return { video: video.id, error: "the video's length is unknown, so its cost cannot be bounded" };
   if (seconds > MAX_WATCH_SECONDS) return tooLong(video);
   const watched = await watchVideo({

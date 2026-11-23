@@ -12,6 +12,9 @@ export interface VideoModels {
   fallback: string;
 }
 
+/** Runs one video inspection's file work when the instance has room for it; the instance decides how many at once. */
+export type VideoSlot = <R>(work: () => Promise<R>) => Promise<R>;
+
 /** Everything a tool needs for one question. */
 export interface ToolContext {
   anyapi: DataClient;
@@ -24,6 +27,8 @@ export interface ToolContext {
   contacts: ContactStore;
   nowSec: number;
   videoModels: VideoModels;
+  /** Holds a video's file from its download until the watch ends (`inspect_video`). */
+  videoSlot: VideoSlot;
   /** List prices of every model a run may call, so each call is bounded before it runs. */
   modelPrices: ModelPrices;
   /** Handles `inspect_creator` was asked for, so the code can list those it could not find. */

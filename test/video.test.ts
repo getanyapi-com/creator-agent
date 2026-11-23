@@ -184,6 +184,47 @@ describe("inspect_video and the length Qwen was measured on (round 4, D4)", () =
   });
 });
 
+describe("inspect_video and the instance's video slots", () => {
+  it("downloads the file and has it watched inside one slot, and gives the slot back when the watch ends", async () => {
+    const api = fakeAnyApi({
+      "tiktok.search_keyword": () => ({ videos: [searchRow("721", "amber", 340)] }),
+      "tiktok.video_download": () => ({ sdVideoUrl: "https://v16m.tiktokcdn-us.com/a.mp4", durationSeconds: 10 }),
+    });
+    const events: string[] = [];
+    let inSlot = false;
+    const realFetch = globalThis.fetch;
+    globalThis.fetch = async () => {
+      events.push(`file fetched ${inSlot ? "inside" : "outside"} the slot`);
+      return new Response(new Uint8Array(100));
+    };
+    const agent = new ScriptedModel([() => [toolCall("s", "search_videos", { query: "x" })], () => [toolCall("w", "inspect_video", { video: "721" })], () => [toolCall("f", "finish", { answer: "Done." })]]);
+    const llm: ChatModel = {
+      complete: async (model, request) => {
+        if (model !== "fake-video-2") return agent.complete(model, request);
+        events.push(`watched ${inSlot ? "inside" : "outside"} the slot`);
+        return { content: watchJson, toolCalls: [], finishReason: "stop", promptTokens: 10_000, completionTokens: 10 } as Completion;
+      },
+    };
+    const videoSlot = async <R,>(work: () => Promise<R>): Promise<R> => {
+      events.push("slot taken");
+      inSlot = true;
+      try {
+        return await work();
+      } finally {
+        inSlot = false;
+        events.push("slot given back");
+      }
+    };
+    try {
+      const out = await runAgent("Find study creators", { kind: "free" }, { ...services(api.make, llm), videoSlot });
+      expect(out.trace[1]?.toolCalls[0]?.result).toMatchObject({ watched_by: "fake-video-2" });
+    } finally {
+      globalThis.fetch = realFetch;
+    }
+    expect(events).toEqual(["slot taken", "file fetched inside the slot", "watched inside the slot", "slot given back"]);
+  });
+});
+
 describe("what the video model writes", () => {
   it("is cleaned before it is stored, shown or passed to the agent model", () => {
     const video = { id: "1", author: "ann" } as VideoRow;

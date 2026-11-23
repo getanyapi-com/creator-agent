@@ -48,6 +48,12 @@ const schema = z
      * The instance's owner sets it from the call rate their AnyAPI key's sources serve.
      */
     DATA_CALLS_PER_MINUTE: z.preprocess(blankIsAbsent, z.coerce.number().int().positive().optional()),
+    /**
+     * Video inspections at once across the whole process, each from its file's download until its copies are
+     * released; the next waits its turn. Unset: no limit. Each holds an ffmpeg re-encode, so the instance's owner
+     * sets it from what one needs against the machine's memory.
+     */
+    VIDEO_INSPECTIONS_AT_ONCE: z.preprocess(blankIsAbsent, z.coerce.number().int().positive().optional()),
   })
   .refine((env) => env.ANYAPI_OAUTH_CLIENT_ID === undefined || env.APP_ENCRYPTION_KEY !== undefined, "APP_ENCRYPTION_KEY is required when ANYAPI_OAUTH_CLIENT_ID is set");
 

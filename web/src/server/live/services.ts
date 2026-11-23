@@ -3,6 +3,7 @@ import type { Budget } from "../../../../src/budget.ts";
 import { AGENT_MODELS, AnyApiClient, CONTACT_SCAN_MODEL, readPublishedPrices, SurplusChat, VERIFIER_MODEL, VIDEO_MODELS, type Services } from "../../../../src/index.ts";
 import { config } from "@/server/config";
 import { pacedFetch } from "./callPace";
+import { videoSlot } from "./videoSlots";
 import type { SpendSnapshot } from "./houseSpend";
 
 /** The key a wallet run's data client is built with; its fetch (`src/server/wallet/walletFetch.ts`) replaces it with the account's access token on every call. */
@@ -24,6 +25,7 @@ export async function runServices(walletFetch: FetchFn | null = null): Promise<S
     llm,
     agentModels: AGENT_MODELS,
     videoModels: VIDEO_MODELS,
+    videoSlot: videoSlot(),
     verifierModel: VERIFIER_MODEL,
     contactScanModel: CONTACT_SCAN_MODEL,
     modelPrices: await llm.listPrices([...new Set(models)]),
