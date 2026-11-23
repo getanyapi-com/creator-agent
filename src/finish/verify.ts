@@ -4,6 +4,7 @@ import { MODEL_MAX_TOKENS, MODEL_TIMEOUT_MS } from "../limits.ts";
 import type { ChatModel, ChatRequest } from "../llm.ts";
 import type { ModelPrices } from "../modelCost.ts";
 import { askReadable } from "./askReadable.ts";
+import { topicClaim } from "./close.ts";
 import type { FinishArgs } from "./parse.ts";
 import { patternHeading } from "./patternHeading.ts";
 import { creatorDigest, videoDigest, type SubjectContext } from "./subjects.ts";
@@ -34,7 +35,7 @@ interface Item {
   claim: string;
   /** The evidence id the claim cites; null for a pattern's video. */
   cites: string | null;
-  /** Where the item is in the finish: `c<creator>.<criterion>` or `p<pattern>.<video id>`. */
+  /** Where the item is in the finish: `c<creator>.<criterion>`, `p<pattern>.<video id>` or `k<close creator>`. */
   at: string;
 }
 
@@ -44,7 +45,7 @@ Answer "supported" when the evidence shows every part of the claim is true, "con
 In "why", first name the claim's weakest part and what in the evidence shows or fails to show it; then decide.
 Reply with JSON only, one verdict per item, using each item's id exactly: {"verdicts":[{"id":"1","why":"a few words","answer":"supported|contradicted|not shown"}]}`;
 
-function itemsFor(args: FinishArgs): Item[] {
+function itemsFor(args: FinishArgs, question: string): Item[] {
   const items: Omit<Item, "id">[] = [];
   args.creators.forEach((c, ci) =>
     c.criteria.forEach((k, ki) => {
@@ -52,6 +53,7 @@ function itemsFor(args: FinishArgs): Item[] {
       items.push({ at: `c${ci}.${ki}`, about: `@${c.handle}`, claim: k.criterion, cites: k.evidence_id });
     }),
   );
+  args.close.forEach((c, i) => items.push({ at: `k${i}`, about: `@${c.handle}`, claim: topicClaim(question), cites: c.evidence_id }));
   args.patterns.forEach((p, pi) =>
     [...new Set(p.video_ids)].forEach((vid) => items.push({ at: `p${pi}.${vid}`, about: `video ${vid}`, claim: `This video uses the hook or pattern: ${p.pattern}`, cites: null })),
   );
@@ -104,7 +106,7 @@ export function parseVerdicts(content: string, asked: Set<string>): Map<string, 
 
 /** The verifier request for a finish's content claims, or null when it has none; exported to size the closing hold. */
 export function claimsRequest(ctx: SubjectContext, args: FinishArgs, model: string): { request: ChatRequest; asked: Set<string>; items: Item[] } | null {
-  const items = itemsFor(args);
+  const items = itemsFor(args, ctx.question);
   if (items.length === 0) return null;
   const payload = { subjects: subjectsFor(ctx, items), items: items.map((i) => ({ id: i.id, about: i.about, claim: i.claim, ...(i.cites ? { cites: i.cites } : {}) })) };
   const request: ChatRequest = {
@@ -122,12 +124,14 @@ export function claimsRequest(ctx: SubjectContext, args: FinishArgs, model: stri
 }
 
 /**
- * One model call reads every content claim beside the evidence of the creator or video it is about. A criterion keeps its state only
+ * One model call reads every content claim beside the evidence of the creator or video it is about,
+ * and each close creator's topic claim: a close creator is kept only when the verifier finds its topic
+ * supported (stricter than a criterion, which becomes unknown). A criterion keeps its state only
  * when the verifier gives the same answer; anything else, a contradicted verdict on a supported claim
  * included, makes it unknown. The code's own checks are never sent. A pattern keeps its words only when
  * at least two of its videos support it; otherwise it keeps its videos under its heading alone (round
  * 5). When the call cannot run, fit the budget or be read, nothing is verified: every content claim
- * becomes unknown and every pattern is reduced to its heading.
+ * becomes unknown, every pattern is reduced to its heading, and no close creator is kept.
  */
 export async function verifyClaims(v: Verifier, ctx: SubjectContext, args: FinishArgs): Promise<{ kept: FinishArgs; notes: DroppedClaim[]; call: VerifierCall | null }> {
   const built = claimsRequest(ctx, args, v.model);
@@ -162,5 +166,11 @@ function apply(args: FinishArgs, verdicts: Map<string, Answer>, failure: string 
     notes.push({ claim: `pattern "${p.pattern}"`, reason: `${reason}; its videos stay under its heading` });
     return [{ pattern: patternHeading(p.pattern), video_ids: [...new Set(p.video_ids)] }];
   });
-  return { kept: { ...args, creators, patterns }, notes };
+  const close = args.close.filter((c, i) => {
+    const answer = verdicts.get(`k${i}`);
+    if (answer === "supported") return true;
+    notes.push({ claim: `close @${c.handle} on topic`, reason: `${why(answer)}; not shown as close` });
+    return false;
+  });
+  return { kept: { ...args, creators, patterns, close }, notes };
 }

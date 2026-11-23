@@ -47,6 +47,12 @@ export interface AnswerCreator {
   criteria: Criterion[];
 }
 
+/** A close creator: on the question's topic and outside exactly one of its limits (2026-11-22). */
+export interface AnswerClose extends AnswerCreator {
+  /** The limit missed and the measured value against it, written by the code. */
+  missed: string;
+}
+
 export interface AnswerPattern {
   pattern: string;
   videoIds: string[];
@@ -69,6 +75,8 @@ export interface Answer {
   criteriaLine: string | null;
   excluded: Excluded;
   creators: AnswerCreator[];
+  /** Shown after the sections when the answer has fewer creators than asked; absent on runs saved before. */
+  close?: AnswerClose[];
   videos: AnswerVideo[];
   patterns: AnswerPattern[];
   /** The answer in reading order: the best fit, groups that share a reason, patterns (round 4, E1). */

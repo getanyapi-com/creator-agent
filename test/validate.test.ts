@@ -23,7 +23,7 @@ function storeWithCreator(followers: number | null = 4321) {
   return { store, contacts };
 }
 
-const run = { nowSec: NOW_SEC, notFound: [] };
+const run = { nowSec: NOW_SEC, notFound: [], wanted: null };
 const criterion = (evidence_id: string | null, state = "supported") => ({ criterion: "talks about a study app", state, evidence_id });
 const creator = (criteria: unknown[], proof = "100") => ({ answer: "x", creators: [{ handle: "ann", proof_video_id: proof, criteria }] });
 
@@ -164,7 +164,7 @@ describe("validateFinish", () => {
   it("rejects a creator named in the text who is not in the evidence, and one the code lists as not found", () => {
     const { store } = storeWithCreator();
     const args = parseFinish({ answer: "Try @ann. Also @madeup.person. And @bob.", creators: [] });
-    const { failures, kept } = validateFinish(store, args, { nowSec: NOW_SEC, notFound: ["bob"] });
+    const { failures, kept } = validateFinish(store, args, { nowSec: NOW_SEC, notFound: ["bob"], wanted: null });
     expect(failures.map((f) => f.reason)).toEqual([expect.stringContaining("@madeup.person, @bob are not in the evidence")]);
     expect(kept.answer).toBe("Try @ann.");
   });

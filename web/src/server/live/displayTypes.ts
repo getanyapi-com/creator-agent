@@ -3,6 +3,7 @@
  * receive. Types only: nothing here runs, so a browser bundle that imports it gets nothing from the core.
  */
 export type {
+  DisplayCloseCreator,
   DisplayCreator,
   DisplayCriterion,
   DisplayEvidence,

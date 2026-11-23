@@ -6,8 +6,8 @@ export function runHandles(run: RunOutput): Set<string> {
   return new Set([...run.evidence.creators.map((c) => c.handle), ...run.evidence.videos.map((v) => v.author)]);
 }
 
-/** What a free-text string in the display object is: the question, model-written text, a caption, an evidence excerpt, a search query. */
-export type TextKind = "question" | "model" | "caption" | "excerpt" | "query";
+/** What a free-text string in the display object is: the question, model-written text, a caption, an evidence excerpt, a search query, or code-written text the gate also reads. */
+export type TextKind = "question" | "model" | "caption" | "excerpt" | "query" | "code";
 
 /** How a free-text string may appear in the display object; null leaves it out. */
 export type Cleaner = (kind: TextKind, raw: string) => string | null;

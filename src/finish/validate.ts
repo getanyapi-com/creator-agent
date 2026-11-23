@@ -1,6 +1,7 @@
 import type { DroppedClaim } from "../answer.ts";
 import type { EvidenceStore } from "../evidence.ts";
 import { applyChecks } from "./applyChecks.ts";
+import { admitClose, closeShown, type FinishClose } from "./close.ts";
 import { evidenceText } from "./evidenceText.ts";
 import { resolveEvidence } from "./evidenceRef.ts";
 import type { FinishArgs, FinishCreator, FinishCriterion } from "./parse.ts";
@@ -9,14 +10,17 @@ import { keepSupportedSentences, splitSentences, textProblems, type TextRules } 
 /** The start of every failure about a figure, so checks can tell those apart. */
 export const FIGURES_FAILURE = "figures";
 
-/** What the run knows besides evidence: the question, its clock, and the handles it looked for and did not find. */
+/** What the run knows besides evidence: its clock, the handles it looked for and did not find, and how many creators the question asked for. */
 export interface RunFacts {
   nowSec: number;
   notFound: string[];
+  wanted: number | null;
 }
 
 export interface Validation {
   failures: DroppedClaim[];
+  /** Close nominations the code did not admit, with why; never a reason to send the finish back. */
+  notes: DroppedClaim[];
   /** The same finish with every failed claim removed and every checked criterion decided by the code. */
   kept: FinishArgs;
 }
@@ -59,6 +63,9 @@ export function validateFinish(store: EvidenceStore, args: FinishArgs, run: RunF
     criteria: c.criteria.map((k) => ({ ...k, criterion: textCheck(`@${c.handle} criterion`, k.criterion) })).filter((k) => k.criterion),
   }));
   const checked = applyChecks(store, written, args.checks, run.nowSec);
+  const closeFound = closeShown(checked.creators.length, run.wanted)
+    ? admitClose({ store, checks: args.checks, nowSec: run.nowSec, exact: new Set(checked.creators.map((c) => c.handle)) }, [...checked.oneMiss.map(nominated), ...args.closeNamed])
+    : { close: [], notes: [] };
   const sections = args.sections.map((s, i) => ({ ...s, heading: textCheck(`section ${i + 1} heading`, s.heading), reason: textCheck(`section ${i + 1} reason`, s.reason) }));
   const answer = withoutCreatorList(textCheck("answer", args.answer), checked.creators.map((c) => c.handle), fail);
   const kept: FinishArgs = {
@@ -67,6 +74,8 @@ export function validateFinish(store: EvidenceStore, args: FinishArgs, run: RunF
     checksReadBy: args.checksReadBy,
     checkProblems: [],
     creators: checked.creators,
+    closeNamed: [],
+    close: closeFound.close,
     excluded: checked.excluded,
     videos: videos.map((v) => ({ ...v, note: textCheck(`video ${v.video_id} note`, v.note) })),
     patterns: patterns.map((p) => ({ ...p, pattern: textCheck("pattern", p.pattern) })).filter((p) => p.pattern),
@@ -76,7 +85,13 @@ export function validateFinish(store: EvidenceStore, args: FinishArgs, run: RunF
     labels: args.labels,
     codeSentences: args.codeSentences,
   };
-  return { failures, kept };
+  return { failures, notes: closeFound.notes, kept };
+}
+
+/** A creator the checks removed for one miss, nominated as close with the first content claim it was given as its topic. */
+function nominated(c: FinishCreator): FinishClose {
+  const topic = c.criteria.find((k) => !k.check && k.state === "supported" && k.evidence_id);
+  return { handle: c.handle, proof_video_id: c.proof_video_id, evidence_id: topic?.evidence_id ?? null };
 }
 
 /**

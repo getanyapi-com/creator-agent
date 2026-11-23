@@ -48,7 +48,7 @@ export async function closingLive(llm: ChatModel, model: string, pass: string): 
     const store = MemoryEvidenceStore.fromSnapshot(o.evidence);
     const accepted = o.trace.flatMap((t) => t.toolCalls).filter((c) => c.name === "finish" && c.result.accepted === true).at(-1);
     if (accepted) {
-      const kept = validateFinish(store, parseFinish(JSON.parse(accepted.args) as Record<string, unknown>), { nowSec: o.nowSec, notFound: o.answer.notFound }).kept;
+      const kept = validateFinish(store, parseFinish(JSON.parse(accepted.args) as Record<string, unknown>), { nowSec: o.nowSec, notFound: o.answer.notFound, wanted: o.intake?.wanted ?? null }).kept;
       const claims = claimsRequest(subjectContext(store, kept, o.nowSec, o.answer.question), kept, model);
       const narrative = narrativeRequest(subjectContext(store, kept, o.nowSec, o.answer.question), kept, model, o.answer.question);
       if (claims) jobs.push(() => measure(llm, model, f, "claims", claims.request, (c) => parseVerdicts(c, claims.asked) !== null));

@@ -1,6 +1,7 @@
 import type { CreatorRow } from "../evidence.ts";
 import { listRows, toCreatorRow, toVideoRow } from "../ingest.ts";
 import { creatorFigures, daysAgo } from "../metrics.ts";
+import { checkLabel } from "../finish/checks.ts";
 import { cleanText, wrapData } from "../untrusted.ts";
 import { handleArg, type Args } from "./args.ts";
 import { budgetError, type ToolContext, type ToolResult } from "./context.ts";
@@ -9,6 +10,10 @@ import { followerMisses, hasFollowerCheck, toolChecks } from "./toolChecks.ts";
 /** Bio length shown to the model, as in the loop proof (`loop.py`, 140). */
 export const BIO_CHARS = 140;
 const CAPTION_CHARS = 120;
+
+/** What a ruled-out creator who misses only one of the question's limits may still be (close matches, 2026-11-22). */
+export const CLOSE_HINT =
+  "outside only this one of the question's limits: if a video of theirs you already saw is on the question's topic and meets its other limits, you may name them in finish's close list at no cost";
 
 type Profile = { ok: true; creator: CreatorRow } | { ok: false; result: ToolResult };
 
@@ -45,7 +50,8 @@ export async function inspectCreator(ctx: ToolContext, args: Args): Promise<Tool
       handle: profile.creator.handle,
       followers: profile.creator.followers,
       has_public_email: profile.creator.hasPublicEmail,
-      ruled_out: `outside the follower checks (${misses.join("; ")}); its posts were not bought`,
+      ruled_out: `outside the follower checks (${misses.map(checkLabel).join("; ")}); its posts were not bought`,
+      ...(misses.filter((c) => c.from === "question").length === 1 ? { close_match: CLOSE_HINT } : {}),
     };
   }
   let creator = profile.creator;

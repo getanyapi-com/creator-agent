@@ -97,7 +97,7 @@ export function autoChecks(saved: SavedRun): AutoChecks {
   const o = upgradeRecord(saved.output);
   const contacts = scanForContacts(JSON.stringify(toDisplay(o)));
   const store = MemoryEvidenceStore.fromSnapshot(o.evidence);
-  const { failures, kept } = validateFinish(store, asFinish(o.answer), { nowSec: o.nowSec, notFound: o.answer.notFound });
+  const { failures, kept } = validateFinish(store, asFinish(o.answer), { nowSec: o.nowSec, notFound: o.answer.notFound, wanted: o.intake?.wanted ?? null });
   const figureFailures = failures.filter((f) => f.reason.startsWith(`${FIGURES_FAILURE} `));
   const idFailures = failures.filter((f) => !figureFailures.includes(f));
   const computed = figuresEqualEvidence(o, store, withSavedContentCriteria(kept, o.answer));

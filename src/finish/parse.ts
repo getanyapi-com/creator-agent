@@ -2,6 +2,7 @@ import type { CriterionState } from "../answer.ts";
 import type { SentenceLabel } from "../display/types.ts";
 import { NONE_EXCLUDED, type Excluded } from "./applyChecks.ts";
 import { parseChecks, type Check } from "./checks.ts";
+import type { CloseCreator, FinishClose } from "./close.ts";
 import { parseSections, type FinishSection } from "./sections.ts";
 
 /** What the model passes to `finish`, normalized so validation never meets a wrong type. */
@@ -28,6 +29,10 @@ export interface FinishArgs {
   /** Why each check the model declared and the code could not read was refused. */
   checkProblems: string[];
   creators: FinishCreator[];
+  /** The creators the model names as close: on topic, outside one of the question's limits. */
+  closeNamed: FinishClose[];
+  /** Filled by validation and narrowed by verification: the close creators the code admits. */
+  close: CloseCreator[];
   videos: { video_id: string; note: string }[];
   patterns: { pattern: string; video_ids: string[] }[];
   /** The answer in reading order, written by the model (round 4, E1); the code settles members at render. */
@@ -57,6 +62,8 @@ function strings(value: unknown): string[] {
   return Array.isArray(value) ? value.map(text).filter(Boolean) : [];
 }
 
+const handleOf = (value: unknown): string => text(value).replace(/^@/, "").toLowerCase();
+
 function criterion(raw: Raw): FinishCriterion {
   const state = text(raw.state).toLowerCase() as CriterionState;
   return {
@@ -75,10 +82,12 @@ export function parseFinish(raw: Raw): FinishArgs {
     checksReadBy: "agent",
     checkProblems: problems,
     creators: list(raw.creators).map((c) => ({
-      handle: text(c.handle).replace(/^@/, "").toLowerCase(),
+      handle: handleOf(c.handle),
       proof_video_id: text(c.proof_video_id),
       criteria: list(c.criteria).map(criterion),
     })),
+    closeNamed: list(raw.close).map((c) => ({ handle: handleOf(c.handle), proof_video_id: text(c.proof_video_id), evidence_id: text(c.evidence_id) || null })),
+    close: [],
     videos: list(raw.videos).map((v) => ({ video_id: text(v.video_id), note: text(v.note) })),
     patterns: list(raw.patterns).map((p) => ({ pattern: text(p.pattern), video_ids: strings(p.video_ids) })),
     sections: parseSections(raw.sections),

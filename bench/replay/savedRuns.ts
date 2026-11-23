@@ -31,7 +31,7 @@ export function closingInput(run: string, saved: RunOutput): ClosingInput | null
   const parsed = parseFinish(JSON.parse(accepted.args || "{}") as Record<string, unknown>);
   const fixed = o.intake.status === "read" ? o.intake.checks : null;
   const args = { ...parsed, checks: withQuestionChecks(fixed, parsed.checks), checksReadBy: fixed ? ("code" as const) : ("agent" as const) };
-  const kept = validateFinish(store, args, { nowSec: o.nowSec, notFound: o.answer.notFound }).kept;
+  const kept = validateFinish(store, args, { nowSec: o.nowSec, notFound: o.answer.notFound, wanted: o.intake?.wanted ?? null }).kept;
   return { run, question: o.answer.question, store, nowSec: o.nowSec, args: kept };
 }
 

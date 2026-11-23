@@ -70,6 +70,20 @@ export const FINISH_TOOL = tool(
         required: ["handle", "proof_video_id", "criteria"],
       },
     },
+    close: {
+      type: "array",
+      description:
+        "Only when you have fewer good creators than the question asks for (or none, when it names no number): creators you already looked at who are on the question's topic but miss exactly one of its limits. The code checks the one miss and the topic, and shows them after the answer, apart from it. Never put a creator who fits here.",
+      items: {
+        type: "object",
+        properties: {
+          handle: { type: "string" },
+          proof_video_id: { type: "string", description: "A video by this creator that you saw, on the question's topic." },
+          evidence_id: { type: "string", description: "Text that shows the topic, as for a criterion; the proof video's caption when left out." },
+        },
+        required: ["handle", "proof_video_id"],
+      },
+    },
     videos: {
       type: "array",
       items: { type: "object", properties: { video_id: { type: "string" }, note: { type: "string" } }, required: ["video_id"] },
