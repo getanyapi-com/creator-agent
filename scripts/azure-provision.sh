@@ -232,6 +232,7 @@ add_plain HOUSE_DATA_CAP_USD_PER_DAY
 add_plain HOUSE_LLM_CAP_USD_PER_DAY
 add_plain MAX_QUESTION_CHARS
 add_plain RUNS_IN_FLIGHT
+add_plain DATA_CALLS_PER_MINUTE
 ENV_ARGS+=("SELF_HOSTED=false")
 
 say "Container app"

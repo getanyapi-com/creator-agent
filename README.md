@@ -73,7 +73,7 @@ AnyAPI accepts an `https` address, or plain `http` only on `localhost` or a loop
 | `APP_URL` | no | `http://localhost:3000` | Public origin. Must match the OAuth redirect you registered, `<APP_URL>/connect/callback`. |
 | `ANYAPI_OAUTH_CLIENT_ID` | no | - | Printed by `pnpm --filter web anyapi:register`. Without it nobody can connect a wallet and every account is free. |
 | `APP_ENCRYPTION_KEY` | with `ANYAPI_OAUTH_CLIENT_ID` | - | 32 random bytes, base64. Encrypts the stored AnyAPI tokens. |
-| `SELF_HOSTED` | no | `false` (`true` under the Compose file) | `true` removes the per-account question limit. The hosted instance sets `false`. |
+| `SELF_HOSTED` | no | `false` (`true` under the Compose file) | `true` removes the per-account question limits, two a day and two at once. The hosted instance sets `false`. |
 | `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY` | yes | - | Clerk publishable key. |
 | `CLERK_SECRET_KEY` | yes | - | Clerk secret key. |
 | `ANYAPI_HOUSE_API_KEY` | yes | - | The AnyAPI key free questions run on. |
@@ -81,23 +81,24 @@ AnyAPI accepts an `https` address, or plain `http` only on `localhost` or a loop
 | `HOUSE_DATA_CAP_USD_PER_DAY` | no | `50` | Daily ceiling on data spend from the house key, at published prices. |
 | `HOUSE_LLM_CAP_USD_PER_DAY` | no | `100` (`10` under the Compose file) | Daily ceiling on model spend. |
 | `MAX_QUESTION_CHARS` | yes | `500` under the Compose file | The longest question accepted. |
-| `RUNS_IN_FLIGHT` | no | `8`, derived in `web/src/server/config.ts` | Questions being researched at once across the whole instance, counted in the database. The next asker is told to try again in a few minutes, and that question is not counted. |
+| `RUNS_IN_FLIGHT` | no | unset: no limit | Questions being researched at once across the whole instance, counted in the database. The next asker is told to try again in a few minutes, and that question is not counted. |
+| `DATA_CALLS_PER_MINUTE` | no | unset: no limit | AnyAPI data calls a minute across the server process, house and wallet alike. Calls are sent evenly spaced, one every 60/N seconds, first come first served; a call waits its turn and is never refused for waiting. Set it from the call rate your AnyAPI key's sources serve. |
 
 When either daily ceiling is reached, new free questions are refused until the next UTC day and
 the refused question is not counted. The model ceiling also refuses questions paid from a
 connected wallet; the data ceiling does not, since the wallet pays for that data.
 A ceiling is checked when a question starts, so questions
-already running finish: the day can end above a ceiling by at most what they may still spend,
-`RUNS_IN_FLIGHT` questions at up to $0.10 each, data and model calls together
-(`FREE_BUDGET_USD` in `src/session.ts`), plus whatever a model call bills above the amount held
-for it.
+already running finish: the day can end above a ceiling by what they may still spend, up to
+$0.10 each, data and model calls together (`FREE_BUDGET_USD` in `src/session.ts`), plus whatever
+a model call bills above the amount held for it. With `RUNS_IN_FLIGHT` set, at most that many
+questions are running; with it unset, there is no such bound.
 
 ## Tiers
 
 | | Free | Connected wallet |
 |---|---|---|
 | Who | any signed-in account | a signed-in account that connected its AnyAPI wallet |
-| Questions | 2 per rolling 24 hours | no daily limit |
+| Questions | 2 per rolling 24 hours, at most 2 at once | no daily limit, at most 2 at once |
 | Spend per question | up to $0.10 of data at published prices plus model bills, paid by the instance's AnyAPI key | up to $0.10; the data is billed to your AnyAPI wallet at published prices, the models are paid by the instance |
 | Platforms | TikTok | TikTok |
 | Threads | public; the asker is never shown and can remove their thread | private: only the asker can open them, and they are not on the front page |
@@ -119,8 +120,9 @@ it for a short-lived access token when it makes a call. Disconnect deletes the t
 revokes it at AnyAPI; a connection you end at AnyAPI puts you back on the free tier the next
 time the app tries to use it.
 
-Self-hosting with `SELF_HOSTED=true` has no per-account limit. The question length, the
-questions-at-once limit and the two daily ceilings still apply, and you set them.
+Self-hosting with `SELF_HOSTED=true` has no per-account limit. The question length and the two
+daily ceilings still apply, and you set them, as you may the instance-wide `RUNS_IN_FLIGHT` and
+`DATA_CALLS_PER_MINUTE`.
 
 ## Costs, measured
 
@@ -199,8 +201,9 @@ RESOURCE_GROUP=creator-agent-prod scripts/azure-provision.sh --dry-run
 RESOURCE_GROUP=creator-agent-prod scripts/azure-provision.sh
 ```
 
-All five are required. `HOUSE_DATA_CAP_USD_PER_DAY`, `HOUSE_LLM_CAP_USD_PER_DAY` and
-`RUNS_IN_FLIGHT` may be added to the same file to override their defaults.
+All five are required. `HOUSE_DATA_CAP_USD_PER_DAY` and `HOUSE_LLM_CAP_USD_PER_DAY` may be
+added to the same file to override their defaults, and `RUNS_IN_FLIGHT` and
+`DATA_CALLS_PER_MINUTE` to set those limits, which are off unless set.
 
 It writes `PG_ADMIN_PASSWORD`, `APP_ENCRYPTION_KEY`, `DATABASE_URL` and `APP_URL` back into that
 file, and sets the same values as Container App secrets. Nothing else holds them.
