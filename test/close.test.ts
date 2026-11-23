@@ -85,6 +85,41 @@ describe("the missed limit's label, written by the code with the limit worded as
   ])("%o", (check, text) => expect(label(check)).toBe(text));
 });
 
+describe("the close section's order: nearest to the limit it misses first, decided by the code", () => {
+  const order = (store: MemoryEvidenceStore, nominated: [string, string][]) => admitClose(facts(store), nominated.map(([h, p]) => nominee(h, p))).close.map((c) => c.handle);
+  const row = (id: string, author: string, over: Record<string, unknown> = {}) => ({ ...searchRow(id, author, 250_000), ...over });
+
+  it.each([
+    [["near", "mid", "far"]],
+    [["far", "mid", "near"]],
+    [["mid", "far", "near"]],
+  ])("followers over at most 10,000: 48,938, then 249,859, then 639,170, nominated as %o", (nominated) => {
+    const store = evidence([row("1", "near"), row("2", "mid"), row("3", "far")], { near: 48_938, mid: 249_859, far: 639_170 });
+    const proof: Record<string, string> = { near: "1", mid: "2", far: "3" };
+    expect(order(store, nominated.map((h) => [h, proof[h] ?? ""]))).toEqual(["near", "mid", "far"]);
+  });
+
+  it("an at-least miss: 90,000 views comes before 20,000 against at least 100,000", () => {
+    const store = evidence([row("1", "low", { views: 20_000 }), row("2", "high", { views: 90_000 })], { low: 4_000, high: 4_000 });
+    expect(order(store, [["low", "1"], ["high", "2"]])).toEqual(["high", "low"]);
+  });
+
+  it("a recency miss: posted 41 days ago comes before 90 days ago against the last 30 days", () => {
+    const store = evidence([row("1", "old", { createdUtc: NOW_SEC - 90 * DAY }), row("2", "recent", { createdUtc: NOW_SEC - 41 * DAY })], { old: 4_000, recent: 4_000 });
+    expect(order(store, [["old", "1"], ["recent", "2"]])).toEqual(["recent", "old"]);
+  });
+
+  it("a region miss, which has no distance, sorts after every miss that has one", () => {
+    const store = evidence([row("1", "abroad", { region: "CA" }), row("2", "far", {}), row("3", "few", { views: 1_000 })], { abroad: 4_000, far: 639_170, few: 4_000 });
+    expect(order(store, [["abroad", "1"], ["far", "2"], ["few", "3"]])).toEqual(["few", "far", "abroad"]);
+  });
+
+  it("a tie keeps the agent's order", () => {
+    const store = evidence([row("1", "ann"), row("2", "bea"), row("3", "cal", { region: "CA" }), row("4", "dee", { region: "GB" })], { ann: 20_000, bea: 20_000, cal: 4_000, dee: 4_000 });
+    expect(order(store, [["bea", "2"], ["dee", "4"], ["ann", "1"], ["cal", "3"]])).toEqual(["bea", "ann", "dee", "cal"]);
+  });
+});
+
 describe("when the close section appears", () => {
   const store = () => evidence([searchRow("1", "ann", 250_000), searchRow("2", "big", 250_000)], { ann: 4_000, big: 14_200 });
   const finish = (creators: string[]) =>

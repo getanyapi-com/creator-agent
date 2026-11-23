@@ -61,6 +61,31 @@ export function missLabel(check: Check, decided: Decided): string {
   return `${measured(check, decided.actual ?? "")}, asked for ${checkLabel(check)}`;
 }
 
+/**
+ * How far outside the limit it misses the measured value is, relative to the limit: the same value
+ * and limit the miss label is written from. Null when the check has no distance (a region).
+ */
+function missDistance(check: Check, decided: Decided): number | null {
+  const a = Number(decided.actual);
+  const v = Number(check.value);
+  switch (check.kind) {
+    case "followers_at_most":
+    case "proof_posted_within_days":
+      return (a - v) / v;
+    case "followers_at_least":
+    case "proof_views_at_least":
+      return (v - a) / v;
+    case "proof_region":
+      return null;
+  }
+}
+
+/** Nearest first; a miss with no distance after every miss with one. */
+function nearer(a: number | null, b: number | null): number {
+  if (a === null || b === null) return a === b ? 0 : a === null ? 1 : -1;
+  return a < b ? -1 : a > b ? 1 : 0;
+}
+
 export interface CloseFacts {
   store: EvidenceStore;
   checks: Check[];
@@ -69,7 +94,7 @@ export interface CloseFacts {
   exact: Set<string>;
 }
 
-type Admitted = { ok: true; creator: CloseCreator } | { ok: false; reason: string };
+type Admitted = { ok: true; creator: CloseCreator; distance: number | null } | { ok: false; reason: string };
 
 function admit(f: CloseFacts, c: FinishClose): Admitted {
   const proof = f.store.getVideo(c.proof_video_id);
@@ -89,25 +114,27 @@ function admit(f: CloseFacts, c: FinishClose): Admitted {
     { criterion: TOPIC_CRITERION, state: "supported", evidence_id: evidenceId, check: null },
     ...decided.map((x) => ({ criterion: x.d.criterion, state: x.d.state, evidence_id: x.d.evidence_id, check: x.check })),
   ];
-  return { ok: true, creator: { handle: c.handle, proof_video_id: c.proof_video_id, evidence_id: evidenceId, criteria, missed: missLabel(miss.check, miss.d) } };
+  return { ok: true, creator: { handle: c.handle, proof_video_id: c.proof_video_id, evidence_id: evidenceId, criteria, missed: missLabel(miss.check, miss.d) }, distance: missDistance(miss.check, miss.d) };
 }
 
 /**
- * The close creators the code admits from the agent's nominations, in order: each misses exactly one
+ * The close creators the code admits from the agent's nominations, nearest to the limit it misses
+ * first and otherwise in the agent's order (see missDistance): each misses exactly one
  * of the question's limits and meets every other one with a decided value (an assumption is not a
  * limit to be close to), has a proof video of its own, and cites text of its own for the topic. The
  * rest are listed with why, for the private record only: a refused nomination never fails a finish.
  */
 export function admitClose(f: CloseFacts, nominated: FinishClose[]): { close: CloseCreator[]; notes: DroppedClaim[] } {
-  const close: CloseCreator[] = [];
+  const close: { creator: CloseCreator; distance: number | null }[] = [];
   const notes: DroppedClaim[] = [];
   const seen = new Set<string>();
   for (const c of nominated) {
     if (f.exact.has(c.handle) || seen.has(c.handle)) continue;
     seen.add(c.handle);
     const done = admit(f, c);
-    if (done.ok) close.push(done.creator);
+    if (done.ok) close.push(done);
     else notes.push({ claim: `close @${c.handle}`, reason: `not shown as close: ${done.reason}` });
   }
-  return { close, notes };
+  close.sort((a, b) => nearer(a.distance, b.distance));
+  return { close: close.map((c) => c.creator), notes };
 }
