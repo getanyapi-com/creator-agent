@@ -28,6 +28,8 @@ export function forcedFinish(store: EvidenceStore, reason: string, nowSec: numbe
     checksReadBy: questionChecks ? "code" : "agent",
     checkProblems: [],
     creators,
+    closeNamed: [],
+    close: [],
     excluded,
     videos: [],
     patterns: [],

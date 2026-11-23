@@ -42,6 +42,8 @@ export interface CreatorView {
   hasPublicEmail: boolean;
   proof: VideoView | null;
   criteria: CriterionView[];
+  /** For a close creator only: the one limit of the question it misses and its measured value, written by the core's code. */
+  missed?: string;
 }
 
 export interface PatternView {
@@ -113,6 +115,8 @@ export interface ThreadView {
   creators: CreatorView[];
   /** The answer in reading order, as the core wrote it: the best fit, groups that share a reason, patterns. Empty when there are no creators. */
   sections: SectionView[];
+  /** Creators on the question's topic outside exactly one of its limits, shown after the sections; null when there are none. */
+  close: SectionView | null;
   patterns: PatternView[];
   assumptions: string[];
   /** What limited the answer, sentence by sentence, each labelled as the core labelled it. */

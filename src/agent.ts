@@ -175,12 +175,12 @@ async function handleFinish(session: Session, call: ToolCall, contactsRemoved: n
   const failures = contactsRemoved > 0 ? [CONTACT_IN_TEXT, ...checked.failures] : checked.failures;
   if (failures.length > 0 && !state.rejectedOnce && !noMoreTurns) {
     state.rejectedOnce = true;
-    state.fallback = { kept: checked.kept, failures };
+    state.fallback = { kept: checked.kept, failures: [...failures, ...checked.notes] };
     return { accepted: false, failed_claims: failures, instruction: "Fix or remove these claims and call finish again." };
   }
   const done = await verifyAccepted(session, checked.kept);
   state.accepted = done.kept;
-  state.dropped = [...failures, ...done.notes];
+  state.dropped = [...failures, ...checked.notes, ...done.notes];
   return failures.length ? { accepted: true, dropped_claims: failures } : { accepted: true };
 }
 

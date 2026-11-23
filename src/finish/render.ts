@@ -1,4 +1,4 @@
-import type { Answer, AnswerCreator, AnswerVideo, DroppedClaim, Tier } from "../answer.ts";
+import type { Answer, AnswerClose, AnswerCreator, AnswerVideo, DroppedClaim, Tier } from "../answer.ts";
 import type { ContactStore } from "../contactStore.ts";
 import type { EvidenceStore, VideoRow } from "../evidence.ts";
 import { breakoutRatio, creatorFigures, daysAgo } from "../metrics.ts";
@@ -64,6 +64,10 @@ export function renderAnswer(input: RenderInput): Answer {
     const proof = store.getVideo(c.proof_video_id);
     if (proof) creators.push(answerCreator(input, c, proof));
   }
+  const close: AnswerClose[] = args.close.flatMap((c) => {
+    const proof = store.getVideo(c.proof_video_id);
+    return proof ? [{ ...answerCreator(input, c, proof), missed: c.missed }] : [];
+  });
   const videos: AnswerVideo[] = [];
   for (const v of args.videos) {
     const row = store.getVideo(v.video_id);
@@ -79,6 +83,7 @@ export function renderAnswer(input: RenderInput): Answer {
     criteriaLine: criteriaLine(args.checks, args.excluded, args.checksReadBy),
     excluded: args.excluded,
     creators,
+    close,
     videos,
     patterns,
     sections: settleSections(args.sections, { handles: creators.map((c) => c.handle), videoIds: shownVideoIds }),

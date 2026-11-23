@@ -168,7 +168,7 @@ export function withFixedChecks(session: Session, args: FinishArgs): FinishArgs 
 
 /** Checks a finish against the evidence, with the question's checks in force. */
 export function checkFinish(session: Session, args: FinishArgs): Validation {
-  return validateFinish(session.ctx.store, withFixedChecks(session, args), { nowSec: session.ctx.nowSec, notFound: notFound(session) });
+  return validateFinish(session.ctx.store, withFixedChecks(session, args), { nowSec: session.ctx.nowSec, notFound: notFound(session), wanted: session.intake.wanted });
 }
 
 function searchStats(session: Session): { searches: number; creatorsChecked: number } {

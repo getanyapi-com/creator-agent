@@ -51,6 +51,7 @@ export function ThreadContent({ thread, isAsker }: { thread: ThreadView; isAsker
                 {thread.sections.map((section, index) => (
                   <Section key={index} section={section} />
                 ))}
+                {thread.close !== null && <Section section={thread.close} />}
                 <Patterns patterns={thread.patterns} />
                 <Notes thread={thread} />
               </>

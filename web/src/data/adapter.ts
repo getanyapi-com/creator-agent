@@ -1,4 +1,4 @@
-import type { DisplayCreator, DisplayCriterion, DisplayRun, DisplaySection, DisplayVideo } from "@/server/live/displayTypes";
+import type { DisplayCloseCreator, DisplayCreator, DisplayCriterion, DisplayRun, DisplaySection, DisplayVideo } from "@/server/live/displayTypes";
 import type { WalletStop } from "@/server/wallet/walletFetch";
 import { replaySteps } from "./steps";
 import type { CreatorView, CriterionView, EvidenceView, PatternView, SectionView, ThreadView, Tier, VideoView } from "./types";
@@ -80,6 +80,15 @@ function toCreator(c: DisplayCreator, ctx: Context): CreatorView {
   };
 }
 
+/** The heading of the section of close creators, which follows the answer's own sections. */
+export const CLOSE_HEADING = "Close, but outside one limit";
+
+/** The close creators as one section after the answer's own, each with the limit it misses; null when there are none (and for a thread saved before they existed). */
+function toClose(close: DisplayCloseCreator[] | undefined, ctx: Context): SectionView | null {
+  if (close === undefined || close.length === 0) return null;
+  return { kind: "group", heading: CLOSE_HEADING, reason: null, creators: close.map((c) => ({ ...toCreator(c, ctx), missed: c.missed })), videos: [] };
+}
+
 /** A section as the core wrote it, its creators the same views as the thread's own. */
 function toSection(s: DisplaySection, creators: Map<string, CreatorView>, video: (id: string) => VideoView): SectionView {
   return { kind: s.kind, heading: s.heading, reason: s.reason, creators: s.creators.flatMap((c) => creators.get(c.handle) ?? []), videos: s.videos.map((v) => video(v.id)) };
@@ -108,6 +117,7 @@ export function toThread({ id, askedAt, tier, walletStop, display: d, media }: T
     criteriaLine: d.criteriaLine,
     creators,
     sections: d.sections.map((s) => toSection(s, byHandle, video)),
+    close: toClose(d.close, ctx),
     patterns,
     assumptions: d.assumptions,
     limits: d.limitsSentences,

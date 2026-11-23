@@ -20,7 +20,7 @@ function acceptedFinish(o: RunOutput, store: MemoryEvidenceStore): ReturnType<ty
   const last = finishes.at(-1);
   if (!last) return null;
   const raw = JSON.parse(last.args || "{}") as Record<string, unknown>;
-  return validateFinish(store, parseFinish(raw), { nowSec: o.nowSec, notFound: o.answer.notFound }).kept;
+  return validateFinish(store, parseFinish(raw), { nowSec: o.nowSec, notFound: o.answer.notFound, wanted: o.intake?.wanted ?? null }).kept;
 }
 
 function runs(): RunOutput[] {

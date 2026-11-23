@@ -136,6 +136,7 @@ export function buildDisplay(run: RunOutput, clean: Cleaner): DisplayRun {
     criteriaLine: a.criteriaLine,
     excluded: a.excluded,
     creators,
+    close: (a.close ?? []).map((c) => ({ ...creator(b, c), missed: clean("code", c.missed) ?? "" })),
     videos: a.videos.map((v) => video(b, v)),
     patterns: a.patterns.flatMap((p) => {
       const text = clean("model", p.pattern);

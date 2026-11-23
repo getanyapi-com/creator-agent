@@ -44,6 +44,10 @@ export function CreatorTile({ creator, section, reveal, onReveal }: Props) {
             <Avatar handle={creator.handle} src={creator.avatarUrl} size={28} />
             <span className="truncate text-small font-semibold">@{creator.handle}</span>
           </span>
+          {/* A close creator's missed limit, on a solid chip so it reads over any frame of the video. */}
+          {creator.missed !== undefined && (
+            <span className="absolute inset-x-2.5 top-12 rounded-control bg-bg px-2 py-1 text-small leading-snug font-medium text-fg">{creator.missed}</span>
+          )}
           {playsHere && <PlayGlyph />}
           <span
             className={`absolute inset-x-0 bottom-0 flex items-end justify-between gap-2 p-2.5 ${onMedia ? "bg-linear-to-t from-scrim to-scrim-clear pt-8 text-media-fg" : ""}`}

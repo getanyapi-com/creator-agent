@@ -5,10 +5,12 @@ import { splitSentences } from "./textClaims.ts";
 
 /**
  * True when nothing is left of an answer after validation and verification (round 4, F5): no
- * sentence of the direct answer, no creator, video or pattern, and no handle in the not-found list.
+ * sentence of the direct answer, no creator, close creator, video or pattern, and no handle in the
+ * not-found list.
  */
 export function isEmptyAnswer(a: Answer): boolean {
-  return !a.directAnswer.trim() && a.creators.length === 0 && a.videos.length === 0 && a.patterns.length === 0 && a.notFound.length === 0;
+  const nothing = a.creators.length === 0 && (a.close ?? []).length === 0 && a.videos.length === 0 && a.patterns.length === 0;
+  return !a.directAnswer.trim() && nothing && a.notFound.length === 0;
 }
 
 /** The code's own failure for an answer with nothing left: it says so plainly, with what was spent. */

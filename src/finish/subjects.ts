@@ -17,6 +17,8 @@ import type { FinishArgs } from "./parse.ts";
 export interface SubjectContext {
   store: EvidenceStore;
   nowSec: number;
+  /** The question, which each close creator's topic claim is about. */
+  question: string;
   /** Per creator, the checks the code decided on them, in plain words with the result. */
   checks: Map<string, { check: string; result: string }[]>;
   /** Videos given in full (caption, what is said and seen): proof videos, cited and named ones. */
@@ -90,17 +92,18 @@ export const videoIdsIn = (text: string): string[] => [...text.matchAll(/(?<!\d)
 
 /** The context for one finish: proof, cited and named videos in full, and each creator's checks as the code decided them. */
 export function subjectContext(store: EvidenceStore, args: FinishArgs, nowSec: number, question: string): SubjectContext {
+  const creators = [...args.creators, ...args.close];
   const checks = new Map(
-    args.creators.map((c) => [c.handle, c.criteria.filter((k) => k.check).map((k) => ({ check: k.criterion, result: k.state === "supported" ? "passes" : k.state === "contradicted" ? "fails" : "unknown" }))]),
+    creators.map((c) => [c.handle, c.criteria.filter((k) => k.check).map((k) => ({ check: k.criterion, result: k.state === "supported" ? "passes" : k.state === "contradicted" ? "fails" : "unknown" }))]),
   );
   const detailed = new Set([
-    ...args.creators.flatMap((c) => [c.proof_video_id, ...c.criteria.flatMap((k) => (k.evidence_id ? [videoIdOf(k.evidence_id)] : []))]),
+    ...creators.flatMap((c) => [c.proof_video_id, ...c.criteria.flatMap((k) => (k.evidence_id ? [videoIdOf(k.evidence_id)] : []))]),
     ...args.videos.map((v) => v.video_id),
     ...args.patterns.flatMap((p) => p.video_ids),
     ...args.sections.flatMap((s) => s.members),
     ...videoIdsIn(question),
   ].filter((id): id is string => typeof id === "string" && store.getVideo(id) !== undefined));
-  return { store, nowSec, checks, detailed };
+  return { store, nowSec, question, checks, detailed };
 }
 
 /** The checks every creator of the answer was held to, in plain words, each marked as the question's or assumed. */

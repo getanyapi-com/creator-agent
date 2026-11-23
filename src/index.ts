@@ -9,6 +9,7 @@ export { toDisplay } from "./display/build.ts";
 export { revealContact } from "./display/reveal.ts";
 export type {
   DisplayCost,
+  DisplayCloseCreator,
   DisplayCreator,
   DisplayCriterion,
   DisplayEvidence,

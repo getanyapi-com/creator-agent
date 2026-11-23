@@ -1,4 +1,4 @@
-import { checkLabel, parseChecks, type Check } from "../finish/checks.ts";
+import { parseChecks, type Check } from "../finish/checks.ts";
 import type { VideoRow } from "../evidence.ts";
 import { withQuestionChecks } from "../intake/merge.ts";
 import { daysAgo } from "../metrics.ts";
@@ -22,12 +22,10 @@ export function toolChecks(ctx: ToolContext, args: Args): ToolChecks {
   return { checks: withQuestionChecks(ctx.questionChecks, checks), ignored: problems };
 }
 
-/** The follower checks a creator's count misses, in plain words; empty when it meets them or the count is unknown. */
-export function followerMisses(followers: number | null, checks: Check[]): string[] {
+/** The follower checks a creator's count misses; empty when it meets them or the count is unknown. */
+export function followerMisses(followers: number | null, checks: Check[]): Check[] {
   if (followers === null) return [];
-  return checks
-    .filter((c) => (c.kind === "followers_at_most" && followers > Number(c.value)) || (c.kind === "followers_at_least" && followers < Number(c.value)))
-    .map(checkLabel);
+  return checks.filter((c) => (c.kind === "followers_at_most" && followers > Number(c.value)) || (c.kind === "followers_at_least" && followers < Number(c.value)));
 }
 
 export function hasFollowerCheck(checks: Check[]): boolean {

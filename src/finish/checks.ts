@@ -25,6 +25,8 @@ export interface Decided {
   criterion: string;
   state: CriterionState;
   evidence_id: string;
+  /** The measured value the check was decided on: a count, days ago, or a country code; null when unknown. */
+  actual: number | string | null;
 }
 
 const SCALE: Record<string, number> = { k: 1e3, m: 1e6 };
@@ -67,6 +69,9 @@ export function parseChecks(raw: unknown): { checks: Check[]; problems: string[]
 const fmt = (n: number): string => n.toLocaleString("en-US");
 const REGIONS = new Intl.DisplayNames(["en"], { type: "region" });
 
+/** A two-letter country code as the page names the country. */
+export const regionName = (code: string): string => REGIONS.of(code) ?? code;
+
 /** The check in plain words with its figure, as the answer's criteria line and each creator's criterion show it. */
 export function checkLabel(check: Check): string {
   const v = check.value;
@@ -80,7 +85,7 @@ export function checkLabel(check: Check): string {
     case "proof_posted_within_days":
       return `proof video posted in the last ${fmt(Number(v))} days`;
     case "proof_region":
-      return `proof video region ${REGIONS.of(String(v)) ?? String(v)}`;
+      return `proof video region ${regionName(String(v))}`;
   }
 }
 
@@ -97,18 +102,19 @@ export function decideCheck(store: EvidenceStore, handle: string, proofVideoId: 
   const followers = store.getCreator(handle)?.followers ?? null;
   const proof = store.getVideo(proofVideoId);
   const v = Number(check.value);
-  const onCreator = (state: CriterionState): Decided => ({ criterion: checkLabel(check), state, evidence_id: `@${handle}` });
-  const onProof = (state: CriterionState): Decided => ({ criterion: checkLabel(check), state, evidence_id: proofVideoId });
+  const on = (evidence_id: string, actual: number | null, ok: (a: number) => boolean): Decided => ({ criterion: checkLabel(check), state: compare(actual, ok), evidence_id, actual });
   switch (check.kind) {
     case "followers_at_most":
-      return onCreator(compare(followers, (a) => a <= v));
+      return on(`@${handle}`, followers, (a) => a <= v);
     case "followers_at_least":
-      return onCreator(compare(followers, (a) => a >= v));
+      return on(`@${handle}`, followers, (a) => a >= v);
     case "proof_views_at_least":
-      return onProof(compare(proof?.views ?? null, (a) => a >= v));
+      return on(proofVideoId, proof?.views ?? null, (a) => a >= v);
     case "proof_posted_within_days":
-      return onProof(compare(daysAgo(proof?.createdUtc ?? null, nowSec), (a) => a <= v));
-    case "proof_region":
-      return onProof(proof?.region ? (proof.region.toUpperCase() === check.value ? "supported" : "contradicted") : "unknown");
+      return on(proofVideoId, daysAgo(proof?.createdUtc ?? null, nowSec), (a) => a <= v);
+    case "proof_region": {
+      const region = proof?.region ? proof.region.toUpperCase() : null;
+      return { criterion: checkLabel(check), state: region === null ? "unknown" : region === check.value ? "supported" : "contradicted", evidence_id: proofVideoId, actual: region };
+    }
   }
 }

@@ -15,9 +15,17 @@ export const NONE_EXCLUDED: Excluded = { count: 0, byCheck: [] };
  * Applies every declared check to every creator. A creator who contradicts a check from the question
  * is removed and counted; one who contradicts an assumed check stays, shown as contradicted. Unknown
  * stays unknown and stays in. Each creator's checked criteria are written by the code after its own.
+ * `oneMiss` lists the removed creators who contradict exactly one check from the question: the agent
+ * named them as fits, so they are nominated as close matches.
  */
-export function applyChecks(store: EvidenceStore, creators: FinishCreator[], checks: Check[], nowSec: number): { creators: FinishCreator[]; excluded: Excluded } {
+export function applyChecks(
+  store: EvidenceStore,
+  creators: FinishCreator[],
+  checks: Check[],
+  nowSec: number,
+): { creators: FinishCreator[]; excluded: Excluded; oneMiss: FinishCreator[] } {
   const kept: FinishCreator[] = [];
+  const oneMiss: FinishCreator[] = [];
   const counts = new Map<Check, number>();
   let count = 0;
   for (const c of creators) {
@@ -25,6 +33,7 @@ export function applyChecks(store: EvidenceStore, creators: FinishCreator[], che
     const failed = decided.filter((d) => d.check.from === "question" && d.state === "contradicted");
     if (failed.length) {
       count += 1;
+      if (failed.length === 1) oneMiss.push(c);
       failed.forEach((d) => counts.set(d.check, (counts.get(d.check) ?? 0) + 1));
       continue;
     }
@@ -32,5 +41,5 @@ export function applyChecks(store: EvidenceStore, creators: FinishCreator[], che
     kept.push({ ...c, criteria: [...c.criteria, ...coded] });
   }
   const byCheck = checks.filter((c) => counts.has(c)).map((c) => ({ check: checkLabel(c), count: counts.get(c) ?? 0 }));
-  return { creators: kept, excluded: { count, byCheck } };
+  return { creators: kept, excluded: { count, byCheck }, oneMiss };
 }

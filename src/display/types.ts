@@ -14,6 +14,12 @@ export interface DisplayRun {
   criteriaLine: string | null;
   excluded: { count: number; byCheck: { check: string; count: number }[] };
   creators: DisplayCreator[];
+  /**
+   * Close creators, shown after the sections when the answer has fewer creators than the question
+   * asked for: each on the question's topic and outside exactly one of its limits. Absent on runs
+   * saved before 2026-11-22.
+   */
+  close?: DisplayCloseCreator[];
   videos: DisplayVideo[];
   patterns: DisplayPattern[];
   /**
@@ -65,6 +71,11 @@ export interface DisplayCreator {
   hasPublicEmail: boolean;
   proofVideo: DisplayVideo;
   criteria: DisplayCriterion[];
+}
+
+export interface DisplayCloseCreator extends DisplayCreator {
+  /** The limit missed and the measured value against it ("14,200 followers, asked for at most 10,000 followers"), written by the code. */
+  missed: string;
 }
 
 export interface DisplayVideo {
