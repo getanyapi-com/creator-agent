@@ -167,11 +167,11 @@ async function runTurn(session: Session, messages: ChatMessage[], turn: number, 
 
 async function handleFinish(session: Session, call: ToolCall, contactsRemoved: number, noMoreTurns: boolean, state: FinishState): Promise<Record<string, unknown>> {
   const parsed = parseFinish(JSON.parse(call.function.arguments) as Record<string, unknown>);
-  if (isEmptyFinish(parsed)) {
+  const checked = checkFinish(session, parsed);
+  if (isEmptyFinish({ ...parsed, close: checked.kept.close })) {
     state.rejectedOnce = true;
     return { accepted: false, error: "the finish was empty: write the answer and call finish again" };
   }
-  const checked = checkFinish(session, parsed);
   const failures = contactsRemoved > 0 ? [CONTACT_IN_TEXT, ...checked.failures] : checked.failures;
   if (failures.length > 0 && !state.rejectedOnce && !noMoreTurns) {
     state.rejectedOnce = true;

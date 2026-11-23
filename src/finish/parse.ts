@@ -99,7 +99,10 @@ export function parseFinish(raw: Raw): FinishArgs {
   };
 }
 
-/** A finish with no answer text and no creator, video or pattern: rejected like any failed finish (round 4, B6). */
+/**
+ * A finish with no answer text and no creator, admitted close creator, video or pattern: rejected like any failed
+ * finish (round 4, B6). Pass it after validation has filled `close`.
+ */
 export function isEmptyFinish(args: FinishArgs): boolean {
-  return args.answer === "" && args.creators.length === 0 && args.videos.length === 0 && args.patterns.length === 0;
+  return args.answer === "" && args.creators.length === 0 && args.close.length === 0 && args.videos.length === 0 && args.patterns.length === 0;
 }

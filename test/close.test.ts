@@ -164,9 +164,9 @@ function topicItem(req: ChatRequest): { about: string; claim: string; cites?: st
   return body.items?.find((i) => i.about === "@big");
 }
 
-async function narrowRun(verdict: string) {
+async function narrowRun(verdict: string, finish = closeFinish) {
   const model = new ScriptedModel(
-    [() => [toolCall("s1", "search_videos", { query: "study app" })], () => [toolCall("i1", "inspect_creator", { handle: "big" })], () => [closeFinish]],
+    [() => [toolCall("s1", "search_videos", { query: "study app" })], () => [toolCall("i1", "inspect_creator", { handle: "big" })], () => [finish]],
     0.0002,
     verifierSaying(verdict),
   );
@@ -192,5 +192,16 @@ describe("close creators in a run (rules 3 and 4, and the empty-answer rule)", (
     const { out, display } = await narrowRun("not shown");
     expect(display.close).toEqual([]);
     expect(out.answer.droppedClaims.map((d) => d.claim)).toContain("close @big on topic");
+  });
+
+  /** What the agent's first finish was told. */
+  const firstFinish = (out: Awaited<ReturnType<typeof narrowRun>>["out"]) => out.trace.flatMap((t) => t.toolCalls).find((c) => c.name === "finish")?.result;
+
+  it("accepts a finish whose only content is a close creator, and the page shows it rather than saying there is no answer", async () => {
+    const { out, display } = await narrowRun("supported", toolCall("f1", "finish", { answer: "", creators: [], close: [{ handle: "big", proof_video_id: "500" }] }));
+    expect(firstFinish(out)).toEqual({ accepted: true });
+    expect(out.answer.finishedBy).toBe("model");
+    expect(display.close?.map((c) => c.handle)).toEqual(["big"]);
+    expect(display.answer).toEqual([]);
   });
 });
