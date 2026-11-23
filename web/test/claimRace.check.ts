@@ -9,7 +9,8 @@ const meta = (): RunMeta => ({ id: newRunId(), question: "Find pottery creators"
 test("ten asks at once from one account take exactly the two questions it has", async () => {
   const outcomes = await Promise.all(Array.from({ length: 10 }, () => admitRun(meta(), "racing_account", "free")));
   expect(outcomes.filter((o) => "admitted" in o)).toHaveLength(2);
-  expect(outcomes.filter((o) => "refused" in o && o.refused === "none-left")).toHaveLength(8);
+  // The two admitted are still running, so the rest are refused as questions at once, before the count.
+  expect(outcomes.filter((o) => "refused" in o && o.refused === "at-once")).toHaveLength(8);
   expect((await questionAllowance("racing_account"))?.left).toBe(0);
 });
 

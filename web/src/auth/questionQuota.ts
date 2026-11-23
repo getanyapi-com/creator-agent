@@ -13,6 +13,8 @@ import type { Allowance } from "./allowance";
  */
 
 export const QUESTIONS_PER_DAY = 2;
+/** Questions one account may have researched at once, free or wallet: the most a free account could ever have running. */
+export const QUESTIONS_AT_ONCE = QUESTIONS_PER_DAY;
 const DAY_MS = 24 * 60 * 60 * 1000;
 
 /** When none is left, the next opens 24 hours after the question that frees a slot. */

@@ -26,7 +26,7 @@ const schema = z
     APP_ENCRYPTION_KEY: optional.refine((key) => key === undefined || Buffer.from(key, "base64").length === KEY_BYTES, `APP_ENCRYPTION_KEY must be ${KEY_BYTES} random bytes, base64`),
     /** Printed by `pnpm --filter web anyapi:register`. Unset: no wallet can connect and every account is free. */
     ANYAPI_OAUTH_CLIENT_ID: optional,
-    /** true on a self-hosted instance: removes the per-account question limit. */
+    /** true on a self-hosted instance: removes the per-account question limits, two a day and two at once. */
     SELF_HOSTED: bool,
     /** The AnyAPI key free questions run on. */
     ANYAPI_HOUSE_API_KEY: z.string().min(1),
@@ -39,11 +39,9 @@ const schema = z
     MAX_QUESTION_CHARS: z.coerce.number().int().positive(),
     /**
      * Questions researched at once across the whole instance; the next asker is told to try again later.
-     * Default 8, the hosted instance's value, sized on 2026-11-21 so its questions together stay inside the
-     * call rate the pinned TikTok source served reliably. A question makes about 35 calls to that source, at
-     * most 10 at a time (`TOOL_PARALLELISM`). An instance on its own AnyAPI key can change it.
+     * Unset: no limit. The instance's owner sets it from what their machine carries.
      */
-    RUNS_IN_FLIGHT: z.preprocess(blankIsAbsent, z.coerce.number().int().positive().default(8)),
+    RUNS_IN_FLIGHT: z.preprocess(blankIsAbsent, z.coerce.number().int().positive().optional()),
     /**
      * AnyAPI data calls (`/v1/run/...`) a minute across the whole process, house and wallet alike, sent evenly
      * spaced, 60/N seconds apart; a call waits its turn and is never refused for waiting. Unset: no limit.

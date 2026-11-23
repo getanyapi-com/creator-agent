@@ -149,12 +149,12 @@ export async function markRemoved(id: string): Promise<void> {
   await db().update(runs).set({ removedAt: new Date() }).where(eq(runs.id, id));
 }
 
-/** Questions being researched now across every process; a run whose process died does not count. */
-export async function runsInFlight(tx: Tx): Promise<number> {
+/** Questions being researched now across every process, or by one asker; a run whose process died does not count. */
+export async function runsInFlight(tx: Tx, askerId?: string): Promise<number> {
   const [row] = await tx
     .select({ n: count() })
     .from(runs)
-    .where(and(eq(runs.status, "running"), sql`${ownerAlive(runs.owner)}`));
+    .where(and(eq(runs.status, "running"), sql`${ownerAlive(runs.owner)}`, askerId === undefined ? undefined : eq(runs.askerId, askerId)));
   return row?.n ?? 0;
 }
 

@@ -4,6 +4,8 @@ import { POST } from "@/app/api/runs/route";
 import { questionAllowance } from "@/auth/questionQuota";
 import { db } from "@/db";
 import { houseSpend, questionClaims, runs } from "@/db/schema";
+import { admitRun } from "@/server/live/admit";
+import { newRunId, type RunMeta } from "@/server/live/store";
 import { readRun } from "@/server/liveRun";
 import { fake } from "./fakeServer";
 import { DEAD_OWNER, seedRun } from "./seed";
@@ -58,6 +60,44 @@ test("with RUNS_IN_FLIGHT questions running, the next asker is told the service 
   expect(((await res.json()) as { error: string }).error).toMatch(/^Too many questions are being researched right now/);
   expect((await questionAllowance("limited_account"))?.left).toBe(2);
   expect(await started()).toBe(1);
+});
+
+test("with RUNS_IN_FLIGHT unset, questions are admitted past any number already running", async () => {
+  for (let i = 0; i < 20; i++) await seedRun({ id: `${i}`.padStart(12, "a"), status: "running", askerId: `asker_${i}` });
+  expect((await askQuestion("Find pottery creators")).status).toBe(200);
+});
+
+const AT_ONCE = "You already have 2 questions being researched. Ask again when one finishes.";
+
+test("an account with two questions running is refused a third with 429, and it is not counted", async () => {
+  await seedRun({ id: "aaaaaaaaaaa1", status: "running", askerId: "limited_account" });
+  await seedRun({ id: "aaaaaaaaaaa2", status: "running", askerId: "limited_account" });
+  const res = await askQuestion("Find pottery creators");
+  expect(res.status).toBe(429);
+  expect(await res.json()).toEqual({ error: AT_ONCE });
+  expect((await questionAllowance("limited_account"))?.left).toBe(2);
+  expect(await started()).toBe(2);
+});
+
+test("a wallet account with two questions running is refused a third and nothing is saved", async () => {
+  await seedRun({ id: "aaaaaaaaaaa1", status: "running", askerId: "wallet_account" });
+  await seedRun({ id: "aaaaaaaaaaa2", status: "running", askerId: "wallet_account" });
+  const meta: RunMeta = { id: newRunId(), question: "Find pottery creators", startedAt: new Date().toISOString(), status: "running", error: null, finishedAt: null };
+  expect(await admitRun(meta, "wallet_account", "wallet")).toEqual({ refused: "at-once" });
+  expect(await started()).toBe(2);
+});
+
+test("a run whose process died does not count toward the account's two at once", async () => {
+  await seedRun({ id: "aaaaaaaaaaa1", status: "running", askerId: "limited_account" });
+  await seedRun({ id: "aaaaaaaaaaa2", status: "running", askerId: "limited_account", owner: DEAD_OWNER });
+  expect((await askQuestion("Find pottery creators")).status).toBe(200);
+});
+
+test("SELF_HOSTED=true removes the account's limit on questions at once", async () => {
+  vi.stubEnv("SELF_HOSTED", "true");
+  await seedRun({ id: "aaaaaaaaaaa1", status: "running", askerId: "limited_account" });
+  await seedRun({ id: "aaaaaaaaaaa2", status: "running", askerId: "limited_account" });
+  expect((await askQuestion("Find pottery creators")).status).toBe(200);
 });
 
 test("a question left running by a dead process does not take a place, and is ended and given back when read", async () => {

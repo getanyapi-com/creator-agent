@@ -36,14 +36,14 @@ async function askAndWait(turns: (() => ToolCall[])[], body: Record<string, unkn
 
 const ledger = async (runId: string) => (await db().select().from(houseSpend).where(eq(houseSpend.runId, runId))).map((row) => ({ kind: row.kind, usd: Number(row.usd) }));
 
-test("a connected account asks past the free two a day; its data is billed to its wallet and only model spend reaches the house ledger", async () => {
+test("a connected account has no daily limit: its fifth question in a day is admitted; its data is billed to its wallet and only model spend reaches the house ledger", async () => {
   fake.user = "wallet_asker";
   await connectWallet(instance.anyapi);
   const ids = [];
-  for (let i = 0; i < 3; i += 1) ids.push(await askAndWait([() => [search("a")]]));
+  for (let i = 0; i < 5; i += 1) ids.push(await askAndWait([() => [search("a")]]));
   expect(await questionAllowance("wallet_asker")).toMatchObject({ left: 2 });
   const access = instance.anyapi.grants[0]?.access;
-  expect(instance.anyapi.calls.runs.length).toBeGreaterThanOrEqual(3);
+  expect(instance.anyapi.calls.runs.length).toBeGreaterThanOrEqual(5);
   expect(instance.anyapi.calls.runs.every((call) => call.bearer === access && call.status === 200)).toBe(true);
   for (const id of ids) {
     const [row] = await db().select({ tier: runs.tier, record: runs.record }).from(runs).where(eq(runs.id, id));

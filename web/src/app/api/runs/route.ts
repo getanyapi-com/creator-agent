@@ -1,4 +1,5 @@
 import { signInRequired, viewerId } from "@/auth/session";
+import { QUESTIONS_AT_ONCE } from "@/auth/questionQuota";
 import { accountTier, WALLET_ENDED, WALLET_UNFUNDED, WALLET_UNREACHABLE } from "@/auth/tier";
 import { HOUSE_CAP } from "@/auth/tierCopy";
 import { config } from "@/server/config";
@@ -25,6 +26,7 @@ function questionIn(text: string): unknown {
 }
 
 const BUSY = "Too many questions are being researched right now. Try again in a few minutes.";
+const AT_ONCE = `You already have ${QUESTIONS_AT_ONCE} questions being researched. Ask again when one finishes.`;
 
 /**
  * Starts a real question for the signed-in account, on the tier the server grants it (`accountTier`; the dev
@@ -54,5 +56,6 @@ export async function POST(request: Request) {
   if (!("refused" in started)) return Response.json(started);
   // The page words this message from `allowance`, in the reader's own clock.
   if (started.refused === "none-left") return Response.json({ error: "No questions left today.", allowance: started.allowance }, { status: 429 });
+  if (started.refused === "at-once") return Response.json({ error: AT_ONCE }, { status: 429 });
   return Response.json({ error: started.refused === "busy" ? BUSY : HOUSE_CAP[started.tier] }, { status: 503 });
 }
