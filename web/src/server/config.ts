@@ -44,6 +44,12 @@ const schema = z
      * most 10 at a time (`TOOL_PARALLELISM`). An instance on its own AnyAPI key can change it.
      */
     RUNS_IN_FLIGHT: z.preprocess(blankIsAbsent, z.coerce.number().int().positive().default(8)),
+    /**
+     * AnyAPI data calls (`/v1/run/...`) a minute across the whole process, house and wallet alike, sent evenly
+     * spaced, 60/N seconds apart; a call waits its turn and is never refused for waiting. Unset: no limit.
+     * The instance's owner sets it from the call rate their AnyAPI key's sources serve.
+     */
+    DATA_CALLS_PER_MINUTE: z.preprocess(blankIsAbsent, z.coerce.number().int().positive().optional()),
   })
   .refine((env) => env.ANYAPI_OAUTH_CLIENT_ID === undefined || env.APP_ENCRYPTION_KEY !== undefined, "APP_ENCRYPTION_KEY is required when ANYAPI_OAUTH_CLIENT_ID is set");
 

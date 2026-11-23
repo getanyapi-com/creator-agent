@@ -1,4 +1,5 @@
 import type { FetchFn } from "../../../../src/anyapi.ts";
+import { pacedFetch } from "@/server/live/callPace";
 import { ConnectionEndedError } from "./oauth";
 import { walletAccessToken } from "./connection";
 
@@ -31,7 +32,8 @@ async function stopCode(response: Response): Promise<WalletStop | null> {
  * token, read at the moment of the call, so a token that expires during a 2 to 13 minute run is refreshed
  * before it is used; a call AnyAPI refuses with 401 is tried once more on a fresh token. Once the wallet is
  * empty, capped or disconnected, every later call is answered here without reaching AnyAPI, the research
- * finishes on what it found, and `stop` says which it was.
+ * finishes on what it found, and `stop` says which it was. Each post to AnyAPI, the retry included, waits its own
+ * turn under DATA_CALLS_PER_MINUTE and has its own deadline from when it is sent (`pacedFetch`).
  */
 export function walletFetch(accountId: string): { fetchFn: FetchFn; stop: () => WalletStop | null } {
   let stopped: WalletStop | null = null;
@@ -48,11 +50,11 @@ export function walletFetch(accountId: string): { fetchFn: FetchFn; stop: () => 
     const signal = init?.signal ?? undefined;
     let current = await token(null, signal);
     if (current === null) return stoppedResponse((stopped = "disconnected"));
-    let response = await fetch(input, withToken(init, current));
+    let response = await pacedFetch(input, withToken(init, current));
     if (response.status === 401) {
       current = await token(current, signal);
       if (current === null) return stoppedResponse((stopped = "disconnected"));
-      response = await fetch(input, withToken(init, current));
+      response = await pacedFetch(input, withToken(init, current));
       if (response.status === 401) stopped = "disconnected";
     }
     stopped ??= await stopCode(response);

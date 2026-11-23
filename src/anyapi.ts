@@ -28,6 +28,15 @@ export interface DataClient {
 /** The proof's per-call timeout (`client.py`, 120 s); a hung call is ended and reported as an error. */
 export const CALL_TIMEOUT_MS = 120_000;
 
+/**
+ * Puts one data call on the wire, ended if it has not finished within CALL_TIMEOUT_MS of being sent. The deadline
+ * starts here, not when the client is asked, so a fetch that first waits its turn to send does not spend it waiting.
+ */
+export const timedFetch: FetchFn = (input, init) => {
+  const timeout = AbortSignal.timeout(CALL_TIMEOUT_MS);
+  return fetch(input, { ...init, signal: init?.signal ? AbortSignal.any([init.signal, timeout]) : timeout });
+};
+
 /** What one call ended as, and what the budget should hold for it. */
 interface Outcome {
   result: RunResult;
@@ -50,7 +59,8 @@ export class AnyApiClient implements DataClient {
   readonly #prices: PriceTable;
   readonly #fetch: FetchFn;
 
-  constructor(key: string, budget: Budget, prices: PriceTable, fetchFn: FetchFn = fetch) {
+  /** `fetchFn` sends each call and owns its deadline; the default is `timedFetch`. */
+  constructor(key: string, budget: Budget, prices: PriceTable, fetchFn: FetchFn = timedFetch) {
     this.#key = key;
     this.#budget = budget;
     this.#prices = prices;
@@ -87,7 +97,6 @@ export class AnyApiClient implements DataClient {
         method: "POST",
         headers: { Authorization: `Bearer ${this.#key}`, "Content-Type": "application/json" },
         body: JSON.stringify(body),
-        signal: AbortSignal.timeout(CALL_TIMEOUT_MS),
       });
       text = await res.text();
     } catch (err) {
