@@ -1,4 +1,5 @@
 import { describe, expect, it } from "vitest";
+import { scanForContacts } from "../bench/score/contactDetector.ts";
 import { runAgent } from "../src/agent.ts";
 import { MemoryContactStore } from "../src/contactStore.ts";
 import { toDisplay } from "../src/display/build.ts";
@@ -203,5 +204,16 @@ describe("close creators in a run (rules 3 and 4, and the empty-answer rule)", (
     expect(out.answer.finishedBy).toBe("model");
     expect(display.close?.map((c) => c.handle)).toEqual(["big"]);
     expect(display.answer).toEqual([]);
+  });
+
+  it("drops a close nomination that held a contact detail, notes it privately, and still accepts the finish with none of it shown", async () => {
+    const leaky = toolCall("f1", "finish", { answer: "No creator meets every limit of the question.", creators: [], close: [{ handle: "big", proof_video_id: "500", evidence_id: "https://example.com" }] });
+    const { out, display } = await narrowRun("supported", leaky);
+    expect(firstFinish(out)).toEqual({ accepted: true });
+    expect(display.close).toEqual([]);
+    expect(out.answer.droppedClaims.map((d) => d.claim)).toContain("close @big");
+    expect(display.answer.map((s) => s.text)).toEqual(["No creator meets every limit of the question."]);
+    expect(JSON.stringify(display)).not.toContain("example.com");
+    expect(scanForContacts(JSON.stringify(display))).toEqual([]);
   });
 });

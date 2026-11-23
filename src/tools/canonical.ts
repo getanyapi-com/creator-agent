@@ -19,7 +19,7 @@ type Schema = Record<string, unknown>;
 
 export interface Canonical {
   calls: ToolCall[];
-  /** How many contact details were removed from each kept call's arguments, by call id. */
+  /** How many contact details were removed from each kept call's arguments, by call id; a finish's close nominations are not counted. */
   removedIn: Map<string, number>;
 }
 
@@ -46,7 +46,9 @@ function parse(schema: Schema, value: unknown, key: string, removed: { n: number
   }
   if (allowed.includes("array") && Array.isArray(value)) {
     const items = isPlainObject(schema.items) ? schema.items : {};
-    return value.map((v) => parse(items, v, key, removed, handles)).filter((v) => v !== undefined);
+    // A close nomination's removals do not count against its finish: cleaned, it cites no evidence and is refused on its own.
+    const counted = key === "close" ? { n: 0 } : removed;
+    return value.map((v) => parse(items, v, key, counted, handles)).filter((v) => v !== undefined);
   }
   const numeric = allowed.includes("number") || allowed.includes("integer");
   if (numeric && typeof value === "number" && Number.isFinite(value)) return value;
